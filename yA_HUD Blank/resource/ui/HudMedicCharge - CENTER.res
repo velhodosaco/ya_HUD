@@ -1,5 +1,27 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+
+	"ChargeLabelTiny"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelTiny"
+		"xpos"			"c-43"
+		"ypos"			"c10"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"50"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"				//1 enables % under xHair
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"North"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Book15"
+		"fgcolor"		"White"
+	}
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -27,7 +49,7 @@
 		"tall"			"56"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"			//bugged with vaccinator
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
@@ -37,27 +59,7 @@
 		"font"			"DemiBold48"
 		"fgcolor"		"HudShadow"
 	}
-	"ChargeLabelTiny"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelTiny"
-		"xpos"			"c-43"
-		"ypos"			"c10"
-		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"50"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"				//1 enables % under xHair
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"North"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Book15"
-		"fgcolor"		"White"
-	}
+	
 	"YAHUDChargeBackground"	
 	{
 		"ControlName"	"ImagePanel"

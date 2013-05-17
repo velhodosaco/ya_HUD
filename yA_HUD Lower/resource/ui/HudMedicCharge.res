@@ -19,7 +19,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"DemiBold48Shadow"
 		"fgcolor"		"White"
 	}
 	
@@ -34,7 +34,7 @@
 		"tall"			"56"	//50
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"				//bugged with vaccinator
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
@@ -121,7 +121,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"c68"
-		"ypos"			"r150"	
+		"ypos"			"r85"	//r149 for high version
 		"zpos"			"3"
 		"wide"			"159"	
 		"tall"			"56"	
@@ -135,7 +135,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"DemiBold48Shadow"
 	}
 	"ChargeMeter1"
 	{	

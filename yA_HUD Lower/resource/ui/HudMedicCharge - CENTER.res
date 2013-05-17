@@ -65,7 +65,7 @@
 		"tall"			"56"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"		//bugged with vaccinator
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
@@ -93,7 +93,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"DemiBold48Shadow"
 		"fgcolor"		"White"
 	}
 	"IndividualChargesLabel"
@@ -115,7 +115,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"DemiBold48Shadow"
 	}
 
 	"ChargeMeter"

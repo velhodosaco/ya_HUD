@@ -1,1 +1,0 @@
-Please use Notepad++, Wordpad or a similar program to view the .res files, since the line breaks are bugged in the normal Notepad.

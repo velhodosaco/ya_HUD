@@ -40,7 +40,7 @@
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"west"
-		"fgcolor"		"Green"
+		"fgcolor"		"Damage"
 		"font"			"Medium23"		//Book23
 	}
 	"DamageAccountValueShadow"

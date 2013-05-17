@@ -117,7 +117,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"FreezeLabel"
-			"font"			"Medium9"
+			"font"			"Medium9Shadow"
 			"xpos"			"0"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -162,14 +162,15 @@
 			"tall"			"27"		//16
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"fillcolor"		"0 0 0 214"									"visible"			"1"
+			"fillcolor"		"0 0 0 214"									
+			"visible"			"0"
 			"enabled"			"1"
 		}
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"Medium13"
+			"font"			"Medium13Shadow"
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"1"

@@ -419,7 +419,7 @@
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"19"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"HudBG"
 
@@ -443,7 +443,7 @@
 		"wide"			"25"
 		"tall"			"19"
 		"tall_minmode"		"18"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"HudBG"
 

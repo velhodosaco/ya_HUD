@@ -32,11 +32,6 @@ You can also use the "TextWindow - BIGHTML" to replace "TextWindow.res" to get a
 
 -----------------------------------------------------------
 
-
-Opening the other files in normal Notepad won't display the proper line breaks. Try using Notepad++ or Wordpad instead.
-
------------------------------------------------------------
-
 Shoutout to Garm3n!
 
 Garm3nHUD page: http://www.sdx-gaming.eu/?page_id=4097

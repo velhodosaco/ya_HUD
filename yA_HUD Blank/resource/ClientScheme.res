@@ -17,12 +17,13 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// HUD colors customizable
+		// HUD colors customization
 		//You can customize these colors fairly easily, the first 3 numbers are the RGB values, the last one is the transparency
 		//This is a decent site for finding the color you would like http://www.colorspire.com/rgb-color-wheel/
-		//You will need to restart TF2 for changes to take effect!
+		//You will need to restart TF2 for any changes to take effect!
+		//Numbers go up to 255
 		
-		//"Control Name"		"R	G	B	Transparency"	//Description
+		//"Control Name"		"R	 G	 B	 Transparency"	//Description
 		
 		"Ammo"					"255 255 255 175"			//Current Clip
 		"AmmoReserve"			"255 255 255 175"			//Total reserve
@@ -36,7 +37,7 @@ Scheme
 		"Uber"					"25 225 74 255" 			//Uber Ready Color
 		
 		"HudBG"					"0 0 0 214"					//Black background
-		"HudShadow"				"0 0 0 57"					//Used for shadows on various numbers
+		"HudShadow"				"0 0 0 57"		//////////////Used for very light shadows on various numbers
 																//make last value 0 to remove them, or 255 to make them black
 		"Name"					"255 255 255 175"			//TargetID name label
 		

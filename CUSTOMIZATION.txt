@@ -2,11 +2,8 @@ Custom Options yA_HUD
 
 -----------------------------------------------------------
 
-Opening these files in normal Notepad won't display the proper line breaks. Try using Notepad++ or Wordpad instead.
-
------------------------------------------------------------
-
-If you want to change the any colors:
+If you want to make the SHADOWS under the numbers in Blank/Lower darker or
+If you want to change the any other colors
 
 1. Go to your "resource" folder.
 2. Then ClientScheme.res
@@ -14,7 +11,7 @@ If you want to change the any colors:
 
 -----------------------------------------------------------
 
-If you want to use the small Medic charge meter:
+If you want to use the small Medic CHARGE METER
 
 1. Go to your resource folder and then ui.
 2. Rename HudMedicCharge.res
@@ -24,7 +21,7 @@ You can enable a small % under crosshair in that file, by changing "visible" to 
 
 -----------------------------------------------------------
 
-If you want to want to use an alternative Scoreboard or enbable stats on the Scoreboard:
+If you want to want to use an alternative SCOREBOARD or enbable stats on the Scoreboard
 
 1. Navigate to resource/ui.
 2. Change the Name of "Scoreboard.res"
@@ -32,7 +29,7 @@ If you want to want to use an alternative Scoreboard or enbable stats on the Sco
 
 -----------------------------------------------------------
 
-If you want to change the killfeed to have line spacing
+If you want to change the KILLFEED to have line spacing
 
 1. Go to "scripts" and then hudlayout.res
 2. Search for "DeathNotice"
@@ -42,7 +39,7 @@ If you want to change the killfeed to have line spacing
 
 -----------------------------------------------------------
 
-If you want to use the Health Cross
+If you want to use the HEALTH CROSS
 
 1. Navigate to resource/ui
 2. Change the name of "HudPlayerHealth.res" to something like ""HudPlayerHealthOLD.res"
@@ -58,7 +55,7 @@ If you want the SpectatorHUD to be at the bottom
 
 -----------------------------------------------------------
 
-Normal CrossHair:
+Normal CROSSHAIRS
 
 Activate the crosshair by going to your scripts folder and then hudlayout. 
 Change visible from 0 to 1.
@@ -89,7 +86,7 @@ HERE (http://www.webdiner.com/annexe/hexcode/hexcode.htm) you’ll find most colou
 
 -----------------------------------------------------------
 
-Pulsing CrossHairs:
+Dynamic CROSSHAIRS
 
 Activate the crosshair you want by going to your resource folder and then ui. Search for HudPlayerHealth. 
 Change visible from 0 to 1.
@@ -117,21 +114,6 @@ HERE (http://www.webdiner.com/annexe/hexcode/hexcode.htm) you’ll find most colou
 (If the crosshairs isn’t centralized then you sometimes have to change “wide” and “tall” too, not just “xpos” and “ypos”)
 
 (Some xHairs are combinations, you need to activate more than one)
-
------------------------------------------------------------
-
-If you want to change color on Demoman sticky ChargeMeter.
-
-1. Go to your resource folder and then ui.
-2. Search for HudDemomanCharge.
-3. Under "ChargeMeter" change the numbers in "fgcolor_override" "0 255 0 255" to whatever you like.
-   (White: "255 255 255 255")
-   (Yellow: "255 255 0 255")
-   (Green: "0 255 0 255")
-   (Red: "255 0 0 255")
-   (Blue: "0 175 255 255")
-4. Save.
-
 -----------------------------------------------------------
 
 Garm3nHUD page: http://www.sdx-gaming.eu/?page_id=4097

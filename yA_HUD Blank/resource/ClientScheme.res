@@ -36,7 +36,7 @@ Scheme
 		"Uber"					"25 225 74 255" 			//Uber Ready Color
 		
 		"HudBG"					"0 0 0 214"					//Black background
-		"HudShadow"				"0 0 0 107"					//Used for shadows on various numbers
+		"HudShadow"				"0 0 0 57"					//Used for shadows on various numbers
 																//make last value 0 to remove them, or 255 to make them black
 		"Name"					"255 255 255 175"			//TargetID name label
 		
@@ -5247,5 +5247,10 @@ Scheme
 			"font" "resource/Novecentowide-Book.otf"
 			"name" "Novecentowide-Book"
 		}			
+		"13" 
+		{
+			"font" "resource/crosshairs.ttf"
+			"name" "Crosshairs"
 	}
+	
 }

@@ -1519,6 +1519,18 @@ Scheme
 			}
 		}
 
+		"Medium26Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"26"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Medium25"
 		{
 			"1"
@@ -1552,6 +1564,18 @@ Scheme
 			}
 		}
 
+		"Medium23Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"23"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Medium22"
 		{
 			"1"

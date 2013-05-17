@@ -35,4 +35,5 @@ You can also use the "TextWindow - BIGHTML" to replace "TextWindow.res" to get a
 Shoutout to Garm3n!
 
 Garm3nHUD page: http://www.sdx-gaming.eu/?page_id=4097
+
 yA_HUD: http://imgur.com/a/xylsT

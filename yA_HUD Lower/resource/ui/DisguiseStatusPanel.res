@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Medium9"
+		"font"			"Medium9Shadow"
 		"xpos"			"c155"
 		"ypos"			"r99"
 		"zpos"			"1"
@@ -58,7 +58,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Medium8"
+		"font"			"Medium8Shadow"
 		"xpos"			"c155"
 		"ypos"			"r91"
 		"zpos"			"1"

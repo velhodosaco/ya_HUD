@@ -9,8 +9,8 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Damage"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Medium21"	//add "Outline" to get an outline	
-		"delta_item_font_big"	"Medium21"	//add "Outline" to get an outline	
+		"delta_item_font"		"Medium21"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
+		"delta_item_font_big"	"Medium21"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
 	}
 
 	"CDamageAccountPanelShadow"
@@ -41,7 +41,7 @@
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"west"
 		"fgcolor"		"Damage"
-		"font"			"Medium23"		//add "Outline" to get an outline	
+		"font"			"Medium23"		//change "Medium23" to "Medium23Outline" "Outline" to get an outline	
 	}
 	"DamageAccountValueShadow"
 	{

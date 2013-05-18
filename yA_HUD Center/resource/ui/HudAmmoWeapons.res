@@ -45,7 +45,7 @@
 	"zpos"			"4"
 	"wide"	"100" 
 	"tall"	"56" 
-	"visible"	 "0"	
+	"visible"	 "1"	
 	"enabled"	 "1"	
 	"textAlignment"	 "center"	
 	"labelText"	 "%Ammo%"

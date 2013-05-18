@@ -249,8 +249,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"150"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
@@ -364,15 +364,21 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c200"
+		"xpos"			"c370"
 		"ypos"			"40"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"32"
+		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
+		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
+		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
+		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
@@ -394,12 +400,15 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+
 			"Command"		"motd_show"
+			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"206 192 115 255"
 
 			"SubImage"
 			{
@@ -422,124 +431,57 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"c170"
+		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"300"
+		"tall"			"360"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
+		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
 		
-		"MOTD_Label"
+		"MOTD_HeaderContainer"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MOTD_Label"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"%motddate%"
-			"textAlignment"	"center"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"MOTD_HeaderContainer"
 			"xpos"			"0"
-			"ypos"			"140"
+			"ypos"			"0"
 			"wide"			"300"
-			"tall"			"10"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"tall"			"22"
 			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
-		}
-		"MOTD_PrevButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_PrevButton"
-			"xpos"			"14"
-			"ypos"			"138"
-			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"Command"		"motd_prev"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
+			"MOTD_HeaderLabel"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
+				"ControlName"	"CExLabel"
+				"fieldName"		"MOTD_HeaderLabel"
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"300"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"blog_back"
-				"scaleImage"	"1"
-			}
-		}		
-		"MOTD_NextButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_NextButton"
-			"xpos"			"265"
-			"ypos"			"136"
-			"zpos"			"1"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"Command"		"motd_next"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"blog_forward"
-				"scaleImage"	"1"
+				"PaintBackgroundType" "2"
+				"fgcolor_override"	"235 226 202 255"
+				"bgcolor_override"	"141 178 61 255"
 			}
 		}
-	
+		
 		"MOTD_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"270"
-			"ypos"			"8"
+			"xpos"			"282"
+			"ypos"			"4"
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
@@ -554,17 +496,23 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+
+			"navDown"			"MOTD_URLButton"
+			"navActivate"		"<QuickplayButton"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"motd_hide"
 			
 			"paintbackground"	"0"
 			
+			//"defaultFgColor_override" "235 226 202 255"
+			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -582,17 +530,32 @@
 			}				
 		}	
 
+		"MOTD_HeaderIcon"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MOTD_HeaderIcon"
+			"xpos"			"265"
+			"ypos"			"25"
+			"zpos"			"100"
+			"wide"			"25"
+			"tall"			"25"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"class_icons/filter_all_motd"
+			"scaleImage"	"1"
+		}
+			
 		"MOTD_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%motdtitle%"
-			"textAlignment"	"north-west"
-			"xpos"			"20"
-			"ypos"			"10"
+			"textAlignment"	"west"
+			"xpos"			"10"
+			"ypos"			"25"
 			"wide"			"250"
-			"tall"			"30"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -600,14 +563,75 @@
 			"fgcolor_override"	"46 43 42 255"
 			"wrap"			"1"
 		}
+		
+		"MOTD_Label"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MOTD_Label"
+			"font"			"HudFontSmall"
+			"labelText"		"%motddate%"
+			"textAlignment"	"north-west"
+			"xpos"			"10"
+			"ypos"			"40"
+			"wide"			"300"
+			"tall"			"15"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"46 43 42 255"
+		}
+		
+		"MOTD_TitleImageBg"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MOTD_TitleImageBg"
+			"xpos"			"10"
+			"ypos"			"55"
+			"zpos"			"99"
+			"wide"			"280"
+			"tall"			"180"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"item_bg"
+			"scaleImage"	"1"
+		}
+		
+		"MOTD_TitleImageContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"MOTD_TitleImageContainer"
+			"xpos"			"10"
+			"ypos"			"55"
+			"zpos"			"100"
+			"wide"			"280"
+			"tall"			"180"
+			"visible"		"1"
+			
+			"MOTD_TitleImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MOTD_TitleImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"280"
+				"tall"			"280"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"class_icons/filter_all"
+				"scaleImage"	"0"
+			}
+		}
+			
 		"MOTD_TextScroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
 			"xpos"			"20"
-			"ypos"			"40"
-			"wide"			"260"
-			"tall"			"70"
+			"ypos"			"240"
+			"wide"			"280"
+			"tall"			"95"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"117 107 94 255"
 			
@@ -642,12 +666,13 @@
 				}
 			}
 		}
+		
 		"MOTD_URLButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"75"
-			"ypos"			"112"
+			"ypos"			"339"
 			"wide"			"150"
 			"tall"			"15"
 			"autoResize"	"0"
@@ -664,6 +689,11 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"command"		"motd_viewurl"
+
+			"navUp"			"MOTD_CloseButton"
+			"navLeft"		"MOTD_PrevButton"
+			"navRight"		"MOTD_NextButton"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -671,14 +701,108 @@
 			"defaultBgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
+		}	
+		
+		"MOTD_PrevButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"MOTD_PrevButton"
+			"xpos"			"12"
+			"ypos"			"336"
+			"zpos"			"1"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"motd_prev"
+
+			"navUp"			"MOTD_CloseButton"
+			"navRight"		"MOTD_URLButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" "0"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"206 192 115 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"blog_back"
+				"scaleImage"	"1"
+			}
 		}		
+		
+		"MOTD_NextButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"MOTD_NextButton"
+			"xpos"			"267"
+			"ypos"			"336"
+			"zpos"			"1"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"motd_next"
+
+			"navUp"			"MOTD_CloseButton"
+			"navLeft"		"MOTD_URLButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" "0"
+			
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"206 192 115 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"blog_forward"
+				"scaleImage"	"1"
+			}
+		}
 	}	
 	
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c165"
+		"xpos"			"c335"
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"32"
@@ -687,6 +811,12 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"navUp"			"MOTD_ShowButtonPanel"
+		"navDown"		"SettingsButton"
+		"navLeft"		"QuickplayButton"
+		"navRight"		"Notifications_Panel"
+		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 		
 		"SubImage"
 		{
@@ -720,7 +850,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"206 192 115 255"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -743,12 +873,15 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
+
 			"Command"		"noti_show"
+			"navActivate"	"<QuickplayButton"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor"	"206 192 115 255"
 			
 			"SubImage"
 			{
@@ -771,7 +904,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
+		"xpos"			"c170"
 		"ypos"			"102"
 		"zpos"			"1"
 		"wide"			"210"
@@ -780,6 +913,12 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
+
+		"navUp"			"MOTD_ShowButtonPanel"
+		"navDown"		"SettingsButton"
+		"navLeft"		"Notifications_ShowButtonPanel"
+		"navRight"		"MOTD_ShowButtonPanel"
+		"navToRelay"	"Notifications_CloseButton"
 		
 		"Notifications_CloseButton"
 		{
@@ -801,10 +940,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
+
+			"Command"		"noti_hide"
+			"navActivate"	"<QuickplayButton"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"noti_hide"
-			
+
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -839,7 +981,7 @@
 			"xpos"			"12"
 			"ypos"			"8"
 			"wide"			"250"
-			"tall"			"30"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

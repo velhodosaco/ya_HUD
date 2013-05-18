@@ -1997,7 +1997,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "25 225 74 255"
+			"armedFgColor_override" "Green"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"

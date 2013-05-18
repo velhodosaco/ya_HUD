@@ -19,29 +19,29 @@ Scheme
 	{
 		// HUD colors customizable
 		//You can customize these colors fairly easily, the first 3 numbers are the RGB values, the last one is the transparency
-		//This is a decent site for finding the color you would like http://www.colorspire.com/rgb-color-wheel/
-		//You will need to restart TF2 for changes to take effect!
+		//This is a decent site for finding the color you would like: http://www.colorspire.com/rgb-color-wheel/
+		//You will need to restart TF2 for any changes to take effect!
 		
-		//"Control Name"		"R	G	B	Transparency"	//Description
+		//"Control Name"		"R   G   B   Transparency"	//Description
 		
-		"Ammo"					"255 255 255 175"			//Current Clip
-		"AmmoReserve"			"255 255 255 175"			//Total reserve
+		"Ammo"				"255 255 255 175"		//Current Clip
+		"AmmoReserve"			"255 255 255 175"		//Total reserve
 
-		"Damage"				"255 255 255 175"			//Damage display
+		"Damage"			"255 255 255 175"		//Damage display
 		
-		"Health"				"255 255 255 175"			//Normal health color
-		"Buff"					"25 225 74 200" 			//Boosted health Color
-		"Low"					"200 47 47 255"				//Low health and ammo warning color
+		"Health"			"255 255 255 175"		//Normal health color
+		"Buff"				"25 225 74 200" 		//Boosted health color
+		"Low"				"200 47 47 255"			//Low health and ammo warning color
+
+		"Uber"				"25 225 74 255" 		//Uber ready color
 		
-		"Uber"					"25 225 74 255" 			//Uber Ready Color
-		
-		"HudBG"					"0 0 0 214"					//Black background
-		"HudShadow"				"0 0 0 57"					//Used for shadows on various numbers
-																//make last value 0 to remove them, or 255 to make them black
-		"Name"					"255 255 255 175"			//TargetID name label
+		"HudBG"				"0 0 0 214"			//Black HUD background
+		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
+											//make last value 0 to remove them, or 255 to make them black
+		"Name"				"255 255 255 175"		//TargetID name label color
 		
 		
-		//Base HUD colors
+		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent
 		
 		

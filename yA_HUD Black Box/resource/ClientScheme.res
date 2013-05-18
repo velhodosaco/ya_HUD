@@ -39,6 +39,7 @@ Scheme
 		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
 											//make last value 0 to remove them, or 255 to make them black
 		"Name"				"255 255 255 175"		//TargetID name label color
+		"Time"				"255 255 255 175"		//Respawn and Map time
 		
 		
 		// Base HUD colors

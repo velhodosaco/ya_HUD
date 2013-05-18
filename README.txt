@@ -1,4 +1,4 @@
-Garm3nHUD yA_HUD Version
+yA_HUD
 
 Screenshots: http://imgur.com/a/xylsT
 
@@ -27,6 +27,10 @@ If you're using a 4:3 monitor do the same thing with the Scoreboard.res file to 
 -----------------------------------------------------------
 
 You can also use the "TextWindow - BIGHTML" to replace "TextWindow.res" to get a bigger HTML MOTD screen (sizzling stats for example)
+
+-----------------------------------------------------------
+
+Instructions for COLORS, ALT files and CROSSHAIRS can be found in CUSTOMIZATION.txt
 
 -----------------------------------------------------------
 

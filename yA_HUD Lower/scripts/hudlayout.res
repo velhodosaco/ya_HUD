@@ -402,7 +402,7 @@
 	{
 		"fieldName"			"CHudAccountPanel"
 		"xpos"			"c-59"	
-		"ypos"			"r144"	
+		"ypos"			"r174"	
 		"wide"			"118"
 		"tall"			"60"
 		"visible" 				"1"

@@ -331,8 +331,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Book19"
-		"fgcolor_override" "Green"
+		"font"			"Book19Shadow"
+		"fgcolor_override" "Time"
 
 		if_mvm
 		{

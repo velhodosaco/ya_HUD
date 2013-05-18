@@ -484,11 +484,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Book19"
-		"font_minmode"		"Medium9"
+		"font"			"Book19Shadow"
+		"font_minmode"		"Medium9Shadow"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
-		"fgcolor"			"Green"
+		"fgcolor"			"Time"
 		"xpos"			"c-265"
 		"xpos_minmode"		"c-265"
 		"ypos"			"r390"
@@ -505,8 +505,8 @@
 
 		if_mvm
 		{
-			"font"			"Book19"
-			"fgcolor"			"White"
+			"font"			"Book19Shadow"
+			"fgcolor"			"Time"
 			"xpos"			"c-295"
 			"ypos"			"r384"
 			"wide"			"402"

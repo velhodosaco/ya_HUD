@@ -1564,6 +1564,18 @@ Scheme
 			}
 		}
 
+		"Medium23Outline"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"23"
+				"additive"		"0"
+				"antialias"	"1"
+				"outline" "1"
+			}
+		}
+		
 		"Medium23Shadow"
 		{
 			"1"
@@ -1597,7 +1609,29 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		"Medium21Outline"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"21"
+				"additive"		"0"
+				"antialias"	"1"
+				"outline" "1"
+			}
+		}
+		"Medium21Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"21"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Medium20"
 		{
 			"1"

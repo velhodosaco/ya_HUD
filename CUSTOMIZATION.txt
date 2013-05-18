@@ -55,6 +55,13 @@ If you want the SpectatorHUD to be at the bottom
 
 -----------------------------------------------------------
 
+If you want to disable flashing HP or Ammo
+
+Go into scripts, and rename "HudAnimations_tf.txt" to something like "FLASH_HudAnimations_tf.txt"
+Then rename "NOFLASH_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
+
+-----------------------------------------------------------
+
 Normal CROSSHAIRS
 
 Activate the crosshair by going to your scripts folder and then hudlayout. 

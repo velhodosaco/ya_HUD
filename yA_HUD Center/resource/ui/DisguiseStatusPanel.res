@@ -61,7 +61,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"Name"
 		"labelText"		"%disguisename%"
 		"textAlignment"	"west"
 	}
@@ -71,18 +71,34 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Medium8Shadow"
 		"xpos"			"c155"
-		"ypos"			"r91"
+		"ypos"			"r92"
 		"zpos"			"1"
 		"wide"			"164"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Metal"
+		"fgcolor"		"White"
+		"labelText"		"%weaponname%"
+		"textAlignment"	"west"	
+	}
+	
+	"WeaponNameLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"WeaponNameLabelShadow"
+		"font"			"Medium8"
+		"xpos"			"c156"
+		"ypos"			"r90"
+		"zpos"			"1"
+		"wide"			"164"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor"		"HudShadow"
 		"labelText"		"%weaponname%"
 		"textAlignment"	"west"
 	
 	}
-	
 	
 	"SpectatorGUIHealth"
 	{

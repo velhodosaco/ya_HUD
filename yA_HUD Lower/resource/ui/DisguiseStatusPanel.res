@@ -9,10 +9,10 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"DisguiseStatusBG"
+	"DisguiseStatusLine"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"DisguiseStatusBG"
+		"fieldName"		"DisguiseStatusLine"
 		"xpos"			"c113"
 		"ypos"			"r98"
 		"zpos"			"-1"
@@ -21,21 +21,9 @@
 		"fillcolor"		"255 255 255 175"
 		"visible"		"1"
 		"enabled"		"1"
+	
 	}
-	"DisguiseStatusBG2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"c113"
-		"ypos"			"r153"
-		"zpos"			"-3"
-		"wide"			"158"				//128
-		"tall"	 		"57"	
-		"fillcolor"		"0 0 0 237"
-		"visible"		"0"
-		"enabled"		"1"
-	}
-	"DisguiseStatusBG3"
+	"DisguiseStatusBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseStatusBG"

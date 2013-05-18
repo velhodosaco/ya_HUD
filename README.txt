@@ -18,11 +18,9 @@ If you're using a 16:10 or 4:3 monitor:
 
 1. Navigate to resource/ui.
 2. Change the Name of "MainMenuOverride.res" to something like "MainMenuOverride - OLD.res"
-2. Rename "ScoreBoard - 16BY10.res" or "- 4BY3" to "MainMenuOverride.res"
+2. Rename "MainMenuOverride - 16BY10.res" or "- 4BY3" to "MainMenuOverride.res"
 
 This will fix the MainMenu for you aspect ratio.
-
-----------------------------------------------------------
 
 If you're using a 4:3 monitor do the same thing with the Scoreboard.res file to fix the 6v6 Scoreboard
 

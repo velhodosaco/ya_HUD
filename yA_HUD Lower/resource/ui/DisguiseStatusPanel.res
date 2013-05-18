@@ -12,7 +12,7 @@
 	"DisguiseStatusLine"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"DisguiseStatusLine"
+		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"c113"
 		"ypos"			"r98"
 		"zpos"			"-1"
@@ -21,8 +21,8 @@
 		"fillcolor"		"255 255 255 175"
 		"visible"		"1"
 		"enabled"		"1"
-	
 	}
+	
 	"DisguiseStatusBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -49,28 +49,45 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"Name"
 		"labelText"		"%disguisename%"
 		"textAlignment"	"west"
 	}
-
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Medium8Shadow"
 		"xpos"			"c155"
-		"ypos"			"r91"
+		"ypos"			"r92"
 		"zpos"			"1"
 		"wide"			"164"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Metal"
+		"fgcolor"		"White"
+		"labelText"		"%weaponname%"
+		"textAlignment"	"west"	
+	}
+	
+	"WeaponNameLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"WeaponNameLabelShadow"
+		"font"			"Medium8"
+		"xpos"			"c156"
+		"ypos"			"r90"
+		"zpos"			"1"
+		"wide"			"164"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor"		"HudShadow"
 		"labelText"		"%weaponname%"
 		"textAlignment"	"west"
+	
 	}
-
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"

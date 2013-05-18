@@ -10,8 +10,8 @@ If you want to use the HEALTH CROSS or HEALTH PULSE
 
 -----------------------------------------------------------
 
-If you want to make the SHADOWS under the numbers in Blank/Lower darker or
-If you want to change the any other COLORS
+If you want to change some of the COLORS or
+If you want to make the SHADOWS under the numbers in Blank/Lower darker
 
 1. Go to your "resource" folder.
 2. Then ClientScheme.res

@@ -2,6 +2,14 @@ Custom Options yA_HUD
 
 -----------------------------------------------------------
 
+If you want to use the HEALTH CROSS or HEALTH PULSE
+
+1. Navigate to resource/ui
+2. Change the name of "HudPlayerHealth.res" to something like ""HudPlayerHealthOLD.res"
+3. Rename "HudPlayerHealth - HP_CROSS.res" or "HP_PULSE" to "HudPlayerHealth.res"
+
+-----------------------------------------------------------
+
 If you want to make the SHADOWS under the numbers in Blank/Lower darker or
 If you want to change the any other colors
 
@@ -36,14 +44,6 @@ If you want to change the KILLFEED to have line spacing
 3. Change the value for "LineSpacing"
 3. The higher the value the bigger the distance between entries in the Killfeed
 4: Save
-
------------------------------------------------------------
-
-If you want to use the HEALTH CROSS
-
-1. Navigate to resource/ui
-2. Change the name of "HudPlayerHealth.res" to something like ""HudPlayerHealthOLD.res"
-3. Rename "HudPlayerHealth - HPCROSS.res" to "HudPlayerHealth.res"
 
 -----------------------------------------------------------
 

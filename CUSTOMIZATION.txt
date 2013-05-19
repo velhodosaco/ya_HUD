@@ -14,6 +14,7 @@ List of custom options:
 -disable warning flashes
 -TargetIDs without boxes (looking at health and name of other players)
 -custom HUD crosshairs
+-Chat position
 
 -----------------------------------------------------------
 
@@ -102,6 +103,10 @@ If you want TargetIDs without boxes (when you look at somebody etc)
 1. Go to /resource/ui
 2. Change the name of "TargetID.res" to "TargetIDOLD.res"
 3. Rename "TargetID - NOBOX.res" to "TargetID.res"
+
+-----------------------------------------------------------
+
+If you want to use different chat positions use the BaseChat.res alt files or delete the original BaseChat,res file altogether for the default location.
 
 -----------------------------------------------------------
 

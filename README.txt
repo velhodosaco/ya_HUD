@@ -46,6 +46,7 @@ Here's a list of custom options:
 -disable warning flashes
 -TargetIDs without boxes (looking at health and name of other players)
 -custom HUD crosshairs
+-Chat position
 
 -----------------------------------------------------------
 

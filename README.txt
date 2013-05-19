@@ -32,6 +32,21 @@ You can also use the "TextWindow - BIGHTML" to replace "TextWindow.res" to get a
 
 Instructions for COLORS, ALT files and CROSSHAIRS can be found in CUSTOMIZATION.txt
 
+Here's a list of custom options:
+
+-adding HP cross or pulse
+-changing colors
+-alternative medic charge meter
+-small charge % under crosshair
+-various scoreboards (http://imgur.com/a/x3vTd)
+-class indicator
+-flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
+-add spacing to killfeed
+-move the spectator HUD to the bottom
+-disable warning flashes
+-TargetIDs without boxes (looking at health and name of other players)
+-custom HUD crosshairs
+
 -----------------------------------------------------------
 
 Shoutout to Garm3n!

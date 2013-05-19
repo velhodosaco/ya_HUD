@@ -1,5 +1,20 @@
 Custom Options yA_HUD 
 
+List of custom options:
+
+-adding HP cross or pulse
+-changing colors
+-alternative medic charge meter
+-small charge % under crosshair
+-various scoreboards (http://imgur.com/a/x3vTd)
+-class indicator
+-flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
+-add spacing to killfeed
+-move the spectator HUD to the bottom
+-disable warning flashes
+-TargetIDs without boxes (looking at health and name of other players)
+-custom HUD crosshairs
+
 -----------------------------------------------------------
 
 If you want to use the HEALTH CROSS or HEALTH PULSE
@@ -79,6 +94,14 @@ If you want to disable flashing HP or Ammo
 
 Go into scripts, and rename "HudAnimations_tf.txt" to something like "FLASH_HudAnimations_tf.txt"
 Then rename "NOFLASH_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
+
+-----------------------------------------------------------
+
+If you want TargetIDs without boxes (when you look at somebody etc)
+
+1. Go to /resource/ui
+2. Change the name of "TargetID.res" to "TargetIDOLD.res"
+3. Rename "TargetID - NOBOX.res" to "TargetID.res"
 
 -----------------------------------------------------------
 

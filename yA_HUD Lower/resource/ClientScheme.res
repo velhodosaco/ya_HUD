@@ -24,18 +24,24 @@ Scheme
 		
 		//"Control Name"		"R   G   B   Transparency"	//Description
 		
+		"Damage"			"255 255 255 175"		//Damage display
+		
 		"Ammo"				"255 255 255 175"		//Current Clip
 		"AmmoReserve"			"255 255 255 175"		//Total reserve
 
-		"Damage"			"255 255 255 175"		//Damage display
-		
 		"Health"			"255 255 255 175"		//Normal health color
+		
 		"Buff"				"25 225 74 200" 		//Boosted health color
+		
 		"Low"				"200 47 47 255"			//Low health and ammo warning color
-
 		"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 
-		"Uber"				"25 225 74 255" 		//Uber ready color
+		"UberLabel"			"25 225 74 255" 		//Uber ready color %		//25 225 74 255 to make green
+		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
+
+		"UberLabelFlash"		"0 0 0 175"			//Uber ready flash color %
+		"UberMeterFlash"		"0 0 0 0"			//Uber ready flash color meter	
+
 		
 		"HudBG"				"0 0 0 214"			//Black HUD background
 		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
@@ -43,6 +49,10 @@ Scheme
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
+
+		//not implemented
+
+		"Select"			"25 225 74 255"			//This is the hover color for buttons
 		
 		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent

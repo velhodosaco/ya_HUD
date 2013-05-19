@@ -74,5 +74,24 @@
 		"textAlignment"	"east"	
 		"font"			"DemiBold23"
 		"fgcolor"		"Health"
-	}								
+	}			
+	"PlayerStatusHealthValueSpecShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpecShadow"
+		"xpos"			"-19"
+		"ypos"			"4"
+		"zpos"			"4"
+		"wide"			"76"
+		"tall"			"28"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"east"	
+		"font"			"DemiBold23"
+		"fgcolor"		"HudShadow"
+	}	
+
+
+	
 }

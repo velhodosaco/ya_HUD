@@ -31,9 +31,21 @@ You can enable a small % under crosshair in that file, by changing "visible" to 
 
 If you want to want to use an alternative SCOREBOARD or enbable stats on the Scoreboard
 
-1. Navigate to resource/ui.
+1. Navigate to resource/ui
 2. Change the Name of "Scoreboard.res"
 2. Rename "ScoreBoard - [ALTNAME].res" to "Scoreboard.res"
+
+-----------------------------------------------------------
+
+If you want to have a Class indicator on the bottom left
+
+1. Go to resource/ui
+2. Rename "HudPlayerClass.res" to something like "HudPlayerClassOLD.res"
+3. Rename "HudPlayerClass - BOTTOM.res" to "HudPlayerClass.res"
+
+4. Navigate to scripts
+5. Rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
+6. Rename "BOTTOM_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
 
 -----------------------------------------------------------
 

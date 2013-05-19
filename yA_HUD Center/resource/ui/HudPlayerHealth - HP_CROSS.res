@@ -1,6 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	 "CExLabel"	
@@ -16,6 +17,22 @@
 		"textAlignment"	 "center"	
 		"font"	 "DemiBold32"	
 		"fgcolor"	 "HudShadow"
+	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"58"		//38
+		"ypos"			"76"		//126
+		"zpos"			"5"
+		"wide"			"159"
+		"tall"			"56"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"			
+		"font"			"DemiBold32"		//48
+		"fgcolor"		"Health"
 	}
 	"HudPlayerHealth"
 	{
@@ -140,36 +157,52 @@
 		"tall"		"55"
 		"autoResize"	"0"
 		"pinCorner"	"0"
-		"visible"		"0"			//Black Background
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"HudBG"
 		"PaintBackgroundType""0"
-
+	}	
+	"YAHUDCrossBackground"	
+		{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CrossBG"
+		"xpos"		"0"
+		"ypos"		"131"
+		"zpos"		"1"
+		"wide"		"60"
+		"tall"		"55"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fillcolor"		"HudBG"
+		"PaintBackgroundType""0"
 	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c-232"
-		"ypos"			"r135"
+		"xpos"			"67"
+		"ypos"			"93"
 		"zpos"			"4"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0" 
-		"enabled"		"0"
+		"wide"			"28"	
+		"tall"			"28"
+		"visible"		"1" 
+		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"c-234"
-		"ypos"			"r137"
+		"xpos"			"66"
+		"ypos"			"92"
 		"zpos"			"3"
-		"wide"			"0" 
-		"tall"			"0" 
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"30"	
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -177,31 +210,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"36"	
-		"ypos"			"1270" 	
+		"xpos"			"66"	
+		"ypos"			"92" 	
 		"zpos"			"2"
-		"wide"			"63"	
-		"tall"			"63"	
-		"visible"		"0"
+		"wide"			"30"	
+		"tall"			"30"	
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
-	}
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"58"		//38
-		"ypos"			"76"		//126
-		"zpos"			"5"
-		"wide"			"159"
-		"tall"			"56"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"			
-		"font"			"DemiBold32"		//48
-		"fgcolor"		"Health"
 	}
 	"PlayerStatusBleedImage"
 	{

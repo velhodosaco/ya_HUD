@@ -33,6 +33,8 @@ Scheme
 		"Buff"				"25 225 74 200" 		//Boosted health color
 		"Low"				"200 47 47 255"			//Low health and ammo warning color
 
+		"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+
 		"Uber"				"25 225 74 255" 		//Uber ready color
 		
 		"HudBG"				"0 0 0 214"			//Black HUD background
@@ -58,8 +60,7 @@ Scheme
 		"BlueTeamS"				"88 133 162 175"			//Team fill colors solid
 		
 		"Metal"					"137 159 179 255"
-		"Gray"					"165 165 165 255"
-		"Red"					"255 0 0 175"		
+		"Gray"					"165 165 165 255		
 		"Pink"					"225 37 205 175"			//MvM panel
 		
 		// Base Colors 

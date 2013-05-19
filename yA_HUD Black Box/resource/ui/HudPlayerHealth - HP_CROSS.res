@@ -201,7 +201,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"			//east
 		"font"			"DemiBold48"
-		"fgcolor"		"White"
+		"fgcolor"		"Health"
 	}
 	"PlayerStatusBleedImage"
 	{

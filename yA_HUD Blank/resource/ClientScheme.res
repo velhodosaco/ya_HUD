@@ -1573,7 +1573,7 @@ Scheme
 				"name"		"Novecentowide-Medium"
 				"tall"		"23"
 				"additive"		"0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"outline" "1"
 			}
 		}
@@ -1618,7 +1618,7 @@ Scheme
 				"name"		"Novecentowide-Medium"
 				"tall"		"21"
 				"additive"		"0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"outline" "1"
 			}
 		}
@@ -2175,7 +2175,7 @@ Scheme
 				"name"		"Novecentowide-Book"
 				"tall"		"21"
 				"additive"		"0"
-				"antialias"	"1"
+				"antialias"	"0"
 				"outline"	"1"
 			}
 		}

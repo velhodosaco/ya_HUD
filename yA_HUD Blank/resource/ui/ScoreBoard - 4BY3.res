@@ -153,7 +153,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueBGSmall"
-		"xpos"			"c-28"
+		"xpos"			"c-27"
 		"xpos_minmode"		"c260"		//c240
 		"ypos"			"r351"
 		"ypos_minmode"		"r346"

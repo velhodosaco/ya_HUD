@@ -4,7 +4,7 @@ Custom Options yA_HUD
 
 If you want to use the HEALTH CROSS or HEALTH PULSE
 
-1. Navigate to resource/ui
+1. Navigate to /resource/ui
 2. Change the name of "HudPlayerHealth.res" to something like ""HudPlayerHealthOLD.res"
 3. Rename "HudPlayerHealth - HP_CROSS.res" or "HP_PULSE" to "HudPlayerHealth.res"
 
@@ -13,7 +13,7 @@ If you want to use the HEALTH CROSS or HEALTH PULSE
 If you want to change some of the COLORS or
 If you want to make the SHADOWS under the numbers in Blank/Lower darker
 
-1. Go to your "resource" folder.
+1. Go to your resource folder.
 2. Then ClientScheme.res
 3. Follow instructions in that file.
 
@@ -39,7 +39,7 @@ If you want to want to use an alternative SCOREBOARD or enbable stats on the Sco
 
 If you want to have a Class indicator on the bottom left
 
-1. Go to resource/ui
+1. Go to /resource/ui
 2. Rename "HudPlayerClass.res" to something like "HudPlayerClassOLD.res"
 3. Rename "HudPlayerClass - BOTTOM.res" to "HudPlayerClass.res"
 
@@ -49,9 +49,17 @@ If you want to have a Class indicator on the bottom left
 
 -----------------------------------------------------------
 
+If you want a pulsing shadows instead of pulsing numbers (Ammo/HP)
+
+Go to /scripts and rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
+Then rename "PULSESHADOW_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
+This works well with the pulsing HP cross background
+
+-----------------------------------------------------------
+
 If you want to change the KILLFEED to have line spacing
 
-1. Go to "scripts" and then hudlayout.res
+1. Go to /scripts and then "hudlayout.res"
 2. Search for "DeathNotice"
 3. Change the value for "LineSpacing"
 3. The higher the value the bigger the distance between entries in the Killfeed
@@ -61,7 +69,7 @@ If you want to change the KILLFEED to have line spacing
 
 If you want the SpectatorHUD to be at the bottom
 
-1. Navigate to resource/ui
+1. Navigate to /resource/ui
 2. Change the name of "SpectatorTournament.res" to something like ""SpectatorTournamentOLD.res"
 3. Rename "SpectatorTournament - BOTTOM.res" to "SpectatorTournament.res"
 

@@ -59,7 +59,7 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Medium8Shadow"
 		"xpos"			"c155"
-		"ypos"			"r91"
+		"ypos"			"r92"
 		"zpos"			"1"
 		"wide"			"164"
 		"tall"			"24"

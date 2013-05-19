@@ -1023,10 +1023,10 @@
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"xpos"					"0"
+		"ypos"					"185"
+		"wide"					"f0"
+		"tall"					"480"
 	}
 
 	PVEWinPanel
@@ -1213,11 +1213,11 @@
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-360"
 		"ypos"					"75"
 		"ypos_hidef"				"90"
 		"ypos_lodef"				"90"
-		"wide"					"320"
+		"wide"					"f0"
 		"tall"					"150"
 	}
 
@@ -1319,9 +1319,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r400"	//320
+		"ypos"					"r527"	//320
 		"wide"					"f0"
-		"tall"					"320"
+		"tall"					"4800"
 	}
 	
 	HudArenaVsPanel 
@@ -1340,7 +1340,7 @@
 		"fieldName"				"HudArenaPlayerCount"		
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"c-160"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"50"

@@ -2269,6 +2269,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		"Book16Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 
 		"Book15"
 		{

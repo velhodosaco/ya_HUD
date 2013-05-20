@@ -2304,6 +2304,18 @@ Scheme
 			}
 		}
 
+		"Book14Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Book13"
 		{
 			"1"
@@ -2326,6 +2338,18 @@ Scheme
 			}
 		}
 
+		"Book12Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Book11"
 		{
 			"1"
@@ -2337,6 +2361,18 @@ Scheme
 			}
 		}
 
+		"Book11Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Book10"
 		{
 			"1"
@@ -2348,6 +2384,18 @@ Scheme
 			}
 		}
 
+		"Book10Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Book"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Book9"
 		{
 			"1"

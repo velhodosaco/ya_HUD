@@ -91,7 +91,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Medium12"				//Medium12
-		"xpos"			"59"			//59
+		"xpos"			"64"			//59
 		"ypos"			"2"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
@@ -112,7 +112,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Medium9"
-		"xpos"			"59"			//59
+		"xpos"			"64"			//59
 		"ypos"			"14"		//15
 		"zpos"			"2"
 		"wide"			"180"

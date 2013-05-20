@@ -503,7 +503,7 @@
 
 		if_mvm
 		{
-			"font"			"Book19Shadow"
+			"font"			"Book19"
 			"fgcolor"			"Time"
 			"xpos"			"c-295"
 			"ypos"			"r384"

@@ -843,7 +843,7 @@
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
-		"Player3Avatar"		
+	"Player3Avatar"		
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
@@ -857,9 +857,9 @@
 		"image"			""
 		"scaleImage"		"1"	
 		"color_outline"		"52 48 45 255"
-	}
-	"Player3Name"
-	{	
+		}
+		"Player3Name"
+		{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
 		"xpos"			"c-135"
@@ -875,9 +875,9 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-	}
-	"Player3Class"
-	{	
+		}
+		"Player3Class"
+		{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Class"
 		"xpos"			"c7"
@@ -893,7 +893,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-	}
+		}
 		"Player3Damage"
 		{	
 			"ControlName"		"CExLabel"
@@ -936,7 +936,7 @@
 			"ypos"			"r354"
 			"zpos"			"2"
 			"wide"			"34"
-			"tall"			"14""
+			"tall"			"14"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"

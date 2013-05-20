@@ -75,8 +75,8 @@ Scheme
 		
 		"RedTeam" 				"184 56 59 175"				//Team fill colors transparent
 		"BlueTeam"				"78 123 152 175"			//
-		"RedTeamS" 				"184 56 59 175"				//
-		"BlueTeamS"				"88 133 162 175"			//Team fill colors solid
+		"RedTeamS" 				"184 56 59 255"				//
+		"BlueTeamS"				"88 133 162 255"			//Team fill colors solid
 		
 		"Metal"					"137 159 179 255"
 		"Gray"					"165 165 165 255"		

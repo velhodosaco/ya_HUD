@@ -69,7 +69,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"Medium7"
 					"fgcolor"			"Black"
 				}
 			}
@@ -339,7 +339,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"			"Gray"
+		"fgcolor"			"White"
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
 
@@ -363,7 +363,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"			"Gray"
+		"fgcolor"			"White"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
 
@@ -405,7 +405,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"			"Gray"
+		"fgcolor"			"White"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
 
@@ -429,7 +429,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor"			"Gray"
+		"fgcolor"			"White"
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
 

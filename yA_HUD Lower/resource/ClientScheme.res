@@ -50,9 +50,13 @@ Scheme
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
 
-		//not implemented
+		//not fully implemented
 
-		"Select"			"25 225 74 255"			//This is the hover color for buttons
+		"Select"			"25 225 74 255"				//This is the hover color for buttons
+		"MvMBG"				"225 37 205 175"			//MvM panels purple color
+		
+		"HudBGC"			"25 225 74 255" 			//General color background
+		"HudBGCT"			"25 225 74 175"				//General color background transparent
 		
 		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent

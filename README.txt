@@ -16,13 +16,10 @@ create a folder and name it, for example, hud / place resource and scripts in it
 
 If you're using a 16:10 or 4:3 monitor:
 
-1. Navigate to resource/ui.
-2. Change the Name of "MainMenuOverride.res" to something like "MainMenuOverride - OLD.res"
-2. Rename "MainMenuOverride - 16BY10.res" or "- 4BY3" to "MainMenuOverride.res"
+1. Navigate to 4BY3 or 16BY10
+2. Copy all the files(and replace the old ones) into resource/ui
 
-This will fix the MainMenu for you aspect ratio.
-
-If you're using a 4:3 monitor do the same thing with the Scoreboard.res file to fix the 6v6 Scoreboard
+This will fix the MainMenu for you aspect ratio and the scoreboard for 4:3.
 
 -----------------------------------------------------------
 

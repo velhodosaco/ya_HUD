@@ -58,6 +58,11 @@ Scheme
 		"HudBGC"			"25 225 74 255" 			//General color background
 		"HudBGCT"			"25 225 74 175"				//General color background transparent
 		
+		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
+		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
+		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		
 		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent
 		
@@ -74,7 +79,7 @@ Scheme
 		"BlueTeamS"				"88 133 162 175"			//Team fill colors solid
 		
 		"Metal"					"137 159 179 255"
-		"Gray"					"165 165 165 255		
+		"Gray"					"165 165 165 255"		
 		"Pink"					"225 37 205 175"			//MvM panel
 		
 		// Base Colors 
@@ -217,11 +222,14 @@ Scheme
 	// Garm3nColors
 	
 		"Garm3nCharge"			"42 79 134 255"			//Demoman charge animation
+		
+		
 			
 		"Garm3nMenuBG"			"0 0 0 214"				//125 makes menus more transparent
 		"Garm3nLabelsBG"		"0 0 0 214"				//125
-		
 		"Garm3nxHair"			"255 255 0 255"
+
+		
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -1692,6 +1700,18 @@ Scheme
 			}
 		}
 
+		"Medium16Shadow"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-Medium"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Medium15"
 		{
 			"1"

@@ -26,6 +26,14 @@ If you want to use the HEALTH CROSS or HEALTH PULSE
 
 -----------------------------------------------------------
 
+If you want a pulsing shadows instead of pulsing numbers (Ammo/HP)
+(This works well with the pulsing HP cross background)
+
+Go to /scripts and rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
+Then rename "PULSESHADOW_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
+
+-----------------------------------------------------------
+
 If you want to change some of the COLORS or
 If you want to make the SHADOWS under the numbers in Blank/Lower darker
 
@@ -62,14 +70,6 @@ If you want to have a Class indicator on the bottom left
 4. Navigate to scripts
 5. Rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
 6. Rename "BOTTOM_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
-
------------------------------------------------------------
-
-If you want a pulsing shadows instead of pulsing numbers (Ammo/HP)
-
-Go to /scripts and rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
-Then rename "PULSESHADOW_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
-This works well with the pulsing HP cross background
 
 -----------------------------------------------------------
 

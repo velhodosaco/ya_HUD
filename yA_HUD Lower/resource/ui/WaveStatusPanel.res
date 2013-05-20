@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"50"
+		"xpos"			"44"
 		"ypos"			"2"
 		"zpos"			"-1"
 		"wide"			"200"
@@ -26,10 +26,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"ChatFont"
-		"fgcolor"		"Green"
-		"xpos"			"c-169"
-		"ypos"			"2"
+		"font"			"medium9Shadow"
+		"fgcolor"		"White"
+		"xpos"			"c-197"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"137"
 		"tall"			"16"
@@ -43,20 +43,20 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"SeparatorBar"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-2226"
+		"ypos"			"115"
 		"zpos"			"3"
-		"wide"			"1"
-		"tall"			"30"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"White"
 		
 		if_verbose
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	
@@ -64,16 +64,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"ChatMiniFont"
+		"font"			"Medium8"
 		"fgcolor"		"White"
 		"xpos"			"55"
-		"ypos"			"6"
+		"ypos"			"11"
 		"zpos"			"3"
 		"wide"			"60"
-		"tall"			"15"
+		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"				"west"
+		"textAlignment"				"south-west"
 		"labelText"					"#TF_MVM_Support"
 		
 		if_verbose
@@ -86,8 +86,8 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"c-170"
-		"ypos"			"20"
+		"xpos"			"c-196"
+		"ypos"			"14"
 		"zpos"			"3"
 		"wide"			"137"
 		"tall"			"8"
@@ -106,12 +106,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c-170"
-		"ypos"			"20"
+		"xpos"			"c-196"
+		"ypos"			"14"
 		"zpos"			"-1"
 		"wide"			"137"
 		"tall"			"8"
-		"fillcolor"		"0 0 0 175"
+		"fillcolor"		"0 0 0 214"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"110"
+		"xpos"			"84"
 		"ypos"			"19"
 		"zpos"			"3"
 		"wide"			"180"

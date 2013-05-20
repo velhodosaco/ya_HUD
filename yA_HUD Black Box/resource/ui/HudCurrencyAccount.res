@@ -7,7 +7,7 @@
 		"font"			"Book12"
 		"fgcolor"		"WhiteS"
 		"xpos"			"184"		//16
-		"ypos"			"90"
+		"ypos"			"91"
 		"zpos"			"3"
 		"wide"			"62"
 		"tall"			"16"
@@ -28,6 +28,6 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"GreenST"
+		"bgcolor_override"	"HudBGCT"
 	}
 }

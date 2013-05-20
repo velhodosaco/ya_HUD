@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"90"
-		"fillcolor"		"0 0 0 175"
+		"fillcolor"		"0 0 0 0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -31,7 +31,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"Garm3n15"
+			"font"			"Book19"
 			"fgcolor"		"blank"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -49,14 +49,14 @@
 			// blue Background
 			"PaintBackgroundType" "2"
 			"fgcolor_override"	"blank"		
-			"bgcolor_override"	"91 122 142 200"
+			"bgcolor_override"	"blank"
 		}
 		
 		"WinningTeamLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"Garm3n15"
+			"font"			"Book19Shadow"
 			"xpos"			"4"
 			"ypos"			"0"
 			"wide"			"294"
@@ -65,7 +65,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Gray"
+			"fgcolor"		"White"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
 		}
@@ -75,7 +75,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"Garm3n10"
+		"font"			"Book16Shadow"
 		"xpos"			"1"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
 		"textAlignment"		"Center"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -96,11 +96,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Garm3n10"
-		"xpos"			"2"
+		"font"			"Book16Shadow"
+		"xpos"			"37"
 		"ypos"			"100"
 		"zpos"			"1"
-		"wide"			"300"
+		"wide"			"250"
 		"tall"			"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"Center"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"1"

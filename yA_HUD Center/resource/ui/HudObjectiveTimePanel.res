@@ -5,7 +5,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"46"	//32
-		"ypos"			"0"
+		"ypos"			"-2"
 		"zpos"			"2"
 		"wide"			"60"	//88
 		"tall"			"18"
@@ -27,9 +27,9 @@
 		"xpos"				"67"
 		"xpos_hidef"		"159"
 		"xpos_lodef"		"165"
-		"ypos"				"16"
-		"ypos_hidef"		"15"
-		"ypos_lodef"		"16"
+		"ypos"				"14"
+		"ypos_hidef"		"13"
+		"ypos_lodef"		"14"
 		"zpos"				"4"	
 		"wide"				"20"
 		"wide_lodef"		"25"
@@ -49,7 +49,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"15"
-		"ypos"			"15"
+		"ypos"			"13"
 		"zpos"			"5"
 		"wide"			"123"
 		"tall"			"18"
@@ -68,7 +68,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"38"	
-		"ypos"			"30"
+		"ypos"			"28"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
@@ -85,7 +85,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"15"
-		"ypos"			"15"
+		"ypos"			"13"
 		"zpos"			"5"
 		"wide"			"123"
 		"tall"			"18"
@@ -104,7 +104,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	
-		"ypos"			"31"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
@@ -120,7 +120,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"15"
-		"ypos"			"15"
+		"ypos"			"13"
 		"zpos"			"5"
 		"wide"			"123"
 		"tall"			"18"
@@ -139,7 +139,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	
-		"ypos"			"31"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
@@ -155,7 +155,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"15"
-		"ypos"			"15"
+		"ypos"			"13"
 		"zpos"			"5"
 		"wide"			"123"
 		"tall"			"18"
@@ -174,7 +174,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	
-		"ypos"			"31"
+		"ypos"			"29"
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"

@@ -16,10 +16,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Book19"
+			"font"			"Book16"
 			"fgcolor"		"White"
 			"xpos"			"32"	//3
-			"ypos"			"-2"
+			"ypos"			"-4"
 			"zpos"			"3"
 			"wide"			"88"	//88
 			"tall"			"19"
@@ -46,10 +46,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Book19"
+			"font"			"Book16"
 			"fgcolor"		"White"
 			"xpos"			"32"
-			"ypos"			"-2"
+			"ypos"			"-4"
 			"zpos"			"3"
 			"wide"			"88"
 			"tall"			"19"
@@ -65,7 +65,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"18"	//22
+		"ypos"				"16"	//22
 		"zpos"				"3"
 		"wide"				"60"
 		"tall"				"2"

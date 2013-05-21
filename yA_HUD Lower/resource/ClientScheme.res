@@ -498,7 +498,7 @@ Scheme
 				"name"		"Crosshairs"
 				"tall"		"28"
 				"additive"	"0"
-				"antialias" 	"0"
+				"antialias" 	"1"
 				"weight"	"0"
 				"outline"	"1"
 			}

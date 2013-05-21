@@ -139,7 +139,7 @@
                 {
                                 "ControlName"   "CExLabel"
                                 "fieldName"             "BlueTeamCount"
-                                "xpos"                  "c-136"
+                                "xpos"                  "c-135"
                                 "ypos"                  "c-16"
                                 "zpos"                  "2"
                                 "wide"                  "71"

@@ -24,8 +24,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"c-255"		
-		"ypos"			"r159"		//moved 6v6 board down by 170
+		"xpos"			"c-255"	
+		"ypos"			"r329"
+		"ypos_minmode"			"r159"		//moved 6v6 board down by 170
 		"zpos"			"-1"
 		"wide"			"253"
 		"tall"			"208"
@@ -50,7 +51,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBGRed"
 		"xpos"			"c2"
-		"ypos"			"r159"
+		"ypos"			"r329"
+		"ypos_minmode"			"r159"
 		"zpos"			"-1"
 		"wide"			"253"
 		"tall"			"208"
@@ -155,7 +157,7 @@
 		"fieldName"		"BlueBGSmall"
 		"xpos"			"c-27"
 		"xpos_minmode"		"c-27"		//c240
-		"ypos"			"r181"
+		"ypos"			"r351"
 		"ypos_minmode"		"r181"
 		"wide"			"25"
 		"tall"			"18"

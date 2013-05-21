@@ -14,7 +14,9 @@ List of custom options:
 -disable warning flashes
 -TargetIDs without boxes (looking at health and name of other players)
 -custom HUD crosshairs
+-HP cross on targetID (when you look at someone etc)
 -Chat position
+-use a colored team menu in the style of the scoreboard/winpanel
 
 -----------------------------------------------------------
 
@@ -106,7 +108,17 @@ If you want TargetIDs without boxes (when you look at somebody etc)
 
 -----------------------------------------------------------
 
-If you want to use different chat positions use the BaseChat.res alt files or delete the original BaseChat,res file altogether for the default location.
+If you want to have an HP cross on your TargetIDs (when you look at someone)
+
+Replace the original "TargetID.res" and "SpectatorGUIHealth.res" with the " - HPCROSS" alt files in the resource/ui folder.
+
+-----------------------------------------------------------
+
+If you want to use different chat positions use the "BaseChat.res" alt files or delete the original "BaseChat.res" file altogether for the default location.
+
+-----------------------------------------------------------
+
+Replace "TeamMenu.res" with "TeamMenu - COLOR.res" to get a different team menu.
 
 -----------------------------------------------------------
 

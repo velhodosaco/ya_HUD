@@ -43,7 +43,9 @@ Here's a list of custom options:
 -disable warning flashes
 -TargetIDs without boxes (looking at health and name of other players)
 -custom HUD crosshairs
+-HP cross on targetID (when you look at someone etc)
 -Chat position
+-use a colored team menu in the style of the scoreboard/winpanel
 
 -----------------------------------------------------------
 

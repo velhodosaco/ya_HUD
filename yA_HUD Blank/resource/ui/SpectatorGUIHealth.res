@@ -40,7 +40,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/health_equip_bg"
+		"image"			"../hud/health_equips_bg"
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}	
@@ -63,7 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
-		"xpos"			"-20"
+		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"5"
 		"wide"			"76"
@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"font"			"DemiBold23"
 		"fgcolor"		"Health"
 	}			
@@ -79,7 +79,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"-19"
+		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"4"
 		"wide"			"76"
@@ -87,7 +87,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"font"			"DemiBold23"
 		"fgcolor"		"HudShadow"
 	}	

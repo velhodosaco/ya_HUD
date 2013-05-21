@@ -215,7 +215,7 @@
                 {
                                 "ControlName"   "CTFTeamButton"
                                 "fieldName"             "teambutton0"
-                                "xpos"                  "c-123"
+                                "xpos"                  "c-119"
                                 "ypos"                  "c-27"
                                 "zpos"                  "8"
                                 "wide"                  "100"
@@ -244,7 +244,7 @@
                 {
                                 "ControlName"   "CTFTeamButton"
                                 "fieldName"             "teambutton1"
-                                "xpos"                  "c22"
+                                "xpos"                  "c19"
                                 "ypos"                  "c-27" //c-27
                                 "zpos"                  "8"
                                 "wide"                  "100"

@@ -209,7 +209,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"0"
-		"ypos"			"130"
+		"ypos"			"1300"       //130
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -224,7 +224,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"0"
-		"ypos"			"130"
+		"ypos"			"1300"       //130
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -239,7 +239,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"0"
-		"ypos"			"130"
+		"ypos"			"1300"       //130
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -254,7 +254,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName" "PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"0"
-		"ypos"			"130"
+		"ypos"			"1300"       //130
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -269,7 +269,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"0"
-		"ypos"			"130"
+		"ypos"			"1300"       //130
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"

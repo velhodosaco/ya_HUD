@@ -219,6 +219,7 @@
 		"font"			"DemiBold48"
 		"fgcolor"		"Health"
 	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

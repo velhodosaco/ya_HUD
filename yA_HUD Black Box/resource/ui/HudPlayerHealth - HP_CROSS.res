@@ -279,7 +279,6 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
-	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"

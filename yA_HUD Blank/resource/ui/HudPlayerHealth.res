@@ -205,7 +205,7 @@
 	}
 	
 	
-		"PlayerStatusBleedImage"
+	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"

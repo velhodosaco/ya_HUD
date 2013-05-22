@@ -220,7 +220,7 @@
 		"fgcolor"		"Health"
 	}
 	
-		"PlayerStatusBleedImage"
+	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"

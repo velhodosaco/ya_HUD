@@ -249,6 +249,25 @@
 				}
 			}
 
+			"respawntimecover"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntimecover"
+				"font"			"BlocksSharp64"
+				"xpos"			"135"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"34"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"east"
+				"fgcolor"		"WhiteS"
+			}
+			
+			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"

@@ -490,6 +490,8 @@ Scheme
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		
+
+		
 		
 		"fogCrosshair"			//fog's crosshair
 		{
@@ -503,6 +505,19 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		
+		"BlocksSharp64"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"64"
+				"additive"	"0"
+				"antialias" "0"
+			}
+		}
+		
+		
 		"Default"
 		{
 			"1"
@@ -5453,6 +5468,11 @@ Scheme
 		{
 			"font" "resource/crosshairs.ttf"
 			"name" "Crosshairs"
+		}
+		"14"
+		{
+			"font" "resource/Blocks.ttf"
+			"name" "Blocks"
+		}
 	}
-	
 }

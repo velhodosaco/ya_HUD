@@ -9,29 +9,17 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Damage"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Medium21"	//change "Medium21" to "Medium21Outline" to enable outline
-		"delta_item_font_big"	"Medium21"	//change "Medium21" to "Medium21Outline" to enable outline
+		"delta_item_font"		"Medium21Shadow"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
+		"delta_item_font_big"	"Medium21Shadow"	//"DemiBold22" or "DemiBold22Outline" are also an option
 	}
 
-	"CDamageAccountPanelShadow"
-	{
-		"fieldName"				"CDamageAccountPanelShadow"
-		"text_x"				"1"
-		"text_y"				"1"
-		"delta_item_end_y"		"0"
-		"PositiveColor"			"HudShadow"
-		"NegativeColor"			"HudShadow"
-		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Medium21"
-		"delta_item_font_big"	"Medium21"
-	}
 	
 	"DamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-248"				//c-206
-		"ypos"			"296"				//r151
+		"xpos"			"c-204"				//c-206
+		"ypos"			"395"				//r151
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"29"
@@ -41,23 +29,22 @@
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"west"
 		"fgcolor"		"Damage"
-		"font"			"Medium23"		//change "Medium23" to "Medium23Outline" to enable outline
+		"font"			"Medium23"		//change "Medium23" to "Medium23Outline" "Outline" to get an outline	
 	}
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	 	"CExLabel"
 		"fieldname"	 		"DamageAccountValueShadow"
-		"xpos"	 			"c-247"
-		"ypos"	 			"297"
-		"zpos"				"1"
+		"xpos"	 			"c-203"
+		"ypos"	 			"396"
 		"wide"	 			"100"
 		"tall"	 			"29"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"west"
 		"fgcolor"	 		"HudShadow"
-		"font"	 			"Medium23"	
+		"font"	 			"Medium23"			
 	}
 }

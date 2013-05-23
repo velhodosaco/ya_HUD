@@ -63,7 +63,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Medium17"
+		"font"			"Medium16"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -94,7 +94,7 @@
 		"zpos"			"2"
 		"wide"			"41"
 		"tall"			"41"
-		"fgcolor"		"RedTeamS"
+		"fgcolor"		"RedTeam"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -127,7 +127,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Medium17"
+		"font"			"Medium16"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -166,11 +166,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-18"
-		"ypos"			"r39"	
+		"ypos"			"r3339"		//r39
 		"zpos"			"10"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"

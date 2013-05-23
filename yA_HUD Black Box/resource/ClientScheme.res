@@ -71,7 +71,7 @@ Scheme
 		"GreenST"				"25 225 74 175"
 		"GreenT"				"25 225 74 105"
 		"White"					"255 255 255 175"
-		"WhiteS"				"245 245 245 255"
+		"WhiteS"				"225 225 225 255"
 		
 		"RedTeam" 				"184 56 59 175"				//Team fill colors transparent
 		"BlueTeam"				"78 123 152 175"			//
@@ -1074,6 +1074,18 @@ Scheme
 			}
 		}
 
+		"DemiBold22Outline"
+		{
+			"1"
+			{
+				"name"		"Novecentowide-DemiBold"
+				"tall"		"22"
+				"additive"		"0"
+				"antialias"	"1"
+				"outline" "1"
+			}
+		}
+		
 		"DemiBold21"
 		{
 			"1"
@@ -1610,7 +1622,7 @@ Scheme
 				"name"		"Novecentowide-Medium"
 				"tall"		"23"
 				"additive"		"0"
-				"antialias"	"0"
+				"antialias"	"1"
 				"outline" "1"
 			}
 		}
@@ -1655,7 +1667,7 @@ Scheme
 				"name"		"Novecentowide-Medium"
 				"tall"		"21"
 				"additive"		"0"
-				"antialias"	"0"
+				"antialias"	"1"
 				"outline" "1"
 			}
 		}

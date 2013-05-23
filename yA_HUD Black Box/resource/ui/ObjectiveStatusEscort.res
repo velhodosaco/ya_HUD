@@ -26,14 +26,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"73"
-		"ypos"			"114"		//123
+		"ypos"			"113"	
 		"zpos"			"0"
 		"wide"			"103"
-		"tall"			"3"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"../hud/cart_track_neutral_opaque"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
@@ -78,41 +78,41 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"		"64"		
-		"ypos"		"107"
+		"xpos"		"68"		
+		"ypos"		"112"
 		"zpos"			"1"
-		"wide"		"18"
-		"tall"		"18"
+		"wide"		"11"
+		"tall"		"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"../hud/cart_point_blue"
 		"scaleImage"	"1"	
 		
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"image"			"../hud/cart_point_red"
 		}
 		
 		"if_single_with_hills_blue"
 		{
-			"image"			"../hud/cart_home_blue_opaque"
+			"image"			"../hud/cart_point_blue"
 		}		
 		
 		"if_single_with_hills_red"
 		{
-			"image"			"../hud/cart_home_red_opaque"
+			"image"			"../hud/cart_point_red"
 		}		
 		
 		"if_multiple_trains"
 		{
 			"xpos"			"59"
 			"zpos"			"5"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"15"
+			"tall"			"15"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
@@ -142,10 +142,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
 		"xpos"		"65"		
-		"ypos"		"107"		
+		"ypos"		"113"		
 		"zpos"			"1"
-		"wide"		"18"		
-		"tall"		"18"
+		"wide"		"10"		
+		"tall"		"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -170,7 +170,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
 		"xpos"			"0"
-		"ypos"		"39"
+		"ypos"		"42"
 		"zpos"			"2"
 		"wide"		"52"		
 		"tall"		"75"		

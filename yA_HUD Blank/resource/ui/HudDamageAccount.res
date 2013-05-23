@@ -9,22 +9,10 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Damage"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Medium21"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
-		"delta_item_font_big"	"Medium21"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
+		"delta_item_font"		"Medium21Shadow"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
+		"delta_item_font_big"	"Medium21Shadow"	//"DemiBold22" or "DemiBold22Outline" are also an option
 	}
 
-	"CDamageAccountPanelShadow"
-	{
-		"fieldName"				"CDamageAccountPanelShadow"
-		"text_x"				"1"
-		"text_y"				"1"
-		"delta_item_end_y"		"0"
-		"PositiveColor"			"HudShadow"
-		"NegativeColor"			"HudShadow"
-		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Medium21"	
-		"delta_item_font_big"	"Medium21"
-	}
 	
 	"DamageAccountValue"
 	{

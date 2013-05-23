@@ -123,7 +123,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"255 255 255 255"
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "Green"
+		"armedFgColor_override" "Select"
 		"depressedFgColor_override" "255 255 255 255"
 	}
 	

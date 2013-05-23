@@ -52,6 +52,8 @@
 		"fgcolor"		"255 255 255 255"
 	}
 
+	
+	
 	"MapInfoText"
 	{
 		"ControlName"	"CTFRichText"
@@ -94,10 +96,10 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"Medium14"
-		"fgcolor"		"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "Green"
-		"depressedFgColor_override" "Green"
+		"fgcolor"		"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "Select"
+		"depressedFgColor_override" "White"
 	}
 	
 	"MapInfoWatchIntro" 
@@ -123,10 +125,10 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"Medium8"
-		"fgcolor"		"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "125 225 0 255"
-		"depressedFgColor_override" "255 255 255 255"
+		"fgcolor"		"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "Select"
+		"depressedFgColor_override" "White"
 	}
 
 	"MapInfoBack" 
@@ -156,4 +158,25 @@
 		"armedFgColor_override" "Blank"
 		"depressedFgColor_override" "Blank"
 	}	
+	"MapImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapImage"
+		"xpos"			"11111"
+		"ypos"			"11111"
+		"zpos"			"2"
+		"wide"			"0"
+		"wide_hidef"			"0"
+		"wide_lodef"	"0"
+		"tall"			"0"
+		"tall_hidef"			"0"
+		"tall_lodef"	"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+	}
+	
+	
+	
 }

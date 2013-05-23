@@ -52,6 +52,8 @@ Scheme
 
 		//not fully implemented
 
+		"MenuBGColor"		"25 225 74 105"				//Color option for alt main menu
+		
 		"Select"			"25 225 74 255"				//This is the hover color for buttons
 		"MvMBG"				"225 37 205 175"			//MvM panels purple color
 		

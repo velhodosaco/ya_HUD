@@ -24,8 +24,10 @@ This will fix the MainMenu for you aspect ratio and the scoreboard for 4:3.
 -----------------------------------------------------------
 
 Big thanks to fog for letting me use his crosshairs! http://i.imgur.com/vJsoF2g.png
-To enable them go into /scripts/hudlayout.res
-And change visible to "1" under "fog's crosshair"
+To enable them go into /scripts/hudlayout.res.
+There you'll have to change visible to "1" under "fog's crosshair".
+You can find more instructions there as well.
+These crosshairs flash red on hit, which can be customized/disabled.
 
 You can also enable Garm3n's crosshairs in that file.
 

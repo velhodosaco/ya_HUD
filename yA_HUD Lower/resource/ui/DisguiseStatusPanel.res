@@ -59,7 +59,7 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Medium8Shadow"
 		"xpos"			"c155"
-		"ypos"			"r92"
+		"ypos"			"r91"
 		"zpos"			"1"
 		"wide"			"164"
 		"tall"			"24"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"c95"
+		"xpos"			"c115"
 		"ypos"			"r101"
 		"wide"			"80"
 		"tall"			"50"

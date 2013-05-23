@@ -122,6 +122,15 @@ Replace "TeamMenu.res" with "TeamMenu - COLOR.res" to get a different team menu.
 
 -----------------------------------------------------------
 
+Big thanks to fog for letting me use his crosshairs! http://i.imgur.com/vJsoF2g.png
+To enable them go into /scripts/hudlayout.res
+And change visible to "1" under "fog's crosshair"
+
+You can also enable Garm3n's crosshairs in that file.
+
+
+-----------------------------------------------------------
+
 Normal CROSSHAIRS
 
 Activate the crosshair by going to your scripts folder and then hudlayout. 

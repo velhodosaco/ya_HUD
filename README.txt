@@ -16,14 +16,18 @@ create a folder and name it, for example, hud / place resource and scripts in it
 
 If you're using a 16:10 or 4:3 monitor:
 
-1. Navigate to 4BY3 or 16BY10
+1. Open the 4BY3 or 16BY10 folder from the folder that you've downloaded
 2. Copy all the files(and replace the old ones) into resource/ui
 
 This will fix the MainMenu for you aspect ratio and the scoreboard for 4:3.
 
 -----------------------------------------------------------
 
-You can also use the "TextWindow - BIGHTML" to replace "TextWindow.res" to get a bigger HTML MOTD screen (sizzling stats for example)
+Big thanks to fog for letting me use his crosshairs! http://i.imgur.com/vJsoF2g.png
+To enable them go into /scripts/hudlayout.res
+And change visible to "1" under "fog's crosshair"
+
+You can also enable Garm3n's crosshairs in that file.
 
 -----------------------------------------------------------
 
@@ -31,17 +35,19 @@ Instructions for COLORS, ALT files and CROSSHAIRS can be found in CUSTOMIZATION.
 
 Here's a list of custom options:
 
--adding HP cross or pulse
 -changing colors
+-adding HP cross or pulse
 -alternative medic charge meter
 -small charge % under crosshair
--various scoreboards (http://imgur.com/a/x3vTd)
+-various scoreboards http://imgur.com/a/x3vTd
+
 -class indicator
--flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
+-flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg )
 -add spacing to killfeed
 -move the spectator HUD to the bottom
 -disable warning flashes
 -TargetIDs without boxes (looking at health and name of other players)
+
 -custom HUD crosshairs
 -HP cross on targetID (when you look at someone etc)
 -Chat position
@@ -49,8 +55,4 @@ Here's a list of custom options:
 
 -----------------------------------------------------------
 
-Shoutout to Garm3n!
-
-Garm3nHUD page: http://www.sdx-gaming.eu/?page_id=4097
-
-yA_HUD: http://imgur.com/a/xylsT
+Shoutout to Garm3n and fog!

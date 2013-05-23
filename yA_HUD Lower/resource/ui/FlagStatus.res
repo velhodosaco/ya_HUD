@@ -31,6 +31,7 @@
 		{
 			"xpos"			"56"
 			"ypos"			"13"
+			"zpos"     		"2"
 			"wide"			"16"
 			"tall"			"16"
 		}	
@@ -51,6 +52,8 @@
 
 		"if_mvm"
 		{
+			"xpos"      "63"
+			"ypos"      "13"
 			"visible"	"0"
 		}	
 	}	

@@ -1,5 +1,44 @@
 "Resource/HudLayout.res"
 {
+		"fogCrosshair"
+		{
+		"controlname"	"CExLabel"
+		"fieldname"	"fogCrosshair"
+		
+		"visible"	"0"			//1
+		"enabled"	"1"
+
+		"xpos"		"c-17"
+		"ypos"		"c-13"
+		"zpos"		"2"
+		
+		"wide"		"28"
+		"tall"		"28"
+
+		"font"		"fogCrosshair"
+
+		"labeltext"	"1"
+		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// There are no fixed numbers for this
+		"textAlignment"	"center"
+		
+		"fgcolor"	"White"
+		
+		// You can insert an RGB code here instead of the "White"
+		
+		// R	G	B	Transparency	= color
+		// "255 255 255 255"	= White
+		// "255 255 0 255 	= Yellow
+		// "145 225 25 255"	= Green
+		// If you change this, remember to change the same value in HudAnimations_tf.txt
+		// Otherwise the crosshair will change back to the default white color after
+		// flashing upon giving damage.
+
+	}
+	
 	
 	"CrossHairNormal"
 	{
@@ -52,7 +91,7 @@
 		"textAlignment"	"center"	
 	}
 
-		"CrossHairCircleSmaller"
+	"CrossHairCircleSmaller"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairCircleSmaller"

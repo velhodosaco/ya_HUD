@@ -1,12 +1,11 @@
 "Resource/HudLayout.res"
 {
-	
-	fogCrosshair
+	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
 		
-		"visible"	"0"							//make fog's crosshair visible
+		"visible"	"0"			//1
 		"enabled"	"1"
 
 		"xpos"		"c-17"
@@ -20,13 +19,17 @@
 
 		"labeltext"	"1"
 		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		
 		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
 		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
-		// THERE ARE NO FIXED NUMBERS FOR THIS
-
+		// There are no fixed numbers for this
 		"textAlignment"	"center"
 		
-		"fgcolor"	"255 255 255 255"
+		"fgcolor"	"White"
+		
+		// You can insert an RGB code here instead of the "White"
+		
+		// R	G	B	Transparency	= color
 		// "255 255 255 255"	= White
 		// "255 255 0 255 	= Yellow
 		// "145 225 25 255"	= Green

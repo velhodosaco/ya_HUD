@@ -1,0 +1,5 @@
+Files that have " - NAME" at the end will have to have that part removed before being moved into your hud folders.
+
+Files go into /resource/ui unless stated otherwise.
+
+Colors are still customized via the clientscheme in /resource/

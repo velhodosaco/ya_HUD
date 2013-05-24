@@ -24,7 +24,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"			"0"
-		"ypos"			"52"		//32
+		"ypos"			"32"		//32
 		"zpos"			"3"
 		"wide"			"118"
 		"tall"			"8"
@@ -42,7 +42,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"52"
+		"ypos"			"32"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"9"				

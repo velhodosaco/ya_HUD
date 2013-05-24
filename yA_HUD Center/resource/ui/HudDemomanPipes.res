@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StickBG"
-		"xpos"		"32"
+		"xpos"		"51"
 		"ypos"		"19"
 		"zpos"		"0"
 		"wide"		"54"
@@ -39,7 +39,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"			"0"
-		"ypos"			"32"		//32
+		"ypos"			"51"		//32
 		"zpos"			"3"
 		"wide"			"118"
 		"tall"			"8"
@@ -57,7 +57,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"32"
+		"ypos"			"51"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"9"				

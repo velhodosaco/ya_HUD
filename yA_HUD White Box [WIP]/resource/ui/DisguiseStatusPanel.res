@@ -18,7 +18,7 @@
 		"zpos"			"-1"
 		"wide"			"208"				//128
 		"tall"	 		"2"	
-		"fillcolor"		"255 255 255 175"
+		"fillcolor"		"White"
 		"visible"		"1"
 		"enabled"		"1"
 	}

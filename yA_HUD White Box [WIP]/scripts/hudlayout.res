@@ -329,6 +329,8 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"2000"
+		"MeterFG"		"Green"
+		"MeterBG"		"Black"
 	}
 	
 	HudMedicCharge
@@ -478,8 +480,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-411"				//-22	
-		"ypos"		"8"				//0
+		"xpos"		"-413"				//-22	
+		"ypos"		"4"				//0
 		"zpos"		"-1"	
 		"wide"		"f0"
 		"tall"		"480"

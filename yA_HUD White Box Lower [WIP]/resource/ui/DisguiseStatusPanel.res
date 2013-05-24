@@ -9,41 +9,29 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	"DisguiseStatusLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"DisguiseStatusLine"
+		"xpos"			"c113"
+		"ypos"			"r72"
+		"zpos"			"-1"
+		"wide"			"208"				//128
+		"tall"	 		"2"	
+		"fillcolor"		"White"
+		"visible"		"1"
+		"enabled"		"1"
+	
+	}
 	"DisguiseStatusBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"c113"
-		"ypos"			"r98"
-		"zpos"			"-1"
-		"wide"			"208"				//128
-		"tall"	 		"2"	
-		"fillcolor"		"255 255 255 175"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	"DisguiseStatusBG2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"c113"
-		"ypos"			"r153"
-		"zpos"			"-3"
-		"wide"			"158"				//128
-		"tall"	 		"57"	
-		"fillcolor"		"0 0 0 237"
-		"visible"		"0"
-		"enabled"		"1"
-	}
-	"DisguiseStatusBG3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"c113"
-		"ypos"			"r98"
+		"ypos"			"r96"
 		"zpos"			"-4"
 		"wide"			"208"				//128
-		"tall"	 		"27"	
+		"tall"	 		"25"	
 		"fillcolor"		"0 0 0 214"
 		"visible"		"1"
 		"enabled"		"1"
@@ -55,7 +43,7 @@
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"Medium9"
 		"xpos"			"c155"
-		"ypos"			"r99"
+		"ypos"			"r100"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"24"
@@ -72,7 +60,7 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Medium8"
 		"xpos"			"c155"
-		"ypos"			"r91"
+		"ypos"			"r92"
 		"zpos"			"1"
 		"wide"			"164"
 		"tall"			"24"
@@ -88,7 +76,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"c115"
-		"ypos"			"r101"
+		"ypos"			"r102"
 		"wide"			"80"
 		"tall"			"50"
 		"visible"			"1"

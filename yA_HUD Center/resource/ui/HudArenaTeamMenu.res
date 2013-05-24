@@ -89,7 +89,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"		//215 55 54 255
 		"defaultFgColor_override" "White"	//RedTeamS"
-		"armedFgColor_override" "green"
+		"armedFgColor_override" "Select"
 	}
 	
 	"teambutton3"
@@ -116,7 +116,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "green"
+		"armedFgColor_override" "Select"
 	}
 	
 	"CancelButton" [$WIN32] 

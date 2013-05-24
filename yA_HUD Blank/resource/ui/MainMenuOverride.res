@@ -56,7 +56,7 @@
 
 				"FgColor" "255 255 255 255"
 	                "defaultFgColor_override" "255 255 255 255"
-				"armedFgColor_override" "Green"
+				"armedFgColor_override" "Select"
 				"depressedFgColor_override" "255 255 255 255"
 			
 				"image_drawcolor"	"0 0 0 0"
@@ -1109,7 +1109,7 @@
 
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1170,7 +1170,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1231,7 +1231,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1298,7 +1298,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1366,7 +1366,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1434,7 +1434,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1501,7 +1501,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1736,7 +1736,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1802,7 +1802,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1863,7 +1863,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1930,7 +1930,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1997,7 +1997,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2059,7 +2059,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2121,7 +2121,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2183,7 +2183,7 @@
 			
 			"FgColor" "255 255 255 255"			
 			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Green"
+			"armedFgColor_override" "Select"
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2699,7 +2699,7 @@
 			
 		"FgColor" "255 255 255 255"			
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "Green"
+		"armedFgColor_override" "Select"
 		"depressedFgColor_override" "255 255 255 255"
 			
 		"image_drawcolor"	"0 0 0 0"
@@ -2756,7 +2756,7 @@
 
 		"FgColor" "255 255 255 255"			
 		"defaultFgColor_override" "255 255 255 255"
-		"armedFgColor_override" "Green"
+		"armedFgColor_override" "Select"
 		"depressedFgColor_override" "255 255 255 255"
 			
 		"image_drawcolor"	"0 0 0 0"

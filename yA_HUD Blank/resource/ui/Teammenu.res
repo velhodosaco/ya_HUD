@@ -89,7 +89,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"	//63 156 213 255
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "green"	//72 176 240 255
+		"armedFgColor_override" "Select"	//72 176 240 255
 	}
 
 	"teambutton1"
@@ -118,7 +118,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"		//215 55 54 255
 		"defaultFgColor_override" "White"	//RedTeamS"
-		"armedFgColor_override" "green"
+		"armedFgColor_override" "Select"
 	}
 
 	"teambutton2"
@@ -145,7 +145,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "green"
+		"armedFgColor_override" "Select"
 	}
 	
 	"teambutton3"
@@ -172,7 +172,7 @@
 		"font"			"Medium14"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "green"
+		"armedFgColor_override" "Select"
 	}
 	
 	"CancelButton"  
@@ -200,7 +200,7 @@
 		"paintbackground"	"0"
 		"fgcolor"		"Gray"
 		"defaultFgColor_override" "Gray"
-		"armedFgColor_override" "greenST"
+		"armedFgColor_override" "Select"
 	}
 	
 	"TeamMenuSelect"

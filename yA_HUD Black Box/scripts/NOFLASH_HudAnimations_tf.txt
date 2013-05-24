@@ -315,25 +315,25 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		         Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"Low"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValue 	                FgColor		"LowHP"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueCam 	FgColor		"Low"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	FgColor		"LowHP"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueSpec 	FgColor		"Low"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec 	FgColor		"LowHP"	         Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueTour 	                FgColor		"Low"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour 	                FgColor		"LowHP"	         Accel 0.0 0.0
 
-	Animate xHairNormal 	                                FgColor		"Red"	         Accel 0.0 0.0
+	Animate xHairNormal 	                                FgColor		"RedHP"	         Accel 0.0 0.0
 
-	Animate xHairThin 	                                                FgColor		"Red"	         Accel 0.0 0.0
+	Animate xHairThin 	                                                FgColor		"RedHP"	         Accel 0.0 0.0
 
-	Animate xHairThinOutline 	                                FgColor		"Red"	         Accel 0.0 0.0
+	Animate xHairThinOutline 	                                FgColor		"RedHP"	         Accel 0.0 0.0
 
-	Animate xHairRequest 	                                FgColor		"Red"	         Accel 0.0 0.0
+	Animate xHairRequest 	                                FgColor		"RedHP"	         Accel 0.0 0.0
 
-	Animate xHairCircle 	                                FgColor		"Red"	         Accel 0.0 0.0
+	Animate xHairCircle 	                                FgColor		"RedHP"	         Accel 0.0 0.0
 
-	Animate xHairDot 	                                                FgColor		"Red"	         Accel 0.0 0.0
+	Animate xHairDot 	                                                FgColor		"RedHP"	         Accel 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -397,11 +397,11 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		         Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		         Linear 0.125 0.075
 
-	Animate	AmmoInClip		                FgColor		"Low"	         Accel 0.0 0.0
+	Animate	AmmoInClip		                FgColor		"LowAmmo"	         Accel 0.0 0.0
 
-	Animate	AmmoInReserve		                FgColor		"Low"                   Accel 0.0 0.0
+	Animate	AmmoInReserve		                FgColor		"LowAmmo"                   Accel 0.0 0.0
 
-	Animate	AmmoNoClip		                FgColor		"Low"	         Accel 0.0 0.0
+	Animate	AmmoNoClip		                FgColor		"LowAmmo"	         Accel 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	        0.25
 }

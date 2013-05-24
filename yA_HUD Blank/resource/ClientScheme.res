@@ -33,8 +33,10 @@ Scheme
 		
 		"Buff"				"25 225 74 200" 		//Boosted health color
 		
-		"Low"				"200 47 47 255"			//Low health and ammo warning color
-		"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
+		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
+		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 
 		"UberLabel"			"25 225 74 255" 		//Uber ready color %		//25 225 74 255 to make green
 		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
@@ -42,28 +44,25 @@ Scheme
 		"UberLabelFlash"		"0 0 0 175"			//Uber ready flash color %
 		"UberMeterFlash"		"0 0 0 0"			//Uber ready flash color meter	
 
-		
-		"HudBG"				"0 0 0 214"			//Black HUD background
-		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
-											//make last value 0 to remove them, or 255 to make them black
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
-		
-
-		//not fully implemented
-
-		"MenuBGColor"		"25 225 74 105"				//Color option for alt main menu
 		
 		"Select"			"25 225 74 255"				//This is the hover color for buttons
 		"MvMBG"				"225 37 205 175"			//MvM panels purple color
 		
+		//Special Colors
+
+		"MenuBGColor"		"25 225 74 105"			//Color option for alt main menu
+		
+		"LowT"				"184 54 54 214"				//Used for white box version
+		"LowS"				"184 54 54 255"				//Low animations
+		
+		"HudBG"				"0 0 0 214"			//Black HUD background
+		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
+											//make last value 0 to remove them, or 255 to make them black
+
 		"HudBGC"			"25 225 74 255" 			//General color background
 		"HudBGCT"			"25 225 74 175"				//General color background transparent
-		
-		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
-		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
-		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
-		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 		
 		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent
@@ -221,16 +220,16 @@ Scheme
 		"UpgradeDisabledBg"		"79 77 68 255"
 
 	
-	// Garm3nColors
+	// Color Backup and Garm3n Colors
 	
-		"Garm3nCharge"			"42 79 134 255"			//Demoman charge animation
-		
-		
+		"Garm3nCharge"			"42 79 134 255"			//Demoman charge animation		
 			
 		"Garm3nMenuBG"			"0 0 0 214"				//125 makes menus more transparent
 		"Garm3nLabelsBG"		"0 0 0 214"				//125
 		"Garm3nxHair"			"255 255 0 255"
 
+		"Low"				"200 47 47 255"			//Low health and ammo warning color
+		"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 		
 	}
 

@@ -33,6 +33,12 @@ You can also enable Garm3n's crosshairs in that file.
 
 -----------------------------------------------------------
 
+If you're using net_graph, I recommend using net_graph 3 to avoid it covering the scoreboard.
+You can also make the netgraph smaller by typing "net_graphproportionalfont 0" in console or adding it to your autoexec.cfg.
+If you don't know what this means you can use google to find tf2 scripts and information on this topic.
+
+-----------------------------------------------------------
+
 Instructions for COLORS, ALT files and CROSSHAIRS can be found in CUSTOMIZATION.txt
 
 Here's a list of custom options:

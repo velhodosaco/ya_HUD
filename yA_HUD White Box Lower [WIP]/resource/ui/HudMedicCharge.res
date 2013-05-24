@@ -59,7 +59,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"c68"
-		"ypos"			"r55"	
+		"ypos"			"r54"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"56"	
@@ -72,15 +72,15 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Medium44"
+		"font"			"DemiBold42"
 		"fgcolor"		"Black"
 	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c68"
-		"ypos"			"r150"	
+		"xpos"			"c66"
+		"ypos"			"r54"	
 		"zpos"			"3"
 		"wide"			"159"	
 		"tall"			"56"	
@@ -90,11 +90,11 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
-		"fgcolor"	"White"
+		"fgcolor"	"Black"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"DemiBold42"
 	}
 
 	"ChargeMeter"
@@ -117,7 +117,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-"ChargeMeter1"
+	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"

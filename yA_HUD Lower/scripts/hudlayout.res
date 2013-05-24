@@ -502,7 +502,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"310"
+		"ypos"		"324"
 		"wide"	 	"f0"			//60
 		"tall"	 	"33" // 34
 		"priority"	"40"

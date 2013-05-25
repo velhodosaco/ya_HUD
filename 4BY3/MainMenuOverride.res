@@ -2018,6 +2018,68 @@
 		}
 	}
 	
+	"YAHUD"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"YAHUD"
+		"xpos"			"c-276"
+		"ypos"			"r454"
+		"zpos"			"11"
+		"wide"			"223"
+		"tall"			"22"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		""
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"-10"
+			"ypos"			"0"
+			"wide"			"223"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"Medium14"
+			"textAlignment"	"east"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"FgColor" "255 255 255 255"			
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "yAHUDBlue"
+			"depressedFgColor_override" "255 255 255 255"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"255 255 255 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+	
 	"ResumeGameButton"
 	{
 		"ControlName"	"EditablePanel"

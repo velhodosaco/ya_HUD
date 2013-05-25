@@ -87,7 +87,7 @@
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 175"
+		"fillcolor"	"HudBG"
 	}
 	"HudTournamentNameBG"
 	{
@@ -130,7 +130,7 @@
 		"zpos"			"-1"
 		"wide"			"28"
 		"tall"			"15"
-		"fillcolor"		"Low"
+		"fillcolor"		"White"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -156,15 +156,15 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"		"Medium11"
-		"fgcolor"		"White"
+		"fgcolor"		"Black"
 
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Black"
+		"defaultFgColor_override" "Black"
+		"armedFgColor_override" "Select"
+		"depressedFgColor_override" "Select"
 	}
 
 	"TournamentReadyBG"
@@ -176,7 +176,7 @@
 		"zpos"			"-1"
 		"wide"			"28"
 		"tall"			"15"
-		"fillcolor"		"125 225 0 175"
+		"fillcolor"		"GreenST"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -202,7 +202,7 @@
 		"command"		"teamready" 
 		"default"		"1"
 		"font"		"Medium11"
-		"fgcolor"		"Gray"
+		"fgcolor"		"WhiteS"
 
 		"border_default"	""
 		"border_armed"		""

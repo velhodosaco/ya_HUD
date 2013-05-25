@@ -50,7 +50,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
-		"xpos"			"0"
+		"xpos"			"2"
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"

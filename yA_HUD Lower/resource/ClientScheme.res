@@ -2395,7 +2395,7 @@ Scheme
 			"1"
 			{
 				"name"		"Novecentowide-Book"
-				"tall"		"12"
+				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -2418,7 +2418,7 @@ Scheme
 			"1"
 			{
 				"name"		"Novecentowide-Book"
-				"tall"		"12"
+				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"

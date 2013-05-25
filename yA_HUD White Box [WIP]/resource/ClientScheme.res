@@ -67,6 +67,7 @@ Scheme
 		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent
 		
+		"yAHUDBlue" 			"40 140 254 255"
 		
 		"Green"					"25 225 74 255" 			
 		"GreenST"				"25 225 74 175"

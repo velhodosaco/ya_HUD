@@ -41,8 +41,8 @@ Scheme
 		"UberLabel"			"25 225 74 255" 		//Uber ready color %		//25 225 74 255 to make green
 		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
 
-		"UberLabelFlash"		"0 0 0 175"			//Uber ready flash color %
-		"UberMeterFlash"		"0 0 0 0"			//Uber ready flash color meter	
+		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
+		"UberMeterFlash"		"15 95 14 100"			//Uber ready flash color meter	
 
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time

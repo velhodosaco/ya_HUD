@@ -189,7 +189,7 @@
 		"zpos"			"-9"
 		"wide"			"237"
 		"tall"			"700"	
-		"fillcolor"		"0 0 0 175"	//"0 0 0 175"
+		"fillcolor"		"0 0 0 214"	//"0 0 0 175"
 		"visible"		"1"
 		"enabled"		"1"
 	}

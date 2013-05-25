@@ -289,7 +289,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c35"
-		"ypos"	"r56"
+		"ypos"	"r55"
 		"wide"	"200"
 		"tall"	"80"
 	}

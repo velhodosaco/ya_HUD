@@ -7,12 +7,14 @@ List of custom options, imgur album here with some examples here: http://imgur.c
 	- alternative medic charge meter
 	- small charge % under crosshair
 	- various scoreboards (http://imgur.com/a/x3vTd)
-	- class indicator
+
+	- class image at the bottom of the screen
 	- flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
 	- add spacing to killfeed
 	- move the spectator HUD to the bottom
 	- disable warning flashes
 	- TargetIDs without boxes (looking at health and name of other players)
+
 	- custom HUD crosshairs
 	- HP cross on targetID (when you look at someone etc)
 	- Chat position

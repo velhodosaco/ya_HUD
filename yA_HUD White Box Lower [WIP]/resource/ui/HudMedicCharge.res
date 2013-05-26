@@ -35,7 +35,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Book15"
-		"fgcolor"		"White"
+		"fgcolor"		"WhiteBG"
 	}
 	"YAHUDChargeBackground"	
 	{

@@ -44,7 +44,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"White"
+		"fillcolor"		"WhiteBG"
 		"PaintBackgroundType""0"
 
 	}

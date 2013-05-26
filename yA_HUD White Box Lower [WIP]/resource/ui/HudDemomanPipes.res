@@ -94,7 +94,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 80"
+		"fillcolor"		"WhiteBGT"
 		"PaintBackgroundType""0"
 		}
 		"NumPipesLabel"
@@ -160,7 +160,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"255 255 255 80"
+		"fillcolor"		"WhiteBGT"
 		"PaintBackgroundType""0"
 		}
 		"NumPipesLabel"

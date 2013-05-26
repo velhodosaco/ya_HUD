@@ -126,7 +126,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"White"
+		"fillcolor"		"WhiteBG"
 		"PaintBackgroundType""0"
 
 	}
@@ -144,7 +144,7 @@
 		"labelText"		"9"
 		"textAlignment"	"west"			//east
 		"font"			"BlocksSharp64"
-		"fgcolor"		"Blank"
+		"fgcolor"		"Underline"
 	}
 	"PlayerStatusHealthValueBG2"
 		{
@@ -160,7 +160,7 @@
 		"labelText"		"9"
 		"textAlignment"	"west"			//east
 		"font"			"BlocksSharp64"
-		"fgcolor"		"Blank"
+		"fgcolor"		"Underline"
 	}
 	"PlayerStatusHealthValueBG3"
 		{
@@ -176,7 +176,7 @@
 		"labelText"		"9"
 		"textAlignment"	"west"			//east
 		"font"			"BlocksSharp64"
-		"fgcolor"		"Blank"
+		"fgcolor"		"Underline"
 	}
 	
 	

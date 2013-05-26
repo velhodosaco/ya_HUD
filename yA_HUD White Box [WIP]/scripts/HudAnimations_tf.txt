@@ -294,11 +294,9 @@ event HudHealthBonusPulseStop
         	StopEvent xHairCircle 0.0
         	StopEvent xHairDotOutline 0.0
 
-	Animate PlayerStatusHealthValueBG 	                FgColor		"Blank"	         Accel 0.0 0.0
-	
-	Animate PlayerStatusHealthValueBG2 	                FgColor		"Blank"	         Accel 0.0 0.0
-	
-	Animate PlayerStatusHealthValueBG3 	                FgColor		"Blank"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBG 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBG2 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBG3 	                FgColor		"Underline"	         Accel 0.0 0.0
 
                 Animate PlayerStatusHealthValueCam 	                FgColor		"Health"	         Accel 0.0 0.0
 
@@ -388,9 +386,9 @@ event HudHealthDyingPulseStop
 	StopEvent xHairCircle 0.0
 	StopEvent xHairDot 0.0
 
-	Animate	PlayerStatusHealthValueBG 	                FgColor		"Blank"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueBG2 	                FgColor		"Blank"	         Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueBG3	                FgColor		"Blank"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG2 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG3	                FgColor		"Underline"	         Accel 0.0 0.0
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Health"               Accel 0.0 0.0
 
@@ -443,11 +441,11 @@ event HudLowAmmoPulseStop
 	StopEvent LowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 
-	Animate	AmmoBG	    FgColor		"Blank"		Linear 0.0 0.0
+	Animate	AmmoBG	    FgColor		"Underline"		Linear 0.0 0.0
 	
-	Animate	AmmoBG2	    FgColor		"Blank"		Linear 0.0 0.0
+	Animate	AmmoBG2	    FgColor		"Underline"		Linear 0.0 0.0
 	
-	Animate	AmmoBG3	    FgColor		"Blank"		Linear 0.0 0.0
+	Animate	AmmoBG3	    FgColor		"Underline"		Linear 0.0 0.0
 	
 	
 }

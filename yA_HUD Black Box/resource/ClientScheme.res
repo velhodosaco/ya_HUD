@@ -31,7 +31,7 @@ Scheme
 
 		"Health"			"255 255 255 175"		//Normal health color
 		
-		"Buff"				"25 225 74 200" 		//Boosted health color
+		"Buff"				"25 225 74 214" 		//Boosted health color
 		
 		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
@@ -51,11 +51,16 @@ Scheme
 		"MvMBG"				"225 37 205 175"			//MvM panels purple color
 		
 		//Special Colors
-
+		
+		"LowT"				"184 54 54 214"				//Red animation for underline
+		"LowS"				"184 54 54 255"				//Flash color for underline
+		
+		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
+		"WhiteBGT"			"255 255 255 85"			//Background used for White Box Version
+		
 		"MenuBGColor"		"25 225 74 105"			//Color option for alt main menu
 		
-		"LowT"				"184 54 54 214"				//Used for white box version
-		"LowS"				"184 54 54 255"				//Low animations
+		"Underline"				"0 0 0 0"					//Blank base color for HP and ammo underline
 		
 		"HudBG"				"0 0 0 214"			//Black HUD background
 		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
@@ -63,6 +68,8 @@ Scheme
 
 		"HudBGC"			"25 225 74 255" 			//General color background
 		"HudBGCT"			"25 225 74 175"				//General color background transparent
+		
+		
 		
 		// Base HUD colors
 		//S -> solid, ST -> semi-transparent, T -> transparent

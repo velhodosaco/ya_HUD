@@ -50,7 +50,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"					//0 to remove black box
 		"enabled"		"1"
-		"fillcolor"		"White"
+		"fillcolor"		"WhiteBG"
 		"PaintBackgroundType""0"
 
 	}

@@ -16,7 +16,7 @@
 		"xpos"			"c113"
 		"ypos"			"r98"
 		"zpos"			"-1"
-		"wide"			"208"				//128
+		"wide"			"211"				//128
 		"tall"	 		"2"	
 		"fillcolor"		"255 255 255 175"
 		"visible"		"1"

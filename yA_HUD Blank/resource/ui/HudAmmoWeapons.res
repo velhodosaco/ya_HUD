@@ -68,23 +68,41 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
-	"YAHUDAmmoBackground"	
+	
+	"AmmoBG"
 		{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoBG"
-		"xpos"		"56"
-		"ypos"		"5"
-		"zpos"		"1"
-		"wide"		"114"
-		"tall"		"55"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"0"			//blackbox
+		"xpos"		"73"
+		"ypos"		"50"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HudBG"
-		"PaintBackgroundType""0"
-
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
 	}
+	"AmmoBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoBG2"
+		"xpos"		"113"
+		"ypos"		"50"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
+	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"

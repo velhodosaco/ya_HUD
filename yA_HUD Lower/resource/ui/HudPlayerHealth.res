@@ -127,7 +127,7 @@
 		"labelText"		"+"
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
-}
+	}
 
 	"YAHUDHealthBackground"	
 		{
@@ -146,6 +146,42 @@
 		"PaintBackgroundType""0"
 
 	}
+	
+	
+	"PlayerStatusHealthValueBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"77"
+		"ypos"			"176"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	"PlayerStatusHealthValueBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG2"
+		"xpos"			"117"
+		"ypos"			"176"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -204,12 +240,13 @@
 		"fgcolor"		"Health"
 	}
 	
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"0"
-		"ypos"			"1300"       //130
+		"ypos"			"1800"       //180
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -224,7 +261,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"0"
-		"ypos"			"1300"       //130
+		"ypos"			"1800"       //180
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -239,7 +276,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"0"
-		"ypos"			"1300"       //130
+		"ypos"			"1800"       //180
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -254,7 +291,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName" "PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"0"
-		"ypos"			"1300"       //130
+		"ypos"			"1800"       //180
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -269,7 +306,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"0"
-		"ypos"			"1300"       //130
+		"ypos"			"1800"       //180
 		"zpos"			"7"
 		"wide"			"22"
 		"tall"			"22"
@@ -279,6 +316,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"

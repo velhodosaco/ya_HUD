@@ -127,7 +127,7 @@
 		"labelText"		"+"
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
-}
+	}
 
 	"YAHUDHealthBackground"	
 		{
@@ -144,8 +144,42 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBG"
 		"PaintBackgroundType""0"
-
 	}
+	
+	"PlayerStatusHealthValueBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"96"
+		"ypos"			"126"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	"PlayerStatusHealthValueBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG2"
+		"xpos"			"136"
+		"ypos"			"126"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"

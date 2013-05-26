@@ -60,7 +60,7 @@
 				"depressedFgColor_override" "255 255 255 255"
 			
 				"image_drawcolor"	"0 0 0 0"
-				"image_armedcolor"	"255 255 255 255"
+				"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -341,7 +341,7 @@
 			"paintbackground"	"0"
 			
 			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor"	"25 225 74 255"
+			"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 			
 			"SubImage"
 			{
@@ -408,7 +408,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"206 192 115 255"
+			"image_armedcolor" "124 124 144 255" //	"206 192 115 255"
 
 			"SubImage"
 			{
@@ -513,7 +513,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -733,7 +733,7 @@
 			"paintbackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"206 192 115 255"
+			"image_armedcolor" "124 124 144 255" //	"206 192 115 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -780,7 +780,7 @@
 			"paintbackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"206 192 115 255"
+			"image_armedcolor" "124 124 144 255" //	"206 192 115 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -881,7 +881,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"206 192 115 255"
+			"image_armedcolor" "124 124 144 255" //	"206 192 115 255"
 			
 			"SubImage"
 			{
@@ -954,7 +954,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1113,7 +1113,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1174,7 +1174,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1235,7 +1235,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1302,7 +1302,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1370,7 +1370,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1438,7 +1438,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1505,7 +1505,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1740,7 +1740,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1806,7 +1806,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1867,7 +1867,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1934,7 +1934,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2001,7 +2001,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2063,7 +2063,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2126,7 +2126,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2188,7 +2188,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2250,7 +2250,7 @@
 			"depressedFgColor_override" "255 255 255 255"
 			
 			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"255 255 255 255"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2306,7 +2306,7 @@
 			"paintbackground"	"0"
 			
 			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor"	"25 225 74 255"
+			"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 			
 			"SubImage"
 			{
@@ -2363,7 +2363,7 @@
 			"paintbackground"	"0"
 			
 			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor"	"25 225 74 255"
+			"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 			
 			"SubImage"
 			{
@@ -2420,7 +2420,7 @@
 			"paintbackground"	"0"
 			
 			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor"	"25 225 74 255"
+			"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 			
 			"SubImage"
 			{
@@ -2502,7 +2502,7 @@
 		"paintbackground"	"0"
 
 		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor"	"25 225 74 255"
+		"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 
 		"SubImage"
 		{
@@ -2553,7 +2553,7 @@
 		"paintbackground"	"0"
 			
 		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor"	"25 225 74 255"
+		"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 
 		"SubImage"
 		{
@@ -2605,7 +2605,7 @@
 		"paintbackground"	"0"
 
 		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor"	"25 225 74 255"
+		"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 
 		"SubImage"
 		{
@@ -2657,7 +2657,7 @@
 		"paintbackground"	"0"
 
 		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor"	"25 225 74 255"
+		"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 
 		"SubImage"
 		{
@@ -2709,7 +2709,7 @@
 		"paintbackground"	"0"
 
 		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor"	"25 225 74 255"
+		"image_armedcolor" "124 124 144 255" //	"25 225 74 255"
 
 		"SubImage"
 		{
@@ -2766,7 +2766,7 @@
 		"depressedFgColor_override" "255 255 255 255"
 			
 		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor"	"255 255 255 255"
+		"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2823,7 +2823,7 @@
 		"depressedFgColor_override" "255 255 255 255"
 			
 		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor"	"255 255 255 255"
+		"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2987,7 +2987,7 @@
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor" "124 124 144 255" //	"235 226 202 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3035,7 +3035,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3155,7 +3155,7 @@
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor" "124 124 144 255" //	"235 226 202 255"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3203,7 +3203,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3315,7 +3315,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3427,7 +3427,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3539,7 +3539,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -3651,7 +3651,7 @@
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

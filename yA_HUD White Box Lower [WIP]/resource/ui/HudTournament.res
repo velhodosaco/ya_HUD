@@ -556,14 +556,14 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"238"
-		"ypos"			"r30"
+		"ypos"			"r33330"
 		"zpos"			"-1"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/color_panel_red"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -577,9 +577,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Garm3n10"
+		"font"			"Medium12Shadow"
 		"xpos"			"238"
-		"ypos"			"r30"
+		"ypos"			"70"
 		"wide"			"26"
 		"tall"			"25"
 		"zpos"			"1"

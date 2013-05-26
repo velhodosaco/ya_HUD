@@ -18,8 +18,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-204"				//c-206
-		"ypos"			"395"				//r151
+		"xpos"			"c-318"				//c-206
+		"ypos"			"290"				//r151
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"29"
@@ -27,24 +27,27 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"fgcolor"		"Damage"
-		"font"			"Medium23"		//change "Medium23" to "Medium23Outline" "Outline" to get an outline	
+		"font"			"Book22"		//change "Medium23" to "Medium23Outline" "Outline" to get an outline	
 	}
 	"DamageAccountValueShadow"
 	{
-		"ControlName"	 	"CExLabel"
-		"fieldname"	 		"DamageAccountValueShadow"
-		"xpos"	 			"c-203"
-		"ypos"	 			"396"
-		"wide"	 			"100"
-		"tall"	 			"29"
-		"visible"			"0"
-		"enabled"			"1"
-		"labelText"	 		"%metal%"
-		"delta_lifetime"	"10.0"
-		"textAlignment"	 	"west"
-		"fgcolor"	 		"HudShadow"
-		"font"	 			"Medium23"			
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValueShadow"
+		"xpos"			"c-317"				//c-206
+		"ypos"			"291"				//r151
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"29"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"delta_lifetime"		"10.0"
+		"textAlignment"	"east"
+		"fgcolor"		"HudShadow"
+		"font"			"Book22"		//change "Medium23" to "Medium23Outline" "Outline" to get an outline	
 	}
+	
+	
 }

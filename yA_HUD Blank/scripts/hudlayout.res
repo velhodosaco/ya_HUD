@@ -1,11 +1,44 @@
 "Resource/HudLayout.res"
 {
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//CLOSECAPTIONS
+	//
+	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	HudCloseCaption
+	{
+		"fieldName" "HudCloseCaption"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c212"
+		"ypos"		"245"	
+		"wide"		"500"
+		"tall"		"136"	
+
+		"BgAlpha"	"0"
+
+		"GrowTime"		"0.24"
+		"ItemHiddenTime"	"0.2" 
+		"ItemFadeInTime"	"0.17"	
+		"ItemFadeOutTime"	"0.24"
+		"topoffset"		"1"
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//CROSSHAIRS
+	//
+	//Some of these might need re-alignment for you resolution. Change the ypos/xpos values to adjust their positions.
+	//You can do finer steps with the wide tall values towards the bottom and right side.
+	//Use the in-game crosshair for guidance
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
 		
-		"visible"	"0"			//1
+		"visible"	"1"			//1
 		"enabled"	"1"
 
 		"xpos"		"c-17"
@@ -38,7 +71,9 @@
 		// flashing upon giving damage.
 
 	}
+
 	
+//Garm3n's Crosshairs
 	
 	"CrossHairNormal"
 	{
@@ -505,7 +540,7 @@
 		"xpos"		"c-120"
 		"ypos"		"324"
 		"wide"	 	"f0"			//60
-		"tall"	 	"33" // 34
+		"tall"	 	"37" // 34
 		"priority"	"40"
 	}
 	
@@ -526,8 +561,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	
-		"ypos"		"0"	
+		"xpos"		"-20"	
+		"ypos"		"87"	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -793,24 +828,6 @@
 
 	}
 
-	HudCloseCaption
-	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	
-		"wide"		"500"
-		"tall"		"136"	
-
-		"BgAlpha"	"128"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
-	}
 
 	HudHistoryResource 
 	{

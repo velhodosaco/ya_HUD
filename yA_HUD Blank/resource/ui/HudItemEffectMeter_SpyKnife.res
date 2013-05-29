@@ -38,13 +38,13 @@
 		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"118"
-		"tall"			"8"
+		"tall"			"9"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"			"#TF_Ball"
 		"fgcolor_override" "Metal"
 		"textAlignment"			"center"
-		"font"				"Book9"
+		"font"				"Regular9"
 	}
 
 	"ItemEffectMeter"

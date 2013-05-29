@@ -1160,7 +1160,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}	
 	
@@ -1178,7 +1178,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}		
 	
@@ -1196,7 +1196,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}			
 	
@@ -1213,7 +1213,7 @@
 		"enabled"		"1"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}				
 	
@@ -1231,7 +1231,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}					
 	
@@ -1249,7 +1249,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}						
 	
@@ -1267,7 +1267,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}							
 	
@@ -1285,7 +1285,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}						
 	
@@ -1303,7 +1303,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
-		"font"			"Book8"
+		"font"			"Regular8"
 		"fgcolor"		"White"
 	}								
 	

@@ -19,7 +19,7 @@
 		"textAlignment"	"North"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Book15"
+		"font"			"Regular14Shadow"
 		"fgcolor"		"White"
 	}
 	"ChargeLabel"
@@ -27,7 +27,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"c68"
-		"ypos"			"r150"	
+		"ypos"			"r149"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"56"	
@@ -40,7 +40,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48Shadow"
+		"font"			"Heavy48Shadow"
 		"fgcolor"		"White"
 	}
 	"ChargeLabelShadow"
@@ -61,7 +61,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"Heavy48"
 		"fgcolor"		"HudShadow"
 	}
 	"YAHUDChargeBackground"	
@@ -134,7 +134,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48Shadow"
+		"font"			"Heavy48Shadow"
 	}
 	"ChargeMeter1"
 	{	

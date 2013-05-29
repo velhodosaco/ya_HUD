@@ -92,7 +92,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Medium12"				//Medium12
 		"xpos"			"78"			//59
-		"ypos"			"2"		//
+		"ypos"			"6"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
@@ -111,9 +111,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Medium9"
+		"font"			"Medium9Shadow"
 		"xpos"			"78"			//59
-		"ypos"			"14"		//15
+		"ypos"			"24"		//15
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"17"
@@ -122,7 +122,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -132,7 +132,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"2"		//0
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"72"
 		"tall"			"35"

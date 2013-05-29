@@ -49,7 +49,7 @@
 		"fgcolor_override" "Metal"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"font"					"Book9"
+		"font"					"Regular9"
 	}
 	"ChargeMeter"
 	{	
@@ -116,7 +116,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book23"
+			"font"			"Regular21"
 			"fgcolor"		"White"
 		}		
 		"NumPipesLabelShadow"
@@ -138,7 +138,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book23"
+			"font"			"Regular21"
 			"fgcolor"		"HudShadow"
 		}		
 	}
@@ -189,7 +189,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book23"
+			"font"			"Regular21"
 			"fgcolor"		"White"
 		}		
 		"NumPipesLabelShadow"
@@ -211,7 +211,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book23"
+			"font"			"Regular21"
 			"fgcolor"		"HudShadow"
 		}	
 	}				

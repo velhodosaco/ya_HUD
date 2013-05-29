@@ -96,7 +96,7 @@ If you want to have a CLASS indicator on the bottom left
 
 	4. Navigate to scripts
 	5. Rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
-	6. Rename "BOTTOM_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
+	6. Rename "CLASSIMAGE_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
 
 -----------------------------------------------------------
 

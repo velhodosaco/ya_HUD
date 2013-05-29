@@ -90,6 +90,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		"White"
-		"font"				"Book21"
+		"font"				"Regular21"
 	}
 }

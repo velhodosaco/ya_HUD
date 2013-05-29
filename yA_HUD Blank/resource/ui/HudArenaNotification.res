@@ -20,7 +20,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"DemiBold58"
+		"font"			"Heavy58"
 		"xpos"			"40"
 		"ypos"			"50"
 		"zpos"			"1"
@@ -38,7 +38,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"Book16Shadow"
+		"font"			"Light19Shadow"
 		"xpos"			"100"
 		"ypos"			"30"
 		"zpos"			"1"
@@ -57,7 +57,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"Book16Shadow"
+		"font"			"Light16Shadow"
 		"xpos"			"160"
 		"ypos"			"54"
 		"zpos"			"1"

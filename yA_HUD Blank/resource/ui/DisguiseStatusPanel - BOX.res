@@ -16,7 +16,7 @@
 		"xpos"			"c113"
 		"ypos"			"r98"
 		"zpos"			"-1"
-		"wide"			"208"				//128
+		"wide"			"211"				//128
 		"tall"	 		"2"	
 		"fillcolor"		"255 255 255 175"
 		"visible"		"1"
@@ -30,7 +30,7 @@
 		"xpos"			"c113"
 		"ypos"			"r98"
 		"zpos"			"-4"
-		"wide"			"208"				//128
+		"wide"			"211"				//128
 		"tall"	 		"27"	
 		"fillcolor"		"0 0 0 214"
 		"visible"		"1"
@@ -41,9 +41,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Medium9Shadow"
+		"font"			"Regular9Shadow"
 		"xpos"			"c155"
-		"ypos"			"r99"
+		"ypos"			"r100"
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"24"
@@ -53,11 +53,12 @@
 		"labelText"		"%disguisename%"
 		"textAlignment"	"west"
 	}
+	
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Medium8Shadow"
+		"font"			"Medium9Shadow"
 		"xpos"			"c155"
 		"ypos"			"r92"
 		"zpos"			"1"
@@ -65,28 +66,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White"
+		"fgcolor"		"LightGray"
 		"labelText"		"%weaponname%"
 		"textAlignment"	"west"	
 	}
 	
-	"WeaponNameLabelShadow"
-	{	
-		"ControlName"	"CExLabel"
-		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"Medium8"
-		"xpos"			"c156"
-		"ypos"			"r90"
-		"zpos"			"1"
-		"wide"			"164"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"1"
-		"fgcolor"		"HudShadow"
-		"labelText"		"%weaponname%"
-		"textAlignment"	"west"
-	
-	}
 	
 	"SpectatorGUIHealth"
 	{

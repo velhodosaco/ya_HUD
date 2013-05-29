@@ -19,7 +19,7 @@
 		"textAlignment"	"North"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Book15"
+		"font"			"Regular14Shadow"
 		"fgcolor"		"White"
 	}
 	"Background"
@@ -56,7 +56,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"Heavy48"
 		"fgcolor"		"HudShadow"
 	}
 	
@@ -82,7 +82,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"c68"
-		"ypos"			"r150"	
+		"ypos"			"r149"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"56"	
@@ -95,7 +95,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"Heavy48"
 		"fgcolor"		"White"
 	}
 	"IndividualChargesLabel"
@@ -117,7 +117,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"Heavy48"
 	}
 
 	"ChargeMeter"
@@ -140,7 +140,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-"ChargeMeter1"
+	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"

@@ -272,10 +272,10 @@
 				"ControlName"	"CExLabel"
 				"fieldName"	"chargeamount"
 				"font"		"Medium10"
-				"xpos"			"2"
+				"xpos"			"1"
 				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"23"
+				"wide"			"25"
 				"tall"			"13"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
@@ -349,7 +349,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Book19Shadow"
+		"font"			"Light19Shadow"
 		"fgcolor_override" "Time"
 
 		if_mvm
@@ -373,7 +373,7 @@
 		"labelText"		"#TF_PVE_Buyback"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"font"			"ChatFont"
+		"font"			"Medium9Shadow"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	

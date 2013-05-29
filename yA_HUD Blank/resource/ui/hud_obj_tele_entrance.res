@@ -90,7 +90,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
+			"font"			"Regular9"
 			"xpos"			"54"
 			"ypos"			"0"
 			"wide"			"200"
@@ -148,7 +148,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"28 28 28 255"
 			"PaintBackgroundType"	"0"
 		}
 		"Icon_Upgrade_1"
@@ -268,7 +268,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"Regular9"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"

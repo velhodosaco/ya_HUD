@@ -95,9 +95,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Regular9"
+			"font"			"Regular7"
 			"xpos"			"45"
-			"ypos"			"0"
+			"ypos"			"1"
 			"wide"			"60"
 			"tall"			"20"
 			"autoResize"	"0"

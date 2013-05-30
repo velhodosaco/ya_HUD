@@ -1,21 +1,20 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
-	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	 "CExLabel"	
 		"fieldName"	 "PlayerStatusHealthValueShadow"	
 		"xpos"	 "59"	
-		"ypos"	 "77"	
+		"ypos"	 "79"	
 		"zpos"	 "4"	
 		"wide"	 "159"	
-		"tall"	 "56"	
+		"tall"	 "57"	
 		"visible"	 "1"	
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "center"	
-		"font"	 "DemiBold32"	
+		"font"	 "Heavy32"	
 		"fgcolor"	 "HudShadow"
 	}
 	"PlayerStatusHealthValue"
@@ -23,15 +22,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"58"		//38
-		"ypos"			"76"		//126
+		"ypos"			"78"		//126
 		"zpos"			"5"
 		"wide"			"159"
-		"tall"			"56"
+		"tall"			"57"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"			
-		"font"			"DemiBold32"		//48
+		"font"			"Heavy32"		//48
 		"fgcolor"		"Health"
 	}
 	"HudPlayerHealth"

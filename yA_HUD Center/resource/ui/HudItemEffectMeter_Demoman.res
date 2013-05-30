@@ -76,7 +76,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			"c-44"	
+		"xpos"			"c-8"	
 		"ypos"			"c153"
 		"zpos"					"2"
 		"wide"					"90"
@@ -86,10 +86,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"center"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		"White"
-		"font"				"Book20"
+		"font"				"Regular23"
 	}
 }

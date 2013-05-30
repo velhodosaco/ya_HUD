@@ -8,14 +8,14 @@
 		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"118"
-		"tall"			"8"
+		"tall"			"9"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"fgcolor_override" "Metal"
 		"labelText"				"BOW"
 		"textAlignment"			"center"
-		"font"					"Book9"
+		"font"					"Regular9"
 	}	
 	"ChargeMeter"
 	{	

@@ -40,7 +40,7 @@
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
-		"tall"					"15"
+		"tall"					"16"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"0"
@@ -90,6 +90,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"		"White"
-		"font"				"Book21"
+		"font"				"Regular21"
 	}
 }

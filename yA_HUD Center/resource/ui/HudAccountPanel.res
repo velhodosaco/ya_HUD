@@ -73,7 +73,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"xpos"			"10"
-		"ypos"			"0"
+		"ypos"			"-3"
 		"zpos"			"2"
 		"wide"			"99"
 		"tall"			"35"
@@ -87,14 +87,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-		"font"			"Book23"
+		"font"			"Regular20"
 	}
 	"AccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
 		"xpos"			"11"
-		"ypos"			"1"
+		"ypos"			"-2"
 		"zpos"			"2"
 		"wide"			"99"
 		"tall"			"35"
@@ -108,8 +108,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"HudShadow"
-		"font"			"Book23"
+		"font"			"Regular20"
 	}
-	
-	
 }

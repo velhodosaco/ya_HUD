@@ -2,7 +2,7 @@
 {
 	"YAHUD"
 	{
-		"label" "yA HUD"
+		"label" "yA_HUD"
 		"command" "engine showconsole; clear; echo kritz.me/yahud <> give feedback in the tf.tv thread: teamfortress.tv/forum/thread/8336-yahud <> or here github.com/whayay/yA_HUD"
 		"OnlyAtMenu" "1"
 	}
@@ -39,7 +39,7 @@
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
 	}
 	"SteamWorkshopButton"
@@ -49,18 +49,18 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "Training"
 		"command" "offlinepractice"
 		"OnlyAtMenu" "1"
 	} 
 	"DEMOUI"
 	{
-		"label" "DEMOUI"
+		"label" "DemoUI"
 		"command" "engine demoui"
 	}
 	"ToggleScoreboard"
 	{
-		"label" "SCOREBOARD"
+		"label" "Scoreboard"
 		"command" "engine toggle cl_hud_minmode"
 	}
 	"QuitButton"
@@ -80,12 +80,12 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Store"
 		"command" "engine open_store"
 	}
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 	}
 
@@ -99,7 +99,7 @@
 	}
 	"DisconnectButton"
 	{
-		"label" "#GameUI_GameMenu_Disconnect"
+		"label" "Disconnect"
 		"command" "engine disconnect"
 		"OnlyInGame"	"1"
 	}

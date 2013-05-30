@@ -20,11 +20,11 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold32Shadow"
+		"font"			"Heavy32Shadow"
 		"fgcolor"		"White"
 	}
-		"ChargeLabelShadow"
-		{
+	"ChargeLabelShadow"
+	{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ChargeLabelShadow"
 			"xpos"			"c49"
@@ -34,7 +34,7 @@
 			"tall"			"56"	
 			"autoResize"	"1"
 			"pinCorner"		"2"
-			"visible"		"0"
+			"visible"		"0"		//bugged with vacc
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_UberchargeMinHUD"
@@ -42,7 +42,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		
-			"font"			"DemiBold32"
+			"font"			"Heavy32"
 			"fgcolor"		"HudShadow"
 	}
 	"YAHUDChargeBackground"	
@@ -80,7 +80,7 @@
 		"textAlignment"	"North"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Book15"
+		"font"			"Regular14"
 		"fgcolor"		"White"
 	}
 	
@@ -122,10 +122,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"c48"
-		"ypos"			"r200"	
+		"ypos"			"r199"	
 		"zpos"			"5"
 		"wide"			"159"	
-		"tall"			"56"	
+		"tall"			"57"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -136,7 +136,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold32Shadow"
+		"font"			"Heavy32Shadow"
 	}
 	"IndividualChargesLabelShadow"
 	{
@@ -146,7 +146,7 @@
 		"ypos"			"r199"	
 		"zpos"			"3"
 		"wide"			"159"	
-		"tall"			"56"	
+		"tall"			"57"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -157,7 +157,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold32"
+		"font"			"Heavy32"
 	}
 	"ChargeMeter1"
 	{	

@@ -1,5 +1,76 @@
 "Resource/HudLayout.res"
 {
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  CUSTOMIZATION START   /////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//CLOSECAPTIONS
+	//
+	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	HudCloseCaption
+	{
+		"fieldName" "HudCloseCaption"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c92"
+		"ypos"		"237"	
+		"wide"		"500"
+		"tall"		"136"	
+
+		"BgAlpha"	"0"
+
+		"GrowTime"		"0.24"
+		"ItemHiddenTime"	"0.2" 
+		"ItemFadeInTime"	"0.17"	
+		"ItemFadeOutTime"	"0.24"
+		"topoffset"		"1"
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DEATHNOTICE
+	//
+	//This is the killfeed on the top right corner
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	HudDeathNotice
+	{
+		"fieldName" "HudDeathNotice"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "r640"	
+		"ypos"	 "10"	
+		"wide"	 "628"
+		"tall"	 "468"
+
+		"MaxDeathNotices" "12"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "-1"
+		"CornerRadius"	  "0"
+		"RightJustify"	  "1"	// If 1, draw notices from the right
+		
+		"TextFont"		"Medium9"
+		
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
+		"IconColor"		"White"
+		"LocalPlayerColor"	"Black"
+
+		"BaseBackgroundColor"	"0 0 0 214"		
+		"LocalBackgroundColor"	"255 255 255 189"	
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//CROSSHAIRS
+	//
+	//Some of these might need re-alignment for you resolution. Change the ypos/xpos values to adjust their positions.
+	//You can do finer steps with the wide tall values towards the bottom and right side.
+	//Use the in-game crosshair for guidance
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
@@ -271,6 +342,36 @@
 
 	/////SPECIAL CROSSHAIR END/////
 
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DAMAGE INDICATORS
+	//
+	//Red indicator when getting hit
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	HudDamageIndicator
+	{
+		"fieldName" "HudDamageIndicator" 	//Remove everything besides 
+		"visible" "1" 						//
+		"enabled" "1" 						//	"	HudDamageIndicator
+		"MinimumWidth" "10" 				//		{
+		"MaximumWidth" "10" 				//		{	"
+		"StartRadius" "80" 					//
+		"EndRadius" "80" 					//To get the default back
+		"MinimumHeight" "30" 				//
+		"MaximumHeight" "60" 				//
+		"MinimumTime" "1"					//
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//
+	//  CUSTOMIZATION END   ///////////////////////////////////////////////////////////////////////////////
+	//
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -363,7 +464,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r133"
+		"ypos"			"r103"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"10"
@@ -490,9 +591,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"267"			//270
+		"ypos"		"260"			//270
 		"wide"	 	"f0"			//60
-		"tall"	 	"39"
+		"tall"	 	"37"
 		"priority"	"40"
 	}
 	
@@ -502,9 +603,9 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"324"
+		"ypos"		"358"
 		"wide"	 	"f0"			//60
-		"tall"	 	"33" // 34
+		"tall"	 	"37" // 34
 		"priority"	"40"
 	}
 	
@@ -514,9 +615,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"318"			//294
+		"ypos"		"325"			//294
 		"wide"	 	"f0"			//60
-		"tall"	 	"39"
+		"tall"	 	"37"
 		"priority"	"35"
 	}
 	
@@ -627,21 +728,6 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	
-	HudDamageIndicator
-	{
-		"fieldName" "HudDamageIndicator" 
-		"visible" "1" 
-		"enabled" "1" 
-		"MinimumWidth" "10" 
-		"MaximumWidth" "10" 
-		"StartRadius" "80" 
-		"EndRadius" "80" 
-		"MinimumHeight" "30" 
-		"MaximumHeight" "60" 
-		"MinimumTime" "1"
-	}
-
 	HudCommentary
 	{
 		"fieldName" "HudCommentary"
@@ -693,35 +779,6 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	
-		"ypos"	 "10"	
-		"wide"	 "628"
-		"tall"	 "468"
-
-		"MaxDeathNotices" "12"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "14"
-		"LineSpacing"	  "-1"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
-
-		"BaseBackgroundColor"	"0 0 0 214"		
-		"LocalBackgroundColor"	"255 255 255 189"	
-	}
-
 
 	HudVehicle
 	{
@@ -792,24 +849,6 @@
 
 	}
 
-	HudCloseCaption
-	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	
-		"wide"		"500"
-		"tall"		"136"	
-
-		"BgAlpha"	"128"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
-	}
 
 	HudHistoryResource 
 	{
@@ -1441,7 +1480,7 @@
 		"tall"	 "480"
 	}
 	
-ItemQuickSwitchPanel
+	ItemQuickSwitchPanel
 	{
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"1"

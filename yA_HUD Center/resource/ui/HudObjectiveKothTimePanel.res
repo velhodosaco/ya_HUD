@@ -16,13 +16,13 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Book16"
+			"font"			"Regular16"
 			"fgcolor"		"White"
 			"xpos"			"32"	//3
-			"ypos"			"-4"
+			"ypos"			"-3"
 			"zpos"			"3"
 			"wide"			"88"	//88
-			"tall"			"19"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
@@ -46,13 +46,13 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Book16"
+			"font"			"Regular16"
 			"fgcolor"		"White"
 			"xpos"			"32"
-			"ypos"			"-4"
+			"ypos"			"-3"
 			"zpos"			"3"
 			"wide"			"88"
-			"tall"			"19"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"

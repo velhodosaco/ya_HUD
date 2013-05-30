@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StickBG"
-		"xpos"		"51"
+		"xpos"		"32"
 		"ypos"		"19"
 		"zpos"		"0"
 		"wide"		"54"
@@ -39,7 +39,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"			"0"
-		"ypos"			"51"		//32
+		"ypos"			"32"		//32
 		"zpos"			"3"
 		"wide"			"118"
 		"tall"			"8"
@@ -49,7 +49,7 @@
 		"fgcolor_override" "Metal"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"font"					"Book9"
+		"font"					"Regular9"
 	}
 	"ChargeMeter"
 	{	
@@ -57,7 +57,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"51"
+		"ypos"			"32"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"9"				
@@ -75,7 +75,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"12"	//0
+		"ypos"			"0"	
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -102,7 +102,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"40"
-			"ypos"			"-12"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"38"
 			"tall"			"39"
@@ -116,15 +116,15 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book20"
+			"font"			"Regular20"
 			"fgcolor"		"White"
 		}		
 		"NumPipesLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelShadow"
-			"xpos"			"41"
-			"ypos"			"-11"
+			"xpos"			"40"
+			"ypos"			"1"
 			"zpos"			"1"
 			"wide"			"38"
 			"tall"			"39"
@@ -138,7 +138,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book20"
+			"font"			"Regular20"
 			"fgcolor"		"HudShadow"
 		}		
 	}
@@ -148,7 +148,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
 		"xpos"			"0"
-		"ypos"			"13"	//0
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -175,10 +175,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"40"
-			"ypos"			"-12"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"38"
-			"tall"			"35"
+			"tall"			"39"
 			"tall_lodef"	"28"
 			"autoResize"	"1"
 			"pinCorner"		"2"
@@ -189,15 +189,15 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book20"
+			"font"			"Regular20"
 			"fgcolor"		"White"
-		}	
+		}		
 		"NumPipesLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelShadow"
-			"xpos"			"41"
-			"ypos"			"-13"
+			"xpos"			"40"
+			"ypos"			"1"
 			"zpos"			"1"
 			"wide"			"38"
 			"tall"			"39"
@@ -211,8 +211,8 @@
 			"textAlignment"	"center"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Book20"
+			"font"			"Regular20"
 			"fgcolor"		"HudShadow"
-		}		
+		}	
 	}				
 }

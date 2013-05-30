@@ -95,7 +95,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"Regular9"
 			"xpos"			"45"
 			"ypos"			"0"
 			"wide"			"60"
@@ -212,7 +212,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"28 28 28 255"
 			"PaintBackgroundType"	"0"
 		}
 		"Health"
@@ -245,7 +245,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"Regular9"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -353,7 +353,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DefaultSmall"
+				"font"			"Regular9"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"200"

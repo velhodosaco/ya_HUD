@@ -88,7 +88,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Book16"
+			"font"			"Regular16"
 			"fgcolor"		"10 12 14 255"
 			"xpos"			"c53"
 			"ypos"			"-2"
@@ -105,7 +105,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"Book16"
+		"font"			"Regular16"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"fgcolor"		"10 12 14 255"
@@ -123,7 +123,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"Book16"
+		"font"			"Regular16"
 		"labelText"		"cap"
 		"textAlignment"		"west"
 		"fgcolor"		"10 12 14 255"

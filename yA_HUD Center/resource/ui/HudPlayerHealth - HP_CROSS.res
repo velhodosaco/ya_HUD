@@ -1,21 +1,20 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
-	
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	 "CExLabel"	
 		"fieldName"	 "PlayerStatusHealthValueShadow"	
 		"xpos"	 "59"	
-		"ypos"	 "77"	
+		"ypos"	 "79"	
 		"zpos"	 "4"	
 		"wide"	 "159"	
-		"tall"	 "56"	
+		"tall"	 "57"	
 		"visible"	 "1"	
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "center"	
-		"font"	 "DemiBold32"	
+		"font"	 "Heavy32"	
 		"fgcolor"	 "HudShadow"
 	}
 	"PlayerStatusHealthValue"
@@ -23,15 +22,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"58"		//38
-		"ypos"			"76"		//126
+		"ypos"			"78"		//126
 		"zpos"			"5"
 		"wide"			"159"
-		"tall"			"56"
+		"tall"			"57"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"			
-		"font"			"DemiBold32"		//48
+		"font"			"Heavy32"		//48
 		"fgcolor"		"Health"
 	}
 	"HudPlayerHealth"
@@ -144,46 +143,12 @@
 		"labelText"		"+"
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
-}
-
-	"YAHUDHealthBackground"	
-		{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthBG"
-		"xpos"		"60"
-		"ypos"		"131"
-		"zpos"		"1"
-		"wide"		"114"
-		"tall"		"55"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"HudBG"
-		"PaintBackgroundType""0"
-	}	
-	"YAHUDCrossBackground"	
-		{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CrossBG"
-		"xpos"		"0"
-		"ypos"		"131"
-		"zpos"		"1"
-		"wide"		"60"
-		"tall"		"55"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"HudBG"
-		"PaintBackgroundType""0"
 	}
-	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"67"
+		"xpos"			"17"
 		"ypos"			"93"
 		"zpos"			"4"
 		"wide"			"28"	
@@ -196,7 +161,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"66"
+		"xpos"			"16"
 		"ypos"			"92"
 		"zpos"			"3"
 		"wide"			"30"	
@@ -210,7 +175,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"66"	
+		"xpos"			"17"	
 		"ypos"			"92" 	
 		"zpos"			"2"
 		"wide"			"30"	

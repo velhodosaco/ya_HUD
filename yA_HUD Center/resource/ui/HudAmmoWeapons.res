@@ -4,13 +4,13 @@
 	{	
 	"ControlName"	"CExLabel"	
 	"fieldName"	 "AmmoInClipShadow"	
-	"font"	 "DemiBold32"	
+	"font"	 "Heavy32"	
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "22"	
-	"ypos"	 "1"	
+	"ypos"	 "2"	
 	"zpos"	 "4"	
 	"wide"	"100" 
-	"tall"	"56" 
+	"tall"	"57" 
 	"visible"	 "0"	
 	"enabled"	 "1"	
 	"textAlignment"	 "center"	
@@ -21,10 +21,10 @@
 	{	
 	"ControlName"	 "CExLabel"	
 	"fieldName"	 "AmmoInReserveShadow"	
-	"font"	 "Book22"	
+	"font"	 "Regular20"	
 	"fgcolor"	 "HudShadow"	
 	"xpos"	 "59"	
-	"ypos"	 "6"	
+	"ypos"	 "7"	
 	"zpos"	 "4"	
 	"wide"	 "120"	
 	"tall"	 "42"	
@@ -38,13 +38,13 @@
 	{	
 	"ControlName"	 "CExLabel"	
 	"fieldName"	 "AmmoNoClipShadow"	
-	"font"	 "DemiBold32"	
+	"font"	 "Heavy32"	
 	"fgcolor"	 "HudShadow"	
 	"xpos"	"44"					
-	"ypos"	"1"
+	"ypos"	"2"
 	"zpos"			"4"
 	"wide"	"100" 
-	"tall"	"56" 
+	"tall"	"57" 
 	"visible"	 "0"	
 	"enabled"	 "1"	
 	"textAlignment"	 "center"	
@@ -127,13 +127,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"DemiBold32"		//48
+		"font"			"Heavy32"		//48
 		"fgcolor"		"Ammo"
 		"xpos"	"21"						//41
-		"ypos"	"0"							
+		"ypos"	"1"							
 		"zpos"			"7"
 		"wide"	"100" 
-		"tall"	"56" 
+		"tall"	"57" 
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"				//east
@@ -145,10 +145,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"Book22"			//32
+		"font"			"Regular20"			//32
 		"fgcolor"		"AmmoReserve"
 		"xpos"			"58"				//78
-		"ypos"			"5"					//9
+		"ypos"			"6"					//9
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"42"
@@ -162,13 +162,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"DemiBold32"
+		"font"			"Heavy32"
 		"fgcolor"		"Ammo"
 		"xpos"	"43"					//67
-		"ypos"	"0"
+		"ypos"	"1"
 		"zpos"			"5"
 		"wide"	"100" 
-		"tall"	"56" 
+		"tall"	"57" 
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"

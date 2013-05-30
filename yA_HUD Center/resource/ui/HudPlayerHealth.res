@@ -6,16 +6,32 @@
 		"ControlName"	 "CExLabel"	
 		"fieldName"	 "PlayerStatusHealthValueShadow"	
 		"xpos"	 "59"	
-		"ypos"	 "77"	
+		"ypos"	 "79"	
 		"zpos"	 "4"	
 		"wide"	 "159"	
-		"tall"	 "56"	
+		"tall"	 "57"	
 		"visible"	 "1"	
 		"enabled"	 "1"	
 		"labelText"	 "%Health%"	
 		"textAlignment"	 "center"	
-		"font"	 "DemiBold32"	
+		"font"	 "Heavy32"	
 		"fgcolor"	 "HudShadow"
+	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"58"		//38
+		"ypos"			"78"		//126
+		"zpos"			"5"
+		"wide"			"159"
+		"tall"			"57"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"			
+		"font"			"Heavy32"		//48
+		"fgcolor"		"Health"
 	}
 	"HudPlayerHealth"
 	{
@@ -128,33 +144,16 @@
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
 	}
-
-	"YAHUDHealthBackground"	
-		{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthBG"
-		"xpos"		"60"
-		"ypos"		"131"
-		"zpos"		"1"
-		"wide"		"114"
-		"tall"		"55"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"0"			//Black Background
-		"enabled"		"1"
-		"fillcolor"		"HudBG"
-		"PaintBackgroundType""0"
-	}
 	
 	"PlayerStatusHealthValueBG"
 		{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"96"
-		"ypos"			"126"
+		"xpos"			"112"
+		"ypos"			"120"
 		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"5"
+		"wide"			"54"
+		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"9"
@@ -166,12 +165,12 @@
 		{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG2"
-		"xpos"			"136"
-		"ypos"			"126"
+		"xpos"			"135"
+		"ypos"			"120"
 		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"5"
-		"visible"		"1"
+		"wide"			"35"
+		"tall"			"4"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"9"
 		"textAlignment"	"west"			//east
@@ -220,22 +219,6 @@
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
-	}
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"58"		//38
-		"ypos"			"76"		//126
-		"zpos"			"5"
-		"wide"			"159"
-		"tall"			"56"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"			
-		"font"			"DemiBold32"		//48
-		"fgcolor"		"Health"
 	}
 	"PlayerStatusBleedImage"
 	{

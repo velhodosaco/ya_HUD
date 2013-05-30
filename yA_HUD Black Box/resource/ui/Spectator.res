@@ -300,7 +300,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"Regular8"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

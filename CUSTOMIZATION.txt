@@ -1,26 +1,6 @@
 Custom Options yA_HUD 
 
-List of custom options, imgur album here with some examples here: http://imgur.com/a/0o11h
-
-	- adding HP cross, pulsing background or underline
-	- changing colors
-	- alternative medic charge meter
-	- small charge % under crosshair
-	- various scoreboards (http://imgur.com/a/x3vTd)
-
-	- class image at the bottom of the screen
-	- flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
-	- add spacing to killfeed
-	- move the spectator HUD to the bottom
-	- disable warning flashes
-	- TargetIDs without boxes (looking at health and name of other players)
-
-	- custom HUD crosshairs
-	- HP cross on targetID (when you look at someone etc)
-	- Chat position
-	- Use a colored team menu in the style of the scoreboard/winpanel
-	- Use a colored Main Menu
-	- Use a movie-making HUD version (only deathnotice+dmg numbers)
+List of custom options at the end, here's an imgur album with some examples: http://imgur.com/a/0o11h
 
 -----------------------------------------------------------
 
@@ -126,7 +106,7 @@ If you want to disable flashing HP or Ammo
 
 -----------------------------------------------------------
 
-If you want TargetIDs without boxes (when you look at somebody etc)
+If you want TargetIDs without boxes (when you look at someone)
 
 	Use the " - NOBOX" alt file for "TargetID.res" in /resource/ui
 
@@ -220,3 +200,28 @@ Change visible from 0 to 1.
 	(If the crosshairs isn’t centralized then you sometimes have to change “wide” and “tall” too, not just “xpos” and “ypos”)
 
 	(Some xHairs are combinations, you need to activate more than one)
+
+-----------------------------------------------------------	
+
+List of options
+	
+	- adding HP cross, pulsing background or underline
+	- changing colors
+	- alternative medic charge meter
+	- small charge % under crosshair
+	- various scoreboards (http://imgur.com/a/x3vTd)
+
+	- class image at the bottom of the screen
+	- flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
+	- add spacing to killfeed
+	- custom closed captions
+	- move the spectator HUD to the bottom
+	- disable warning flashes for ammo/hp
+	- TargetIDs without boxes (looking at health and name of other players)
+	- HP cross on TargetID
+
+	- custom HUD crosshairs
+	- Chat position
+	- colored team menu in the style of the scoreboard/winpanel
+	- colored Main Menu
+	- movie-making HUD version (only deathnotice+dmg numbers)

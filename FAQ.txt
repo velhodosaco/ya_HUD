@@ -1,5 +1,7 @@
 FAQ
 
+----
+
 Q:	How do you enable the spectator HUD?
 A:	Tick "Use adv. spectator HUD" in the advanced options menu.
 
@@ -24,10 +26,18 @@ Q:	Is the version I have up to date?
 A:	If you just downloaded, yes. GitHub will sync all the changes I make. 
 	You can track the commit history to see what happened since you downloaded the HUD. (https://github.com/whayay/yA_HUD/commits/master)
 	
-Q:	Why is everything in ALLCAPS?
-A:	The font I'm using has no lower case option. I might add another font to get lower case letters on vaious elements at some point.
+Q:	I used one of the custom options but now everything is weird!
+A:	Make sure that you renamed/removed the original file before replacing it with the alternative file.
+	Look for any odd character in the replacement files (watch out for spaces or "-" being left over).
+	Please double-check the instructions before contacting me.
 
+Q:	How can I import HUD crosshairs?
+A:	Check out Ray's guide: https://dl.dropboxusercontent.com/u/19762650/importingxhairstf2.jpg
 
+Q:	I changed some colors in the clientscheme and nothing has changed!
+A:	You need to restart the game for any changes to take effect. 
+	Make sure that you didn't accidentally delete quotation marks.
+	
 ----------------------------------------------------------------
 
 Some useful links:

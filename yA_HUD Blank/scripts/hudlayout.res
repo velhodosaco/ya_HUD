@@ -1,6 +1,10 @@
 "Resource/HudLayout.res"
 {
 	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  CUSTOMIZATION START   /////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
 	//CLOSECAPTIONS
 	//
 	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
@@ -26,6 +30,40 @@
 		"ItemFadeInTime"	"0.17"	
 		"ItemFadeOutTime"	"0.24"
 		"topoffset"		"1"
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DEATHNOTICE
+	//
+	//This is the killfeed on the top right corner
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	HudDeathNotice
+	{
+		"fieldName" "HudDeathNotice"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "r640"	
+		"ypos"	 "10"	
+		"wide"	 "628"
+		"tall"	 "468"
+
+		"MaxDeathNotices" "12"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "-1"
+		"CornerRadius"	  "0"
+		"RightJustify"	  "1"	// If 1, draw notices from the right
+		
+		"TextFont"		"Medium9"
+		
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
+		"IconColor"		"White"
+		"LocalPlayerColor"	"Black"
+
+		"BaseBackgroundColor"	"0 0 0 214"		
+		"LocalBackgroundColor"	"255 255 255 189"	
 	}
 
 	///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -310,6 +348,48 @@
 
 	/////SPECIAL CROSSHAIR END/////
 
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DAMAGE INDICATORS
+	//
+	//Red indicator when getting hit
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	HudDamageIndicator
+	{
+		"fieldName" "HudDamageIndicator" 	//Remove everything besides 
+		"visible" "1" 						//
+		"enabled" "1" 						//	"	HudDamageIndicator
+		"MinimumWidth" "10" 				//		{
+		"MaximumWidth" "10" 				//		{	"
+		"StartRadius" "80" 					//
+		"EndRadius" "80" 					//To get the default back
+		"MinimumHeight" "30" 				//
+		"MaximumHeight" "60" 				//
+		"MinimumTime" "1"					//
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  CUSTOMIZATION END   ///////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Be careful with changing things underneath this line
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -666,21 +746,6 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	
-	HudDamageIndicator
-	{
-		"fieldName" "HudDamageIndicator" 
-		"visible" "1" 
-		"enabled" "1" 
-		"MinimumWidth" "10" 
-		"MaximumWidth" "10" 
-		"StartRadius" "80" 
-		"EndRadius" "80" 
-		"MinimumHeight" "30" 
-		"MaximumHeight" "60" 
-		"MinimumTime" "1"
-	}
-
 	HudCommentary
 	{
 		"fieldName" "HudCommentary"
@@ -732,35 +797,6 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	
-		"ypos"	 "10"	
-		"wide"	 "628"
-		"tall"	 "468"
-
-		"MaxDeathNotices" "12"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "14"
-		"LineSpacing"	  "-1"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
-
-		"BaseBackgroundColor"	"0 0 0 214"		
-		"LocalBackgroundColor"	"255 255 255 189"	
-	}
-
 
 	HudVehicle
 	{

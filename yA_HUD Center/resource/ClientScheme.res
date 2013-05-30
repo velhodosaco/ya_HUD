@@ -38,7 +38,7 @@ Scheme
 		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
 		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 
-		"UberLabel"			"25 225 74 255" 		//Uber ready color %		//25 225 74 255 to make green
+		"UberLabel"			"25 225 74 255" 		//Uber ready color %
 		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
 
 		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
@@ -3761,6 +3761,7 @@ Scheme
 				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Italic"
@@ -3771,6 +3772,7 @@ Scheme
 				"tall"		"22"
 				"antialias"	"1"
 				"italic"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Bold"
@@ -3780,6 +3782,7 @@ Scheme
 				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -3790,6 +3793,7 @@ Scheme
 				"tall"		"22"
 				"antialias"	"1"
 				"italic"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Small"
@@ -3799,6 +3803,7 @@ Scheme
 				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		// this is the symbol font

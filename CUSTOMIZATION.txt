@@ -32,6 +32,8 @@ BASIC EXPLANATION
 	Make sure that there are no spaces left!
 
 	These alternative files are located in resource/ui unless stated otherwise.
+	
+	Example: "BaseChat.res" to "BaseChatOLD.res and then "BaseChat - MIDDLE.res" to "BaseChat.res"
 
 -----------------------------------------------------------
 

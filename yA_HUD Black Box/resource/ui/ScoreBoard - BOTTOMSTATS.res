@@ -232,11 +232,11 @@
 		"textAlignment"	"center"
 		"xpos"			"c-99"
 		"xpos_minmode"		"c-99"
-		"ypos"			"r370"
-		"ypos_minmode"		"r200"
+		"ypos"			"r369"
+		"ypos_minmode"		"r199"
 		"zpos"			"5"
-		"wide"			"98"
-		"tall"			"35"
+		"wide"			"99"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -371,11 +371,11 @@
 		"textAlignment"	"center"
 		"xpos"			"c1"
 		"xpos_minmode"		"c1"
-		"ypos"			"r370"
-		"ypos_minmode"		"r200"
+		"ypos"			"r369"
+		"ypos_minmode"		"r199"
 		"zpos"			"5"
-		"wide"			"98"
-		"tall"			"35"
+		"wide"			"99"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -486,7 +486,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Book19Shadow"
+		"font"			"Light19Shadow"
 		"font_minmode"		"Medium9Shadow"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
@@ -507,7 +507,7 @@
 
 		if_mvm
 		{
-			"font"			"Book19"
+			"font"			"Regular19"
 			"fgcolor"			"Time"
 			"xpos"			"c-295"
 			"ypos"			"r384"
@@ -746,7 +746,6 @@
 			"visible"		"0"
 		}
 	}
-
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -993,7 +992,7 @@
 			"xpos"			"c-146"
 			"xpos_minmode"		"c-3"		//c-53
 			"ypos"			"r178"
-			"ypos_minmode"		"r175"
+			"ypos_minmode"		"r172"
 			"zpos"			"3"
 			"wide"			"140"
 			"tall"			"50"
@@ -1042,7 +1041,7 @@
 			"xpos"			"c6"
 			"xpos_minmode"		"c146"
 			"ypos"			"r178"
-			"ypos_minmode"		"r175"
+			"ypos_minmode"		"r172"
 			"zpos"			"3"
 			"wide"			"140"
 			"tall"			"50"
@@ -1772,7 +1771,7 @@
 			"xpos"			"c-14"
 			"xpos_minmode"		"c129"		//79
 			"ypos"			"r168"
-			"ypos_minmode"		"r170"
+			"ypos_minmode"		"r166"
 			"wide"			"28"
 			"wide_minmode"		"27"
 			"tall"			"25"
@@ -1784,7 +1783,7 @@
 
 			if_mvm
 			{
-				"font"		"DemiBold26"
+				"font"		"Heavy26"
 				"xpos"		"c-195"
 				"ypos"		"r172"
 				"wide"		"26"

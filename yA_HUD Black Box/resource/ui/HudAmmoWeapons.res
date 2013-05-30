@@ -23,10 +23,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoBG"
 		"xpos"		"56"
-		"ypos"		"5"
+		"ypos"		"9"
 		"zpos"		"1"
 		"wide"		"114"
-		"tall"		"55"
+		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
@@ -57,12 +57,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"DemiBold48"
+		"font"			"Heavy44"
 		"fgcolor"		"Ammo"
-		"xpos"	"51"						//1
-		"ypos"	"0"						//0		
+		"xpos"	"59"						//1
+		"ypos"	"3"						//0		
 		"zpos"			"7"
-		"wide"	"71" 
+		"wide"	"57" 
 		"tall"	"56" 
 		"visible"		"0"
 		"enabled"		"1"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"DemiBold48"
+		"font"			"Heavy44"
 		"fgcolor"		"Blank"
 		"xpos"	"43"						//3
 		"ypos"	"2"
@@ -90,13 +90,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"Book30"
+		"font"			"Regular24"
 		"fgcolor"		"AmmoReserve"
-		"xpos"	"78"							//104
-		"ypos"			"3"					//9
+		"xpos"	"79"							//104
+		"ypos"			"4"					//9
 		"zpos"			"5"
 		"wide"			"120"
-		"tall"			"42"
+		"tall"			"41"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"	"Book32"
+		"font"		"Regular24"
 		"fgcolor"		"Blank"
 		"xpos"	"80"
 		"ypos"			"4"
@@ -122,10 +122,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"DemiBold48"
+		"font"			"Heavy44"
 		"fgcolor"		"Ammo"
 		"xpos"	"63"					//67
-		"ypos"	"0"
+		"ypos"	"3"
 		"zpos"			"5"
 		"wide"	"100" 
 		"tall"	"56" 
@@ -139,7 +139,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"DemiBold48"
+		"font"			"Heavy44"
 		"fgcolor"		"Blank"
 		"xpos"	"65"
 		"ypos"	"2"

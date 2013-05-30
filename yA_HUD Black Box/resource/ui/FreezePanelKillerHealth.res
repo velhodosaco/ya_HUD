@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
-		"font"			"DemiBold23"
+		"font"			"Heavy23"
 		"fgcolor"		"White"
 	}								
 }

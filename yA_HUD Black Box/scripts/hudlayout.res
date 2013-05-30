@@ -1,11 +1,85 @@
 "Resource/HudLayout.res"
 {
-		"fogCrosshair"
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  CUSTOMIZATION START   /////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//CLOSECAPTIONS
+	//
+	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
+	//
+	//To enable paste the captio files from /Custom/ into your resource folder.
+	//Type "closecaptions 1" in console if they aren't showing.
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	HudCloseCaption
+	{
+		"fieldName" "HudCloseCaption"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c212"
+		"ypos"		"254"	
+		"wide"		"500"
+		"tall"		"136"	
+
+		"BgAlpha"	"0"
+
+		"GrowTime"		"0.24"
+		"ItemHiddenTime"	"0.2" 
+		"ItemFadeInTime"	"0.17"	
+		"ItemFadeOutTime"	"0.24"
+		"topoffset"		"1"
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DEATHNOTICE
+	//
+	//This is the killfeed on the top right corner
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	HudDeathNotice
+	{
+		"fieldName" "HudDeathNotice"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	 "r640"	
+		"ypos"	 "10"	
+		"wide"	 "628"
+		"tall"	 "468"
+
+		"MaxDeathNotices" "12"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "14"
+		"LineSpacing"	  "-1"
+		"CornerRadius"	  "0"
+		"RightJustify"	  "1"	// If 1, draw notices from the right
+		
+		"TextFont"		"Medium9"
+		
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
+		"IconColor"		"White"
+		"LocalPlayerColor"	"Black"
+
+		"BaseBackgroundColor"	"0 0 0 214"		
+		"LocalBackgroundColor"	"255 255 255 189"	
+	}
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//CROSSHAIRS
+	//
+	//Some of these might need re-alignment for you resolution. Change the ypos/xpos values to adjust their positions.
+	//You can do finer steps with the wide tall values towards the bottom and right side.
+	//Use the in-game crosshair for guidance
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"
 		
-		"visible"	"0"			//1
+		"visible"	"1"			//1
 		"enabled"	"1"
 
 		"xpos"		"c-17"
@@ -38,7 +112,9 @@
 		// flashing upon giving damage.
 
 	}
+
 	
+//Garm3n's Crosshairs
 	
 	"CrossHairNormal"
 	{
@@ -91,7 +167,7 @@
 		"textAlignment"	"center"	
 	}
 
-	"CrossHairCircleSmaller"
+		"CrossHairCircleSmaller"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairCircleSmaller"
@@ -272,6 +348,48 @@
 
 	/////SPECIAL CROSSHAIR END/////
 
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//DAMAGE INDICATORS
+	//
+	//Red indicator when getting hit
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	HudDamageIndicator
+	{
+		"fieldName" "HudDamageIndicator" 	//Remove everything besides 
+		"visible" "1" 						//
+		"enabled" "1" 						//	"	HudDamageIndicator
+		"MinimumWidth" "10" 				//		{
+		"MaximumWidth" "10" 				//		{	"
+		"StartRadius" "80" 					//
+		"EndRadius" "80" 					//To get the default back
+		"MinimumHeight" "30" 				//
+		"MaximumHeight" "60" 				//
+		"MinimumTime" "1"					//
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	//  CUSTOMIZATION END   ///////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Be careful with changing things underneath this line
+	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -353,7 +471,7 @@
 		"ypos"			"r113"	//r133
 		"zpos"			"2"
 		"wide"			"118"
-		"tall"			"10"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -478,8 +596,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-411"				//-22	
-		"ypos"		"8"				//0
+		"xpos"		"-414"				//-411	
+		"ypos"		"2"				//0
 		"zpos"		"-1"	
 		"wide"		"f0"
 		"tall"		"480"
@@ -505,7 +623,7 @@
 		"xpos"		"c-120"
 		"ypos"		"324"
 		"wide"	 	"f0"			//60
-		"tall"	 	"33" // 34
+		"tall"	 	"37" // 34
 		"priority"	"40"
 	}
 	
@@ -526,8 +644,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	
-		"ypos"		"0"	
+		"xpos"		"-20"	
+		"ypos"		"87"	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -628,21 +746,6 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	
-	HudDamageIndicator
-	{
-		"fieldName" "HudDamageIndicator" 
-		"visible" "1" 
-		"enabled" "1" 
-		"MinimumWidth" "10" 
-		"MaximumWidth" "10" 
-		"StartRadius" "80" 
-		"EndRadius" "80" 
-		"MinimumHeight" "30" 
-		"MaximumHeight" "60" 
-		"MinimumTime" "1"
-	}
-
 	HudCommentary
 	{
 		"fieldName" "HudCommentary"
@@ -693,34 +796,6 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-	}
-
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"	
-		"ypos"	 "10"	
-		"wide"	 "628"
-		"tall"	 "468"
-
-		"MaxDeathNotices" "12"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "14"
-		"LineSpacing"	  "-1"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
-		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
-
-		"BaseBackgroundColor"	"0 0 0 214"		
-		"LocalBackgroundColor"	"255 255 255 189"	
 	}
 
 	HudVehicle
@@ -792,24 +867,6 @@
 
 	}
 
-	HudCloseCaption
-	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	
-		"wide"		"500"
-		"tall"		"136"	
-
-		"BgAlpha"	"128"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
-	}
 
 	HudHistoryResource 
 	{
@@ -1208,7 +1265,7 @@
 		"xpos"			"c-59"	
 		"ypos"			"r164"	
 		"wide"			"118"
-		"tall"			"60"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal

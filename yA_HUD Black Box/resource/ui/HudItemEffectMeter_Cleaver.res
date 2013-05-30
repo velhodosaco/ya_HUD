@@ -44,7 +44,7 @@
 		"labelText"			"#TF_Ball"
 		"fgcolor_override" "Metal"
 		"textAlignment"			"center"
-		"font"				"Book9"
+		"font"				"Regular9"
 	}
 
 	"ItemEffectMeter"

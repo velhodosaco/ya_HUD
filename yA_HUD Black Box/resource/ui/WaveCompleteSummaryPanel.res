@@ -36,7 +36,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"Book19Shadow"
+			"font"			"Regular19Shadow"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"3"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"Book19Shadow"
+			"font"			"Regular19Shadow"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"

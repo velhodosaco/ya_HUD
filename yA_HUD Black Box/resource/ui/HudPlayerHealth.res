@@ -1,6 +1,22 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	 "CExLabel"	
+		"fieldName"	 "PlayerStatusHealthValueShadow"	
+		"xpos"	 "39"	
+		"ypos"	 "130"	
+		"zpos"	 "4"	
+		"wide"	 "159"	
+		"tall"	 "56"	
+		"visible"	 "0"	
+		"enabled"	 "0"	
+		"labelText"	 "%Health%"	
+		"textAlignment"	 "center"	
+		"font"	 "Heavy48"	
+		"fgcolor"	 "HudShadow"
+	}
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,25 +127,60 @@
 		"labelText"		"+"
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
-}
+	}
 
-	"HealthBackground"	
-		{
+	"YAHUDHealthBackground"	
+	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBG"
 		"xpos"		"60"
-		"ypos"		"131"
+		"ypos"		"135"
 		"zpos"		"1"
 		"wide"		"114"
-		"tall"		"55"
+		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBG"
 		"PaintBackgroundType""0"
-
 	}
+	
+	
+	"PlayerStatusHealthValueBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"77"
+		"ypos"			"176"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	"PlayerStatusHealthValueBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG2"
+		"xpos"			"117"
+		"ypos"			"176"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -176,7 +227,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"38"
-		"ypos"			"126"	
+		"ypos"			"129"	
 		"zpos"			"5"
 		"wide"			"159"
 		"tall"			"56"
@@ -184,10 +235,12 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"			//east
-		"font"			"DemiBold48"
+		"font"			"Heavy44"
 		"fgcolor"		"Health"
 	}
-		"PlayerStatusBleedImage"
+	
+	
+	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
@@ -262,6 +315,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"

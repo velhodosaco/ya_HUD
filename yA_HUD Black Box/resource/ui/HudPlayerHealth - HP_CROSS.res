@@ -1,6 +1,22 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	 "CExLabel"	
+		"fieldName"	 "PlayerStatusHealthValueShadow"	
+		"xpos"	 "39"	
+		"ypos"	 "130"	
+		"zpos"	 "4"	
+		"wide"	 "159"	
+		"tall"	 "56"	
+		"visible"	 "1"	
+		"enabled"	 "1"	
+		"labelText"	 "%Health%"	
+		"textAlignment"	 "center"	
+		"font"	 "Heavy48"	
+		"fgcolor"	 "HudShadow"
+	}
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -111,17 +127,17 @@
 		"labelText"		"+"
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
-}
+	}
 
 	"YAHUDHealthBackground"	
 		{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBG"
 		"xpos"		"60"
-		"ypos"		"131"
+		"ypos"		"135"
 		"zpos"		"1"
 		"wide"		"114"
-		"tall"		"55"
+		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
@@ -134,15 +150,47 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CrossBG"
 		"xpos"		"0"
-		"ypos"		"131"
+		"ypos"		"135"
 		"zpos"		"1"
 		"wide"		"60"
-		"tall"		"55"
+		"tall"		"45"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"HudBG"
+		"PaintBackgroundType""0"
+	}
+	"YAHUDCrossBackground2"	
+		{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CrossBG2"
+		"xpos"		"30"
+		"ypos"		"135"
+		"zpos"		"4"
+		"wide"		"16"
+		"tall"		"45"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"4 4 4 255"
+		"PaintBackgroundType""0"
+	}
+	"YAHUDCrossBackground3"	
+		{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CrossBG3"
+		"xpos"		"15"
+		"ypos"		"149"
+		"zpos"		"4"
+		"wide"		"46"
+		"tall"		"17"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"4 4 4 255"
 		"PaintBackgroundType""0"
 	}
 	
@@ -151,10 +199,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"17"
-		"ypos"			"138"
-		"zpos"			"4"
+		"ypos"			"137"
+		"zpos"			"5"
 		"wide"			"42"	
-		"tall"			"42"
+		"tall"			"41"
 		"visible"		"1" 
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -164,7 +212,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"15"
-		"ypos"			"136"
+		"ypos"			"11134"
 		"zpos"			"3"
 		"wide"			"46"	
 		"tall"			"46"
@@ -177,11 +225,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"19"	
-		"ypos"			"140" 	
+		"xpos"			"16"	
+		"ypos"			"136" 	
 		"zpos"			"2"
-		"wide"			"38"	
-		"tall"			"38"	
+		"wide"			"44"	
+		"tall"			"43"	
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -192,7 +240,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"38"
-		"ypos"			"126"	
+		"ypos"			"129"	
 		"zpos"			"5"
 		"wide"			"159"
 		"tall"			"56"
@@ -200,11 +248,11 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"			//east
-		"font"			"DemiBold48"
+		"font"			"Heavy48"
 		"fgcolor"		"Health"
 	}
 	
-	"PlayerStatusBleedImage"
+		"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
@@ -279,6 +327,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
+	
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"

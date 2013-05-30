@@ -1,43 +1,6 @@
 "Resource/UI/HudMedicCharge.res"
 {	
-	"ChargeLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabel"
-		"xpos"			"c68"
-		"ypos"			"r150"	
-		"zpos"			"2"
-		"wide"			"159"	
-		"tall"			"56"	
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"DemiBold48"
-		"fgcolor"		"White"
-	}
-	"YAHUDChargeBackground"	
-		{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ChargeBG"
-		"xpos"		"c91"			
-		"ypos"		"r145"
-		"zpos"		"1"
-		"wide"		"114"		
-		"tall"		"55"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"1"				//0 to remove black box
-		"enabled"		"1"
-		"fillcolor"		"HudBG"
-		"PaintBackgroundType""0"
 
-	}
 	"ChargeLabelTiny"
 	{
 		"ControlName"	"CExLabel"
@@ -56,8 +19,67 @@
 		"textAlignment"	"North"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Book15"
+		"font"			"Regular14Shadow"
 		"fgcolor"		"White"
+	}
+	"ChargeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabel"
+		"xpos"			"c68"
+		"ypos"			"r148"	
+		"zpos"			"2"
+		"wide"			"159"	
+		"tall"			"56"	
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Heavy44"
+		"fgcolor"		"White"
+	}
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"xpos"			"c69"
+		"ypos"			"r149"	
+		"zpos"			"2"
+		"wide"			"159"	
+		"tall"			"56"	
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"		//bugged with vaccinator
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Heavy44"
+		"fgcolor"		"HudShadow"
+	}
+	"YAHUDChargeBackground"	
+		{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ChargeBG"
+		"xpos"		"c91"			//c98
+		"ypos"		"r141"
+		"zpos"		"1"
+		"wide"		"114"		//100
+		"tall"		"45"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"				//0 to remove black box
+		"enabled"		"1"
+		"fillcolor"		"HudBG"
+		"PaintBackgroundType""0"
+
 	}
 	
 	"ChargeMeter"
@@ -66,10 +88,10 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"r6"		
+		"ypos"			"r6"		//r8
 		"zpos"			"12"
 		"wide"			"f0"
-		"tall"			"7"			
+		"tall"			"7"			//9	
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -112,7 +134,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DemiBold48"
+		"font"			"Heavy44"
 	}
 	"ChargeMeter1"
 	{	

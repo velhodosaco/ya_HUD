@@ -198,7 +198,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Medium13"
+		"font"			"Regular16"
 		"labelText"		"%blueteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"west"
@@ -230,11 +230,11 @@
 		"textAlignment"	"center"
 		"xpos"			"c-99"
 		"xpos_minmode"		"c-99"
-		"ypos"			"r370"
-		"ypos_minmode"		"r370"
+		"ypos"			"r369"
+		"ypos_minmode"		"r369"
 		"zpos"			"5"
-		"wide"			"98"
-		"tall"			"35"
+		"wide"			"99"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -336,7 +336,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Medium13"
+		"font"			"Regular16"
 		"labelText"		"%redteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"east"
@@ -368,11 +368,11 @@
 		"textAlignment"	"center"
 		"xpos"			"c1"
 		"xpos_minmode"		"c1"
-		"ypos"			"r370"
-		"ypos_minmode"		"r370"
+		"ypos"			"r369"
+		"ypos_minmode"		"r369"
 		"zpos"			"5"
-		"wide"			"98"
-		"tall"			"35"
+		"wide"			"99"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -482,8 +482,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Book19Shadow"
-		"font_minmode"		"Medium9Shadow"
+		"font"			"Light19Shadow"
+		"font_minmode"		"Light19Shadow"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
 		"fgcolor"			"Time"
@@ -503,7 +503,7 @@
 
 		if_mvm
 		{
-			"font"			"Book19"
+			"font"			"Regular19"
 			"fgcolor"			"Time"
 			"xpos"			"c-295"
 			"ypos"			"r384"
@@ -939,7 +939,7 @@
 		"xpos"			"0"
 		"xpos_minmode"			"-198"
 		"ypos"			"56"
-		"ypos_minmode"		"-34"
+		"ypos_minmode"		"96"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"480"
@@ -1778,7 +1778,7 @@
 
 			if_mvm
 			{
-				"font"		"DemiBold26"
+				"font"		"Heavy26"
 				"xpos"		"c-195"
 				"ypos"		"r172"
 				"wide"		"26"

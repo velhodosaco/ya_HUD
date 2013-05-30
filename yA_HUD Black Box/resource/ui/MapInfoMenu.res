@@ -58,7 +58,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"Medium8"
+		"font"			"Regular9"
 		"xpos"			"c-147"
 		"ypos"			"r281"
 		"zpos"			"3"

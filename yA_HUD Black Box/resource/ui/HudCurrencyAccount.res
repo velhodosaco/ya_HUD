@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"Book12"
+		"font"			"Regular12"
 		"fgcolor"		"WhiteS"
 		"xpos"			"184"		//16
-		"ypos"			"91"
+		"ypos"			"92"
 		"zpos"			"3"
 		"wide"			"62"
 		"tall"			"16"

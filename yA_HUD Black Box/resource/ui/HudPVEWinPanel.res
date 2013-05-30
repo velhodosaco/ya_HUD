@@ -31,7 +31,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"Book19"
+			"font"			"Ligh19Shadow"
 			"fgcolor"		"blank"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -56,7 +56,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"Book19Shadow"
+			"font"			"Regular19Shadow"
 			"xpos"			"4"
 			"ypos"			"0"
 			"wide"			"294"
@@ -75,7 +75,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"Book16Shadow"
+		"font"			"Light16Shadow"
 		"xpos"			"1"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -96,12 +96,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Book16Shadow"
+		"font"			"Light16Shadow"
 		"xpos"			"37"
 		"ypos"			"100"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"30"
+		"tall"			"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

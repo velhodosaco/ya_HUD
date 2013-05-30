@@ -30,10 +30,10 @@
 		"xpos"			"c113"
 		"ypos"			"r98"
 		"zpos"			"-4"
-		"wide"			"211"				//128
+		"wide"			"208"				//128
 		"tall"	 		"27"	
 		"fillcolor"		"0 0 0 214"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 

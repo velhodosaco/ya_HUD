@@ -32,10 +32,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"                "0"				//3
-		"ypos"                "31"				//7
+		"ypos"                "27"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
-		"tall"                "4"			//24
+		"tall"                "2"			//24
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -54,10 +54,10 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"                "0"				//3
-		"ypos"                "31"				//7
+		"ypos"                "27"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
-		"tall"                "4"			//24
+		"tall"                "2"			//24
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -82,7 +82,7 @@
 		"wide"	          		"640"	//
     "tall"                "18"			//24
     "visible"             "0"
-    "enabled"             "1"
+    "enabled"             "0"
     "fillcolor"           "HudBG"
   }
 	
@@ -92,7 +92,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"Medium12"				//Medium12
 		"xpos"			"49"			//59
-		"ypos"			"4"		//
+		"ypos"			"6"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
@@ -113,7 +113,7 @@
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"Medium12"				//Medium12
 		"xpos"			"50"			//59
-		"ypos"			"5"		//
+		"ypos"			"7"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
 		"tall"			"24"
@@ -128,36 +128,36 @@
 		"brighttext"		"0"
 
 	}
-	
 	"TargetDataLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Medium9Shadow"
 		"xpos"			"49"			//59
-		"ypos"			"17"		//15
+		"ypos"			"24"		//15
 		"zpos"			"2"
 		"wide"			"180"
-		"tall"			"17"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"fgcolor"		"Gray"
+		"fgcolor"		"White"
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"7"		//0
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"38"
-		"tall"			"35"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
@@ -246,13 +246,13 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"Medium10"
-			"fgcolor"		"Gray"
-			"TextColor"		"Gray"
+			"fgcolor"		"White"
+			"TextColor"		"White"
 			"xpos"			"1"
-			"ypos"			"12"
+			"ypos"			"13"
 			"zpos"			"1"
 			"wide"			"640"
-			"tall"			"24"
+			"tall"			"26"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -264,3 +264,4 @@
 		}	
 	}
 }
+

@@ -5,9 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c113"
+		"xpos"			"c185"
 		"ypos"			"r50"	
-		"wide"			"130"
+		"wide"			"f0"
 		"tall"			"60"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -17,12 +17,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"1"
-		"ypos"			"1"
+		"xpos"			"0"
+		"ypos"			"24"	//1
 		"zpos"			"-2"
 		"wide"			"62"
 		"tall"			"16"
-		"fillcolor"		"0 175 255 175"
+		"fillcolor"		"White"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -87,8 +87,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"1"
-		"ypos"					"1"
+		"xpos"					"0"
+		"ypos"					"24"
 		"zpos"					"2"
 		"wide"					"62"
 		"tall"					"14"	
@@ -100,7 +100,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"		"White"
-		"font"					"Book12"
+		"fgcolor"		"Black"
+		"font"					"Regular12"
 	}
 }

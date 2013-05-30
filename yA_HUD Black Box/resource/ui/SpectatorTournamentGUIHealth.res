@@ -73,7 +73,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueTour"
-		"xpos"			"135"		//115
+		"xpos"			"134"		//115
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"27"

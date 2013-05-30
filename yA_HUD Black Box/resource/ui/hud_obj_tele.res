@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"Regular9"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -212,7 +212,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"Regular9"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -270,7 +270,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RechargeLabel"
-					"font"			"DefaultVerySmall"
+					"font"			"Regular9"
 					"xpos"			"0"
 					"ypos"			"1"
 					"wide"			"200"
@@ -318,7 +318,7 @@
 				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"DefaultVerySmall"
+					"font"			"Regular9"
 					"xpos"			"0"
 					"ypos"			"-6"
 					"wide"			"200"
@@ -338,7 +338,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
-				"font"			"DefaultVerySmall"
+				"font"			"Regular9"
 				"xpos"			"0"
 				"ypos"			"14"
 				"wide"			"200"

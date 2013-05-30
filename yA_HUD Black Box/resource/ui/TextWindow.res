@@ -64,7 +64,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Medium8"
+		"font"			"Regular9"
 		"xpos"			"c-147"
 		"ypos"			"r295"
 		"zpos"			"3"

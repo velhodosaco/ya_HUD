@@ -38,7 +38,7 @@ Scheme
 		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
 		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 
-		"UberLabel"			"25 225 74 255" 		//Uber ready color %		//25 225 74 255 to make green
+		"UberLabel"			"25 225 74 255" 		//Uber ready color %
 		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
 
 		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
@@ -57,6 +57,8 @@ Scheme
 		
 		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
 		"WhiteBGT"			"255 255 255 85"			//Background used for White Box Version
+		
+		"HudBGT"			"0 0 0 100"
 		
 		"MenuBGColor"		"25 225 74 105"			//Color option for alt main menu
 		
@@ -87,6 +89,7 @@ Scheme
 		"RedTeamS" 				"184 56 59 255"				//
 		"BlueTeamS"				"88 133 162 255"			//Team fill colors solid
 		
+		"LightGray"				"212 212 212 255"
 		"Metal"					"137 159 179 255"
 		"Gray"					"165 165 165 255"		
 		"Pink"					"225 37 205 175"			//MvM panel
@@ -120,8 +123,8 @@ Scheme
 		"HUDBlueTeamSolid"	"104 124 155 255"
 		"HUDRedTeamSolid"	"180 92 77 255"
 		"HUDDeathWarning"	"255 0 0 255"
-		"HudWhite"			"199 197 189 255"
-		"HudOffWhite"		"200 187 161 255"
+		"HudWhite"			"225 225 225 255"
+		"HudOffWhite"		"225 225 225 255"
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
@@ -134,8 +137,8 @@ Scheme
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
 
-		"HudPanelForeground"		"123 110 59 184"
-		"HudPanelBackground"		"123 110 59 184"
+		"HudPanelForeground"		"110 110 110 184"
+		"HudPanelBackground"		"110 110 110 184"
 		"HudPanelBorder"			"255 255 255 102"
 
 		"HudProgressBarActive"		"240 207 78 255"
@@ -148,22 +151,22 @@ Scheme
 		"HudTimerProgressWarning"	"240 30 30 255"
 
 		// training
-		"HudTrainingHint"			"212 160 23 255"
+		"HudTrainingHint"			"212 212 212 255"
 		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDark"				"110 110 110 255"
+		"TanLight"				"221 221 221 255"
+		"TanDarker"				"42 42 42 255"
 		
-		"StoreDarkTan"			"131 121 104 255"
+		"StoreDarkTan"			"121 121 121 255"
 		"StoreGreen"			"76 107 34 255"
 		
 		// Building HUD Specific
-		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
+		"LowHealthRed"		"200 47 47 255"
+		"ProgressOffWhite"	"225 225 225 255"
 		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		"HealthBgGrey"		"42 42 42 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"242 242 242 128"
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
@@ -179,7 +182,7 @@ Scheme
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		
-		"HTMLBackground"						"95 92 101 255"
+		"HTMLBackground"						"100 100 100 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
 		"ItemAttribNeutral"						"235 226 202 255"
@@ -232,12 +235,12 @@ Scheme
 	
 		"Garm3nCharge"			"42 79 134 255"			//Demoman charge animation		
 			
-		"Garm3nMenuBG"			"0 0 0 214"				//125 makes menus more transparent
-		"Garm3nLabelsBG"		"0 0 0 214"				//125
+		//"Garm3nMenuBG"			"0 0 0 214"				//125 makes menus more transparent
+		//"Garm3nLabelsBG"		"0 0 0 214"				//125
 		"Garm3nxHair"			"255 255 0 255"
 
-		"Low"				"200 47 47 255"			//Low health and ammo warning color
-		"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		//"Low"				"200 47 47 255"			//Low health and ammo warning color
+		//"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 		
 	}
 
@@ -525,13 +528,13 @@ Scheme
 				"antialias" "0"
 			}
 		}
-		
+	
 		
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -542,7 +545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -550,7 +553,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -560,7 +563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -568,7 +571,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -576,7 +579,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"11"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -584,7 +587,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -592,7 +595,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -600,7 +603,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -612,7 +615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -620,7 +623,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -628,7 +631,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -636,7 +639,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -644,7 +647,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -655,7 +658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -663,7 +666,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
@@ -671,7 +674,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -679,7 +682,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -687,7 +690,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -695,14 +698,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
 			}
 			"7"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -713,8 +716,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"	"Novecentowide-Medium" [!$OSX]
-				"name"	"Novecentowide-Medium" [$OSX]
+				"name"	"Helvetica Neue Medium" [!$OSX]
+				"name"	"Helvetica Neue Medium" [$OSX]
 				"tall"	"18"
 				"antialias" "1"
 				"additive"	"1"
@@ -725,8 +728,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 				"antialias" 	"1"
@@ -737,14 +740,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias" 	"1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"yres"	"600 767"
@@ -752,142 +755,142 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"yres"	"768 1023"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"yres"	"1024 1199"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"yres"	"1200 10000"
 				"antialias" 	"1"
 			}
 		}
 
-		"DemiBold59"
+		"Heavy59"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"59"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold58"
+		"Heavy58"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"58"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold57"
+		"Heavy57"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"57"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold56"
+		"Heavy56"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold54"
+		"Heavy54"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"54"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold52"
+		"Heavy52"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold51"
+		"Heavy51"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"51"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold50"
+		"Heavy50"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"50"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold49"
+		"Heavy49"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"49"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold48"
+		"Heavy48"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold48Shadow"
+		"Heavy48Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -895,121 +898,121 @@ Scheme
 			}
 		}
 		
-		"DemiBold47"
+		"Heavy47"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"47"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold46"
+		"Heavy46"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"46"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold45"
+		"Heavy45"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"45"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold44"
+		"Heavy44"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"44"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold42"
+		"Heavy42"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"42"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold40"
+		"Heavy40"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"40"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold38"
+		"Heavy38"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"38"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold36"
+		"Heavy36"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"36"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold34"
+		"Heavy34"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"34"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold32"
+		"Heavy32"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold32Shadow"
+		"Heavy32Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1017,77 +1020,77 @@ Scheme
 			}
 		}
 		
-		"DemiBold30"
+		"Heavy30"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold28"
+		"Heavy28"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold26"
+		"Heavy26"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold24"
+		"Heavy24"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold23"
+		"Heavy23"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold22"
+		"Heavy22"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"22"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold22Outline"
+		"Heavy22Outline"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"22"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1095,154 +1098,636 @@ Scheme
 			}
 		}
 		
-		"DemiBold21"
+		"Heavy21"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold20"
+		"Heavy20"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"20"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold19"
+		"Heavy19"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"19"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold18"
+		"Heavy18"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"18"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold16"
+		"Heavy16"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold14"
+		"Heavy14"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold12"
+		"Heavy12"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold11"
+		"Heavy11"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold10"
+		"Heavy10"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold9"
+		"Heavy9"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold8"
+		"Heavy8"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold7"
+		"Heavy7"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"DemiBold6"
+		"Heavy6"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-DemiBold"
+				"name"		"HelveticaNeue Heavy"
 				"tall"		"6"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
+		
+		
+		
+		"Bold59"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"59"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold58"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"58"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold57"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"57"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold56"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"56"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold54"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"54"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold52"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"52"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold51"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"51"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold50"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"50"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold49"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"49"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold48"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"48"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold48Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"48"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"Bold47"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"47"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold46"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"46"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold45"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"45"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold44"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"44"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold42"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"42"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold40"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"40"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold38"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"38"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold36"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"36"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold34"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"34"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold32"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"32"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold32Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"32"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"Bold30"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"30"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold28"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"28"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold26"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"26"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold24"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"24"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold23"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"23"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold22"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"22"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold22Outline"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"22"
+				"additive"		"0"
+				"antialias"	"1"
+				"outline" "1"
+			}
+		}
+		
+		"Bold21"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"21"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold20"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"20"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold19"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"19"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold18"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"18"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold16"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold14"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold13"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Bold12"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold11"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"11"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold10"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold9"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"9"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold8"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"8"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold7"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"7"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Bold6"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Bold"
+				"tall"		"6"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		
+		
 		"Medium68"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"68"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1253,7 +1738,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"66"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1264,7 +1749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"64"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1275,7 +1760,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"62"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1286,7 +1771,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"60"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1297,7 +1782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"58"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1308,7 +1793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1319,7 +1804,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"54"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1330,7 +1815,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1341,7 +1826,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"50"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1352,7 +1837,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1363,7 +1848,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"46"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1374,7 +1859,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"45"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1385,7 +1870,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"44"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1396,7 +1881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"42"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1407,7 +1892,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"41"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1418,7 +1903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"40"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1429,7 +1914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"39"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1440,7 +1925,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"38"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1451,7 +1936,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"37"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1462,7 +1947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"36"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1473,7 +1958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"35"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1484,7 +1969,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"34"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1495,7 +1980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"33"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1506,7 +1991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1517,7 +2002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"31"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1528,7 +2013,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1539,7 +2024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"29"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1550,7 +2035,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1561,7 +2046,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"27"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1572,7 +2057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1583,7 +2068,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1595,7 +2080,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"25"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1606,7 +2091,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1617,7 +2102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1628,7 +2113,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1640,7 +2125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1652,7 +2137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1663,7 +2148,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1673,7 +2158,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1684,7 +2169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1696,7 +2181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1707,7 +2192,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1718,7 +2203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"17"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1729,7 +2214,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1740,7 +2225,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1752,7 +2237,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1763,7 +2248,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1775,7 +2260,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1786,7 +2271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1797,7 +2282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1809,7 +2294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1820,7 +2305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1832,7 +2317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1842,7 +2327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1854,7 +2339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1865,7 +2350,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1876,31 +2361,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
-				"additive"		"0"
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-		}
-
-		"Medium8"
-		{
-			"1"
-			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
-				"additive"		"0"
-				"antialias"	"1"
-			}
-		}
-
-		"Medium8Shadow"
-		{
-			"1"
-			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -1911,7 +2373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1922,293 +2384,293 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"6"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book68"
+		"Regular68"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"68"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book66"
+		"Regular66"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"66"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book64"
+		"Regular64"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"64"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book62"
+		"Regular62"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"62"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book60"
+		"Regular60"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"60"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book58"
+		"Regular58"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"58"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book56"
+		"Regular56"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book54"
+		"Regular54"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"54"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book52"
+		"Regular52"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book50"
+		"Regular50"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"50"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book48"
+		"Regular48"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book46"
+		"Regular46"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"46"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book44"
+		"Regular44"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"44"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book42"
+		"Regular42"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"42"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book40"
+		"Regular40"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"40"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book38"
+		"Regular38"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"38"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book36"
+		"Regular36"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"36"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book34"
+		"Regular34"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"34"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book32"
+		"Regular32"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book30"
+		"Regular30"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book28"
+		"Regular28"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book26"
+		"Regular26"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book25"
+		"Regular25"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"25"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book24"
+		"Regular24"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book23"
+		"Regular23"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book23Shadow"
+		"Regular23Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2216,33 +2678,33 @@ Scheme
 			}
 		}
 
-		"Book22"
+		"Regular22"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"22"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book21"
+		"Regular21"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book21Outline"
+		"Regular21Outline"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"0"
@@ -2250,33 +2712,33 @@ Scheme
 			}
 		}
 
-		"Book20"
+		"Regular20"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"20"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book19"
+		"Regular19"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"19"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 		
-		"Book19Shadow"
+		"Regular19Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"19"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2284,33 +2746,33 @@ Scheme
 			}
 		}
 
-		"Book18"
+		"Regular18"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"18"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book16"
+		"Regular16"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 		
-		"Book16Shadow"
+		"Regular16Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2318,33 +2780,33 @@ Scheme
 			}
 		}
 
-		"Book15"
+		"Regular15"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book14"
+		"Regular14"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book14Shadow"
+		"Regular14Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2352,33 +2814,33 @@ Scheme
 			}
 		}
 		
-		"Book13"
+		"Regular13"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book12"
+		"Regular12"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book12Shadow"
+		"Regular12Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2386,22 +2848,22 @@ Scheme
 			}
 		}
 		
-		"Book11"
+		"Regular11"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book11Shadow"
+		"Regular11Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2409,22 +2871,22 @@ Scheme
 			}
 		}
 		
-		"Book10"
+		"Regular10"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book10Shadow"
+		"Regular10Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2432,50 +2894,199 @@ Scheme
 			}
 		}
 		
-		"Book9"
+		"Regular9"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
-
-		"Book8"
+		"Regular9Shadow"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
+				"tall"		"9"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+
+		"Regular8"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue"
 				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book7"
+		"Regular7"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
-		"Book6"
+		"Regular6"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Book"
+				"name"		"Helvetica Neue"
 				"tall"		"6"
 				"additive"		"0"
 				"antialias"	"1"
 			}
 		}
 
+		
+		"Light28"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"28"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light26"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"26"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}		
+		"Light24"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"24"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}		
+		"Light22"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"22"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light20"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"20"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light19"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"19"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light19Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"19"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Light18"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"18"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light17"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"17"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light16"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light16Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Light15"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"15"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Light14"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue Light"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		
+		
 		"CircleBG"
 		{
 			"1"
@@ -2652,35 +3263,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"44"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"48"
 				"additive"	"0"
 				"antialias" "1"
@@ -2690,7 +3301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -2701,7 +3312,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -2712,7 +3323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -2722,7 +3333,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -2732,7 +3343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -2742,7 +3353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -2752,7 +3363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -2762,7 +3373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -2772,7 +3383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -2782,7 +3393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -2792,7 +3403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -2802,7 +3413,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2812,7 +3423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -2822,7 +3433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -2832,7 +3443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -2843,7 +3454,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2853,7 +3464,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -2864,7 +3475,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -2874,8 +3485,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2884,7 +3495,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -2894,7 +3505,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -2904,7 +3515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -2914,7 +3525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -2924,8 +3535,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2934,7 +3545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -2944,7 +3555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -2986,7 +3597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -2996,7 +3607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3006,8 +3617,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3016,8 +3627,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3026,8 +3637,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3036,8 +3647,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3046,33 +3657,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"	
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias" 	"1"
 			}
@@ -3081,14 +3692,14 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"outline"	"1"
 				"antialias" 	"1"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"outline"	"1"
 				"antialias" 	"1"
@@ -3121,7 +3732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"60"
 				"antialias" "1"
 				"additive"	"0"
@@ -3139,7 +3750,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Novecentowide-Medium"
+				"name"  "Helvetica Neue Medium"
 				"tall"  "28"
 				"additive" "1"
 				"antialias" "1"
@@ -3149,47 +3760,52 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias"	"1"
 				"italic"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias"	"1"
 				"italic"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"antialias"	"1"
+				"dropshadow"	"1"
 			}
 		}
 		// this is the symbol font
@@ -3208,7 +3824,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3217,7 +3833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -3227,7 +3843,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3237,7 +3853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3248,7 +3864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
@@ -3258,7 +3874,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"36"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -3268,7 +3884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -3278,7 +3894,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14" [!$OSX]
 				"tall"		"15" [$OSX]
 				"tall_lodef"	"32"
@@ -3291,8 +3907,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3301,7 +3917,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3311,7 +3927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -3321,7 +3937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3331,7 +3947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -3341,7 +3957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -3352,31 +3968,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"44"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"72"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"80"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"100"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"180"
 				"antialias" "1"
 			}
@@ -3386,7 +4002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3396,8 +4012,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3407,7 +4023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3418,35 +4034,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
@@ -3457,7 +4073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -3467,7 +4083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"antialias"		"1"
 			}
@@ -3477,8 +4093,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias"		"1"
 			}
@@ -3488,7 +4104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias"		"1"
 			}
@@ -3497,7 +4113,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -3507,7 +4123,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -3518,8 +4134,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"1"
 				"antialias" 	"1"
 			}
@@ -3528,7 +4144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3539,7 +4155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"9"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"additive"	"0"
@@ -3551,7 +4167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"32"
 				"tall_lodef"		"28"
 				"antialias" "1"
@@ -3561,7 +4177,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -3570,7 +4186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"26"
 				"antialias" "1"
 			}
@@ -3579,7 +4195,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3588,7 +4204,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -3597,7 +4213,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -3606,7 +4222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -3615,7 +4231,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3624,7 +4240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -3633,7 +4249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -3643,7 +4259,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -3653,7 +4269,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3663,7 +4279,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3673,7 +4289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -3683,19 +4299,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -3705,8 +4321,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3715,7 +4331,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3725,7 +4341,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3735,8 +4351,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -3745,8 +4361,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
-				"tall"		"8"
+				"name"		"Helvetica Neue Medium"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -3755,7 +4371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3766,7 +4382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3776,7 +4392,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"blur"		"3"
 				"additive"	"1"
@@ -3788,7 +4404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -3803,31 +4419,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -3836,7 +4452,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3846,37 +4462,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3885,7 +4501,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3895,7 +4511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -3905,7 +4521,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3915,7 +4531,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3925,7 +4541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3939,7 +4555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -3949,7 +4565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3959,7 +4575,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Novecentowide-Medium"
+				"name"		"Helvetica Neue Medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -5457,43 +6073,58 @@ Scheme
 		}
 		"7" 
 		{
-			"font" "resource/symbol.ttf"
+			"font" "resource/fonts/symbol.ttf"
 			"name" "symbol"
 		}
 		"8" 
 		{
-			"font" "resource/FORMASGE.ttf"
+			"font" "resource/fonts/FORMASGE.ttf"
 			"name" "FORMASGE"
 		}
 		"9" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
 		"10" 
 		{
-			"font" "resource/Novecentowide-DemiBold.otf"
-			"name" "Novecentowide-DemiBold"
+			"font" "resource/fonts/HelveticaNeue Heavy.ttf"
+			"name" "HelveticaNeue Heavy"
 		}
 		"11" 
 		{
-			"font" "resource/Novecentowide-Medium.otf"
-			"name" "Novecentowide-Medium"
+			"font" "resource/fonts/Helvetica Neue Medium.ttf"
+			"name" "Helvetica Neue Medium"
 		}
 		"12" 
 		{
-			"font" "resource/Novecentowide-Book.otf"
-			"name" "Novecentowide-Book"
-		}			
+			"font" "resource/fonts/Helvetica Neue.ttf"
+			"name" "Helvetica Neue"
+		}	
 		"13" 
 		{
-			"font" "resource/crosshairs.ttf"
+			"font" "resource/fonts/Helvetica Neue Bold.ttf"
+			"name" "Helvetica Neue Bold"
+		}		
+		"14" 
+		{
+			"font" "resource/fonts/crosshairs.ttf"
 			"name" "Crosshairs"
 		}
-		"14"
+		"15"
 		{
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
+		"16" 
+		{
+			"font" "resource/fonts/HelveticaNeueLT-BoldExt.otf"
+			"name" "HelveticaNeueLT-BoldExt"
+		}		
+		"17" 
+		{
+			"font" "resource/fonts/Helvetica Neue Light.ttf"
+			"name" "Helvetica Neue Light"
+		}		
 	}
 }

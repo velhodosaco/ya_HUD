@@ -198,7 +198,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Medium13"
+		"font"			"Regular16"
 		"labelText"		"%blueteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"west"
@@ -230,11 +230,11 @@
 		"textAlignment"	"center"
 		"xpos"			"c-99"
 		"xpos_minmode"		"c189"
-		"ypos"			"r370"
-		"ypos_minmode"		"r365"
+		"ypos"			"r369"
+		"ypos_minmode"		"r364"
 		"zpos"			"5"
-		"wide"			"98"
-		"tall"			"35"
+		"wide"			"99"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -336,7 +336,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Medium13"
+		"font"			"Regular16"
 		"labelText"		"%redteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"east"
@@ -368,11 +368,11 @@
 		"textAlignment"	"center"
 		"xpos"			"c1"
 		"xpos_minmode"		"c189"
-		"ypos"			"r370"
-		"ypos_minmode"		"r154"
+		"ypos"			"r369"
+		"ypos_minmode"		"r153"
 		"zpos"			"5"
-		"wide"			"98"
-		"tall"			"35"
+		"wide"			"99"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -482,7 +482,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Book19Shadow"
+		"font"			"Light19Shadow"
 		"font_minmode"		"Medium9Shadow"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
@@ -503,7 +503,7 @@
 
 		if_mvm
 		{
-			"font"			"Book19"
+			"font"			"Regular19"
 			"fgcolor"			"Time"
 			"xpos"			"c-295"
 			"ypos"			"r384"
@@ -524,7 +524,7 @@
 		"wide"			"253"
 		"wide_minmode"		"231"
 		"tall"			"204"
-		"tall_minmode"		"86"
+		"tall_minmode"		"83"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -548,7 +548,7 @@
 		"wide"			"253"
 		"wide_minmode"		"231"
 		"tall"			"204"
-		"tall_minmode"		"86"
+		"tall_minmode"		"83"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
@@ -1778,7 +1778,7 @@
 
 			if_mvm
 			{
-				"font"		"DemiBold26"
+				"font"		"Heavy26"
 				"xpos"		"c-195"
 				"ypos"		"r172"
 				"wide"		"26"

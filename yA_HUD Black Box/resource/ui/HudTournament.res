@@ -50,7 +50,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"		"Garm3n8Spec"
+				"font"		"Regular9"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -69,7 +69,7 @@
 					"ypos"				"25"
 					"wide"				"48"
 					"textAlignment"		"center"
-					"font"				"Medium7"
+					"font"				"Regular9"
 					"fgcolor"			"Black"
 				}
 			}
@@ -579,7 +579,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"Medium12Shadow"
 		"xpos"			"238"
-		"ypos"			"70"
+		"ypos"			"100"
 		"wide"			"26"
 		"tall"			"25"
 		"zpos"			"1"

@@ -8,6 +8,9 @@
 	//CLOSECAPTIONS
 	//
 	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
+	//
+	//To enable paste the captio files from /Custom/ into your resource folder.
+	//Type "closecaptions 1" in console if they aren't showing.
 	///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	HudCloseCaption

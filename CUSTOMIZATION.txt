@@ -47,7 +47,6 @@ HP Options
 	You can enable the HP Cross or the Pulse Cross (n/a for White Box Version) using the alt files for "HudPlayerHealth.res"
 
 	You can enable the Underline effect for box-less versions with the "UNDERLINE - " alternative animation file in /scripts/.
-		This is not compatible with the box version for the spy disguise panel.
 
 -----------------------------------------------------------
 

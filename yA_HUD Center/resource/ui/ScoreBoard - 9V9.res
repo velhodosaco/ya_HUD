@@ -1779,7 +1779,7 @@
 
 			if_mvm
 			{
-				"font"		"DemiBold26"
+				"font"		"Heavy26"
 				"xpos"		"c-195"
 				"ypos"		"r172"
 				"wide"		"26"

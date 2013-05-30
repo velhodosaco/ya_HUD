@@ -4,6 +4,7 @@ FAQ
 
 Q:	How do you enable the spectator HUD?
 A:	Tick "Use adv. spectator HUD" in the advanced options menu.
+	You can also use this console command: "cl_use_tournament_specgui "1"
 
 Q:	How do I get the default 16vs16 Scoreboard?
 A:	Scoreboards toggle with hud_minmode. 
@@ -37,6 +38,10 @@ A:	Check out Ray's guide: https://dl.dropboxusercontent.com/u/19762650/importing
 Q:	I changed some colors in the clientscheme and nothing has changed!
 A:	You need to restart the game for any changes to take effect. 
 	Make sure that you didn't accidentally delete quotation marks.
+	
+Q:	How can I get rid of the "Player Is Carrying ... " panel in spec mode?
+A:	Type "cl_spec_carrieditems 0" in console
+
 	
 ----------------------------------------------------------------
 

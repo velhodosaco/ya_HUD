@@ -81,8 +81,8 @@
     "zpos"                "-1"
 		"wide"	          		"640"	//
     "tall"                "18"			//24
-    "visible"             "1"
-    "enabled"             "1"
+    "visible"             "0"
+    "enabled"             "0"
     "fillcolor"           "HudBG"
   }
 	

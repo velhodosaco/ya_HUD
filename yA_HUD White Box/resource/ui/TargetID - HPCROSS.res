@@ -31,11 +31,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"                "1"				//3
-		"ypos"                "31"				//7
+		"xpos"                "0"				//3
+		"ypos"                "27"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
-		"tall"                "4"			//24
+		"tall"                "2"			//24
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -53,11 +53,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"                "1"				//3
-		"ypos"                "31"				//7
+		"xpos"                "0"				//3
+		"ypos"                "27"				//7
 		"zpos"                "-1"
 		"wide"	          		"640"	//
-		"tall"                "4"			//24
+		"tall"                "2"			//24
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -76,7 +76,7 @@
  {
     "ControlName"         "ImagePanel"
     "fieldName"           "TargetBG"
-    "xpos"                "1"				//3
+    "xpos"                "0"				//3
     "ypos"                "10"				//7
     "zpos"                "-1"
 		"wide"	          		"640"	//
@@ -91,7 +91,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
 		"font"			"Medium12"				//Medium12
-		"xpos"			"78"			//59
+		"xpos"			"82"			//59
 		"ypos"			"6"		//
 		"zpos"			"2"
 		"wide"			"640"		//640
@@ -112,11 +112,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"Medium9Shadow"
-		"xpos"			"78"			//59
+		"xpos"			"82"			//59
 		"ypos"			"24"		//15
 		"zpos"			"2"
-		"wide"			"180"
-		"tall"			"17"
+		"wide"			"340"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -127,6 +127,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
@@ -134,8 +135,8 @@
 		"xpos"			"2"		//0
 		"ypos"			"2"
 		"zpos"			"5"
-		"wide"			"72"
-		"tall"			"35"
+		"wide"			"75"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
@@ -149,7 +150,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"48"
+		"xpos"			"49"
 		"ypos"			"16"		//19
 		"zpos"			"12"
 		"wide"			"0"

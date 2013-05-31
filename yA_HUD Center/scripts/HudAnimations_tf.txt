@@ -244,7 +244,7 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"Buff"	        Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Buff"                  Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"SpecBuff"                  Accel 0.0 0.0
 
 	Animate	xHairNormal 	                                FgColor		"Buff"	         Accel 0.0 0.0
 

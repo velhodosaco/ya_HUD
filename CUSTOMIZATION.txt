@@ -17,7 +17,7 @@ BASIC EXPLANATION
 
 -----------------------------------------------------------
 
-Some options are located in the /Custom/ folder of the downloaded folder. These file only need to be renamed if they have an " _ ALLCAPS" part.
+Some options are located in the /Custom/ folder of the downloaded folder. These file only need to be renamed if they have an " - ALLCAPS" part.
 Normally you can copy and paste (and replace) them directly into your hud.
 
 -----------------------------------------------------------
@@ -25,7 +25,7 @@ Normally you can copy and paste (and replace) them directly into your hud.
 HP Options
 
 	You can enable the HP Cross or the Pulse Cross (n/a for White Box Version) using the alt files for "HudPlayerHealth.res"
-		You should use the alt file "HudPlayerClass - BOTTOm" with the HPCROSS to avoid it clipping  with the spy disguise panel.
+		You can use the alt file "HudPlayerClass - BOTTOm" with the HPCROSS to move it away from the HP Cross.
 
 	You can enable the Underline effect for box-less versions with the "UNDERLINE - " alternative animation file in /scripts/.
 

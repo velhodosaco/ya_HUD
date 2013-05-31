@@ -23,6 +23,8 @@ event DamagedPlayer
 
 //-----------------------------------------------------
 
+
+
 //
 //
 //
@@ -65,6 +67,7 @@ event DamagedPlayer
 //	SetTexture <panel name> <textureidname> <texturefilename> <set time>
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
+
 
 
 
@@ -243,7 +246,7 @@ event HudHealthBonusPulse
 
 	Animate	PlayerStatusHealthValueSpec 	FgColor		"Buff"	        Accel 0.0 0.0
 
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Buff"                  Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"SpecBuff"                  Accel 0.0 0.0
 
 	Animate	xHairNormal 	                                FgColor		"Buff"	         Accel 0.0 0.0
 
@@ -423,6 +426,7 @@ event LowAmmoPulse
 	
 	Animate	AmmoBG3	    	FgColor		"LowS"	Linear 0.0 0.075
 	Animate	AmmoBG3 	    FgColor		"LowT"	Linear 0.125 0.075
+
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -442,6 +446,8 @@ event HudLowAmmoPulseStop
 	Animate	AmmoBG2	    FgColor		"Underline"		Linear 0.0 0.0
 	
 	Animate	AmmoBG3	    FgColor		"Underline"		Linear 0.0 0.0
+	
+	
 }
 
 //===========================================
@@ -599,11 +605,11 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	        FgColor		"UberLabel"		Linear 0.0 0.1
-	Animate	ChargeLabel 	        FgColor		"UberLabelFlash"		        Linear 0.3 0.4
+	Animate	ChargeLabel 	        FgColor		"Black"		Linear 0.0 0.1
+	Animate	ChargeLabel 	        FgColor		"HudBG"		        Linear 0.3 0.4
 
-	Animate	ChargeMeter 	        FgColor		"UberMeter"		Linear 0.0 0.1
-	Animate	ChargeMeter 	        FgColor		"UberMeterFlash"		        Linear 0.3 0.4
+	Animate	ChargeMeter 	        FgColor		"Gray"			Linear 0.0 0.1
+	Animate	ChargeMeter 	        FgColor		"WhiteS"		        Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
 }
@@ -623,9 +629,9 @@ event HudMedicChargedStop
 	StopEvent ChargeLabel 0.0
 	StopEvent ChargeMeter 0.0
 
-	Animate	ChargeLabel 	        FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	        FgColor		"Black"		Linear 0.0 0.0001
 
-	Animate	ChargeMeter 	        FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	        FgColor		"WhiteS"		Linear 0.0 0.0001
 }
 
 //====================================

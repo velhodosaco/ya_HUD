@@ -25,13 +25,14 @@ Scheme
 		//"Control Name"		"R   G   B   Transparency"	//Description
 		
 		"Damage"			"255 255 255 175"		//Damage display
-		
+
 		"Ammo"				"255 255 255 175"		//Current Clip
 		"AmmoReserve"			"255 255 255 175"		//Total reserve
 
 		"Health"			"255 255 255 175"		//Normal health color
 		
 		"Buff"				"25 225 74 214" 		//Boosted health color
+		"SpecBuff"			"17 174 54 255"			//Darker color for SpecHUD
 		
 		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
@@ -40,7 +41,6 @@ Scheme
 
 		"UberLabel"			"25 225 74 255" 		//Uber ready color %
 		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
-
 		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
 		"UberMeterFlash"		"15 95 14 100"			//Uber ready flash color meter	
 
@@ -49,6 +49,7 @@ Scheme
 		
 		"Select"			"25 225 74 255"				//This is the hover color for buttons
 		"MvMBG"				"225 37 205 175"			//MvM panels purple color
+		
 		
 		//Special Colors
 		

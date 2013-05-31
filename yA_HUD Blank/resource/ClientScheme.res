@@ -2374,6 +2374,29 @@ Scheme
 			}
 		}
 		
+		"Medium8"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue"
+				"tall"		"8"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Medium8Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue"
+				"tall"		"8"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Medium7"
 		{
 			"1"

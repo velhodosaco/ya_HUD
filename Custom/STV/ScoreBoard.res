@@ -5,10 +5,10 @@
 	//You can type in custom descriptions for each mode
 
 
-	"STVLabelLeague"
+	"STVLabelLeague"		//Right Label
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"STVLabelCustom"
+		"fieldName"		"STVLabelLeague"
 		"font"			"Regular14"
 		"labelText"							"ETF2L SEASON 4"		//Enter text for 9v9 Scoreboard
 		"labelText_minmode"					"ETF2L SEASON 15"		//Enter text for 6v6 Scoreboard
@@ -31,10 +31,10 @@
 		}
 	}							
 
-	"STVLabelCASTER"
+	"STVLabelCaster"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"STVLabelCustom"
+		"fieldName"		"STVLabelCaster"
 		"font"			"Regular14"
 		"labelText"							"TEAMFORTRESS.TV"		//Enter text for 9v9 Scoreboard
 		"labelText_minmode"					"TEAMFORTRESS.TV"		//Enter text for 6v6 Scoreboard
@@ -174,7 +174,7 @@
 	"TimeBG"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"STVBGRight"
+			"fieldName"		"TimeBG"
 			"xpos"			"c-255"		
 			"ypos"				"299"
 			"ypos_minmode"		"261"

@@ -23,7 +23,7 @@ This will fix the MainMenu for you aspect ratio and the scoreboard for 4:3.
 
 -----------------------------------------------------------
 
-Insctructions for HUD crosshairs can be found at the end of the CUSTOMIZATION.txt
+Instructions for HUD crosshairs can be found at the end of the CUSTOMIZATION.txt
 
 -----------------------------------------------------------
 

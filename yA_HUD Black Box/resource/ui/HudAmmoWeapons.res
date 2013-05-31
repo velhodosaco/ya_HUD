@@ -18,10 +18,30 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
+	
+	//Animated Block for Low Warning
+	
+	"AmmoBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoBG"
+		"xpos"		"170"
+		"ypos"		"9"
+		"zpos"			"5"
+		"wide"			"7"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
 	"AmmoBackground"	
 		{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoBG"
+		"fieldName"		"AmmoBackground"
 		"xpos"		"56"
 		"ypos"		"9"
 		"zpos"		"1"

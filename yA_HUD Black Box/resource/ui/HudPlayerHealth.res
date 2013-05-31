@@ -146,32 +146,17 @@
 		"PaintBackgroundType""0"
 	}
 	
+	//Animated HP Block
 	
 	"PlayerStatusHealthValueBG"
 		{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"77"
-		"ypos"			"176"
+		"xpos"			"54"
+		"ypos"			"135"
 		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"9"
-		"textAlignment"	"west"			//east
-		"font"			"BlocksSharp64"
-		"fgcolor"		"Underline"
-	}
-	"PlayerStatusHealthValueBG2"
-		{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueBG2"
-		"xpos"			"117"
-		"ypos"			"176"
-		"zpos"			"5"
-		"wide"			"40"
-		"tall"			"6"
+		"wide"			"7"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"9"

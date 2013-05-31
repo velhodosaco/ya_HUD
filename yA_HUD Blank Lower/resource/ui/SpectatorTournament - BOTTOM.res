@@ -11,12 +11,12 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"-300"
-		"team1_player_base_y"				"461"
+		"team1_player_base_y"				"467"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-14"
 		
 		"team2_player_base_offset_x"		"140"
-		"team2_player_base_y"				"461"
+		"team2_player_base_y"				"467"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"-14"
 		
@@ -275,7 +275,7 @@
 				"xpos"			"1"
 				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"25"
+				"wide"			"27"
 				"tall"			"13"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"

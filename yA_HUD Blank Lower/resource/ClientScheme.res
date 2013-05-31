@@ -2933,6 +2933,18 @@ Scheme
 			}
 		}
 
+		"Regular8Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue"
+				"tall"		"8"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Regular7"
 		{
 			"1"
@@ -2944,6 +2956,18 @@ Scheme
 			}
 		}
 
+		"Regular7Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue"
+				"tall"		"7"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Regular6"
 		{
 			"1"
@@ -2955,6 +2979,17 @@ Scheme
 			}
 		}
 
+		"Regular6Shadow"
+		{
+			"1"
+			{
+				"name"		"Helvetica Neue"
+				"tall"		"6"
+				"additive"		"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
 		
 		"Light28"
 		{

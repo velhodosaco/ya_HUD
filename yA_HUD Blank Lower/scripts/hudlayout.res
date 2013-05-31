@@ -358,12 +358,12 @@
 		"fieldName" "HudDamageIndicator" 	//Remove everything besides 
 		"visible" "1" 						//
 		"enabled" "1" 						//	"	HudDamageIndicator
-		"MinimumWidth" "10" 				//		{
-		"MaximumWidth" "10" 				//		{	"
+		"MinimumWidth" "7" 					//		{
+		"MaximumWidth" "24" 				//		{	"
 		"StartRadius" "80" 					//
 		"EndRadius" "80" 					//To get the default back
-		"MinimumHeight" "30" 				//
-		"MaximumHeight" "60" 				//
+		"MinimumHeight" "40" 				//
+		"MaximumHeight" "70" 				//
 		"MinimumTime" "1"					//
 	}
 	

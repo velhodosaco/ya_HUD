@@ -5,13 +5,13 @@
 	//You can type in custom descriptions for each mode
 
 
-	"STVLabelLeague"		//Right Label
+	"STVLabelLeague"		//Right Label for league
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"STVLabelLeague"
+		"fieldName"		"STVLabelCustom"
 		"font"			"Regular14"
-		"labelText"							"ETF2L SEASON 4"		//Enter text for 9v9 Scoreboard
-		"labelText_minmode"					"ETF2L SEASON 15"		//Enter text for 6v6 Scoreboard
+		"labelText"							"LEAGUENAME"		//Enter text for 9v9 Scoreboard
+		"labelText_minmode"					"LEAGUENAME"		//Enter text for 6v6 Scoreboard
 		"fgcolor"		"Black"
 		"textAlignment"	"Center"
 		"xpos"			"c88"
@@ -31,20 +31,20 @@
 		}
 	}							
 
-	"STVLabelCaster"
+	"STVLabelInfo"                                   //Middle Label for casters
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"STVLabelCaster"
+		"fieldName"		"STVLabelInfo"
 		"font"			"Regular14"
-		"labelText"							"TEAMFORTRESS.TV"		//Enter text for 9v9 Scoreboard
-		"labelText_minmode"					"TEAMFORTRESS.TV"		//Enter text for 6v6 Scoreboard
+		"labelText"							"TF2"		//Enter text for 9v9 Scoreboard
+		"labelText_minmode"					"TF2"		//Enter text for 6v6 Scoreboard
 		"fgcolor"		"Black"
 		"textAlignment"	"Center"
 		"xpos"			"c-84"
 			"ypos"				"279"
 			"ypos_minmode"		"241"
 		"zpos"			"5"
-		"wide"			"167"
+		"wide"			"168"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -58,8 +58,33 @@
 	}			
 	
 	
-	"STVLabelMode"
-	{
+	"CustomImageBG"                               //Bonus BG for Image
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Custom"
+			"xpos"			"c-255"		
+			"ypos"				"327"
+			"ypos_minmode"		"289"
+			"zpos"			"-3"
+			"wide"			"510"
+			"tall"			"87"
+			"fillcolor"		"HudBG"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"			//1 to enable
+			"enabled"		"1"
+			
+			if_mvm
+			{
+			"visible"	"0"
+			}
+	}
+	
+	
+	
+	
+	"STVLabelMode"	                               //This tells the game mode depending on 6v6 or 9v9 mode
+	{                                              //Toggle between them with hudminmode
 		"ControlName"	"CExLabel"
 		"fieldName"		"STVLabelMode"
 		"font"			"Regular14"
@@ -82,30 +107,9 @@
 		{
 			"visible"		"0"
 		}
-	}				
+	}		
 	
 	
-	
-	"scores"
-	{
-		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"			"scoreinfo"
-		"xpos"				"0"		//0
-		"xpos_minmode"		"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
-		"avatar_width"		"57"
-		"name_width"		"100"
-		"name_width_minmode"	"80"
-		"status_width"		"15"
-		"nemesis_width"		"15"
-		"class_width"		"15"
-		"score_width"		"25"
-		"ping_width"		"23"
-	}
 	"STVBGLeft"
 		{
 			"ControlName"	"ImagePanel"
@@ -135,7 +139,7 @@
 			"ypos"				"279"
 			"ypos_minmode"		"241"
 			"zpos"			"-3"
-			"wide"			"167"
+			"wide"			"168"
 			"tall"			"18"
 			"fillcolor"		"White"
 			"autoResize"	"0"
@@ -174,13 +178,13 @@
 	"TimeBG"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"TimeBG"
+			"fieldName"		"STVBGRight"
 			"xpos"			"c-255"		
-			"ypos"				"299"
-			"ypos_minmode"		"261"
+			"ypos"				"300"
+			"ypos_minmode"		"262"
 			"zpos"			"-3"
 			"wide"			"510"
-			"tall"			"21"
+			"tall"			"24"
 			"fillcolor"		"HudBG"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -202,11 +206,11 @@
 		"textAlignment"	"center"
 		"fgcolor"			"White"
 		"xpos"			"c-255"
-		"ypos"				"299"
-		"ypos_minmode"		"261"
+		"ypos"				"300"
+		"ypos_minmode"		"262"
 		"zpos"			"8"
 		"wide"			"510"
-		"tall"			"21"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -223,6 +227,33 @@
 
 		}
 	}
+	
+	
+	
+	
+	"scores"
+	{
+		"ControlName"		"CTFClientScoreBoardDialog"
+		"fieldName"			"scoreinfo"
+		"xpos"				"0"		//0
+		"xpos_minmode"		"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+		"avatar_width"		"57"
+		"name_width"		"100"
+		"name_width_minmode"	"80"
+		"status_width"		"15"
+		"nemesis_width"		"15"
+		"class_width"		"15"
+		"score_width"		"25"
+		"ping_width"		"23"
+	}
+	
+	
+	
 	
 	
 	
@@ -662,7 +693,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Regular8Shadow"
+		"font"			"Regular7Shadow"
 		"labelText"		"%server%"
 		"fgcolor"			"White"
 		"textAlignment"	"west"
@@ -747,7 +778,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"Regular8Shadow"
+		"font"			"Regular7Shadow"
 		"labelText"		"%spectators%"
 		"fgcolor"			"White"
 		"textAlignment"	"north-west"

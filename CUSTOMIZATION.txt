@@ -25,6 +25,7 @@ Normally you can copy and paste (and replace) them directly into your hud.
 HP Options
 
 	You can enable the HP Cross or the Pulse Cross (n/a for White Box Version) using the alt files for "HudPlayerHealth.res"
+		You should use the alt file "HudPlayerClass - BOTTOm" with the HPCROSS to avoid it clipping  with the spy disguise panel.
 
 	You can enable the Underline effect for box-less versions with the "UNDERLINE - " alternative animation file in /scripts/.
 

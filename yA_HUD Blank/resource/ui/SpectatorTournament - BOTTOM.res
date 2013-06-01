@@ -100,18 +100,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"playername"
-				"font"		"Medium9"
-				"xpos"			"48"
+				"font"		"Regular10"
+				"xpos"			"45"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"82"		//62
+				"wide"			"87"		//62
 				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"Gray"
+				"fgcolor"		"White"
 
 				if_mvm
 				{

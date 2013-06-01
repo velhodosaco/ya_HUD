@@ -10,7 +10,7 @@
 		"NegativeColor"			"Damage"
 		"delta_lifetime"		"3.0"
 		"delta_item_font"		"Medium21Shadow"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
-		"delta_item_font_big"	"Medium21Shadow"	//"DemiBold22" or "DemiBold22Outline" are also an option
+		"delta_item_font_big"	"Medium21Shadow"	//"Heavy22" or "Heavy22Outline" are also an option
 	}
 
 	
@@ -19,12 +19,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c-204"				//c-206
-		"ypos"			"3395"				//r151
+		"ypos"			"395"				//r151
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"29"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"west"
@@ -40,7 +40,7 @@
 		"wide"	 			"100"
 		"tall"	 			"29"
 		"visible"			"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"west"

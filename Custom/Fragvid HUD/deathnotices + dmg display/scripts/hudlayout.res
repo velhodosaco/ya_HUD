@@ -25,7 +25,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Medium9"
+		"TextFont"		"Regular9"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

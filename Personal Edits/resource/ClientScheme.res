@@ -39,10 +39,10 @@ Scheme
 		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
 		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
 
-		"UberLabel"			"25 225 74 255" 		//Uber ready color %
-		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
-		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
-		"UberMeterFlash"		"15 95 14 100"			//Uber ready flash color meter	
+		"UberLabel"			"40 140 254 255"		//Uber ready color %
+		"UberMeter"			"40 140 254 255"		//Uber ready color for meter	
+		"UberLabelFlash"		"15 15 89 175"			//Uber ready flash color %
+		"UberMeterFlash"		"15 15 89 100"			//Uber ready flash color meter	
 
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time

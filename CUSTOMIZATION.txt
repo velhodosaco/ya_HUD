@@ -22,6 +22,10 @@ Normally you can copy and paste (and replace) them directly into your hud.
 
 -----------------------------------------------------------
 
+A lot of custom options can be found in the /Custom Options/ folder. Info files are included for most options.
+
+-----------------------------------------------------------
+
 HP Options
 
 	You can enable the HP Cross or the Pulse Cross (n/a for White Box Version) using the alt files for "HudPlayerHealth.res"

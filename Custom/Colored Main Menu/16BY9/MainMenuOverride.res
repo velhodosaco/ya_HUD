@@ -5,7 +5,7 @@
 		"fieldName"		"MainMenuOverride"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"-112"	//0
+		"xpos"			"-152"	//0
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"1920"
@@ -157,7 +157,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"			"0"		//152
+		"xpos"			"152"		//0
 		"ypos"			"0"
 		"zpos"			"-10"
 		"wide"			"1920"
@@ -191,7 +191,7 @@
 		"tall"			"700"	
 		"fillcolor"		"MenuBGColor"	//"0 0 0 175"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"	
 	}
 	"TFLogoImage"
 	{
@@ -2796,7 +2796,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#GameUI_GameMenu_Options"
+		"labelText"		"Options"
 		"font"			"Medium14"
 		"textAlignment"	"east"
 		"textinsetx"	"35"

@@ -2,4 +2,4 @@ Files that have " - NAME" at the end will have to have that part removed before 
 
 Files go into /resource/ui unless stated otherwise.
 
-Colors are still customized via the clientscheme in /resource/
+Colors are customized via the clientscheme in /resource/

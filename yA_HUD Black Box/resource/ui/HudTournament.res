@@ -579,7 +579,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"Medium12Shadow"
 		"xpos"			"238"
-		"ypos"			"100"
+		"ypos"			"114"
 		"wide"			"26"
 		"tall"			"25"
 		"zpos"			"1"

@@ -1,0 +1,7 @@
+These files go into your resource folder.
+
+The labels on the scoreboard can be customized at the top of the scoreboard.res file.
+
+An alternative version of the SpecHud with HP crosses is included, you will need to remove the " - ALLCAPS" extension before moving the files into your resource folder. The "SpectatorTournamentGUIHealth - CROSS.res" file works for both cross variants of the SpecHUD (top + bottom).
+
+These files also move the koth time panel next to the cp and make the text on the TargetIDs slightly larger.

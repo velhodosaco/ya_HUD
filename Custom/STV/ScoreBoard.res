@@ -1134,8 +1134,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"112"
-		"xpos_minmode"			"112"
+		"xpos"			"258"
+		"xpos_minmode"			"258"
 		"ypos"			"137"
 		"ypos_minmode"		"137"
 		"zpos"			"2"
@@ -1182,8 +1182,8 @@
 			"font_minmode"		"Medium32"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
-			"xpos"			"c-3"
-			"xpos_minmode"		"c-3"		//c-53
+			"xpos"			"c-17"
+			"xpos_minmode"		"c-17"		//c-53
 			"ypos"			"r172"
 			"ypos_minmode"		"r172"
 			"zpos"			"3"
@@ -1231,8 +1231,8 @@
 			"font_minmode"		"Medium32"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
-			"xpos"			"c146"
-			"xpos_minmode"		"c146"
+			"xpos"			"c132"
+			"xpos_minmode"		"c132"
 			"ypos"			"r172"
 			"ypos_minmode"		"r172"
 			"zpos"			"3"
@@ -1961,8 +1961,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"zpos"			"1"
-			"xpos"			"c129"
-			"xpos_minmode"		"c129"		//79
+			"xpos"			"c115"
+			"xpos_minmode"		"c115"		//79
 			"ypos"			"r167"
 			"ypos_minmode"		"r167"
 			"wide"			"28"

@@ -1,0 +1,3 @@
+The turn the buttons on the MainMenu into ALL CAPS.
+
+Merge the /resource/ folder with your hud/resource/ folder.

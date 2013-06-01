@@ -127,7 +127,7 @@
 		"labelText"		"+"
 		"fgcolor"		"Garm3nxHair"
 		"textAlignment"	"center"
-}
+	}
 
 	"YAHUDHealthBackground"	
 		{
@@ -144,48 +144,68 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBG"
 		"PaintBackgroundType""0"
-	}	
-	"YAHUDCrossBackground"	
-		{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"CrossBG"
-		"xpos"		"0"
-		"ypos"		"131"
-		"zpos"		"1"
-		"wide"		"60"
-		"tall"		"55"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"HudBG"
-		"PaintBackgroundType""0"
+
 	}
+	
+	
+	"PlayerStatusHealthValueBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"77"
+		"ypos"			"176"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	"PlayerStatusHealthValueBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG2"
+		"xpos"			"117"
+		"ypos"			"176"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
 	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"17"
-		"ypos"			"137"
+		"xpos"			"38"
+		"ypos"			"9999"
 		"zpos"			"4"
-		"wide"			"42"	
-		"tall"			"42"
-		"visible"		"1" 
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0" 
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"15"
-		"ypos"			"135"
+		"xpos"			"30"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"46"	
-		"tall"			"46"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0" 
+		"tall"			"0" 
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -193,12 +213,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"19"	
-		"ypos"			"139" 	
+		"xpos"			"30"	
+		"ypos"			"9999" 	
 		"zpos"			"2"
-		"wide"			"38"	
-		"tall"			"38"	
-		"visible"		"1"
+		"wide"			"63"	
+		"tall"			"63"	
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"
@@ -226,10 +246,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"0"
-		"ypos"			"100"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -241,10 +261,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"0"
-		"ypos"			"100"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -256,10 +276,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"0"
-		"ypos"			"100"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -271,10 +291,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName" "PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"0"
-		"ypos"			"100"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -286,10 +306,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"0"
-		"ypos"			"100"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"16"
+		"tall"			"16"
 		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	

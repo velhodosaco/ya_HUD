@@ -193,7 +193,7 @@
 		"fillcolor"		"4 4 4 255"
 		"PaintBackgroundType""0"
 	}
-	
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -251,7 +251,7 @@
 		"font"			"Heavy48"
 		"fgcolor"		"Health"
 	}
-	
+
 		"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -327,7 +327,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 	}
-	
+
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -420,4 +420,3 @@
 		"fgcolor"		"TanDark"
 	}
 }
-

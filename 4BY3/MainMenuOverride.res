@@ -2795,7 +2795,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#GameUI_GameMenu_Options"
+		"labelText"		"Options"
 		"font"			"Medium14"
 		"textAlignment"	"east"
 		"textinsetx"	"35"

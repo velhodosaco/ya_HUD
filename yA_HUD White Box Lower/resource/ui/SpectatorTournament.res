@@ -11,12 +11,12 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"224"
+		"team1_player_base_y"				"222"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-14"
 		
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"242"
+		"team2_player_base_y"				"241"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"14"
 		
@@ -79,10 +79,10 @@
 				"enabled"			"1"
 			}
 
-			"BGRight"
+			"BGHP"
 			{
 				"ControlName" "ImagePanel"
-				"fieldName"   "BGRight"
+				"fieldName"   "BGHP"
 				"xpos"        "135"		//115
 				"ypos"        "0"
 				"zpos"        "2"
@@ -90,7 +90,7 @@
 				"tall"        "14"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"225 225 225 255"
+				"fillcolor"		"WhiteS"
 				"alpha"				"255"
 				"visible"			"1"
 				"enabled"			"1"
@@ -100,18 +100,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"playername"
-				"font"		"Medium9"
-				"xpos"			"48"
+				"font"		"Regular10"
+				"xpos"			"45"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"82"		//62
+				"wide"			"87"		//62
 				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"Gray"
+				"fgcolor"		"White"
 
 				if_mvm
 				{

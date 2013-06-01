@@ -11,7 +11,7 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"222"
+		"team1_player_base_y"				"224"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-14"
 		
@@ -23,7 +23,7 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"160"		//141
+			"wide"			"172"		//141
 			"tall"			"14"
 			"zpos"			"-1"
 
@@ -79,11 +79,11 @@
 				"enabled"			"1"
 			}
 
-			"BGHP"
+			"BGRight"
 			{
 				"ControlName" "ImagePanel"
-				"fieldName"   "BGHP"
-				"xpos"        "135"		//115
+				"fieldName"   "BGRight"
+				"xpos"        "130"		//115
 				"ypos"        "0"
 				"zpos"        "2"
 				"wide"        "26"
@@ -101,10 +101,10 @@
 				"ControlName"	"CExLabel"
 				"fieldName"	"playername"
 				"font"		"Regular10"
-				"xpos"			"45"
+				"xpos"			"46"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"87"		//62
+				"wide"			"82"		//62
 				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -163,14 +163,14 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"0"
+				"xpos"				"129"
 				"ypos"				"0"
 				"zpos"				"3"
-				"wide"				"180"	//160
+				"wide"				"80"	//160
 				"tall"				"20"
 				"visible"			"1"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"10"
+				"HealthBonusPosAdj"	"1"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -230,7 +230,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"respawntime"
-				"font"		"Medium10"		//9
+				"font"		"Medium10" //9
 				"xpos"			"2"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -254,10 +254,10 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimecover"
 				"font"			"BlocksSharp64"
-				"xpos"			"135"
+				"xpos"			"130"
 				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"34"
+				"zpos"			"7"
+				"wide"			"26"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -265,6 +265,23 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"east"
 				"fgcolor"		"WhiteS"
+			}
+			"respawntimecover2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntimecover2"
+				"font"			"BlocksSharp64"
+				"xpos"			"155"
+				"ypos"			"0"
+				"zpos"			"6"
+				"wide"			"77"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"east"
+				"fgcolor"		"27 27 27 255"
 			}
 			
 			
@@ -276,7 +293,7 @@
 				"xpos"			"1"
 				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"25"
+				"wide"			"27"
 				"tall"			"13"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"

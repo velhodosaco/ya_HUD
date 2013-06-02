@@ -535,7 +535,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -546,7 +546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -554,7 +554,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -564,7 +564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
@@ -572,7 +572,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -580,7 +580,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"11"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -588,7 +588,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -596,7 +596,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -604,7 +604,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -616,7 +616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -624,7 +624,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -632,7 +632,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -640,7 +640,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -648,7 +648,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -659,7 +659,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -667,7 +667,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
@@ -675,7 +675,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
@@ -683,7 +683,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
@@ -691,7 +691,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -699,7 +699,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"
@@ -717,8 +717,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"	"Helvetica Neue" [!$OSX]
-				"name"	"Helvetica Neue" [$OSX]
+				"name"	"HelveticaNeue Medium" [!$OSX]
+				"name"	"HelveticaNeue Medium" [$OSX]
 				"tall"	"18"
 				"antialias" "1"
 				"additive"	"1"
@@ -729,7 +729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -741,14 +741,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"yres"	"480 599"
 				"antialias" 	"1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"yres"	"600 767"
@@ -756,21 +756,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"yres"	"768 1023"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"yres"	"1024 1199"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"yres"	"1200 10000"
 				"antialias" 	"1"
@@ -1728,7 +1728,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"68"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1739,7 +1739,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"66"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1750,7 +1750,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"64"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1761,7 +1761,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"62"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1772,7 +1772,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"60"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1783,7 +1783,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"58"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1794,7 +1794,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1805,7 +1805,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"54"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1816,7 +1816,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1827,7 +1827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"50"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1838,7 +1838,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1849,7 +1849,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"46"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1860,7 +1860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"45"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1871,7 +1871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"44"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1882,7 +1882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"42"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1893,7 +1893,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"41"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1904,7 +1904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"40"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1915,7 +1915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"39"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1926,7 +1926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"38"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1937,7 +1937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"37"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1948,7 +1948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"36"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1959,7 +1959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"35"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1970,7 +1970,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"34"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1981,7 +1981,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"33"
 				"additive"		"0"
 				"antialias"	"1"
@@ -1992,7 +1992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2003,7 +2003,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"31"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2014,7 +2014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2025,7 +2025,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"29"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2036,7 +2036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2047,7 +2047,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"27"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2058,7 +2058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2069,7 +2069,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2081,7 +2081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"25"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2092,7 +2092,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2103,7 +2103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2114,7 +2114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2126,7 +2126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2138,7 +2138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2149,7 +2149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2159,7 +2159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2170,7 +2170,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2182,7 +2182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2193,7 +2193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2204,7 +2204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"17"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2219,7 +2219,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2230,7 +2230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2242,7 +2242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2253,7 +2253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2265,7 +2265,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2276,7 +2276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2287,7 +2287,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2299,7 +2299,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2310,7 +2310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2322,7 +2322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2332,7 +2332,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2344,7 +2344,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2355,7 +2355,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2366,7 +2366,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2378,7 +2378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2389,7 +2389,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2401,7 +2401,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2412,7 +2412,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"6"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2423,7 +2423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"68"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2434,7 +2434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"66"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2445,7 +2445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"64"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2456,7 +2456,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"62"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2467,7 +2467,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"60"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2478,7 +2478,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"58"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2489,7 +2489,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"56"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2500,7 +2500,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"54"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2511,7 +2511,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"52"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2522,7 +2522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"50"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2533,7 +2533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"48"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2544,7 +2544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"46"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2555,7 +2555,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"44"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2566,7 +2566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"42"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2577,7 +2577,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"40"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2588,7 +2588,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"38"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2599,7 +2599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"36"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2610,7 +2610,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"34"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2621,7 +2621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"32"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2632,7 +2632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"30"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2643,7 +2643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2654,7 +2654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"26"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2665,7 +2665,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"25"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2676,7 +2676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"24"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2687,7 +2687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2698,7 +2698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"23"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2710,7 +2710,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2721,7 +2721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2732,7 +2732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"21"
 				"additive"		"0"
 				"antialias"	"0"
@@ -2744,7 +2744,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2755,7 +2755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"19"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2766,7 +2766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"19"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2778,7 +2778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2789,7 +2789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2800,7 +2800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2812,7 +2812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"15"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2823,7 +2823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2834,7 +2834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2846,7 +2846,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"13"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2857,7 +2857,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2868,7 +2868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2880,7 +2880,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2891,7 +2891,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"11"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2903,7 +2903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2914,7 +2914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2926,7 +2926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2937,7 +2937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2949,7 +2949,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2960,7 +2960,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"8"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2972,7 +2972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2983,7 +2983,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"7"
 				"additive"		"0"
 				"antialias"	"1"
@@ -2995,7 +2995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"6"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3006,7 +3006,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"6"
 				"additive"		"0"
 				"antialias"	"1"
@@ -3326,35 +3326,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"44"
 				"additive"	"0"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"48"
 				"additive"	"0"
 				"antialias" "1"
@@ -3364,7 +3364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -3375,7 +3375,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -3386,7 +3386,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -3396,7 +3396,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -3406,7 +3406,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -3416,7 +3416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3426,7 +3426,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3436,7 +3436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3446,7 +3446,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -3456,7 +3456,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -3466,7 +3466,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -3476,7 +3476,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3486,7 +3486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3496,7 +3496,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -3506,7 +3506,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -3517,7 +3517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3527,7 +3527,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3538,7 +3538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3548,7 +3548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3558,7 +3558,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3568,7 +3568,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3578,7 +3578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3588,7 +3588,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3598,7 +3598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3608,7 +3608,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -3618,7 +3618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3660,7 +3660,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -3670,7 +3670,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3680,7 +3680,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3690,7 +3690,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3700,7 +3700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3710,7 +3710,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3720,33 +3720,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"	
 				"antialias" 	"1"
 				"additive"	"1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias" 	"1"
 			}
@@ -3755,14 +3755,14 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"outline"	"1"
 				"antialias" 	"1"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"outline"	"1"
 				"antialias" 	"1"
@@ -3795,7 +3795,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"60"
 				"antialias" "1"
 				"additive"	"0"
@@ -3813,7 +3813,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Helvetica Neue"
+				"name"  "HelveticaNeue Medium"
 				"tall"  "28"
 				"additive" "1"
 				"antialias" "1"
@@ -3823,7 +3823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3833,7 +3833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias"	"1"
 				"italic"	"1"
@@ -3844,7 +3844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3854,7 +3854,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias"	"1"
 				"italic"	"1"
@@ -3865,7 +3865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -3887,7 +3887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3896,7 +3896,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -3906,7 +3906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -3916,7 +3916,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3927,7 +3927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
@@ -3937,7 +3937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"36"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -3947,7 +3947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -3957,7 +3957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14" [!$OSX]
 				"tall"		"15" [$OSX]
 				"tall_lodef"	"32"
@@ -3970,7 +3970,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3980,7 +3980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -3990,7 +3990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -4000,7 +4000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -4010,7 +4010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias" "1"
 				"additive"	"0"
@@ -4020,7 +4020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"antialias" "1"
 				"additive"	"0"
@@ -4031,31 +4031,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"44"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"72"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"80"
 				"antialias" "1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"100"
 				"antialias" "1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"180"
 				"antialias" "1"
 			}
@@ -4065,7 +4065,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4075,7 +4075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4086,7 +4086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4097,35 +4097,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"dropshadow"	"0"
 				"antialias"	"1"
@@ -4136,7 +4136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"antialias"	"1"
 			}
@@ -4146,7 +4146,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"antialias"		"1"
 			}
@@ -4156,7 +4156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"range" 		"0x0000 0x00FF"
 				"antialias"		"1"
@@ -4167,7 +4167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias"		"1"
 			}
@@ -4176,7 +4176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -4186,7 +4186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -4197,7 +4197,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -4207,7 +4207,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4218,7 +4218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"additive"	"0"
@@ -4230,7 +4230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"32"
 				"tall_lodef"		"28"
 				"antialias" "1"
@@ -4240,7 +4240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"antialias" "1"
 			}
@@ -4249,7 +4249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"26"
 				"antialias" "1"
 			}
@@ -4258,7 +4258,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -4267,7 +4267,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -4276,7 +4276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"antialias" "1"
 			}
@@ -4285,7 +4285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -4294,7 +4294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -4303,7 +4303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -4312,7 +4312,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -4322,7 +4322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -4332,7 +4332,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4342,7 +4342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4352,7 +4352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -4362,19 +4362,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
@@ -4384,7 +4384,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" "1"
@@ -4394,7 +4394,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4404,7 +4404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4414,7 +4414,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4424,7 +4424,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4434,7 +4434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4445,7 +4445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4455,7 +4455,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"blur"		"3"
 				"additive"	"1"
@@ -4467,7 +4467,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -4482,31 +4482,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"antialias"	"1"
 			}
@@ -4515,7 +4515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -4525,37 +4525,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"2"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 			"3"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -4564,7 +4564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -4574,7 +4574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -4584,7 +4584,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -4594,7 +4594,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -4604,7 +4604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -4618,7 +4618,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -4628,7 +4628,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -4638,7 +4638,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Helvetica Neue"
+				"name"		"HelveticaNeue Medium"
 				"tall"		"14"
 				"antialias" "1"
 				"additive"	"0"
@@ -6156,8 +6156,8 @@ Scheme
 		}
 		"11" 
 		{
-			"font" "resource/fonts/Helvetica Neue Medium.otf"
-			"name" "Helvetica Neue"
+			"font" "resource/fonts/helveticaneue-medium.ttf"
+			"name" "HelveticaNeue Medium"
 		}	
 		"12" 
 		{

@@ -7,40 +7,39 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1" 
+		"visible"		"1"
 		"enabled"		"1"		
 	}
-	"PlayerStatusClassImage"
+	
+	"PlayerStatusClassImage" //When not disguised, the spy's image.  When disguised, the image of the class you're disguised as.
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-345"				//c202
-		"ypos"			"r40"				//r138
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"40"
+		"xpos"			"c-360" //"35"
+		"ypos"			"r34"
+		"zpos"			"30"
+		"wide"			"37"
+		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"
-		"alpha"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusSpyImage"
+	"PlayerStatusSpyImage" //When disguised, the spy's image.  Invisible when not disguised.
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"c-364"
-		"ypos"			"r29"
-		"zpos"			"1"
-		"wide"			"30" // 35
-		"tall"			"30" // 35
+		"xpos"			"c-375" //"20"
+		"ypos"			"r25"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"			
 	}	
@@ -48,32 +47,22 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"130"		
-		"ypos"			"r130"	
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
+		"xpos"			"-15"
+		"ypos"			"r44"
+		"zpos"			"7"
+		"wide"			"27"
+		"tall"			"27"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
 	}		
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"70"		
-		"ypos"			"r60"	
-		"zpos"			"1"		
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/character_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
-		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
 }

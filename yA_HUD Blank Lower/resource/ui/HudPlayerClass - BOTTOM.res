@@ -19,7 +19,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"c-405" //"35"
-		"ypos"			"r34"
+		"ypos"			"r104"
 		"zpos"			"30"
 		"wide"			"37"
 		"tall"			"37"

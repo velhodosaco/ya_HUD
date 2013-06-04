@@ -170,8 +170,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"c-232"
-		"ypos"			"r135"
+		"xpos"			"25"
+		"ypos"			"9999"
 		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"0"
@@ -230,11 +230,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"0"
-		"ypos"			"1800"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"0"		//1
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
@@ -245,11 +245,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"0"
-		"ypos"			"1800"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"0"		//1
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
@@ -260,11 +260,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"0"
-		"ypos"			"1800"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"0"		//1
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
@@ -275,11 +275,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName" "PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"0"
-		"ypos"			"1800"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"0"		//1
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
@@ -290,11 +290,11 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"0"
-		"ypos"			"1800"       //180
+		"ypos"			"152"       //180
 		"zpos"			"7"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"1"			//1
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"

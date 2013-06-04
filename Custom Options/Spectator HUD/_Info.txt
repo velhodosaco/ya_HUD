@@ -1,4 +1,4 @@
-These files go into your resource folder.
+These files go into your /resource/ui folder.
 
 The labels on the scoreboard can be customized at the top of the scoreboard.res file.
 

@@ -2,4 +2,4 @@ This contains override files for the hudlayout file in /scripts/ and the DamageA
 
 
 Please note:
-This is meant for use with tools such as lawena recording tool, since this removes many essential parts of the HUD that are important for actually playing the game.
+This is only meant for recording footage with tools such as the lawena recording tool, since this removes many essential parts of the HUD that are important for actually playing the game.

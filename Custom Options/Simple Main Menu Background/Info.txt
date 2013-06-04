@@ -1,5 +1,5 @@
-Put this folder in the same folder as your /resource/ and /scripts/ folders.
+Put this into the same folder as your resource and scripts folder.
 
-For example Team Fortress 2/tf/custom/<foldername>/materials/.
+This goes into /tf/custom/yourfoldername/
 
 This will give you a simple custom main menu Background.

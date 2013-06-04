@@ -6,36 +6,34 @@ List of custom options at the end, here's an imgur album with some examples: htt
 
 BASIC EXPLANATION
 
-	Many files work with alternative files that need to be renamed. 
+Many options work with alternative files that need to be renamed. 
 	You need to rename the original file first, to something like "FilenameOLD.res"
 	Then you need to rename the alt file to the orginal name, removing the " - ALTNAME" part. 
 	Make sure that there are no spaces left!
 
-	These alternative files are located in resource/ui unless stated otherwise.
+These alternative files are located in resource/ui unless stated otherwise.
 	
 	Example: "BaseChat.res" to "BaseChatOLD.res and then "BaseChat - MIDDLE.res" to "BaseChat.res"
 
------------------------------------------------------------
 
-Some options are located in the /Custom/ folder of the downloaded folder. These file only need to be renamed if they have an " - ALLCAPS" part.
-Normally you can copy and paste (and replace) them directly into your hud.
-
------------------------------------------------------------
-
-A lot of custom options can be found in the /Custom Options/ folder. Info files are included for most options.
+Some options are located in the /Custom Options/ (in the folder you downloaded)
+They are override files, you can copy them directly over your existing hud files.
+Info files are included for these options.
 
 -----------------------------------------------------------
 
-HP Options
+HP OPTIONS
 
-	You can enable the HP Cross or the Pulse Cross (n/a for White Box Version) using the alt files for "HudPlayerHealth.res"
-		You can use the alt file "HudPlayerClass - BOTTOm" with the HPCROSS to move it away from the HP Cross.
-
-	You can enable the Underline effect for box-less versions with the "UNDERLINE - " alternative animation file in /scripts/.
+	You can enable the HP Cross or the Pulse Cross using the alt files for "HudPlayerHealth.res"
+		There's also an optional team-colored cross for the blank versions.
+		The Pulse option is not available for the White Box Version.
+	
+	You can enable the line effect with the "LINE - " alternative animation file in /scripts/.
+		This is the default effect for the White Box Version.
 
 -----------------------------------------------------------
 
-Pulsing shadows instead of pulsing numbers (Ammo/HP) for the box-less versions:
+PULSING SHADOWS instead of pulsing numbers (Ammo/HP) for the box-less versions:
 	
 	(This works well with the pulsing HP cross background)
 
@@ -53,9 +51,10 @@ Or if you want to make the SHADOWS under the numbers in the boxless versions dar
 
 -----------------------------------------------------------
 
-If you want to use the small Medic CHARGE METER
+If you want to use the center Medic CHARGE METER
 
 	Use the " - CENTER" alternative file for "HudMedicCharge.res"
+		Some versions have this by default.
 
 -----------------------------------------------------------
 
@@ -68,9 +67,9 @@ Enabling a small PERCENTAGE label under the crosshair
 
 If you want to want to use an alternative SCOREBOARD or enbable stats on the Scoreboard
 
-	1. Navigate to resource/ui
-	2. Change the Name of "Scoreboard.res"
-	3. Rename "ScoreBoard - [ALTNAME].res" to "Scoreboard.res"
+	1. Navigate to the /Custom Options/Scoreboards in your downloaded folder
+	2. Pick a scoreboard and copy it
+	3. Paste it into your /resource/ui folder
 
 -----------------------------------------------------------
 
@@ -79,6 +78,7 @@ If you want to have a CLASS indicator on the bottom left
 	1. Go to /resource/ui
 	2. Rename "HudPlayerClass.res" to something like "HudPlayerClassOLD.res"
 	3. Rename "HudPlayerClass - BOTTOM.res" to "HudPlayerClass.res"
+		Use the _16BY10 file if you're running that aspect ratio.
 
 	4. Navigate to scripts
 	5. Rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
@@ -90,17 +90,23 @@ If you want to change the KILLFEED to have line spacing
 
 	1. Go to /scripts and then "hudlayout.res"
 	2. Search for "DeathNotice" (ctrl+F)
-	3. Change the value for "LineSpacing"
-	3. The higher the value the bigger the distance between entries in the Killfeed
-	4: Save
+	3. Increase the value for "LineSpacing"
+			The higher the value the bigger the distance between entries in the Killfeed
+	3: Save
 
 -----------------------------------------------------------
 
-If you want the SpectatorHUD to be at the bottom
+If you want to customize the SpectatorHUD
+
+Changing the LOCATION
 
 	1. Navigate to /resource/ui
 	2. Change the name of "SpectatorTournament.res" to something like ""SpectatorTournamentOLD.res"
 	3. Rename "SpectatorTournament - BOTTOM.res" to "SpectatorTournament.res"
+	
+SpectatorHUD with HP CROSSES
+
+	Use the "SpectatorTournamentGUIHealth - CROSS.res" alt file along with one of the "SpectatorTournament - CROSS" alt files.
 
 -----------------------------------------------------------
 
@@ -123,13 +129,13 @@ If you want to have an HP cross on your TargetIDs (when you look at someone)
 
 -----------------------------------------------------------
 
-If you want to use different chat positions use the "BaseChat.res" alt files
-	Or delete the original "BaseChat.res" file altogether for the default location.
+If you want to use different CHAT POSITIONS use the override files in /Custom Options/Chat (downloaded folder)
+	You can delete the original "BaseChat.res" file altogether for the default location.
 
------------------------------------------------------------
-
-Replace "TeamMenu.res" with "TeamMenu - COLOR.res" to get a different team menu.
-
+-----------------------------------------------------------	
+	
+A team-colored TEAM SELECTION menu is available, use the TeamMenu.res alt file in /resource/ui.
+	
 -----------------------------------------------------------
 
 Fog's CROSSHAIRS

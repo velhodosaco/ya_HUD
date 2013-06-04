@@ -2,7 +2,11 @@ Move the two captions files from one of the versions into your resource folder i
 
 Their location and their behaviour can be customized in /scripts/hudlayout.res.
 
------------------------
+------------------------------------------------------------------
 
-You can find the original and full captions here: https://code.google.com/p/tf2captions/
+If the captions don't show up try restarting the game or using the "closecaption 1" command in console.
+
+------------------------------------------------------------------
+
+You can find the original captions (they include captions for engineer buildings for example) here: https://code.google.com/p/tf2captions/
 Here's a tutorial for customizing: http://teamfortress.tv/forum/thread/8335-custom-caption-tutorial

@@ -1,3 +1,3 @@
 The color of the background can be changed in the clientscheme. You can find it in your resource folder.
 
-The MainMenuOverride.res files go into your /resource/ui/ folder.
+The MainMenuOverride.res files go into tf/custom/yourfoldername/resource/ui.

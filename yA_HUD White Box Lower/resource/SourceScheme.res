@@ -9,11 +9,11 @@ Scheme
 		"OffWhite"			"214 214 214 255"
 		"DullWhite"			"125 125 125 255"
 		"TransparentBlack"		"0 0 0 128"
-		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
 		"Black"				"46 43 42 255"
 		"BlackTran"			"0 0 0 214"
-		"ButtonHover"		"54 54 54 128"
+		"Gray"				"177 177 177 214"
+		"ButtonHover"		"74 74 74 128"
 		"WhiteBG"			"225 225 225 255"
 		"HudBG"				"0 0 0 214"
 		
@@ -43,12 +43,12 @@ Scheme
 	    
 	    "Blank"				"0 0 0 0"
 
-		"ControlBG"			"60 60 60 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"42 42 42 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"84 84 84 255"		// background color of any selected text or menu item
+		"ControlBG"			"74 74 74 255"		// background color of controls
+		"ControlDarkBG"		"104 104 104 255"		// darker background color; used for background of scrollbars
+		"WindowBG"			"64 64 64 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"100 100 100 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"64 64 64 255"		// selection background in window w/o focus
-		"ListBG"			"42 42 42 255"		// background of server browser, buddy list, etc.
+		"ListBG"			"80 80 80 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
@@ -87,8 +87,8 @@ Scheme
 		RadioButton.SelectedTextColor	"White"
 		RadioButton.ArmedTextColor		"TFTextMedium"
 		
-		Frame.BgColor					"54 54 54 242"
-		Frame.OutOfFocusBgColor			"64 64 64 242"
+		Frame.BgColor					"77 77 77 242"
+		Frame.OutOfFocusBgColor			"82 82 82 242"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"225 225 225 255"
 		FrameTitleButton.FgColor		"255 255 255 200"
@@ -105,7 +105,7 @@ Scheme
 		Label.DisabledFgColor2			"30 30 30 255"
 		
 		ListPanel.TextColor					"OffWhite"
-		ListPanel.BgColor					"HudBG"
+		ListPanel.BgColor					"54 54 54 214"
 		ListPanel.SelectedBgColor			"WhiteBG"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 		

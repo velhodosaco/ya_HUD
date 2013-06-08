@@ -24,10 +24,10 @@ Scheme
 		
 		//"Control Name"		"R   G   B   Transparency"	//Description
 		
-		"Damage"			"255 255 255 175"		//Damage display
+		"Damage"                        "255 255 255 175"		//Damage display
 
-		"Ammo"				"255 255 255 175"		//Current Clip
-		"AmmoReserve"			"255 255 255 175"		//Total reserve
+		"Ammo"                          "255 255 255 175"		//Current Clip
+		"AmmoReserve"                   "255 255 255 175"		//Total reserve
 
 		"Health"			"255 255 255 175"		//Normal health color
 		
@@ -36,66 +36,76 @@ Scheme
 		
 		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
 		"RedHP"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
-		"LowAmmo"				"200 47 47 255"			//Low health and ammo warning color
-		"RedAmmo"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
-
+		"LowAmmo"			"200 47 47 255"			//Low health and ammo warning color
+		"RedAmmo"			"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		   "LowT"			"184 54 54 214"			//Red animation for underline
+		   "LowS"			"184 54 54 255"			//Flash color for underline
+			
 		"UberLabel"			"25 225 74 255" 		//Uber ready color %
 		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
 		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
 		"UberMeterFlash"		"15 95 14 100"			//Uber ready flash color meter	
 
+		"Select"			"25 225 74 255"			//This is the hover color for buttons
+		
+
+
+		//More options, partially for custom options like the line-effect or the colorful main-menu
+		
 		"Name"				"255 255 255 175"		//TargetID name label color
 		"Time"				"255 255 255 175"		//Respawn and Map time
 		
-		"Select"			"25 225 74 255"				//This is the hover color for buttons
-		"MvMBG"				"225 37 205 175"			//MvM panels purple color
+		"MvMBG"				"225 37 205 175"		//MvM panels purple color
 		
+		"MenuBGColor"			"0 124 88 255"			//Color option for alt main menu
 		
-		//Special Colors
-		
-		"LowT"				"184 54 54 214"				//Red animation for underline
-		"LowS"				"184 54 54 255"				//Flash color for underline
-		
-		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
-		"WhiteBGT"			"255 255 255 85"			//Background used for White Box Version
-		
-		"HudBGT"			"0 0 0 100"
-		
-		"MenuBGColor"		"25 225 74 105"			//Color option for alt main menu
-		
-		"Underline"				"0 0 0 0"					//Blank base color for HP and ammo underline
+		"Underline"			"0 0 0 0"			//Blank base color for HP and ammo underline
 		
 		"HudBG"				"0 0 0 214"			//Black HUD background
 		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
-											//make last value 0 to remove them, or 255 to make them black
+										//make last value 0 to remove them, or 255 to make them black
 
-		"HudBGC"			"25 225 74 255" 			//General color background
-		"HudBGCT"			"25 225 74 175"				//General color background transparent
+		"HudBGC"			"25 225 74 255" 		//General color background
+		"HudBGCT"			"25 225 74 175"			//General color background transparent
 		
 		
 		
-		// Base HUD colors
-		//S -> solid, ST -> semi-transparent, T -> transparent
+		// Base HUD Colors		
 		
-		"yAHUDBlue" 			"40 140 254 255"
+		"ButtonBG"			"110 110 110 255"		//Standard button color
+		"ButtonArmed"			"80 80 80 255"				//Armed color
+		"yAHUDBlue" 			"40 140 254 255"			//Logo color
+		"GrayBG"			"57 57 57 255"				//MenuBG
+		"GrayBGDark"			"42 42 42 255"				//Darker MenuBG
+		"GrayText"			"110 110 110 255"			//Text for some menu entries
 		
-		"Green"					"25 225 74 255" 			
-		"GreenST"				"25 225 74 175"
-		"GreenT"				"25 225 74 105"
-		"White"					"255 255 255 175"
-		"WhiteS"				"225 225 225 255"
+		"Green"				"25 225 74 255" 			//Green on black BG		
+		"GreenST"			"25 225 74 175"
+		"GreenT"			"25 225 74 105"
 		
-		"RedTeam" 				"184 56 59 175"				//Team fill colors transparent
-		"BlueTeam"				"78 123 152 175"			//
-		"RedTeamS" 				"184 56 59 255"				//
-		"BlueTeamS"				"88 133 162 255"			//Team fill colors solid
+		"GreenDark"			"0 124 88 255"				//Green for white highlights
 		
-		"LightGray"				"212 212 212 255"
-		"Metal"					"137 159 179 255"
-		"Gray"					"165 165 165 255"		
-		"Pink"					"225 37 205 175"			//MvM panel
 		
-		// Base Colors 
+		
+		"White"				"255 255 255 175"			//Transparent white for text
+		"WhiteS"			"225 225 225 255"			//Matching solid white
+		
+		"RedTeam" 			"184 56 59 175"				//Team fill colors transparent
+		"BlueTeam"			"78 123 152 175"			//
+		"RedTeamS" 			"184 56 59 255"				//
+		"BlueTeamS"			"88 133 162 255"			//Team fill colors solid
+		
+		"LightGray"			"212 212 212 255"
+		"Metal"				"137 159 179 255"
+		"Gray"				"165 165 165 255"		
+		
+		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
+		
+		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
+		"HudBGT"			"0 0 0 100"				//
+		
+		
+		// Base Colors TF2
 
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -130,8 +140,6 @@ Scheme
 		"ProgressBarBlue"	"91 122 142 255"
 		
 		"CreditsGreen"		"94 150 49 255"
-		
-		"Gray"				"178 178 178 255"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
@@ -235,13 +243,8 @@ Scheme
 	// Color Backup and Garm3n Colors
 	
 		"Garm3nCharge"			"42 79 134 255"			//Demoman charge animation		
-			
-		//"Garm3nMenuBG"			"0 0 0 214"				//125 makes menus more transparent
-		//"Garm3nLabelsBG"		"0 0 0 214"				//125
-		"Garm3nxHair"			"255 255 0 255"
 
-		//"Low"				"200 47 47 255"			//Low health and ammo warning color
-		//"Red"				"255 0 0 175"			//"Low Ammo/HP" animation flash color
+		"Garm3nxHair"			"255 255 0 255"
 		
 	}
 
@@ -253,8 +256,8 @@ Scheme
 		// vgui_controls color specifications
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
-		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
-		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
+		ReplayBrowser.Button.ArmedBgColor					"ButtonArmed"
+		ReplayBrowser.Button.DepressedBgColor				"ButtonBG"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
@@ -264,11 +267,11 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
+		Econ.Button.BgColor									"ButtonBG"
 		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.ArmedBgColor							"ButtonArmed"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedBgColor						"ButtonBG"
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
@@ -277,7 +280,7 @@ Scheme
 		
 		Econ.Button.PresetDefaultColorBg					"LighterRed"
 		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDepressedColorBg					"ButtonArmed"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
@@ -286,11 +289,11 @@ Scheme
 		Button.TextColor				"TanLight"
 		Button.BgColor					"TanDark"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"ButtonArmed"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.SelectedBgColor			"ButtonArmed"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"ButtonBG"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -417,7 +420,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Orange"
+		ToggleButton.SelectedTextColor	"WhiteS"	//Orange
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -530,6 +533,16 @@ Scheme
 			}
 		}
 	
+		"MainMenu"
+		{
+			"1"
+			{
+				"name"		"HelveticaNeue Medium"
+				"tall"		"13"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		"Default"
 		{
@@ -5187,7 +5200,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+			"color"					"Gray"
 			"image"					"backpack_rect"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"

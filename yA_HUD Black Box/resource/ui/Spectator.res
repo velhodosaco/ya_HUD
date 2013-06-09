@@ -302,7 +302,7 @@
 			"fieldName"		"ItemLabel"
 			"font"			"Regular8"
 			"xpos"			"10"
-			"ypos"			"3"
+			"ypos"			"99999"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"

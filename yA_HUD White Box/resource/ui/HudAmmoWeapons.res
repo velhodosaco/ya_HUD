@@ -109,10 +109,10 @@
 		"font"			"Heavy44"
 		"fgcolor"		"Black"
 		"xpos"	"52"						//1
-		"ypos"	"4"						//0		
+		"ypos"	"5"						//0		
 		"zpos"			"7"
 		"wide"	"71" 
-		"tall"	"57" 
+		"tall"	"56" 
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"				//east

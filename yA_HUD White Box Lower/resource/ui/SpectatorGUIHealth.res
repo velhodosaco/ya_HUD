@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Heavy23"
+		"font"			"Heavy20"
 		"fgcolor"		"Health"
 	}			
 	"PlayerStatusHealthValueSpecShadow"
@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Heavy23"
+		"font"			"Heavy20"
 		"fgcolor"		"HudShadow"
 	}	
 

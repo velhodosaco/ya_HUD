@@ -90,7 +90,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Bold14"				//Medium12
+		"font"			"Bold12"				//Medium12
 		"xpos"			"49"			//59
 		"ypos"			"6"		//
 		"zpos"			"2"

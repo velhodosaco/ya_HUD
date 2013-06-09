@@ -90,7 +90,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"Medium12"				//Medium12
+		"font"			"Bold12"				//Medium12
 		"xpos"			"49"			//59
 		"ypos"			"6"		//
 		"zpos"			"2"
@@ -111,7 +111,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"Medium12"				//Medium12
+		"font"			"Bold12"				//Medium12
 		"xpos"			"50"			//59
 		"ypos"			"7"		//
 		"zpos"			"2"
@@ -132,7 +132,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Medium9Shadow"
+		"font"			"Medium10Shadow"
 		"xpos"			"49"			//59
 		"ypos"			"24"		//15
 		"zpos"			"2"
@@ -156,8 +156,8 @@
 		"xpos"			"7"		//0
 		"ypos"			"2"
 		"zpos"			"5"
-		"wide"			"38"
-		"tall"			"36"
+		"wide"			"37"
+		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"

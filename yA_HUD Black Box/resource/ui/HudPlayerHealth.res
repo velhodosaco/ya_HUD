@@ -215,7 +215,7 @@
 		"ypos"			"129"	
 		"zpos"			"5"
 		"wide"			"159"
-		"tall"			"56"
+		"tall"			"57"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"

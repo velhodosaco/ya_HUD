@@ -30,7 +30,7 @@
 		"ypos"			"r148"	
 		"zpos"			"2"
 		"wide"			"159"	
-		"tall"			"56"	
+		"tall"			"57"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -51,7 +51,7 @@
 		"ypos"			"r149"	
 		"zpos"			"2"
 		"wide"			"159"	
-		"tall"			"56"	
+		"tall"			"57"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"		//bugged with vaccinator

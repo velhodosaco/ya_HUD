@@ -57,7 +57,7 @@ Scheme
 		
 		"MvMBG"				"225 37 205 175"		//MvM panels purple color
 		
-		"MenuBGColor"			"0 124 88 255"			//Color option for alt main menu
+		"MenuBGColor"		"5 200 88 214"			//Color option for alt main menu
 		
 		"Underline"			"0 0 0 0"			//Blank base color for HP and ammo underline
 		

@@ -362,7 +362,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"		"Bold25"
+		"font"			"Bold25"
 		"labelText"		"%redteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"

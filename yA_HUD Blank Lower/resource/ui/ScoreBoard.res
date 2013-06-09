@@ -198,7 +198,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Regular14"
+		"font"			"Bold14"
 		"labelText"		"%blueteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"west"
@@ -224,17 +224,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Medium25"
+		"font"			"Bold25"
 		"labelText"		"%blueteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"xpos"			"c-99"
-		"xpos_minmode"		"c269"
+		"xpos"			"c-100"
+		"xpos_minmode"		"c268"
 		"ypos"			"r369"
 		"ypos_minmode"		"r364"
 		"zpos"			"5"
-		"wide"			"99"
-		"tall"			"35"
+		"wide"			"101"
+		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -336,7 +336,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Regular14"
+		"font"			"Bold14"
 		"labelText"		"%redteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"east"
@@ -362,7 +362,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"		"Medium25"
+		"font"		"Bold25"
 		"labelText"		"%redteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
@@ -372,7 +372,7 @@
 		"ypos_minmode"		"r153"
 		"zpos"			"5"
 		"wide"			"99"
-		"tall"			"36"
+		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -456,16 +456,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Medium9Shadow"
 		"labelText"		"%server%"
 		"fgcolor"			"White"
 		"textAlignment"	"west"
-		"textAlignment_minmode""east"
-		"xpos"			"c-255"
-		"xpos_minmode"		"c133"
-		"ypos"			"r451"
-		"wide"			"510"
-		"wide_minmode"		"233"
+		"xpos"			"5"
+		"ypos"			"1"
+		"wide"			"470"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
@@ -506,7 +503,7 @@
 			"font"			"Light19"
 			"fgcolor"			"Time"
 			"xpos"			"c-295"
-			"ypos"			"r384"
+			"ypos"			"r383"
 			"wide"			"402"
 			"tall"			"20"
 
@@ -578,20 +575,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Medium9Shadow"
 		"labelText"		"%spectators%"
 		"fgcolor"			"White"
-		"textAlignment"				"west"
-		"textAlignment_minmode"		"east"
-		"xpos"			"c-255"
-		"xpos_minmode"		"c133"
-		"ypos"			"r442"
+		"textAlignment"	"north-west"
+		"xpos"			"5"
+		"ypos"			"14"
 		"zpos"			"4"
-		"wide"			"510"
-		"wide_minmode"		"233"
-		"tall"			"15"
+		"wide"			"140"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
+		"wrap"			"1"
 
 		if_mvm
 		{
@@ -605,20 +600,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Medium9Shadow"
 		"fgcolor"			"White"
 		"labelText"		"%waitingtoplay%"
-		"textAlignment"	"west"
-		"textAlignment_minmode""east"
-		"xpos"			"c-255"
-		"xpos_minmode"		"c133"
-		"ypos"			"r433"
+		"textAlignment"	"south-west"
+		"xpos"			"5"
+		"ypos"			"435"
 		"zpos"			"4"
-		"wide"			"510"
-		"wide_minmode"		"233"
-		"tall"			"15"
+		"wide"			"140"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
+		"wrap"			"1"
 
 		if_mvm
 		{
@@ -1001,7 +994,7 @@
 			{
 				"font"		"Medium39"
 				"xpos"		"c-329"
-				"ypos"		"r178"
+				"ypos"		"r176"
 				"tall"		"41"
 			}
 		}
@@ -1050,7 +1043,7 @@
 			{
 				"font"		"Medium39"
 				"xpos"		"c-176"
-				"ypos"		"r178"
+				"ypos"		"r176"
 				"tall"		"41"
 			}
 		}

@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Heavy23"
+		"font"			"Heavy20"
 		"fgcolor"		"Health"
 	}			
 	"PlayerStatusHealthValueSpecShadow"
@@ -83,12 +83,12 @@
 		"ypos"			"4"
 		"zpos"			"4"
 		"wide"			"46"
-		"tall"			"28"
+		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Heavy23"
+		"font"			"Heavy20"
 		"fgcolor"		"HudShadow"
 	}	
 

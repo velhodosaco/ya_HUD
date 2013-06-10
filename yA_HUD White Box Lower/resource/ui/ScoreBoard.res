@@ -208,7 +208,7 @@
 		"ypos_minmode"		"r347"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"19"
+		"tall"			"20"
 		"tall_minmode"		"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -228,12 +228,12 @@
 		"labelText"		"%blueteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"xpos"			"c-100"
-		"xpos_minmode"		"c268"
+		"xpos"			"c-99"
+		"xpos_minmode"		"c269"
 		"ypos"			"r369"
 		"ypos_minmode"		"r364"
 		"zpos"			"5"
-		"wide"			"101"
+		"wide"			"99"
 		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"
@@ -346,7 +346,7 @@
 		"ypos"			"r352"
 		"ypos_minmode"		"r153"
 		"wide"			"100"
-		"tall"			"19"
+		"tall"			"20"
 		"tall_minmode"		"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -456,7 +456,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Medium9Shadow"
+		"font"			"Regular9Shadow"
 		"labelText"		"%server%"
 		"fgcolor"			"White"
 		"textAlignment"	"west"
@@ -480,7 +480,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
 		"font"			"Light19Shadow"
-		"font_minmode"		"Medium9Shadow"
+		"font_minmode"		"Regular10Shadow"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
 		"fgcolor"			"Time"
@@ -503,7 +503,7 @@
 			"font"			"Light19"
 			"fgcolor"			"Time"
 			"xpos"			"c-295"
-			"ypos"			"r383"
+			"ypos"			"r384"
 			"wide"			"402"
 			"tall"			"20"
 
@@ -620,7 +620,7 @@
 			"ypos"			"r448"
 			"wide"			"590"
 		}
-	}							
+	}				
 	"ShadedBar" 
 	{
 		"ControlName"	"ImagePanel"
@@ -733,7 +733,6 @@
 			"visible"		"0"
 		}
 	}
-
 	"LocalPlayerDuelStatsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -933,7 +932,7 @@
 		"xpos"			"0"
 		"xpos_minmode"			"50"
 		"ypos"			"56"
-		"ypos_minmode"		"140"
+		"ypos_minmode"		"141"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"480"
@@ -957,7 +956,7 @@
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"	"east"
 			"xpos"			"113"		//113
-			"ypos"			"8"
+			"ypos"			"7"
 			"zpos"			"3"
 			"wide"			"60"
 			"tall"			"20"
@@ -980,8 +979,8 @@
 			"textAlignment"	"east"
 			"xpos"			"c-146"
 			"xpos_minmode"		"c-3"		//c-53
-			"ypos"			"r175"
-			"ypos_minmode"		"r172"
+			"ypos"			"r178"
+			"ypos_minmode"		"r173"
 			"zpos"			"3"
 			"wide"			"140"
 			"tall"			"50"
@@ -994,7 +993,7 @@
 			{
 				"font"		"Medium39"
 				"xpos"		"c-329"
-				"ypos"		"r176"
+				"ypos"		"r178"
 				"tall"		"41"
 			}
 		}
@@ -1029,8 +1028,8 @@
 			"textAlignment"	"west"
 			"xpos"			"c6"
 			"xpos_minmode"		"c146"
-			"ypos"			"r175"
-			"ypos_minmode"		"r172"
+			"ypos"			"r178"
+			"ypos_minmode"		"r173"
 			"zpos"			"3"
 			"wide"			"140"
 			"tall"			"50"
@@ -1043,7 +1042,7 @@
 			{
 				"font"		"Medium39"
 				"xpos"		"c-176"
-				"ypos"		"r176"
+				"ypos"		"r178"
 				"tall"		"41"
 			}
 		}
@@ -1059,7 +1058,7 @@
 			"xpos"			"c-250"
 			"xpos_minmode"		"c87"
 			"ypos"			"r172"
-			"ypos_minmode"		"9999"
+			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
@@ -1085,7 +1084,7 @@
 			"xpos"			"c-255"
 			"xpos_minmode"		"c34"		//-16
 			"ypos"			"r172"
-			"ypos_minmode"		"9999"
+			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
@@ -1371,7 +1370,7 @@
 			"xpos"			"c93"
 			"xpos_minmode"		"c202"
 			"ypos"			"r172"
-			"ypos_minmode"		"9999"
+			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
@@ -1397,7 +1396,7 @@
 			"xpos"			"c88"
 			"xpos_minmode"		"c149"
 			"ypos"			"r172"
-			"ypos_minmode"		"9999"
+			"ypos_minmode"		"r145"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
@@ -1759,8 +1758,8 @@
 			"zpos"			"1"
 			"xpos"			"c-14"
 			"xpos_minmode"		"c129"		//79
-			"ypos"			"r164"
-			"ypos_minmode"		"r167"
+			"ypos"			"r168"
+			"ypos_minmode"		"r168"
 			"wide"			"28"
 			"wide_minmode"		"27"
 			"tall"			"25"

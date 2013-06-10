@@ -8,7 +8,7 @@
 		"delta_item_end_y"		"454"
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
-		"delta_lifetime"		"0.7"
-		"delta_item_font"		"Medium16"
+		"delta_lifetime"		"1.2"
+		"delta_item_font"		"Bold22"
 	}
 }

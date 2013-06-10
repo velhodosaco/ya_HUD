@@ -9,7 +9,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"STVLabelCustom"
-		"font"			"Regular14"
+		"font"			"Bold14"
 		"labelText"							"LEAGUENAME"		//Enter text for 9v9 Scoreboard
 		"labelText_minmode"					"LEAGUENAME"		//Enter text for 6v6 Scoreboard
 		"fgcolor"		"Black"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"STVLabelInfo"
-		"font"			"Regular14"
+		"font"			"Bold14"
 		"labelText"							"TF2"		//Enter text for 9v9 Scoreboard
 		"labelText_minmode"					"TF2"		//Enter text for 6v6 Scoreboard
 		"fgcolor"		"Black"
@@ -87,7 +87,7 @@
 	{                                              //Toggle between them with hudminmode
 		"ControlName"	"CExLabel"
 		"fieldName"		"STVLabelMode"
-		"font"			"Regular14"
+		"font"			"Bold14"
 		"labelText"		"HIGHLANDER"
 		"labelText_minmode"		"6 VERSUS 6"
 		"fgcolor"		"Black"
@@ -200,8 +200,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Light19Shadow"
-		"font_minmode"		"Light19Shadow"
+		"font"			"Light19"
+		"font_minmode"		"Light19"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
 		"fgcolor"			"White"
@@ -435,7 +435,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Regular16"
+		"font"			"Bold14"
 		"labelText"		"%blueteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"west"
@@ -445,8 +445,8 @@
 		"ypos_minmode"		"r352"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"19"
-		"tall_minmode"		"19"
+		"tall"			"20"
+		"tall_minmode"		"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -461,7 +461,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Medium25"
+		"font"			"Bold25"
 		"labelText"		"%blueteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
@@ -471,7 +471,7 @@
 		"ypos_minmode"		"r369"
 		"zpos"			"5"
 		"wide"			"99"
-		"tall"			"36"
+		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -573,7 +573,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Regular16"
+		"font"			"Bold14"
 		"labelText"		"%redteamname%"
 		"fgcolor"		"Black"
 		"textAlignment"	"east"
@@ -583,8 +583,8 @@
 		"ypos"			"r352"
 		
 		"wide"			"100"
-		"tall"			"19"
-		"tall_minmode"		"19"
+		"tall"			"20"
+		"tall_minmode"		"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -599,7 +599,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"		"Medium25"
+		"font"		"Bold25"
 		"labelText"		"%redteamscore%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
@@ -609,7 +609,7 @@
 		"ypos_minmode"		"r369"
 		"zpos"			"5"
 		"wide"			"99"
-		"tall"			"36"
+		"tall"			"37"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -646,7 +646,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueVS"
-		"font"			"Regular16"
+		"font"			"Bold14"
 		"labelText"		"V"
 		"textAlignment"	"center"
 		"xpos"			"c-27"
@@ -669,7 +669,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedVS"
-		"font"			"Regular16"
+		"font"			"Bold14"
 		"labelText"		"S"
 		"textAlignment"	"center"
 		"xpos"			"c2"

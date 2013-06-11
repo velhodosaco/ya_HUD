@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-345"				//c202
-		"ypos"			"r40"				//r138
+		"xpos"			"c-300"				//c202
+		"ypos"			"r180"				//r138
 		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"		"0"
@@ -35,8 +35,8 @@
 		"xpos"			"c-364"
 		"ypos"			"r29"
 		"zpos"			"1"
-		"wide"			"30" // 35
-		"tall"			"30" // 35
+		"wide"			"0" // 35
+		"tall"			"0" // 35
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"

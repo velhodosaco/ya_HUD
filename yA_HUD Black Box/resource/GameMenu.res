@@ -3,7 +3,7 @@
 	"YAHUD"
 	{
 		"label" "yA_HUD"
-		"command" "engine showconsole; clear; echo kritz.me/yahud <> give feedback in the tf.tv thread: teamfortress.tv/forum/thread/8336-yahud <> or here github.com/whayay/yA_HUD"
+		"command" "engine con_enable 1; engine showconsole; clear; echo kritz.me/yahud <> give feedback in the tf.tv thread: teamfortress.tv/forum/thread/8336-yahud <> or here github.com/whayay/yA_HUD"
 		"OnlyAtMenu" "1"
 	}
 
@@ -47,10 +47,10 @@
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 	}
-	"TrainingButton"
+	"ConsoleButton"
 	{
-		"label" "Training"
-		"command" "offlinepractice"
+		"label" "Console"
+		"command" "engine con_enable 1;toggleconsole"
 		"OnlyAtMenu" "1"
 	} 
 	"DEMOUI"

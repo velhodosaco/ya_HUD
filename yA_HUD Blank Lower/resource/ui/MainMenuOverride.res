@@ -5,10 +5,10 @@
 		"fieldName"		"MainMenuOverride"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"-152"	//0
+		"xpos"			"0"	//0
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"1920"
+		"wide"			"f0"
 		"tall"			"480"
 		
 //		"bgcolor_override"	"0 0 0 240"
@@ -127,7 +127,7 @@
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-200"
+		"zpos"			"0"
 		"wide"			"0"	//f0
 		"tall"			"0"	//480
 		"visible"		"0"
@@ -157,7 +157,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"			"152"		//0
+		"xpos"			"0"		//0
 		"ypos"			"0"
 		"zpos"			"-10"
 		"wide"			"1920"
@@ -171,7 +171,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonsBG"
-		"xpos"			"c-275"
+		"xpos"			"0"
 		"ypos"			"r40"
 		"zpos"			"-8"
 		"wide"			"197"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BlackBG"
-		"xpos"			"c-275"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-9"
 		"wide"			"197"
@@ -226,15 +226,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainMenuBGPanel"
-		"xpos"			"c-153"		//-305
-		"ypos"			"140"
-		"zpos"			"-1"
-		"wide"			"f160"
-		"tall"			"67"
+		"xpos"			"0"		//-305
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
 		
 		if_halloween
@@ -300,19 +300,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"c-270"
+		"xpos"			"5"
 		"ypos"			"r39"
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 
-		"navUp"			"PlayPVEButton"
-		"navDown"		"CharacterSetupButton"
-		"navLeft"		"ServerBrowserButton"
-		"navRight"		"TrainingButton"
-		"navToRelay"	"SubButton"
-		
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -364,8 +358,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c370"
-		"ypos"			"40"
+		"xpos"			"r50"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -374,11 +368,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
@@ -400,28 +389,28 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-
-			"Command"		"motd_show"
-			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
-
+			 "Command"		"motd_show"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor" "124 124 144 255" //	"206 192 115 255"
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"42 42 42 255"
+			"armedBgColor_override"		"57 57 57 255"
+			"depressedBgColor_override"	"42 42 42 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"24"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"glyph_message"
 				"scaleImage"	"1"
 			}
 		}
@@ -431,8 +420,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c170"
-		"ypos"			"28"
+		"xpos"			"r320"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"360"
@@ -441,10 +430,6 @@
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
-		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
-		
 		"MOTD_HeaderContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -470,9 +455,9 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"141 178 61 255"
+				"PaintBackgroundType" "0"
+				"fgcolor_override"	"42 42 42 255"
+				"bgcolor_override"	"0 0 0 0"
 			}
 		}
 		
@@ -497,8 +482,6 @@
 			"brighttext"	"0"
 			"default"		"0"
 
-			"navDown"			"MOTD_URLButton"
-			"navActivate"		"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -512,8 +495,8 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor" "124 124 144 255" //	"200 80 60 255"
+			"image_drawcolor"	"42 42 42 255"
+			"image_armedcolor" "142 142 142 255" //	"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -690,9 +673,6 @@
 			"default"		"1"
 			"command"		"motd_viewurl"
 
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -724,9 +704,6 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_prev"
-
-			"navUp"			"MOTD_CloseButton"
-			"navRight"		"MOTD_URLButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -772,9 +749,6 @@
 			"default"		"1"
 			"Command"		"motd_next"
 
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_URLButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
@@ -802,8 +776,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c335"
-		"ypos"			"40"
+		"xpos"			"r87"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -812,11 +786,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 		
 		"SubImage"
 		{
@@ -875,26 +844,29 @@
 			"default"		"1"
 
 			"Command"		"noti_show"
-			"navActivate"	"<QuickplayButton"
+
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor" "124 124 144 255" //	"206 192 115 255"
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"42 42 42 255"
+			"armedBgColor_override"		"57 57 57 255"
+			"depressedBgColor_override"	"42 42 42 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"4"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"24"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_Alert"
+				"image"			"glyph_alert"
 				"scaleImage"	"1"
 			}
 		}
@@ -904,8 +876,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c170"
-		"ypos"			"102"
+		"xpos"			"r267"
+		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"
@@ -914,12 +886,7 @@
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"Notifications_ShowButtonPanel"
-		"navRight"		"MOTD_ShowButtonPanel"
-		"navToRelay"	"Notifications_CloseButton"
-		
+	
 		"Notifications_CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -942,7 +909,6 @@
 			"default"		"0"
 
 			"Command"		"noti_hide"
-			"navActivate"	"<QuickplayButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1062,23 +1028,17 @@
 		}
 	}
 
-	"TrainingButton"
+	"ConsoleButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"TrainingButton"
-		"xpos"			"c-276"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"-1"
 		"ypos"			"r339"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
-		"navUp"			"PlayPVEButton"
-		"navDown"		"GeneralStoreButton"
-		"navLeft"		"CreateServerButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1134,7 +1094,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DEMOUI"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r159"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1195,7 +1155,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ToggleScoreboard"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r139"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1256,18 +1216,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r240"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
-		"navUp"			"CharacterSetupButton"
-		"navDown"		"QuitButton"
-		"navRight"		"SteamWorkshopButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1323,19 +1278,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r189"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
-		"navUp"			"GeneralStoreButton"
-		"navDown"		"QuitButton"
-		"navLeft"		"ReplayBrowserButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1391,7 +1340,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r209"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1399,11 +1348,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
-		"navUp"			"TrainingButton"
-		"navDown"		"SteamWorkshopButton"
-		"navLeft"		"CharacterSetupButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1459,18 +1403,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r260"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-
-		"navUp"			"ServerBrowserButton"
-		"navDown"		"ReplayBrowserButton"
-		"navRight"		"GeneralStoreButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1700,7 +1639,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r390"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1761,17 +1700,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r410"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-
-		"navDown"		"PlayPVEButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1827,7 +1762,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r410"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1888,7 +1823,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r359"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1896,10 +1831,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navUp"			"QuickplayButton"
-		"navDown"		"ServerBrowserButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -1955,7 +1886,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r390"
 		"zpos"			"11"
 		"wide"			"223"
@@ -1963,10 +1894,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navUp"			"PlayPVEButton"
-		"navDown"		"CharacterSetupButton"
-		"navRight"		"CreateServerButton"
-		"navToRelay"	"SubButton"
 
 		"SubButton"
 		{
@@ -2022,7 +1949,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"YAHUD"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r454"
 		"zpos"			"11"
 		"wide"			"223"
@@ -2086,7 +2013,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r359"
 		"zpos"			"11"
 		"wide"			"223"
@@ -2148,7 +2075,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r110"
 		"zpos"			"11"
 		"wide"			"223"
@@ -2210,7 +2137,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
-		"xpos"			"c-276"
+		"xpos"			"-1"
 		"ypos"			"r110"
 		"zpos"			"11"
 		"wide"			"223"
@@ -2272,7 +2199,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-109"
+		"xpos"			"166"
 		"ypos"			"r39"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2329,7 +2256,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-270"
+		"xpos"			"5"
 		"ypos"			"r39"
 		"zpos"			"5"
 		"wide"			"20"
@@ -2386,7 +2313,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-134"
+		"xpos"			"141"
 		"ypos"			"r40"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2473,7 +2400,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"c-248"
+		"xpos"			"27"
 		"ypos"			"r40"
 		"zpos"			"3"
 		"wide"			"29"
@@ -2491,9 +2418,6 @@
 		"default"		"1"
 		"Command"		"view_newuser_forums"
 
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"QuitButton"
-		"navRight"		"AchievementsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2525,7 +2449,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"c-204"
+		"xpos"			"71"
 		"ypos"			"r40"
 		"zpos"			"3"
 		"wide"			"20"
@@ -2542,10 +2466,6 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"NewUserForumsButton"
-		"navRight"		"CommentaryButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2576,7 +2496,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"c-180"
+		"xpos"			"95"
 		"ypos"			"r39"
 		"zpos"			"4"
 		"wide"			"30"
@@ -2593,10 +2513,6 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2628,7 +2544,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"c-157"
+		"xpos"			"118"
 		"ypos"			"r39"
 		"zpos"			"5"
 		"wide"			"26"
@@ -2645,10 +2561,6 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
-
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"CommentaryButton"
-		"navRight"		"ReportBugButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2680,7 +2592,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-232"
+		"xpos"			"43"
 		"ypos"			"r39"
 		"zpos"			"1"
 		"wide"			"30"
@@ -2698,9 +2610,6 @@
 		"default"		"1"
 		"Command"		"engine bug"
 
-		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"CoachPlayersButton"
-		"navRight"		"SettingsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2732,7 +2641,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-276"			//c-286
+		"xpos"			"-1"			
 		"ypos"			"r290"
 		"zpos"			"11"
 		"wide"			"223"
@@ -2751,8 +2660,6 @@
 		"brighttext"	"0"
 		"Command"		"opentf2options"
 
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2787,7 +2694,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-276"				//c-286
+		"xpos"			"-1"				
 		"ypos"			"r310"
 		"zpos"			"11"
 		"wide"			"223"
@@ -2807,9 +2714,6 @@
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
 
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"ReportBugButton"
-		"navRight"		"TF2SettingsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

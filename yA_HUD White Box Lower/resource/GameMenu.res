@@ -51,7 +51,6 @@
 	{
 		"label" "Console"
 		"command" "engine con_enable 1;toggleconsole"
-		"OnlyAtMenu" "1"
 	} 
 	"DEMOUI"
 	{

@@ -43,7 +43,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
 		"xpos"			"c69"
-		"ypos"			"r149"	
+		"ypos"			"r148"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -56,7 +56,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Heavy44"
 		"fgcolor"		"HudShadow"
 	}
 	
@@ -65,13 +65,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ChargeBG"
 		"xpos"		"c91"			
-		"ypos"		"r145"
+		"ypos"		"r141"
 		"zpos"		"1"
 		"wide"		"114"		
-		"tall"		"55"
-		"autoResize"	"0"
+		"tall"		"45"
+		"autoResize"	"1"
 		"pinCorner"	"0"
-		"visible"		"0"					//0 to remove black box
+		"visible"		"1"					//0 to remove black box
 		"enabled"		"1"
 		"fillcolor"		"HudBG"
 		"PaintBackgroundType""0"
@@ -95,7 +95,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Heavy44"
 		"fgcolor"		"White"
 	}
 	"IndividualChargesLabel"
@@ -103,10 +103,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"c68"
-		"ypos"			"r149"	
+		"ypos"			"r148"	
 		"zpos"			"3"
 		"wide"			"159"	
-		"tall"			"56"	
+		"tall"			"57"	
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -117,7 +117,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Heavy44"
 	}
 
 	"ChargeMeter"

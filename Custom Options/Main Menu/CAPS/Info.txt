@@ -1,3 +1,0 @@
-The turn the buttons on the MainMenu into ALL CAPS.
-
-Merge the /resource/ folder with the tf/custom/yourfoldername/resource/ folder.

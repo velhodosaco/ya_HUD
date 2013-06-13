@@ -1,0 +1,3 @@
+This goes into /resource/ui.
+
+The color can be customized via the clientscheme in /resource/. Search for the "MenuBGColor" entry.

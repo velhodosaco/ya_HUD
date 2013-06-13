@@ -522,6 +522,18 @@ Scheme
 			}
 		}
 		
+		"SymbolS"
+		{
+			"1"
+			{
+				"name"			"Entypo"
+				"tall"		"25"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		
 		"BlocksSharp64"
 		{
 			"1"
@@ -789,7 +801,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
+		
 		"Heavy59"
 		{
 			"1"
@@ -6226,6 +6238,11 @@ Scheme
 		{
 			"font" "resource/fonts/AvenirLTStd-Book.otf"
 			"name" "AvenirLTStd-Book"
-		}		
+		}	
+		"16"
+		{
+			"font" "resource/fonts/Entypo.otf"
+			"name" "Entypo"
+		}
 	}
 }

@@ -14,15 +14,6 @@ Then copy the resource and the scripts folder from the HUD version that you want
 
 -----------------------------------------------------------
 
-If you're using a 16:10 or 4:3 monitor:
-
-	1. Open the 4BY3 or 16BY10 folder from the folder that you've downloaded
-	2. Copy all the files(and replace the old ones) into resource/ui
-
-This will fix the MainMenu for you aspect ratio and the scoreboard for 4:3.
-
------------------------------------------------------------
-
 Instructions for HUD crosshairs can be found at the end of the CUSTOMIZATION.txt
 
 -----------------------------------------------------------

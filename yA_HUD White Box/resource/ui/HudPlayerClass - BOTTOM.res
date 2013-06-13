@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-405" //"35"
+		"xpos"			"25" //"35"
 		"ypos"			"r34"
 		"zpos"			"30"
 		"wide"			"37"
@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"c-425" //"20"
+		"xpos"			"5" //"20"
 		"ypos"			"r25"
 		"zpos"			"2"
 		"wide"			"30"

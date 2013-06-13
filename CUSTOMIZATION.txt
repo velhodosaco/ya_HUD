@@ -86,6 +86,11 @@ If you want to have a CLASS indicator on the bottom left
 
 -----------------------------------------------------------
 
+Delete SourceScheme.res in your resource folder to get back the default server browser etc
+
+-----------------------------------------------------------
+
+
 If you want to change the KILLFEED to have line spacing
 
 	1. Go to /scripts and then "hudlayout.res"

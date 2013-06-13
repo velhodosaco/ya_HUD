@@ -673,9 +673,12 @@
 			"default"		"1"
 			"command"		"motd_viewurl"
 
-
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "235 226 202 255"
 			"defaultBgColor_override" "46 43 42 255"

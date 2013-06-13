@@ -149,10 +149,10 @@
 		{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"112"
+		"xpos"			"97"
 		"ypos"			"120"
 		"zpos"			"5"
-		"wide"			"54"
+		"wide"			"40"
 		"tall"			"4"
 		"visible"		"1"
 		"enabled"		"1"
@@ -165,12 +165,12 @@
 		{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG2"
-		"xpos"			"135"
+		"xpos"			"137"
 		"ypos"			"120"
 		"zpos"			"5"
-		"wide"			"35"
+		"wide"			"40"
 		"tall"			"4"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"9"
 		"textAlignment"	"west"			//east

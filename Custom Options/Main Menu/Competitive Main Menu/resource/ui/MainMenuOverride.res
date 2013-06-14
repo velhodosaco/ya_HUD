@@ -162,7 +162,7 @@
 		"zpos"			"-10"
 		"wide"			"f0"
 		"tall"			"480"
-		"fillcolor"		"0 0 0 27"
+		"fillcolor"		"255 255 255 27"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -1192,6 +1192,68 @@
 		}
 	}
 
+	"HomeServer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"HomeServer"
+		"xpos"			"r46"
+		"ypos"			"r46"
+		"zpos"			"11"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"50"
+			"tall"			"50"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"SymbolS"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"FgColor" "0 0 0 255"			
+			"defaultFgColor_override" "0 0 0 255"
+			"armedFgColor_override" "124 124 124 255"
+			"depressedFgColor_override" "0 0 0 255"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+	
 
 	"ReplayBrowserButton"
 	{

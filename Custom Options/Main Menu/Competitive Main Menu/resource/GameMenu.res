@@ -62,6 +62,11 @@
 		"label" "n"
 		"command" "engine toggle cl_hud_minmode"
 	}
+	"HomeServer"
+	{
+		"label" "7"
+		"command" "engine Home"
+	}
 	"QuitButton"
 	{
 		"label" "QUIT"

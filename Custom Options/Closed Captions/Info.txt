@@ -1,4 +1,4 @@
-Move the two captions files from one of the versions into your resource folder in /tf/custom/yourfoldername/resource to enable captions. 
+Merge the resource folder of one of the options with your resource folder in /tf/custom/yourfoldername/resource to enable captions. 
 
 Their location and their behaviour can be customized in /scripts/hudlayout.res.
 

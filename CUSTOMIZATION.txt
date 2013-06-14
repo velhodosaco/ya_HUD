@@ -1,8 +1,8 @@
 Custom Options yA_HUD 
 
-List of custom options at the end, here's an imgur album with some examples: http://imgur.com/a/0o11h
-
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
+Here's an imgur album with some examples: http://imgur.com/a/0o11h
+/////////////////////////////////////////////////////////////////////////////////
 
 BASIC EXPLANATION
 
@@ -12,15 +12,14 @@ Many options work with alternative files that need to be renamed.
 	Make sure that there are no spaces left!
 
 These alternative files are located in resource/ui unless stated otherwise.
-	
 	Example: "BaseChat.res" to "BaseChatOLD.res and then "BaseChat - MIDDLE.res" to "BaseChat.res"
 
 
-Some options are located in the /Custom Options/ (in the folder you downloaded)
+Some other options are located in /Custom Options/ (in the folder you downloaded)
 They are override files, you can copy them directly over your existing hud files.
-Info files are included for these options.
+Separate info files are included for these options.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 HP OPTIONS
 
@@ -31,7 +30,7 @@ HP OPTIONS
 	You can enable the line effect with the "LINE - " alternative animation file in /scripts/.
 		This is the default effect for the White Box Version.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 PULSING SHADOWS instead of pulsing numbers (Ammo/HP) for the box-less versions:
 	
@@ -39,31 +38,30 @@ PULSING SHADOWS instead of pulsing numbers (Ammo/HP) for the box-less versions:
 
 	Go to /scripts/ and use the "PULSESHADOW - " alternative file.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to change some of the COLORS
-
 Or if you want to make the SHADOWS under the numbers in the boxless versions darker
 
 	1. Go to your resource folder.
 	2. Then ClientScheme.res
 	3. Follow instructions in that file.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to use the center Medic CHARGE METER
 
 	Use the " - CENTER" alternative file for "HudMedicCharge.res"
 		Some versions have this by default.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 Enabling a small PERCENTAGE label under the crosshair
 
 	1. Search (ctrl+F) for "ChrageLabelTiny" in the "HudMedicCharge.res" file
 	2. Change "visible" to "1" in that entry and then save the file
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to want to use an alternative SCOREBOARD or enbable stats on the Scoreboard
 
@@ -71,25 +69,23 @@ If you want to want to use an alternative SCOREBOARD or enbable stats on the Sco
 	2. Pick a scoreboard and copy it
 	3. Paste it into your /resource/ui folder
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to have a CLASS indicator on the bottom left
 
 	1. Go to /resource/ui
 	2. Rename "HudPlayerClass.res" to something like "HudPlayerClassOLD.res"
 	3. Rename "HudPlayerClass - BOTTOM.res" to "HudPlayerClass.res"
-		Use the _16BY10 file if you're running that aspect ratio.
 
 	4. Navigate to scripts
 	5. Rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
 	6. Rename "CLASSIMAGE_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 Delete SourceScheme.res in your resource folder to get back the default server browser etc
 
------------------------------------------------------------
-
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to change the KILLFEED to have line spacing
 
@@ -99,7 +95,7 @@ If you want to change the KILLFEED to have line spacing
 			The higher the value the bigger the distance between entries in the Killfeed
 	3: Save
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to customize the SpectatorHUD
 
@@ -113,39 +109,37 @@ SpectatorHUD with HP CROSSES
 
 	Use the "SpectatorTournamentGUIHealth - CROSS.res" alt file along with one of the "SpectatorTournament - CROSS" alt files.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to disable flashing HP or Ammo
 
 	Go into scripts, and rename "HudAnimations_tf.txt" to something like "FLASH_HudAnimations_tf.txt"
 	Then rename "NOFLASH_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want TargetIDs without boxes (when you look at someone)
 
 	Use the " - NOBOX" alt file for "TargetID.res" in /resource/ui
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to have an HP cross on your TargetIDs (when you look at someone)
 
 	Replace the original "TargetID.res" and "SpectatorGUIHealth.res" with the " - HPCROSS" alt files in the resource/ui folder.
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 If you want to use different CHAT POSITIONS use the override files in /Custom Options/Chat (downloaded folder)
 	You can delete the original "BaseChat.res" file altogether for the default location.
 
------------------------------------------------------------	
+/////////////////////////////////////////////////////////////////////////////////	
 	
 A team-colored TEAM SELECTION menu is available, use the TeamMenu.res alt file in /resource/ui.
 	
------------------------------------------------------------
-
+/////////////////////////////////////////////////////////////////////////////////
 Fog's CROSSHAIRS
-
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 Big thanks to fog for letting me use his crosshairs! http://i.imgur.com/vJsoF2g.png
 
@@ -154,11 +148,9 @@ Big thanks to fog for letting me use his crosshairs! http://i.imgur.com/vJsoF2g.
 	You can find more instructions there as well.
 	These crosshairs flash red on hit, which can be customized/disabled.
 
------------------------------------------------------------
-
+/////////////////////////////////////////////////////////////////////////////////
 Garm3n's CROSSHAIRS
-
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 Normal CROSSHAIRS
 
@@ -188,7 +180,7 @@ Change visible from 0 to 1.
 	
 	(Some CrossHairs are combinations, you need to activate more than one)
 
------------------------------------------------------------
+/////////////////////////////////////////////////////////////////////////////////
 
 Dynamic CROSSHAIRS
 
@@ -217,27 +209,3 @@ Change visible from 0 to 1.
 
 	(Some xHairs are combinations, you need to activate more than one)
 
------------------------------------------------------------	
-
-List of options
-	
-	- adding HP cross, pulsing background or underline
-	- changing colors
-	- alternative medic charge meter
-	- small charge % under crosshair
-	- various scoreboards (http://imgur.com/a/x3vTd)
-
-	- class image at the bottom of the screen
-	- flash shadow instead of number for warning (goes well with HP pulse, http://i.imgur.com/xNpSB3r.jpg)
-	- add spacing to killfeed
-	- custom closed captions
-	- move the spectator HUD to the bottom
-	- disable warning flashes for ammo/hp
-	- TargetIDs without boxes (looking at health and name of other players)
-	- HP cross on TargetID
-
-	- custom HUD crosshairs
-	- Chat position
-	- colored team menu in the style of the scoreboard/winpanel
-	- colored Main Menu
-	- movie-making HUD version (only deathnotice+dmg numbers)

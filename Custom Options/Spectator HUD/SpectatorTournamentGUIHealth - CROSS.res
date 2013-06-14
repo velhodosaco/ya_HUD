@@ -98,6 +98,6 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"fgcolor"			"Black"
-		"font"			"Regular14"
+		"font"			"Bold13"
       }								
 }

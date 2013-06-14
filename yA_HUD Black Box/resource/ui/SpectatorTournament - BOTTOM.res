@@ -230,7 +230,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"respawntime"
-				"font"		"Medium10" //9
+				"font"		"Medium10"
 				"xpos"			"2"
 				"ypos"			"0"
 				"zpos"			"5"

@@ -1,5 +1,0 @@
-Put this into the same folder as your resource and scripts folder.
-
-This goes into /tf/custom/yourfoldername/
-
-This will give you a simple custom main menu Background.

@@ -72,12 +72,17 @@ Scheme
 		
 		// Base HUD Colors		
 		
-		"ButtonBG"			"110 110 110 255"		//Standard button color
-		"ButtonArmed"			"80 80 80 255"				//Armed color
-		"yAHUDBlue" 			"40 140 254 255"			//Logo color
+		"ButtonBG"			"88 88 88 255"					//Standard button color
+		"ButtonArmed"			"74 74 74 255"				//Armed color
+		"ButtonSelect"		"27 27 27 255"
+		
+		"yAHUDBlue" 			"40 140 254 255"			//Logo hover color
+		
 		"GrayBG"			"57 57 57 255"				//MenuBG
 		"GrayBGDark"			"42 42 42 255"				//Darker MenuBG
 		"GrayText"			"110 110 110 255"			//Text for some menu entries
+		"FrameGray"			"142 142 142 255"
+		"BlackBorder"		"17 17 17 255"
 		
 		"Green"				"25 225 74 255" 			//Green on black BG		
 		"GreenST"			"25 225 74 175"
@@ -107,8 +112,8 @@ Scheme
 		
 		// Base Colors TF2
 
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
+		"Orange"			"225 225 225 255"
+		"OrangeDim"			"225 225 225 120"
 		"LightOrange"		"188 112 0 128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
@@ -117,8 +122,8 @@ Scheme
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"104 124 155 175"		//0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
+		"Yellow"			"225 225 225 255"
+		"TransparentYellow"	"255 255 255 140"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -126,7 +131,7 @@ Scheme
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
+		"FooterBGBlack"		"42 42 42 255"
 		
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
@@ -177,19 +182,19 @@ Scheme
 		
 		"ProgressOffWhiteTransparent"	"242 242 242 128"
 		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
+		"LabelDark"			"42 42 42 255"
+		"LabelTransparent"	"110 110 110 180"
 		
 		"BuildMenuActive"	"248 231 198 255"
 		
 		"DisguiseMenuIconRed"	"192 56 63 255"
 		"DisguiseMenuIconBlue"	"92 128 166 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
- 		"MatchmakingMenuItemBackground"			"46 43 42 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+ 		"MatchmakingDialogTitleColor"			"225 225 225 255"
+ 		"MatchmakingMenuItemBackground"			"42 42 42 255"
+ 		"MatchmakingMenuItemBackgroundActive"	"57 57 57 255"	
+		"MatchmakingMenuItemTitleColor"			"225 225 225 255"
+		"MatchmakingMenuItemDescriptionColor"	"225 225 225 255"
 		
 		"HTMLBackground"						"100 100 100 255"
 		
@@ -254,57 +259,57 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		ReplayBrowser.BgColor								"DarkBrown"
+		ReplayBrowser.BgColor								"GrayBGDark"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"LightRed"
 		ReplayBrowser.Button.ArmedBgColor					"ButtonArmed"
 		ReplayBrowser.Button.DepressedBgColor				"ButtonBG"
-		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
+		ReplayBrowser.CollectionTitle.FgColor				"GrayText"
 		ReplayBrowser.Warning.FgColor						"White"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		Replay.RenderDialog.BgColor							"GrayBG"
 		
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"ButtonBG"
 		Econ.Button.FgColor									"TanLight"
 		Econ.Button.ArmedBgColor							"ButtonArmed"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"ButtonBG"
+		Econ.Button.DepressedBgColor						"ButtonSelect"
 		Econ.Button.DepressedFgColor						"Black"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"ButtonArmed"
+		Econ.Button.PresetDefaultColorBg					"ButtonSelect"
+		Econ.Button.PresetArmedColorBg						"ButtonArmed"
+		Econ.Button.PresetDepressedColorBg					"ButtonBG"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Selection				"ButtonSelect"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"ButtonBG"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"ButtonArmed"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"ButtonArmed"
+		Button.SelectedBgColor			"ButtonSelect"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"ButtonBG"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
+		CheckButton.TextColor			"WhiteS"
+		CheckButton.SelectedTextColor	"WhiteS"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.Border1  			"WhiteS" 		// the left checkbutton border
+		CheckButton.Border2  			"WhiteS"		// the right checkbutton border
+		CheckButton.Check				"WhiteS"		// color of the check itself
+		CheckButton.HighlightFgColor	"WhiteS"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"WhiteS"
+		ComboBoxButton.ArmedArrowColor	"WhiteS"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -325,28 +330,28 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
+		FrameTitleBar.TextColor			"GrayText"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
+		FrameTitleBar.DisabledTextColor	"GrayText"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Orange"
+		GraphPanel.FgColor				"GrayText"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
+		Label.TextDullColor				"GrayText"
+		Label.TextColor					"WhiteS"
+		Label.TextBrightColor			"WhiteS"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"WhiteS"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"WhiteS"
 
 		Menu.TextColor					"TanLight"
 		Menu.BgColor					"TransparentBlack"
@@ -354,7 +359,7 @@ Scheme
 		Menu.ArmedBgColor				"TanLight"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"Select"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -364,19 +369,19 @@ Scheme
 		ProgressBar.FgColor				"ProgressOffWhite"
 		ProgressBar.BgColor				"ProgressBackground"
 
-		CircularProgressBar.FgColor		"White"
-		CircularProgressBar.BgColor		"White"
+		CircularProgressBar.FgColor		"WhiteS"
+		CircularProgressBar.BgColor		"WhiteS"
 		
 		"BuildingHealthBar.BgColor"		"HealthBgGrey"
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor			"Orange"
-		PropertySheet.SelectedTextColor	"Orange"
+		PropertySheet.TextColor			"WhiteS"
+		PropertySheet.SelectedTextColor	"WhiteS"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Orange"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.TextColor			"WhiteS"
+		RadioButton.SelectedTextColor	"WhiteS"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -393,11 +398,11 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"Orange"
+		SectionedListPanel.HeaderTextColor	"WhiteS"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"Orange"
-		SectionedListPanel.BrightTextColor	"Orange"
+		SectionedListPanel.TextColor		"WhiteS"
+		SectionedListPanel.BrightTextColor	"WhiteS"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
@@ -420,7 +425,7 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"WhiteS"	//Orange
+		ToggleButton.SelectedTextColor	"WhiteS"
 
 		Tooltip.TextColor			"TransparentBlack"
 		Tooltip.BgColor				"Red"
@@ -446,7 +451,7 @@ Scheme
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"Orange"
+		"FgColor"		"WhiteS"
 		"BgColor"		"TransparentBlack"
 
 		"ViewportBG"		"Blank"
@@ -4826,21 +4831,21 @@ Scheme
 
 		ButtonBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"color" "Green"
+			"offset" "0 0"
 		}
 
 		ButtonDepressedBorder
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"color" "Blank"
+			"offset" "0 0"
 		}
 
 		ComboBoxBorder
@@ -5100,7 +5105,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "HudBG"
 					"offset" "0 1"
 				}
 			}
@@ -5109,7 +5114,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "HudBG"
 					"offset" "1 0"
 				}
 			}
@@ -5118,7 +5123,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "HudBG"
 					"offset" "0 0"
 				}
 			}
@@ -5127,7 +5132,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "HudBG"
 					"offset" "0 0"
 				}
 			}
@@ -5142,7 +5147,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "WhiteS"
 					"offset" "0 0"
 				}
 			}

@@ -1,0 +1,5 @@
+Merge this resource folder with your resource folder in / team fortress 2 / tf / custom / <yourfoldername> /.
+
+These menus may break when TF2 gets updated and they may cause crashes. You can either reinstall the HUD without these menu files or copy them over again and then undoing the action (CTRL + Z), effectively removing all the problematic files.
+
+This is the reason why they are not included by default, so that the HUD is more likely to be usable after TF2 updates.

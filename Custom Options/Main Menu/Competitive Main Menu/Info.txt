@@ -1,3 +1,11 @@
 This menu does not include all the standard buttons.
 
-You can add a server to the star icon (home server) by adding "alias Home "connect <insert server IP>;password <insert password>"" 
+You can add a server to the star icon (home server) by adding
+
+//Home Server Button
+alias Home "connect <insert server IP>;password <insert password>"
+
+to your autoexec.cfg
+
+
+Please note that this main menu is WIP.

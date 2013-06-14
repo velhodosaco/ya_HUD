@@ -80,6 +80,7 @@ Scheme
 		
 		"GrayBG"			"57 57 57 255"				//MenuBG
 		"GrayBGDark"			"42 42 42 255"				//Darker MenuBG
+		"GrayBGDarkest"			"27 27 27 255"	
 		"GrayText"			"110 110 110 255"			//Text for some menu entries
 		"FrameGray"			"142 142 142 255"
 		"BlackBorder"		"17 17 17 255"
@@ -4212,7 +4213,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
+				"tall"		"17"
 				"antialias"		"1"
 			}
 		}
@@ -5158,7 +5159,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"GrayBGDarkest"
+			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5182,7 +5185,9 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"GrayBGDarkest"
+			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5204,7 +5209,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect_mouseover"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"GrayBGDark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5215,7 +5221,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_holder_central_alpha"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"GrayBGDarkest"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5252,8 +5259,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Gray"
-			"image"					"backpack_rect"
+			//"color"					"Gray"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"GrayBGDark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5264,7 +5272,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"Gray"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5275,7 +5284,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_selected"
+			"image"					"backpack_rect_mouseover_color"
+			"color"					"GrayBGDark"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

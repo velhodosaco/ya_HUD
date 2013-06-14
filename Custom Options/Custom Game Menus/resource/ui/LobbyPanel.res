@@ -17,8 +17,6 @@
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"GrayBG"
 
-		"NavToRelay"	"MvMTourOfDutyGroupBox"
-		"NavDown"		"MvMEconItemsGroupBox"
 	}
 
 	"QuickplaySearchCriteriaGroupBox"
@@ -30,8 +28,6 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"300"
-
-		"NavToRelay"	"NextPageButton"
 
 		"CurPageLabel"
 		{
@@ -74,8 +70,6 @@
 			"default"		"1"
 			"Command"		"more_info"
 			"button_activation_type"	"1"	// only on press
-
-			"NavDown"		"NextPageButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -251,9 +245,6 @@
 			"Command"		"prevpage"
 			"button_activation_type"	"1"	// only on press
 
-			"NavUp"			"MoreInfoButton"
-			"NavRight"		"NextPageButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}		
@@ -279,9 +270,6 @@
 			"brighttext"	"0"
 			"Command"		"nextpage"
 			"button_activation_type"	"1"	// only on press
-
-			"NavUp"			"MoreInfoButton"
-			"NavLeft"		"PrevPageButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -420,11 +408,6 @@
 		"wide"		"400"
 		"tall"		"225"
 
-		"NavToRelay"	"TourlistGroupBox"
-		"NavUp"			"MvMSelectChallengeGroupBox"
-		"NavLeft"		"MvMSelectChallengeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
-
 		"ChallengeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -498,8 +481,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
-
-			"NavToRelay"	"TourList"
 
 			"GreyOutPanel"
 			{
@@ -619,11 +600,6 @@
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
 
-		"NavToRelay"	"OpenHelpButton"
-		"NavUp"			"MvMTourOfDutyGroupBox"
-		"NavDown"		"MvMPracticeGroupBox"
-		"NavRight"		"PartyActiveGroupBox"
-
 		"InventoryTitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -660,7 +636,6 @@
 			"command" "open_help"
 			"button_activation_type"	"1"	// only on press
 
-			"NavDown"		"OpenStoreButton2"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -719,9 +694,6 @@
 			"brighttext"	"0"
 			"command" "open_store_ticket"
 
-			"NavUp"			"OpenStoreButton2"
-			"NavDown"		"<<BackButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -779,9 +751,6 @@
 			"brighttext"	"0"
 			"command" "open_store_voucher"
 
-			"NavUp"			"OpenHelpButton"
-			"NavDown"		"OpenStoreButton"
-
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -828,11 +797,6 @@
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
-
-		"NavToRelay"	"MannUpNowButton"
-		"NavUp"			"MvMEconItemsGroupBox"
-		"NavDown"		"<<BackButton"
-		"NavRight"		"PartyActiveGroupBox"
 
 		"NoMannUpImage"
 		{
@@ -914,9 +878,6 @@
 		"wide"		"400"
 		"tall"		"225"
 
-		"NavToRelay"	"ChallengeListGroupBox"
-		"NavRight"		"MvMTourOfDutyGroupBox"
-
 		"ChallengeLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -991,8 +952,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
-
-			"NavToRelay"	"ChallengeList"
 
 			"GreyOutPanel"
 			{
@@ -1464,11 +1423,6 @@
 		"tall"		"330"
 		"visible"	"0"
 
-		"NavToRelay"	"PartyGroupBox"
-		"NavDown"		"<<NextButton"
-		"NavLeft"		"<<Sheet"
-		"NavRight"		"<<StartPartyButton"
-
 		"PartyGroupBox"
 		{
 			"ControlName"	"EditablePanel"
@@ -1482,8 +1436,6 @@
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
 			"border"		"QuickplayBorder"
-
-			"NavToRelay"	"InviteButton"
 
 			"PartyLabel"
 			{

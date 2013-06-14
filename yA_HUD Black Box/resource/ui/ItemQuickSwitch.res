@@ -26,7 +26,7 @@
 		{
 			"wide"					"200"
 			"tall"					"25"
-			"bgcolor_override"		"59 54 48 255"
+			"bgcolor_override"		"54 54 54 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"			"0"
 			"text_forcesize"		"2"
@@ -41,7 +41,7 @@
 			"text_center"			"1"
 			"name_only"				"1"
 
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"110 110 110 255"
 		}
 	}
 	"QuickSwitchBG"
@@ -49,10 +49,10 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"QuickSwitchBG"
 		"xpos"					"22"
-		"ypos"					"7"
+		"ypos"					"9"
 		"zpos"					"-1"
 		"wide"					"210"
-		"tall"					"110"
+		"tall"					"108"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -72,8 +72,8 @@
 		"tall"				"21"
 		"autoResize"			"0"
 		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"fillcolor"				"White"
 		"PaintBackgroundType"	"0"
 	}
@@ -92,8 +92,8 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"Black"
 	}
 	"ItemSlotLabel"
@@ -110,8 +110,8 @@
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"Black"
 	}
 
@@ -158,7 +158,7 @@
 		"tall"					"100"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"		"59 54 48 255"
-		"bgcolor_override"		"200 187 161 0"
+		"bgcolor_override"		"200 200 200 0"
 		"autohide_buttons" 		"1"
 	}
 	"itemcontainer"
@@ -170,7 +170,7 @@
 		"wide"					"115"
 		"tall"					"175"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"200 187 161 0"
+		"bgcolor_override"		"200 200 200 0"
 
 		"CurrentlyEquippedBackground"
 		{
@@ -207,14 +207,14 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"1"
-		"fgcolor_override"	"200 80 60 255"
+		"fgcolor_override"	"WhiteS"
 	}
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"9"
 		"zpos"			"20"
 		"wide"			"22"
 		"tall"			"130"

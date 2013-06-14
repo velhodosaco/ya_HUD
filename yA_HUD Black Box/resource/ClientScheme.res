@@ -4213,7 +4213,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"17"
+				"tall"		"9"
 				"antialias"		"1"
 			}
 		}

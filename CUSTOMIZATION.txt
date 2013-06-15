@@ -58,7 +58,7 @@ If you want to use the center Medic CHARGE METER
 
 Enabling a small PERCENTAGE label under the crosshair
 
-	1. Search (ctrl+F) for "ChrageLabelTiny" in the "HudMedicCharge.res" file
+	1. Search (ctrl+F) for "ChargeLabelTiny" in the "HudMedicCharge.res" file
 	2. Change "visible" to "1" in that entry and then save the file
 
 /////////////////////////////////////////////////////////////////////////////////

@@ -74,6 +74,8 @@
 	//Use the in-game crosshair for guidance
 	///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	
+	//Fog's Crosshair
 	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
@@ -90,6 +92,7 @@
 		"tall"		"28"
 
 		"font"		"fogCrosshair"
+		"textAlignment"	"center"
 
 		"labeltext"	"1"
 		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
@@ -97,10 +100,9 @@
 		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
 		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
 		// There are no fixed numbers for this
-		"textAlignment"	"center"
+		
 		
 		"fgcolor"	"White"
-		
 		// You can insert an RGB code here instead of the "White"
 		
 		// R	G	B	Transparency	= color

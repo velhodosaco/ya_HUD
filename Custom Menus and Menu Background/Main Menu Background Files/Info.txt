@@ -1,4 +1,4 @@
-This goes into /tf/custom/yourfoldername/
+The materials & scripts folder from one of the options go into /tf/custom/yourfoldername/
 
 Merge the scripts folder with your current one.
 

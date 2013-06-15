@@ -28,6 +28,8 @@ HP OPTIONS
 		The Pulse option is not available for the White Box Version.
 	
 	You can enable the line effect with the "LINE - " alternative animation file in /scripts/.
+	Navigate to your scripts folder /custom/yourfoldername/scripts and delete or rename the original hudanimations file. 
+	Then you will have to remove the "LINE_" part from the alternative file. 
 		This is the default effect for the White Box Version.
 
 /////////////////////////////////////////////////////////////////////////////////

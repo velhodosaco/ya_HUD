@@ -38,26 +38,21 @@
 		"teambg_2"		"../hud/medic_charge_red_bg"
 		"teambg_3"		"../hud/medic_charge_blue_bg"				
 	}
-	"ChargeLabelShadow"
-	{
+	"ChargeLabelBG"
+		{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c69"
-		"ypos"			"r148"	
-		"zpos"			"2"
-		"wide"			"159"	
-		"tall"			"57"	
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"			//bugged with vaccinator
+		"fieldName"		"ChargeLabelBG"
+		"xpos"			"c204"
+		"ypos"			"r141"
+		"zpos"			"5"
+		"wide"			"7"
+		"tall"			"45"
+		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Heavy44"
-		"fgcolor"		"HudShadow"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
 	}
 	
 	"YAHUDChargeBackground"	

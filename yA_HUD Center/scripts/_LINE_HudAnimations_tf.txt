@@ -23,7 +23,9 @@ event DamagedPlayer
 
 //-----------------------------------------------------
 
-// sample animation script
+
+
+//
 //
 //
 // commands:
@@ -65,6 +67,10 @@ event DamagedPlayer
 //	SetTexture <panel name> <textureidname> <texturefilename> <set time>
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
+
+
+
+
 
 event LevelInit
 {
@@ -229,10 +235,12 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		        Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		        Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"Buff"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG 	                FgColor		"Buff"	        linear 0.0 0.0
+	Animate	PlayerStatusHealthValueBG2 	                FgColor		"Buff"	        linear 0.0 0.0
+	Animate	PlayerStatusHealthValueBG3 	                FgColor		"Buff"	        linear 0.0 0.0
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Buff"	        Accel 0.0 0.0
 
@@ -286,7 +294,9 @@ event HudHealthBonusPulseStop
         	StopEvent xHairCircle 0.0
         	StopEvent xHairDotOutline 0.0
 
-	Animate PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBG 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBG2 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueBG3 	                FgColor		"Underline"	         Accel 0.0 0.0
 
                 Animate PlayerStatusHealthValueCam 	                FgColor		"Health"	         Accel 0.0 0.0
 
@@ -315,7 +325,14 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"175"		         Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"LowHP"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG 	                FgColor		"LowS"	         Linear 0.0 0.075
+	Animate	PlayerStatusHealthValueBG 	                FgColor		"LowT"			Linear 0.125 0.075
+	
+	Animate	PlayerStatusHealthValueBG2	                FgColor		"LowS"	         Linear 0.0 0.075
+	Animate	PlayerStatusHealthValueBG2	                FgColor		"LowT"			Linear 0.125 0.075
+	
+	Animate	PlayerStatusHealthValueBG3	                FgColor		"LowS"	         Linear 0.0 0.075
+	Animate	PlayerStatusHealthValueBG3	                FgColor		"LowT"			Linear 0.125 0.075
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"LowHP"	         Accel 0.0 0.0
 
@@ -369,7 +386,9 @@ event HudHealthDyingPulseStop
 	StopEvent xHairCircle 0.0
 	StopEvent xHairDot 0.0
 
-	Animate	PlayerStatusHealthValue 	                FgColor		"Health"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG2 	                FgColor		"Underline"	         Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueBG3	                FgColor		"Underline"	         Accel 0.0 0.0
 
 	Animate	PlayerStatusHealthValueCam 	FgColor		"Health"               Accel 0.0 0.0
 
@@ -392,42 +411,43 @@ event HudHealthDyingPulseStop
 
 //===========================================
 
-event HudLowAmmoPulse
+
+event HudLowAmmoPulse {RunEvent LowAmmoPulse 0}
+event LowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		         Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"		         Linear 0.125 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 
-	Animate	AmmoInClip		                FgColor		"LowAmmo"	         Accel 0.0 0.0
-
-	Animate	AmmoInReserve		                FgColor		"LowAmmo"                   Accel 0.0 0.0
-
-	Animate	AmmoNoClip		                FgColor		"LowAmmo"	         Accel 0.0 0.0
+	Animate	AmmoBG	    	FgColor		"LowS"	Linear 0.0 0.075
+	Animate	AmmoBG 	    	FgColor		"LowT"	Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	        0.25
+	Animate	AmmoBG2	    	FgColor		"LowS"	Linear 0.0 0.075
+	Animate	AmmoBG2 	    FgColor		"LowT"	Linear 0.125 0.075
+	
+	Animate	AmmoBG3	    	FgColor		"LowS"	Linear 0.0 0.075
+	Animate	AmmoBG3 	    FgColor		"LowT"	Linear 0.125 0.075
+
+	
+	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
-// call to loop HudLowAmmoPulse
 event HudLowAmmoPulseLoop
 {
 	RunEvent HudLowAmmoPulse 0.0
-	RunEvent AmmoInClip 0.0
-	RunEvent AmmoInReserve 0.0
-	RunEvent AmmoNoClip 0.0
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 0.0
+	StopEvent LowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
-	StopEvent AmmoInClip 0.0
-	StopEvent AmmoInReserve 0.0
-	StopEvent AmmoNoClip 0.0
 
-	Animate AmmoInClip 	                              FgColor		"Ammo"               Accel 0.0 0.0
-
-	Animate AmmoInReserve 	                              FgColor		"AmmoReserve"         Accel 0.0 0.0
-
-	Animate AmmoNoClip 	                              FgColor		"Ammo"	         Accel 0.0 0.0
+	Animate	AmmoBG	    FgColor		"Underline"		Linear 0.0 0.0
+	
+	Animate	AmmoBG2	    FgColor		"Underline"		Linear 0.0 0.0
+	
+	Animate	AmmoBG3	    FgColor		"Underline"		Linear 0.0 0.0
+	
+	
 }
 
 //===========================================
@@ -588,7 +608,7 @@ event HudMedicCharged
 	Animate	ChargeLabel 	        FgColor		"UberLabel"		Linear 0.0 0.1
 	Animate	ChargeLabel 	        FgColor		"UberLabelFlash"		        Linear 0.3 0.4
 
-	Animate	ChargeMeter 	        FgColor		"UberMeter"		Linear 0.0 0.1
+	Animate	ChargeMeter 	        FgColor		"UberMeter"			Linear 0.0 0.1
 	Animate	ChargeMeter 	        FgColor		"UberMeterFlash"		        Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6

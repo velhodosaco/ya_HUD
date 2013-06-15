@@ -1,0 +1,5 @@
+These "HudAnimations_tf.txt" override files go into your tf/custom/yourfoldername/scripts folder.
+
+The pulsing shadows option is not available for the Box Versions.
+
+The Line option is already the default one for the White Box Versions.

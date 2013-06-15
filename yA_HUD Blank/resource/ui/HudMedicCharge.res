@@ -68,7 +68,7 @@
 		{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ChargeBG"
-		"xpos"		"c91"			//c98
+		"xpos"		"c68"			//c98
 		"ypos"		"r145"
 		"zpos"		"1"
 		"wide"		"114"		//100
@@ -81,6 +81,39 @@
 		"PaintBackgroundType""0"
 
 	}
+	"ChargeLabelBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelBG"
+		"xpos"			"c107"
+		"ypos"			"r100"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	"ChargeLabelBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelBG2"
+		"xpos"			"c147"
+		"ypos"			"r100"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
 	
 	"ChargeMeter"
 	{	

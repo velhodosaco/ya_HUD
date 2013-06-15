@@ -605,8 +605,10 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	        FgColor		"UberLabel"		Linear 0.0 0.1
-	Animate	ChargeLabel 	        FgColor		"UberLabelFlash"		        Linear 0.3 0.4
+	Animate	ChargeLabelBG 	        FgColor		"UberLabel"		Linear 0.0 0.1
+	Animate	ChargeLabelBG 	        FgColor		"UberLabelFlash"		        Linear 0.3 0.4
+	Animate	ChargeLabelBG2 	        FgColor		"UberLabel"		Linear 0.0 0.1
+	Animate	ChargeLabelBG2	        FgColor		"UberLabelFlash"		        Linear 0.3 0.4
 
 	Animate	ChargeMeter 	        FgColor		"UberMeter"			Linear 0.0 0.1
 	Animate	ChargeMeter 	        FgColor		"UberMeterFlash"		        Linear 0.3 0.4
@@ -629,7 +631,8 @@ event HudMedicChargedStop
 	StopEvent ChargeLabel 0.0
 	StopEvent ChargeMeter 0.0
 
-	Animate	ChargeLabel 	        FgColor		"Black"		Linear 0.0 0.0001
+	Animate	ChargeLabelBG 	        FgColor		"Underline"		Linear 0.0 0.0001
+	Animate	ChargeLabelBG2 	        FgColor		"Underline"		Linear 0.0 0.0001
 
 	Animate	ChargeMeter 	        FgColor		"WhiteS"		Linear 0.0 0.0001
 }

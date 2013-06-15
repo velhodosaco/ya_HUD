@@ -38,27 +38,6 @@
 		"teambg_2"		"../hud/medic_charge_red_bg"
 		"teambg_3"		"../hud/medic_charge_blue_bg"				
 	}
-	"ChargeLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"c69"
-		"ypos"			"r149"	
-		"zpos"			"2"
-		"wide"			"159"	
-		"tall"			"57"	
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"0"			//bugged with vaccinator
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_UberchargeMinHUD"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Heavy48"
-		"fgcolor"		"HudShadow"
-	}
 	
 	"YAHUDChargeBackground"	
 	{
@@ -77,12 +56,47 @@
 		"PaintBackgroundType""0"
 
 	}
+	
+	"ChargeLabelBG"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelBG"
+		"xpos"			"c107"
+		"ypos"			"r35"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	"ChargeLabelBG2"
+		{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelBG2"
+		"xpos"			"c147"
+		"ypos"			"r35"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"6"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"9"
+		"textAlignment"	"west"			//east
+		"font"			"BlocksSharp64"
+		"fgcolor"		"Underline"
+	}
+	
+	
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"c68"
-		"ypos"			"r149"	
+		"ypos"			"r84"	
 		"zpos"			"2"
 		"wide"			"159"	
 		"tall"			"57"	
@@ -95,15 +109,36 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Heavy48"
+		"font"			"Heavy48Shadow"
 		"fgcolor"		"White"
+	}
+	"ChargeLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ChargeLabelShadow"
+		"xpos"			"c69"
+		"ypos"			"r83"	
+		"zpos"			"2"
+		"wide"			"159"	
+		"tall"			"57"	
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"0"		//bugged with vaccinator
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_UberchargeMinHUD"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Heavy48"
+		"fgcolor"		"HudShadow"
 	}
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"c68"
-		"ypos"			"r150"	
+		"ypos"			"r84"	
 		"zpos"			"3"
 		"wide"			"159"	
 		"tall"			"57"	

@@ -1,3 +1,6 @@
 These are WIP. The kerning seems to be slightly off for some letters for small font sizes.
 
+Paste them into the /resource/fonts folder.
+
 Install the fonts to your pc if they don't work.
+

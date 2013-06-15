@@ -1,0 +1,1 @@
+Move this file into your resource folder to get rid of the black title bar in the in-game windows.

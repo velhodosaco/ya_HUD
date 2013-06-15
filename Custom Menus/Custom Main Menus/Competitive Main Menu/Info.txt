@@ -1,10 +1,12 @@
+Merge this resource folder with your resource folder in /tf/custom/yourfoldername/resource. 
+
 This menu does not include all the standard buttons.
 
 You can add a server to the star icon (home server) by adding
-
+///////////////////////////////////////////////////////////////////
 //Home Server Button
 alias Home "connect <insert server IP>;password <insert password>"
-
+///////////////////////////////////////////////////////////////////
 to your autoexec.cfg
 
 

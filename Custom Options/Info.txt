@@ -1,39 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-Some of these are not ported to the new font yet and won't be aligned properly!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Files go into /tf/custom/yourfoldername/resource/ui unless stated otherwise.
 
 Colors are customized via the clientscheme in /resource/
 
 Information can be found in the specific folders containing the overrides.
-
-Files that have " - NAME" at the end will have to have that part removed before being used as override files.
 

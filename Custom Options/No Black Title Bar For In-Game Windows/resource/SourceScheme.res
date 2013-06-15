@@ -154,8 +154,8 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.BgColor			"0 0 0 213"						//Black Titel Bar
-		FrameTitleBar.DisabledBgColor	"0 0 0 157"
+		FrameTitleBar.BgColor			"0 0 0 0"
+		FrameTitleBar.DisabledBgColor	"Blank"
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
 		ListPanel.TextBgColor				"Blank"

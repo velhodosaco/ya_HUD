@@ -55,7 +55,7 @@ Scheme
 		// scheme-specific colors
 		Border.Bright					"200 200 200 196"
 		Border.Dark						"40 40 40 196"
-		Border.Selection				"0 0 0 196"	default/selected button
+		Border.Selection				"0 0 0 196"	//default/selected button
 
 		Button.TextColor				"196 196 196 255"
 		Button.BgColor					"120 120 120 128"
@@ -154,8 +154,8 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.BgColor			"0 0 0 210"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.BgColor			"0 0 0 213"						//Black Titel Bar
+		FrameTitleBar.DisabledBgColor	"0 0 0 157"
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
 		ListPanel.TextBgColor				"Blank"
@@ -339,31 +339,6 @@ Scheme
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
 			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-	
-		"10" 
-		{
-			"font" "resource/fonts/HelveticaNeue Light.ttf"
-			"name" "Light"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"11" 
-		{
-			"font" "resource/fonts/HelveticaNeue Medium.ttf"
-			"name" "Medium"
 			{
 				"range" "0x0000 0xFFFF"
 			}

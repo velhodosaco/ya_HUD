@@ -737,7 +737,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Helvetica Neue "
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"antialias" 	"1"

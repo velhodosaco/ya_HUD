@@ -13,7 +13,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseStatusLine"
-		"xpos"			"c103"
+		"xpos"			"103"
 		"ypos"			"r98"
 		"zpos"			"-1"
 		"wide"			"221"				//128
@@ -27,7 +27,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"c103"
+		"xpos"			"103"
 		"ypos"			"r98"
 		"zpos"			"-4"
 		"wide"			"221"				//128
@@ -42,7 +42,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
 		"font"			"Medium9"
-		"xpos"			"c145"
+		"xpos"			"145"
 		"ypos"			"r100"
 		"zpos"			"1"
 		"wide"			"170"
@@ -59,7 +59,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Medium9"
-		"xpos"			"c145"
+		"xpos"			"145"
 		"ypos"			"r92"
 		"zpos"			"1"
 		"wide"			"174"
@@ -76,7 +76,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"c106"
+		"xpos"			"106"
 		"ypos"			"r101"
 		"wide"			"37"
 		"tall"			"50"

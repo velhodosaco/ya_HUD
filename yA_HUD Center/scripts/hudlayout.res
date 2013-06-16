@@ -467,7 +467,7 @@
 		"ypos"			"r113"	//r133
 		"zpos"			"2"
 		"wide"			"118"
-		"tall"			"10"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -1261,7 +1261,7 @@
 		"xpos"			"c-59"	
 		"ypos"			"r189"	
 		"wide"			"118"
-		"tall"			"60"
+		"tall"			"480"
 	}	
 
 	HudTeamGoal

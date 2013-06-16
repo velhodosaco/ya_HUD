@@ -134,6 +134,12 @@ If you want to have an HP cross on your TargetIDs (when you look at someone)
 
 If you want to use different CHAT POSITIONS use the override files in /Custom Options/Chat (downloaded folder)
 	You can delete the original "BaseChat.res" file altogether for the default location.
+	
+/////////////////////////////////////////////////////////////////////////////////	
+	
+To change the location of the ENGINEER HUD
+
+Go to hudlayout.res in your scripts folder. Search for "BuildingStatus_Engineer" and change its "ypos" entry.
 
 /////////////////////////////////////////////////////////////////////////////////	
 	

@@ -596,7 +596,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-414"				//-411	
+		"xpos"		"c-414"				//-411	
 		"ypos"		"2"				//0
 		"zpos"		"10"	
 		"wide"		"f0"

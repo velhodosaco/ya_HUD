@@ -528,6 +528,18 @@ Scheme
 			}
 		}
 		
+		"BarCrosshair"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Black"
+				"tall"		"32"
+				"additive"		"0"
+				"antialias"	"1"
+				"outline" "1"
+			}
+		}
+		
 		"SymbolS"
 		{
 			"1"
@@ -538,7 +550,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
 		
 		"BlocksSharp64"
 		{
@@ -3238,6 +3249,29 @@ Scheme
 			}
 		}
 
+		"CrossHairKonrWings"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"CrossHairKonrWingsOutline"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"1"
+			}
+		}
+		
 		"FMCircle"
 		{
 			"1"
@@ -3890,7 +3924,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
+				"tall"		"20"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -3900,7 +3934,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
+				"tall"		"20"
 				"antialias"	"1"
 				"italic"	"1"
 				"dropshadow"	"1"
@@ -3911,7 +3945,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
+				"tall"		"20"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -3921,7 +3955,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"22"
+				"tall"		"20"
 				"antialias"	"1"
 				"italic"	"1"
 				"dropshadow"	"1"
@@ -6262,6 +6296,11 @@ Scheme
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name" "Entypo"
+		}
+		"17" 
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
 		}
 	}
 }

@@ -1,17 +1,17 @@
 "Resource/HudLayout.res"
 {
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	//  CUSTOMIZATION START   /////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	//CLOSECAPTIONS
 	//
 	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
 	//
 	//To enable paste the caption files from /Custom/ into your resource folder.
 	//Type "closecaptions 1" in console if they aren't showing.
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 
 	HudCloseCaption
 	{
@@ -32,11 +32,11 @@
 		"topoffset"		"1"
 	}
 	
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	//DEATHNOTICE
 	//
 	//This is the killfeed on the top right corner
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 
 	HudDeathNotice
 	{
@@ -66,13 +66,18 @@
 		"LocalBackgroundColor"	"255 255 255 189"	
 	}
 
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	//CROSSHAIRS
 	//
-	//Some of these might need re-alignment for you resolution. Change the ypos/xpos values to adjust their positions.
-	//You can do finer steps with the wide tall values towards the bottom and right side.
+	//Some of these might need re-alignment for you resolution. Change the ypos & xpos values to adjust their positions.
+	//You can do finer steps with the wide & tall values towards the bottom and right side.
 	//Use the in-game crosshair for guidance
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
+	
+	/////////////////////////////////////////////////////////////////////////////
+	//Fog's Crosshair
+	/////////////////////////////////////////////////////////////////////////////
+
 
 	"fogCrosshair"
 		{
@@ -112,15 +117,16 @@
 		// flashing upon giving damage.
 
 	}
-
 	
-//Garm3n's Crosshairs
+	/////////////////////////////////////////////////////////////////////////////
+	//Garm3n's Crosshairs
+	/////////////////////////////////////////////////////////////////////////////
 	
 	"CrossHairNormal"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairNormal"
-		"visible"		"0"
+		"visible"		"0"			//1
 		"enabled"		"1"
 		"zpos"			"1"
 		"xpos"			"c-12"
@@ -133,6 +139,42 @@
 		"textAlignment"	"center"
 	}
 
+	CrossHairKonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairKonrWings"
+		"visible"		"0"			//1
+		"enabled"		"1"
+		"zpos"			"2"
+		"xpos"			"c-58"
+		"ypos"			"c-49"
+		"wide"			"102"
+		"tall"			"101"
+		"font"			"CrossHairKonrWings"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+
+	CrossHairKonrWingsOutline
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairKonrWingsOutline"
+		"visible"		"0"			//1
+		"enabled"		"1"
+		"zpos"			"2"
+		"xpos"			"c-58"
+		"ypos"			"c-49"
+		"wide"			"102"
+		"tall"			"101"
+		"font"			"CrossHairKonrWingsOutline"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
+	}
+	
 	"CrossHairRequest"
 	{
 		"controlName"	"CExLabel"
@@ -166,8 +208,8 @@
 		"fgcolor"		"65 235 0 255"
 		"textAlignment"	"center"	
 	}
-
-		"CrossHairCircleSmaller"
+	
+	"CrossHairCircleSmaller"
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairCircleSmaller"
@@ -183,7 +225,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"	
 	}
-	
+
 	"CrossHairDotOutline"
 	{
 		"controlName"	"CExLabel"
@@ -348,33 +390,232 @@
 
 	/////SPECIAL CROSSHAIR END/////
 
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
+	//Bottom Crosshair
+	/////////////////////////////////////////////////////////////////////////////
+	
+	"Bar1"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"Bar1"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"zpos"			"1"
+		"xpos"			"c-20"
+		"ypos"			"c-32"
+		"wide"			"40"
+		"tall"			"40"
+		"font"			"BarCrosshair"
+		"labelText"		"_"
+		"fgcolor"		"WhiteS"
+		"textAlignment"	"center"
+	}
+	
+	"VerticalLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c-1"
+		"ypos"			"c"
+		"zpos"			"-105"
+		"wide"			"1"
+		"tall"			"140"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 50"
+	}
+	
+	/////////////////////////////////////////////////////////////////////////////
+	//Pilot Crosshair
+	/////////////////////////////////////////////////////////////////////////////
+	
+	//set "visible" and "enabled" to "1"
+	//Part for all resolutions
+	
+	"PilotVertical"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c"
+		"ypos"			"75"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 50"
+	}
+
+	"PilotTop"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c"
+		"ypos"			"190"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 100"
+	}
+	"PilotBottom"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c"
+		"ypos"			"252"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 150"
+	}
+	"PilotLeft"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c-62"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 100"
+	}
+	
+
+	"PilotRight"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"c12"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 100"
+	}
+	
+	/////////////////////////////
+	//Widescreen
+	
+	"PilotHorizontal1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine"
+		"xpos"			"c-376"			//c-346
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"364"			//334 for 16x10
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 50"
+	}
+	
+	"PilotHorizontal2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine"
+		"xpos"			"c12"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"364"			//334 for 16x10
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 50"
+	}
+	
+	/////////////////////////////////
+	//4 by 3
+	
+	"PilotHorizontal3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine"
+		"xpos"			"c-296"			
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"284"			
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 50"
+	}
+	
+	"PilotHorizontal4"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine"
+		"xpos"			"c12"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"284"			
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"			//1
+		"enabled"		"0"			//1
+		"fillcolor"		"255 255 255 50"
+	}
+	/////////////////////////////////////////////////////////////////////////////
 	//DAMAGE INDICATORS
 	//
 	//Red indicator when getting hit
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	
 	HudDamageIndicator
 	{
-		"fieldName" "HudDamageIndicator"    //Remove everything besides 
+		"fieldName" "HudDamageIndicator"    // Remove everything besides 
 		"visible" "1" 	                    //
 		"enabled" "1" 	                    //	"HudDamageIndicator
 		"MinimumWidth" "7"                  //	{
 		"MaximumWidth" "24"                 //	}	"
 		"StartRadius" "80"                  //
-		"EndRadius" "80"                    //To get the default back
+		"EndRadius" "80"                    // To get the default back
 		"MinimumHeight" "40"                //
 		"MaximumHeight" "70"                //
 		"MinimumTime" "1"                   //
 	}
 	
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
-	//  CUSTOMIZATION END   ///////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
+	//  CUSTOMIZATION END   /////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	// Be careful with changing things underneath this line
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

@@ -23,5 +23,5 @@ Instructions for COLORS, ALT files and CROSSHAIRS can be found in CUSTOMIZATION.
 	
 -----------------------------------------------------------
 
-Shoutout to Garm3n, Fog, Max, Boots, Doodles and my team!
+Shoutout to Garm3n, Fog, foster, Max, Boots, Doodles and my team!
 

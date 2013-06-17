@@ -4,3 +4,7 @@ Colors are customized via the clientscheme in /resource/
 
 Information can be found in the specific folders containing the overrides.
 
+
+
+Big thanks to foster for his original work on the minimal/small scoreboards. 
+I included a ported version of his scoreboard and some altered variants.

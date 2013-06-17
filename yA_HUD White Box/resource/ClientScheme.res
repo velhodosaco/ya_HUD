@@ -542,6 +542,8 @@ Scheme
 			}
 		}
 		
+		
+		
 		"SymbolS"
 		{
 			"1"
@@ -820,6 +822,107 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		"MediumNumbers20Shadow"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}		
+		"MediumNumbers16Shadow"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}	
+		"MediumNumbers14Shadow"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}	
+		"MediumNumbers12Shadow"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}		
+		"MediumNumbers10Shadow"
+		{
+			"1"
+			{
+				"name"			"MediumNumbers"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"LightNumbers20Shadow"
+		{
+			"1"
+			{
+				"name"			"LightNumbers"
+				"tall"		"29"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"LightNumbers19"
+		{
+			"1"
+			{
+				"name"			"LightNumbers"
+				"tall"		"19"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"LightNumbers19Shadow"
+		{
+			"1"
+			{
+				"name"			"LightNumbers"
+				"tall"		"19"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"LightNumbers18Shadow"
+		{
+			"1"
+			{
+				"name"			"LightNumbers"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		
 		"Heavy59"
 		{
@@ -6303,6 +6406,16 @@ Scheme
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
+		}
+		"18" 
+		{
+			"font" "resource/fonts/MediumNumbers.otf"
+			"name" "MediumNumbers"
+		}
+		"19" 
+		{
+			"font" "resource/fonts/LightNumbers.otf"
+			"name" "LightNumbers"
 		}
 	}
 }

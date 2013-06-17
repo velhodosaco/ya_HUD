@@ -46,6 +46,7 @@
 			"tall"			"169"
 		}
 	}
+	
 	"MainBGRed"
 	{
 		"ControlName"	"ImagePanel"
@@ -433,14 +434,19 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLeft"
 		"font"			"Light19Shadow"
-		"font_minmode"		"Regular10Shadow"
+		"font_minmode"		"MediumNumbers12Shadow"
 		"labelText"		"%servertimeleft%"
+		"textinsetx"	"0"
+		"textinsetx_minmode"	"-3"
+		"use_proportional_insets" "0"
+		"use_proportional_insets_minmode" "1"
 		"textAlignment"	"center"
+		"textAlignment_minmode"	"west"
 		"fgcolor"			"Time"
 		"xpos"			"c-265"
-		"xpos_minmode"		"r302"
-		"ypos"			"r390"
-		"ypos_minmode"		"r380"
+		"xpos_minmode"		"r164"
+		"ypos"			"r389"
+		"ypos_minmode"		"r374"
 		"zpos"			"8"
 		"wide"			"530"
 		"wide_minmode"		"300"
@@ -453,8 +459,11 @@
 
 		if_mvm
 		{
-			"font"			"Light19"
+			"font"			"Light18"
 			"fgcolor"			"Time"
+			"textinsetx"	"0"
+			"use_proportional_insets" "0"
+			"textAlignment"	"center"
 			"xpos"			"c-295"
 			"ypos"			"r384"
 			"wide"			"402"
@@ -540,14 +549,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-
-		if_mvm
-		{
-			"textAlignment"		"west"
-			"xpos"			"c-295"
-			"ypos"			"r456"
-			"wide"			"590"
-		}
 	}	
 	"SpectatorsInQueue"
 	{
@@ -565,14 +566,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-
-		if_mvm
-		{
-			"textAlignment"		"west"
-			"xpos"			"c-295"
-			"ypos"			"r448"
-			"wide"			"590"
-		}
 	}				
 	"ShadedBar" 
 	{

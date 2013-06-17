@@ -3342,7 +3342,37 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
+		"CircleBGSmall"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"38"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"CircleBGSmaller"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"34"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		"CircleBGSmallest"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
 		"CircleBGWin"
 		{
 			"1"

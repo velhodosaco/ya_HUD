@@ -100,8 +100,8 @@ Scheme
 		
 		"RedTeam" 			"184 56 59 175"				//Team fill colors transparent
 		"BlueTeam"			"78 123 152 175"			//
-		"RedTeamS" 			"184 56 59 255"				//
-		"BlueTeamS"			"88 133 162 255"			//Team fill colors solid
+		"RedTeamS" 			"157 54 54 255"				//
+		"BlueTeamS"			"78 117 156 255"			//Team fill colors solid
 		
 		"LightGray"			"212 212 212 255"
 		"Metal"				"137 159 179 255"
@@ -529,6 +529,19 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"fogCrosshairSmall"			//fog's crosshair
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}
+		
 		
 		"BarCrosshair"
 		{
@@ -822,6 +835,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		"BoldNumbers10"
+		{
+			"1"
+			{
+				"name"			"BoldNumbers"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
 		
 		"MediumNumbers20Shadow"
 		{
@@ -6446,6 +6470,11 @@ Scheme
 		{
 			"font" "resource/fonts/LightNumbers.otf"
 			"name" "LightNumbers"
+		}
+		"20" 
+		{
+			"font" "resource/fonts/BoldNumbers.otf"
+			"name" "BoldNumbers"
 		}
 	}
 }

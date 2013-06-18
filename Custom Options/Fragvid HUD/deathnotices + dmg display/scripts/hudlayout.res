@@ -37,7 +37,25 @@
 	}
 
 
-
+	/////////////////////////////////////////////////////////////////////////////
+	//DAMAGE INDICATORS
+	//
+	//Red indicator when getting hit
+	/////////////////////////////////////////////////////////////////////////////
+	
+	HudDamageIndicator
+	{
+		"fieldName" "HudDamageIndicator"    // Remove everything besides 
+		"visible" "1" 	                    //
+		"enabled" "1" 	                    //	"HudDamageIndicator
+		"MinimumWidth" "0"                  //	{
+		"MaximumWidth" "0"                 //	}	"
+		"StartRadius" "80"                  //
+		"EndRadius" "80"                    // To get the default back
+		"MinimumHeight" "40"                //
+		"MaximumHeight" "70"                //
+		"MinimumTime" "1"                   //
+	}
 	
 	
 	
@@ -367,11 +385,6 @@
 		"TextColor"	"255 170 0 220"
 
 		"PaintBackgroundType"	"2"
-	}
-
-	HudDamageIndicator
-	{
-
 	}
 
 	HudCommentary

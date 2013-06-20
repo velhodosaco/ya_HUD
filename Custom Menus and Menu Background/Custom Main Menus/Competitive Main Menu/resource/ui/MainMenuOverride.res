@@ -1171,7 +1171,7 @@
 			
 			"FgColor" "0 0 0 255"			
 			"defaultFgColor_override" "0 0 0 255"
-			"armedFgColor_override" "124 124 124 255"
+			"armedFgColor_override" "74 74 74 255"
 			"depressedFgColor_override" "0 0 0 255"
 			
 			"image_drawcolor"	"0 0 0 0"

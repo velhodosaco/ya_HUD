@@ -16,6 +16,7 @@
 		{
 			"zpos"			"-1"
 		}
+		
 	}
 
 	"BlueScoreBG"
@@ -146,6 +147,31 @@
 		}
 	}	
 
+	"OutlineBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"OutlineBG"
+		"xpos"			"0"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/objectives_flagpanel_bg_outline"
+		"scaleImage"	"0"	
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -159,6 +185,11 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}		
 	
 	"CarriedImage"
@@ -182,7 +213,7 @@
 
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"visible"	"0"
 		}
 	}		
 	
@@ -222,7 +253,7 @@
 
 		"if_specialdelivery"
 		{
-			"visible"	"r100"
+			"visible"	"1"
 		}
 	}
 			
@@ -262,7 +293,8 @@
 
 		"if_specialdelivery"
 		{
-			"visible"	"r100"
+			"visible"	"0"
+			"ypos" "9999"
 		}
 	}	
 			
@@ -285,7 +317,7 @@
 
 		"if_specialdelivery"
 		{
-			"visible"	"r100"
+			"visible"	"0"
 		}
 	}
 	
@@ -303,5 +335,10 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}			
 }

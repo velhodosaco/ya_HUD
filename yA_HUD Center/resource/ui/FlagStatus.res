@@ -35,6 +35,10 @@
 			"wide"			"16"
 			"tall"			"16"
 		}	
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}				
 	"StatusIcon"
 	{
@@ -56,5 +60,9 @@
 			"ypos"      "13"
 			"visible"	"0"
 		}	
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}	
 }

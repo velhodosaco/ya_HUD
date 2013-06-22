@@ -236,7 +236,7 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "0"
 			"xpos"			"c-295"
-			"ypos"			"r384"
+			"ypos"			"r344"
 			"wide"			"402"
 			"tall"			"22"
 		}
@@ -249,7 +249,7 @@
 		"ypos"			"200"
 		"wide"			"125.5"
 		"tall"			"204"
-		"tall_minmode"	"119"
+		"tall_minmode"	"204"
 		"zpos"			"4"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -267,7 +267,7 @@
 		"ypos"			"200"
 		"wide"			"125"
 		"tall"			"204"
-		"tall_minmode"	"119"
+		"tall_minmode"	"204"
 		"zpos"			"4"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -320,7 +320,8 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"	"south-west"
 		"xpos"			"5"
-		"ypos"			"435"
+		"ypos"			"419"
+		"ypos_minmode"	"435"
 		"zpos"			"4"
 		"wide"			"140"
 		"tall"			"45"
@@ -538,7 +539,8 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"0"
+		"ypos_minmode" "50"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"480"
@@ -550,7 +552,7 @@
 
 		if_mvm
 		{
-			"ypos"		"-16"
+			"ypos"		"127"
 			"xpos"		"0"
 		}
 
@@ -599,9 +601,9 @@
 			{
 				"textAlignment"	"east"
 				"fgcolor"		"White"
-				"font"		"Medium39"
-				"xpos"		"c-329"
-				"ypos"		"r175"
+				"font"		"Medium42"
+				"xpos"		"c-399"
+				"ypos"		"r170"
 				"tall"		"41"
 			}
 		}
@@ -648,10 +650,10 @@
 
 			if_mvm
 			{
-				"font"		"Medium39"
+				"font"		"Medium40"
 				"fgcolor"		"White"
-				"xpos"		"c-176"
-				"ypos"		"r175"
+				"xpos"		"c-246"
+				"ypos"		"r170"
 				"tall"		"41"
 			}
 		}
@@ -733,6 +735,7 @@
 
 			if_mvm
 			{
+				"visible" "0"
 				"fgcolor"			"White"
 				"font"		"Medium9"
 				"xpos"		"c-70"
@@ -759,6 +762,7 @@
 
 			if_mvm
 			{
+				"visible" "0"
 				"fgcolor"		"White"
 				"textAlignment"	"east"
 				"font"		"Medium9"
@@ -845,7 +849,7 @@
 				"font"		"Medium9"
 				"xpos"		"c-70"
 				"ypos"		"r142"
-				"visible"		"1"
+				"visible"		"0"
 			}
 		}
 		"Domination"
@@ -870,7 +874,7 @@
 			if_mvm
 			{
 				"font"		"Medium9"
-				"visible"		"1"
+				"visible"		"0"
 				"xpos"		"c-61"
 				"ypos"		"r142"
 			}
@@ -897,7 +901,7 @@
 			if_mvm
 			{
 				"font"		"Medium9"
-				"visible"		"1"
+				"visible"		"0"
 				"xpos"		"c-70"
 				"ypos"		"r132"
 			}
@@ -919,12 +923,13 @@
 			"wide"			"162"
 			"tall"			"15"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 
 			if_mvm
 			{
+				"visible" "0"
 				"font"		"Medium9"
-				"visible"		"1"
+				"visible"		"9"
 				"xpos"		"c-61"
 				"ypos"		"r132"
 			}
@@ -940,20 +945,20 @@
 			"textAlignment"		"west"
 			"xpos"			"c-250"
 			"xpos_minmode"		"r313"
-			"ypos"			"r122"
-			"ypos_minmode"		"r110"
+			"ypos"			"r132"
+			"ypos_minmode"		"r117"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 
 			if_mvm
 			{
 				"font"		"Medium9"
-				"visible"		"1"
+				"visible"		"0"
 				"xpos"		"c-70"
-				"ypos"		"r122"
+				"ypos"		"r132"
 			}
 		}
 		"Destruction"
@@ -967,20 +972,20 @@
 			"textAlignment"	"east"
 			"xpos"			"c-255"
 			"xpos_minmode"		"r366"
-			"ypos"			"r122"
-			"ypos_minmode"		"r110"
+			"ypos"			"r132"
+			"ypos_minmode"		"r117"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 
 			if_mvm
 			{
 				"font"		"Medium9"
-				"visible"		"1"
+				"visible"		"0"
 				"xpos"		"c-61"
-				"ypos"		"r122"
+				"ypos"		"r132"
 			}
 		}
 		"HealingLabel"
@@ -1224,10 +1229,11 @@
 
 			if_mvm
 			{
+				"visible" "1"
+				"fgcolor"			"White"
 				"font"		"Medium9"
-				"visible"		"1"
-				"xpos"		"c118"
-				"ypos"		"r132"
+				"xpos"		"c-70"
+				"ypos"		"r162"
 			}
 		}
 		"Teleports"
@@ -1251,11 +1257,13 @@
 
 			if_mvm
 			{
+				"visible" "1"
+				"fgcolor"		"White"
+				"textAlignment"	"east"
 				"font"		"Medium9"
-				"visible"		"1"
-				"xpos"		"c128"
-				"ypos"		"r132"
-				"wide"		"163"
+				"xpos"		"c-61"
+				"ypos"		"r162"
+				"tall"			"15"
 			}
 		}
 		"BonusLabel"
@@ -1267,10 +1275,10 @@
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"fgcolor"		"White"
 			"textAlignment"		"west"
-			"xpos"			"c93"
-			"xpos_minmode"		"r198"
-			"ypos"			"r122"
-			"ypos_minmode"		"r110"
+			"xpos"			"c-250"
+			"xpos_minmode"		"r313"
+			"ypos"			"r142"
+			"ypos_minmode"		"r124"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
@@ -1280,9 +1288,9 @@
 			if_mvm
 			{
 				"font"		"Medium9"
+				"xpos"		"c-70"
+				"ypos"		"r142"
 				"visible"		"1"
-				"xpos"		"c118"
-				"ypos"		"r122"
 			}
 		}
 		"Bonus"
@@ -1293,11 +1301,11 @@
 			"font_minmode"		"ScoreboardVerySmall"
 			"labelText"		"%bonus%"
 			"fgcolor"		"White"
-			"textAlignment"	"east"
-			"xpos"			"c88"
-			"xpos_minmode"		"r251"
-			"ypos"			"r122"
-			"ypos_minmode"		"r110"
+			"textAlignment"		"east"
+			"xpos"			"c-255"
+			"xpos_minmode"		"r366"
+			"ypos"			"r142"
+			"ypos_minmode"		"r124"
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"15"
@@ -1308,9 +1316,8 @@
 			{
 				"font"		"Medium9"
 				"visible"		"1"
-				"xpos"		"c128"
-				"ypos"		"r122"
-				"wide"		"163"
+				"xpos"		"c-61"
+				"ypos"		"r142"
 			}
 		}
 		"StatsBG"
@@ -1331,37 +1338,13 @@
 			if_mvm
 			{
 				"fillcolor"		"HudBG"
-				"xpos"		"c-295"
-				"ypos"		"r172"
-				"wide"		"402"
-				"tall"		"67"
+				"xpos"		"0"
+				"ypos"		"r174"
+				"wide"		"f0"
+				"tall"		"70"
 			}
 		}
-		"StatsBGRight"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"StatsBGRight"
-			"xpos"			"c88"
-			"ypos"			"r173"
-			"zpos"			"-3"
-			"wide"			"167"
-			"tall"			"68"
-			"fillcolor"		"HudBG"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"visible_minmode"	"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"xpos"		"c111"
-				"ypos"		"r172"
-				"wide"		"185"
-				"tall"		"67"
-				"visible"		"1"
-			}
-		}
+		
 		"Versus"
 		{
 			"controlName"	"CExLabel"
@@ -1386,8 +1369,8 @@
 			{
 				"font"		"Heavy26"
 				"visible"		"1"
-				"xpos"		"c-195"
-				"ypos"		"r172"
+				"xpos"		"c-265"
+				"ypos"		"r165"
 				"wide"		"26"
 				"tall"		"25"
 			}
@@ -1418,8 +1401,10 @@
 			if_mvm
 			{
 				"font"			"Medium9"
-				"xpos"			"c-271"
-				"ypos"			"r132"
+				"fgcolor"		"White"
+				"textAlignment"		"center"
+				"xpos"			"c-241"
+				"ypos"			"r168"
 				"wide"			"178"
 			}	
 		}
@@ -1450,8 +1435,8 @@
 			{
 				"font"			"Medium9"
 				"visible"		"1"
-				"xpos"			"c-271"
-				"ypos"			"r122"
+				"xpos"			"c-241"
+				"ypos"			"r158"
 				"wide"			"178"
 			}
 		}
@@ -1463,7 +1448,7 @@
 		"fieldName"		"ButtonLegendBG"
 		"xpos"			"10"
 		"xpos_hidef"	"30"
-		"ypos"			"373"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"539"
 		"wide_hidef"	"559"
@@ -1622,11 +1607,31 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"c-295"
-		"ypos"			"r360"
+		"ypos"			"r324"
 		"zpos"			"-1"
-		"wide"			"402"
-		"tall"			"169"
+		"wide"			"591"
+		"tall"			"168"
 		"fillcolor"		"HudBG"		//175
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible" "1"
+		}
+	}
+	"MainBGLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBGLine"
+		"xpos"			"c-295"
+		"ypos"			"r324"
+		"zpos"			"22"
+		"wide"			"591"
+		"tall"			"1"
+		"fillcolor"		"17 17 17 255"		//175
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -1642,9 +1647,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTopLeft"
 		"xpos"			"c-295"
-		"ypos"			"r383"
+		"ypos"			"138"
 		"zpos"			"-1"
-		"wide"			"402"
+		"wide"			"405"
 		"tall"			"19"
 		"fillcolor"		"HudBGCT"
 		"autoResize"	"0"
@@ -1661,32 +1666,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTopRight"
-		"xpos"			"c111"
-		"ypos"			"r383"
+		"xpos"			"c110"
+		"ypos"			"138"
 		"zpos"			"-1"
-		"wide"			"185"
+		"wide"			"187"
 		"tall"			"19"
 		"fillcolor"		"MvMBG"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-
-		if_mvm
-		{
-			"visible"			"1"
-		}
-	}
-	"MvMBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMBG"
-		"xpos"			"c111"
-		"ypos"			"r360"
-		"zpos"			"-1"
-		"wide"			"185"
-		"tall"			"169"
-		"fillcolor"		"HudBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"

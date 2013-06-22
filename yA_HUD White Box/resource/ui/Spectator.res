@@ -280,12 +280,12 @@
 		"model_wide"		"60"
 		"model_tall"		"25"
 		
-		"text_xpos"		"57"
-		"text_wide"		"160"
+		"text_xpos"		"52"
+		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"10"
+		"max_text_height"	"40"
+		"padding_height"	"7"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
@@ -325,7 +325,7 @@
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
-			"tall"			"60"
+			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

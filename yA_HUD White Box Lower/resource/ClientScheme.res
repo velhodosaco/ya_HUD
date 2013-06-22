@@ -31,7 +31,7 @@ Scheme
 
 		"Health"			"255 255 255 175"		//Normal health color
 		
-		"Buff"				"25 225 74 214" 		//Boosted health color
+		"Buff"				"21 207 100 255" 		//Boosted health color
 		"SpecBuff"			"17 174 54 255"			//Darker color for SpecHUD
 		
 		"LowHP"				"200 47 47 255"			//Low health and ammo warning color
@@ -41,12 +41,12 @@ Scheme
 		   "LowT"			"184 54 54 214"			//Red animation for underline
 		   "LowS"			"184 54 54 255"			//Flash color for underline
 			
-		"UberLabel"			"25 225 74 255" 		//Uber ready color %
-		"UberMeter"			"25 225 74 255" 		//Uber ready color for meter	
+		"UberLabel"			"21 207 100 255" 		//Uber ready color %
+		"UberMeter"			"21 207 100 255" 		//Uber ready color for meter	
 		"UberLabelFlash"		"15 95 14 175"			//Uber ready flash color %
 		"UberMeterFlash"		"15 95 14 100"			//Uber ready flash color meter	
 
-		"Select"			"25 225 74 255"			//This is the hover color for buttons
+		"Select"			"21 207 100 255"			//This is the hover color for buttons
 		
 
 
@@ -67,27 +67,27 @@ Scheme
 		"HudShadow"			"0 0 0 57"			//Used for shadows on various numbers
 										//make last value 0 to remove them, or 255 to make them black
 
-		"HudBGC"			"25 225 74 255" 		//General color background
+		"HudBGC"			"21 207 100 255" 		//General color background
 		"HudBGCT"			"25 225 74 175"			//General color background transparent
 		
 		
 		
 		// Base HUD Colors		
 		
-		"ButtonBG"			"88 88 88 255"					//Standard button color
-		"ButtonArmed"			"74 74 74 255"				//Armed color
+		"ButtonBG"			"107 107 107 255"					//Standard button color
+		"ButtonArmed"			"54 54 54 255"				//Armed color
 		"ButtonSelect"		"27 27 27 255"
 		
-		"yAHUDBlue" 			"40 140 254 255"			//Logo hover color
+		"yAHUDBlue" 			"40 140 247 255"			//Logo hover color
 		
-		"GrayBG"			"57 57 57 255"				//MenuBG
-		"GrayBGDark"			"42 42 42 255"				//Darker MenuBG
+		"GrayBG"			"74 74 74 255"				//MenuBG
+		"GrayBGDark"			"57 57 57 255"				//Darker MenuBG
 		"GrayBGDarkest"			"27 27 27 255"	
-		"GrayText"			"110 110 110 255"			//Text for some menu entries
+		"GrayText"			"127 127 127 255"			//Text for some menu entries
 		"FrameGray"			"142 142 142 255"
 		"BlackBorder"		"17 17 17 255"
 		
-		"Green"				"25 225 74 255" 			//Green on black BG		
+		"Green"				"21 207 100 255" 			//Green on black BG		
 		"GreenST"			"25 225 74 175"
 		"GreenT"			"25 225 74 105"
 		
@@ -101,7 +101,7 @@ Scheme
 		"RedTeam" 			"184 56 59 175"				//Team fill colors transparent
 		"BlueTeam"			"78 123 152 175"			//
 		"RedTeamS" 			"157 54 54 255"				//
-		"BlueTeamS"			"78 117 156 255"			//Team fill colors solid
+		"BlueTeamS"			"75 110 140 255"			//Team fill colors solid
 		
 		"LightGray"			"212 212 212 255"
 		"Metal"				"137 159 179 255"
@@ -220,12 +220,12 @@ Scheme
 		"QualityColorrarity3"					"112 85 15 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
-		"QualityColorUnique"					"255 215 0 255"
+		"QualityColorUnique"					"210 210 200 255"
 		"QualityColorCommunity"					"112 176 74 255"
 		"QualityColorDeveloper"					"165 15 121 255"
 		"QualityColorSelfMade"					"112 176 74 255"
 		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"		"178 81 1078 255"	//"207 106 50 255"
+		"QualityColorStrange"		"157 42 42 255"	//"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
 		
@@ -675,43 +675,44 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
-				"antialias" 	"1"
+				"name"		"LightNumbers"
+				"tall"		"1"
+				"yres"		"480 599"
+				"antialias" 	"0"
 			}
 			"2"
 			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"name"		"LightNumbers"
+				"tall"		"2"
+				"yres"	"600 719"
 				"antialias" 	"1"
 			}
 			"3"
 			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+				"name"		"LightNumbers"
+				"tall"		"5"
+				"yres"	"720 767"
+				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"14"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				"name"		"LightNumbers"
+				"tall"		"6"
+				"yres"	"768 899"
+				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				"name"		"LightNumbers"
+				"tall"		"9"
+				"yres"	"900 1023"
+				"antialias" 	"1"
+			}
+			"6"
+			{
+				"name"		"LightNumbers"
+				"tall"		"6"
+				"antialias" 	"1"
 			}
 		}
 		DefaultLarge
@@ -833,6 +834,37 @@ Scheme
 				"tall"		"22"
 				"yres"	"1200 10000"
 				"antialias" 	"1"
+			}
+		}
+		
+		"DeathNotice"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"12"
+				"yres"		"480 599"
+				"antialias" 	"1"
+			}
+			"2"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"14"
+				"yres"	"600 767"
+				"antialias" 	"1"
+			}
+			"3"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"16"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"AvenirLTStd-Heavy"
+				"tall"		"10"
+				"antialias"	"1"
 			}
 		}
 		
@@ -5196,6 +5228,7 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"loadout_round_rect_selected"
+			"color"					"0 0 0 214"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5206,7 +5239,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect"
+			"image"					"backpack_rect_color"
+			"color"					"0 0 0 214"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5218,8 +5252,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/tournament_panel_brown"
-			//"image"					"../hud/color_panel_browner"
+			"image"					"backpack_rect_color"
+			"color"					"0 0 0 214"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5229,8 +5263,8 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"GrayBGDarkest"
+			"image"					"backpack_rect_color"
+			"color"					"0 0 0 214"
 			
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
@@ -5242,7 +5276,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_brown"
+			"image"					"backpack_rect_color"
+			"color"					"0 0 0 214"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5253,7 +5288,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_red_opaque"
+			"image"					"backpack_rect_color"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

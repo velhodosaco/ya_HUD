@@ -19,7 +19,7 @@
 			"font"			"Regular16"
 			"fgcolor"		"White"
 			"xpos"			"32"	//3
-			"ypos"			"-3"
+			"ypos"			"-2"
 			"zpos"			"3"
 			"wide"			"88"	//88
 			"tall"			"20"
@@ -49,7 +49,7 @@
 			"font"			"Regular16"
 			"fgcolor"		"White"
 			"xpos"			"32"
-			"ypos"			"-3"
+			"ypos"			"-2"
 			"zpos"			"3"
 			"wide"			"88"
 			"tall"			"20"

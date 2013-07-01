@@ -534,7 +534,7 @@ Scheme
 			"1"
 			{
 				"name"		"Crosshairs"
-				"tall"		"18"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
 				"weight"	"0"
@@ -555,7 +555,16 @@ Scheme
 			}
 		}
 		
-		
+		"SymbolL"
+		{
+			"1"
+			{
+				"name"			"Entypo"
+				"tall"		"54"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"SymbolS"
 		{

@@ -14,7 +14,7 @@ A:	That is not a question, damnit! You can use "net_graph 3" to have the netgrap
 	The command "net_graphproportionalfont 0" will make the text smaller for the netgraph.
 	
 Q:	Can you add <insert feature> to the HUD?
-A:	Probably. Open an issue on GitHub so that I can see track your suggestions. (github.com/whayay/yA_HUD/issues)
+A:	Maybe. Open an issue on GitHub so that I can see track your suggestions. (github.com/whayay/yA_HUD/issues)
 
 Q:	I've found a bug. How do I let you know?
 A:	Same as above, use the GitHub issue tracker to let me know.
@@ -24,7 +24,9 @@ A:	Yes, but the fonts will be bugged a bit. I can't offer Mac support right now.
 
 Q:	Is the version I have up to date?
 A:	If you just downloaded, yes. GitHub will sync all the changes I make. 
-	You can track the commit history to see what happened since you downloaded the HUD. (https://github.com/whayay/yA_HUD/commits/master)
+	You can track the commit history to see what happened since you downloaded the HUD. 
+	(https://github.com/whayay/yA_HUD/commits/master)
+	You can download older versions there as well.
 	
 Q:	I used one of the custom options, but now everything is weird!
 A:	Make sure that you renamed/removed the original file before replacing it with the alternative file.
@@ -58,15 +60,21 @@ Some useful CONSOLE COMMANDS:
 "toggle cl_hud_minmode" does the same as the scoreboard button, toggling the scoreboards
 		(Putting "cl_hud_minmode 1" into your autoexec will always make it launch with the alternative scoreboard)
 		
+"hud_reloadscheme" reloads the HUD and can help you get rid of certain glitches		
+		
 Some of these can be found in the adv. options, you can find various other hud options there as well.
 		
 ----------------------------------------------------------------
 
 Some useful LINKS:
 
+
 SteamGroup: http://steamcommunity.com/groups/yahud
+
+TF.TV thread: http://teamfortress.tv/forum/thread/8336-yahud
 Doodle's HUD Tutorial: http://doodlesstuff.com/?tutorial=tf2hud
 Rays's YT tutorials: http://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz
+
 Fog's crosshair thread: http://teamfortress.tv/forum/thread/1261-fogs-custom-hud-crosshairs-version-2-0-released
 Garm3nHUD page: http://www.sdx-gaming.eu/?page_id=4097
 yA_HUD: https://github.com/whayay/yA_HUD

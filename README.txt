@@ -19,6 +19,8 @@ http://imgur.com/a/0o11h
 
 Check the /Custom Options/ folder for various custom options, the rest can be found in your resource/ui or your scripts folder.
 
+I created custom game menu files. They are drop in files. You can find the files & information on them in the /Game Menus/ folder
+
 Instructions for COLORS, ALT files and CROSSHAIRS can be found in CUSTOMIZATION.txt
 	
 -----------------------------------------------------------

@@ -17,7 +17,7 @@ These alternative files are located in resource/ui unless stated otherwise.
 
 Some other options are located in /Custom Options/ (in the folder you downloaded)
 They are override files, you can copy them directly over your existing hud files.
-Separate info files are included for these options.
+Separate info files are included for these options. Look at them before you apply those options.
 
 /////////////////////////////////////////////////////////////////////////////////
 

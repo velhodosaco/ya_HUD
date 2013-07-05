@@ -4124,7 +4124,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
+				"tall"		"18"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -4134,7 +4134,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
+				"tall"		"18"
 				"antialias"	"1"
 				"italic"	"1"
 				"dropshadow"	"1"
@@ -4145,7 +4145,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
+				"tall"		"18"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -4155,7 +4155,7 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"20"
+				"tall"		"18"
 				"antialias"	"1"
 				"italic"	"1"
 				"dropshadow"	"1"
@@ -4447,10 +4447,11 @@ Scheme
 			"1"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"9"
+				"tall"		"18"
 				"antialias"		"1"
 			}
 		}
+
 
 		MenuSmallestFont
 		{

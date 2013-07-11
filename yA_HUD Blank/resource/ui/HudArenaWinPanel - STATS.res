@@ -269,20 +269,20 @@
 		"fillcolor"		"HudBG"
 	}
 	
-	"BGBonus"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"BGBonus"
-			"xpos"			"c142"
-			"ypos"			"r389"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"12"
-			"fillcolor"		"WhiteS"
-			"visible"		"1"
-			"enabled"		"1"
-		}
-		"BonusLabel"
+    "BGBonus"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BGBonus"
+		"xpos"			"c142"
+		"ypos"			"r389"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"12"
+		"fillcolor"		"WhiteS"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"BonusLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"

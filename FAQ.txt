@@ -10,7 +10,7 @@ A:	Scoreboards toggle with hud_minmode.
 	If you want the game to launch with the 16vs16 scoreboard make sure that your game launches without minimnal HUD enabled.
 
 Q:	My net_graph is clipping with the scoreboard. Help!
-A:	That is not a question, damnit! You can use "net_graph 3" to have the netgraph on the left side. 
+A:	That is not a question, damnit! You can use "net_graphpos (1-3)" to have the netgraph on the left side. 
 	The command "net_graphproportionalfont 0" will make the text smaller for the netgraph.
 	
 Q:	Can you add <insert feature> to the HUD?

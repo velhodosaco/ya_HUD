@@ -119,7 +119,49 @@
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
 	}	
-	
+	 "NameFilterLabel"
+
+        {
+
+                "ControlName"        "CExLabel"
+                "fieldName"                "NameFilterLabel"
+                "font"                        "HudFontSmallestBold"
+                "labelText"                "#Store_NameFilterLabel"
+                "textAlignment"        "west"
+                "xpos"                        "c+137"
+                "ypos"                        "0"
+                "zpos"                        "1"
+                "wide"                        "90"
+                "tall"                        "20"
+                "autoResize"        "1"
+                "pinCorner"                "0"
+                "visible"                "1"
+                "enabled"                "1"
+                "fgcolor"                "StoreDarkTan"
+        }
+        "NameFilterTextEntry"
+        {
+                "ControlName"                "TextEntry"
+                "fieldName"                "NameFilterTextEntry"
+                "xpos"                "c+137"
+                "ypos"                "15"
+                "wide"                "90"
+                "tall"                "19"
+                "autoResize"                "0"
+                "pinCorner"                "0"
+                "visible"                "1"
+                "enabled"                "1"
+                "tabPosition"                "1"
+                "textHidden"                "0"
+                "editable"                "1"
+                "unicode"                "1"
+                "fgcolor_override"        "110 110 110 255"
+                "bgcolor_override"        "White"
+                "paintbackgroundtype" "2"
+                "font"                "HudFontSmallest"
+        }
+    
+    
 	"ShowRarityComboBox"
 	{
 		"ControlName"		"ComboBox"

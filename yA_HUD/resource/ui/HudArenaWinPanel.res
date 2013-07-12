@@ -316,23 +316,23 @@
 	}
 
     "Player1PlaceBG"
-    {
+	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1PlaceBG"
-		"font"			"CircleBGClass"
+		"font"			"CircleBGWin"
 		"labelText"		"o"
 		"textAlignment"		"center"
-		"xpos"			"c-20"
-		"ypos"			"r372"
+		"xpos"			"c-30"
+		"ypos"			"r382"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"60"
+		"tall"			"60"
 		"fgcolor"		"207 181 59 255" //"204 153 0 255" //"255 195 0 255"
 		"visible"		"1"
 		"enabled"		"1"
-    }
+	}
     "Player1PlaceLabel" 
-    {
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Player1PlaceLabel"
 		"xpos"			"c-20"
@@ -344,9 +344,9 @@
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"NoveMedium14"
 		"fgcolor"		"27 27 27 255"
-    }
+	}
     "Player2PlaceBG"
 	{
 		"ControlName"		"CExLabel"
@@ -434,7 +434,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Name"
 			"xpos"			"c-100"
-            "ypos"			"r344"
+            "ypos"			"r340"
             "zpos"			"2"
             "wide"			"200"
             "tall"			"15"
@@ -453,7 +453,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Class"
 			"xpos"			"c-100"
-            "ypos"			"r317"
+            "ypos"			"r313"
             "zpos"			"2"
             "wide"			"200"
             "tall"			"15"
@@ -493,7 +493,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Kills"
 			"xpos"			"c-100"
-            "ypos"			"r336"
+            "ypos"			"r333"
             "zpos"			"2"
             "wide"			"199"
             "tall"			"24"
@@ -702,7 +702,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Name"
 			"xpos"			"c-100"
-            "ypos"			"r344"
+            "ypos"			"r340"
             "zpos"			"2"
             "wide"			"200"
             "tall"			"15"
@@ -721,7 +721,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Class"
 			"xpos"			"c-100"
-            "ypos"			"r317"
+            "ypos"			"r313"
             "zpos"			"2"
             "wide"			"200"
             "tall"			"15"
@@ -761,7 +761,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"Player1Kills"
 			"xpos"			"c-100"
-            "ypos"			"r336"
+            "ypos"			"r333"
             "zpos"			"2"
             "wide"			"199"
             "tall"			"24"

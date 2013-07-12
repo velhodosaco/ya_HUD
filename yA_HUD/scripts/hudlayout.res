@@ -51,7 +51,7 @@
 		"MaxDeathNotices" "12"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
-		"LineSpacing"	  "0"
+		"LineSpacing"	  "-1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
 		
@@ -1407,8 +1407,8 @@
 		"fieldName"				"FreezePanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"r300"
-		"ypos"					"400"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
 	}

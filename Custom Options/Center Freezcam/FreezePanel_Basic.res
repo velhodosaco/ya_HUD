@@ -78,10 +78,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r300"
-		"ypos"			"400"		
-		"wide"			"f0"		
-		"tall"			"480"		
+		"xpos"			"c-85"
+		"ypos"			"r300"		
+		"wide"			"250"		
+		"tall"			"120"		
 		"visible"		"1"
 		"ForceStereoRenderToFrameBuffer" "1"
 	
@@ -93,13 +93,24 @@
 			"ypos"			"60"
 			"zpos"			"-1"
 			"wide"			"79"
-			"tall"			"24"
+			"tall"			"43"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_brown"
 			"scaleImage"		"1"
+			"teambg_1"			"../hud/color_panel_brown"
+			"teambg_2"		"../hud/color_panel_brown"
+			"teambg_2_lodef"		"../hud/color_panel_brown"
+			"teambg_3"			"../hud/color_panel_brown"
+			"teambg_3_lodef"		"../hud/color_panel_brown"	
+			
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+				
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		
 		"FreezeLabel"
@@ -111,14 +122,14 @@
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"170"
-			"tall"			"0"
+			"tall"			"19"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
 			"textAlignment"		"center"
-			"fgcolor"		"White"
+			"fgcolor"		"Blank"
 			"dulltext"		"0"
 			"brighttext"		"0"
 		}
@@ -127,11 +138,11 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"200"
-			"ypos"			"31"
+			"xpos"			"2"
+			"ypos"			"14"
 			"zpos"			"5"
-			"wide"			"100"
-			"tall"			"100"
+			"wide"			"62"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
@@ -140,24 +151,40 @@
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
 		}
+		"FreezeLabelBackground"
+		{
+			"controlName"	"ImagePanel"
+			"fieldName"		"VerticalLine"
+			"xpos"			"8"
+			"ypos"			"18"		//23
+			"zpos"			"-1"
+			"wide"			"155"
+			"tall"			"27"		//16
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"fillcolor"		"0 0 0 214"									
+			"visible"			"0"
+			"enabled"			"1"
+		}
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"Light18"
-			"xpos"			"29"
-			"ypos"			"63"
+			"xpos"			"12"
+			"ypos"			"17"
 			"zpos"			"1"
-			"wide"			"247"
-			"tall"			"16"
+			"wide"			"120"
+			"tall"			"27"
 			"autoResize"	"1"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
 			"labelText"		"%killername%"
-			"textAlignment"		"east"
+			"textAlignment"		"west"
 		}
+
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -178,7 +205,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"0"
+			"xpos"			"0"		// FIXME
 			"ypos"			"30"
 			"zpos"			"4"
 			"wide"			"306"

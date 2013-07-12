@@ -1,0 +1,3 @@
+Merge this resource folder with your resource folder in /tf/custom/yourfoldername/resource. 
+
+This menu does not include all the standard buttons.

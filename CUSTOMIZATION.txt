@@ -1,71 +1,20 @@
 Custom Options yA_HUD 
 
-/////////////////////////////////////////////////////////////////////////////////
-Here's an imgur album with some examples: http://imgur.com/a/0o11h
-/////////////////////////////////////////////////////////////////////////////////
+I'm re-doing the way that the customization in ya_hud works, 
+most can be changed by the CLIENTSCHEME file in the resource folder now.
 
-BASIC EXPLANATION
-
-Many options work with alternative files that need to be renamed. 
-	You need to rename the original file first, to something like "FilenameOLD.res"
-	Then you need to rename the alt file to the orginal name, removing the " - ALTNAME" part. 
-	Make sure that there are no spaces left!
-
-These alternative files are located in resource/ui unless stated otherwise.
-	Example: "BaseChat.res" to "BaseChatOLD.res and then "BaseChat - MIDDLE.res" to "BaseChat.res"
-
-
-Some other options are located in /Custom Options/ (in the folder you downloaded)
-They are override files, you can copy them directly over your existing hud files.
-Separate info files are included for these options. Look at them before you apply those options.
-
-/////////////////////////////////////////////////////////////////////////////////
-
-HP OPTIONS
-
-	You can enable the HP Cross or the Pulse Cross using the alt files for "HudPlayerHealth.res"
-		There's also an optional team-colored cross for the blank versions.
-		The Pulse option is not available for the White Box Version.
-	
-	You can enable the line effect with the "LINE - " alternative animation file in /scripts/.
-	Navigate to your scripts folder /custom/yourfoldername/scripts and delete or rename the original hudanimations file. 
-	Then you will have to remove the "LINE_" part from the alternative file. 
-		This is the default effect for the White Box Version.
-
-/////////////////////////////////////////////////////////////////////////////////
-
-PULSING SHADOWS instead of pulsing numbers (Ammo/HP) for the box-less versions:
-	
-	(This works well with the pulsing HP cross background)
-
-	Go to /scripts/ and use the "PULSESHADOW - " alternative file.
-
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want to change some of the COLORS
-Or if you want to make the SHADOWS under the numbers in the boxless versions darker
-
-	1. Go to your resource folder.
-	2. Then ClientScheme.res
-	3. Follow instructions in that file.
-
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want to use the center Medic CHARGE METER
-
-	Use the " - CENTER" alternative file for "HudMedicCharge.res"
-		Some versions have this by default.
+The other options can be found in the side-folders. They contain info files.
 
 /////////////////////////////////////////////////////////////////////////////////
 
 Enabling a small PERCENTAGE label under the crosshair
 
-	1. Search (ctrl+F) for "ChargeLabelTiny" in the "HudMedicCharge.res" file
-	2. Change "visible" to "1" in that entry and then save the file
+	1. Open the CLIENTSCHEME and search for "Small%" 
+    2. Change the color entry to "242 242 242 255"
 
 /////////////////////////////////////////////////////////////////////////////////
 
-If you want to want to use an alternative SCOREBOARD or enbable stats on the Scoreboard
+If you want to want to use an alternative SCOREBOARD
 
 	1. Navigate to the /Custom Options/Scoreboards in your downloaded folder
 	2. Pick a scoreboard and copy it
@@ -73,23 +22,11 @@ If you want to want to use an alternative SCOREBOARD or enbable stats on the Sco
 
 /////////////////////////////////////////////////////////////////////////////////
 
-If you want to have a CLASS indicator on the bottom left
-
-	1. Go to /resource/ui
-	2. Rename "HudPlayerClass.res" to something like "HudPlayerClassOLD.res"
-	3. Rename "HudPlayerClass - BOTTOM.res" to "HudPlayerClass.res"
-
-	4. Navigate to scripts
-	5. Rename "HudAnimations_tf.txt" to "HudAnimations_tfOLD.txt"
-	6. Rename "CLASSIMAGE_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
-
-/////////////////////////////////////////////////////////////////////////////////
-
 Delete SourceScheme.res in your resource folder to get back the default server browser etc
 
 /////////////////////////////////////////////////////////////////////////////////
 
-If you want to change the KILLFEED to have line spacing
+If you want to change the KILLFEED's line spacing
 
 	1. Go to /scripts and then "hudlayout.res"
 	2. Search for "DeathNotice" (ctrl+F)
@@ -97,38 +34,12 @@ If you want to change the KILLFEED to have line spacing
 			The higher the value the bigger the distance between entries in the Killfeed
 	3: Save
 
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want to customize the SpectatorHUD
-
-Changing the LOCATION
-
-	1. Navigate to /resource/ui
-	2. Change the name of "SpectatorTournament.res" to something like ""SpectatorTournamentOLD.res"
-	3. Rename "SpectatorTournament - BOTTOM.res" to "SpectatorTournament.res"
-	
-SpectatorHUD with HP CROSSES
-
-	Use the "SpectatorTournamentGUIHealth - CROSS.res" alt file along with one of the "SpectatorTournament - CROSS" alt files.
+You can enable a background for the KILLFEED in the CLIENTSCHEME    
 
 /////////////////////////////////////////////////////////////////////////////////
 
-If you want to disable flashing HP or Ammo
-
-	Go into scripts, and rename "HudAnimations_tf.txt" to something like "FLASH_HudAnimations_tf.txt"
-	Then rename "NOFLASH_HudAnimations_tf.txt" to "HudAnimations_tf.txt"
-
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want TargetIDs without boxes (when you look at someone)
-
-	Use the " - NOBOX" alt file for "TargetID.res" in /resource/ui
-
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want to have an HP cross on your TargetIDs (when you look at someone)
-
-	Replace the original "TargetID.res" and "SpectatorGUIHealth.res" with the " - HPCROSS" alt files in the resource/ui folder.
+You can enable backgrounds for the TargetIDs (when you look at someone) 
+and for various other numbers in the CLIENTSCHEME also.
 
 /////////////////////////////////////////////////////////////////////////////////
 
@@ -141,10 +52,6 @@ To change the location of the ENGINEER HUD
 
 Go to hudlayout.res in your scripts folder. Search for "BuildingStatus_Engineer" and change its "ypos" entry.
 
-/////////////////////////////////////////////////////////////////////////////////	
-	
-A team-colored TEAM SELECTION menu is available, use the TeamMenu.res alt file in /resource/ui.
-	
 /////////////////////////////////////////////////////////////////////////////////
 Fog's CROSSHAIRS
 /////////////////////////////////////////////////////////////////////////////////
@@ -175,12 +82,12 @@ Change visible from 0 to 1.
 	Go back into the game and type hud_reloadscheme in console.
 	5. Do this until you’re happy.
 
-	If you want to change the crosshair size go to your resource folder and then ClientScheme. 
+	If you want to change the crosshair size go to your resource folder and then CLIENTSCHEME. 
 	Change the tall value to whatever you like.
 	
 	If you want to change the colour go to your scripts folder and then hudlayout. 
 	Change the fgcolor to the colour you want. 
-	If you don't know how to customize colors go to the clientscheme file in /resource/.
+	If you don't know how to customize colors go to the CLIENTSCHEME file in /resource/.
 	You can find information there.
 	Example: "fgcolor"  "255 0 0 255" would make the crosshair red.
 
@@ -189,31 +96,3 @@ Change visible from 0 to 1.
 	(Some CrossHairs are combinations, you need to activate more than one)
 
 /////////////////////////////////////////////////////////////////////////////////
-
-Dynamic CROSSHAIRS
-
-Activate the crosshair you want by going to your resource folder and then ui. Search for HudPlayerHealth.
- 
-Change visible from 0 to 1.
-
-	If the crosshair isn’t centralized do the following:
-
-	1. Go to your resource folder and then ui.
-	2. Search for HudPlayerHealth.
-	3. Change the xpos and ypos values. (xpos is for horizontal and ypos is for vertical).
-	4. Start TF2 and see if it’s centralized.
-	5. If not, Alt+TAB and try another value. Go back into the game and type hud_reloadscheme in console.
-	6. Do this until you’re happy.
-
-	If you want to change the crosshair size go to your resource folder and then ClientScheme. 
-	Change the tall value to whatever you like.
-
-	If you want to change the colour go to your resource folder and then ClientScheme.res. 
-	Search for "xhair". You'll find an entry called "Garm3nHUDxHair" "125 245 0 255", 
-	you can change these numbers to your liking.
-	Information on the color-coding can be found at the top of the clientscheme file.
-
-	(If the crosshairs isn’t centralized then you sometimes have to change “wide” and “tall” too, not just “xpos” and “ypos”)
-
-	(Some xHairs are combinations, you need to activate more than one)
-

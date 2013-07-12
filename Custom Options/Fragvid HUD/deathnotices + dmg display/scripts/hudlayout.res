@@ -2,11 +2,11 @@
 {
 	//This is the main part of the movie HUD, based on lawena's movie hud
 
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 	//DEATHNOTICE
 	//
 	//This is the killfeed on the top right corner
-	///////////////////////////////////////////////////////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////////////////////////////
 
 	HudDeathNotice
 	{
@@ -14,26 +14,26 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"	
-		"ypos"	 "10"	
-		"wide"	 "628"
+		"ypos"	 "19"	
+		"wide"	 "636"
 		"tall"	 "468"
 
 		"MaxDeathNotices" "12"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
-		"LineSpacing"	  "-1"
+		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "1"
 		
-		"TextFont"		"Regular9"
+		"TextFont"		"DeathNotice"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"BlueTeamS"	
+		"TeamRed"		"RedTeamS"	
 		"IconColor"		"White"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"0 0 0 214"		
-		"LocalBackgroundColor"	"255 255 255 189"	
+		"BaseBackgroundColor"	"HudBGDeathNotice"		
+		"LocalBackgroundColor"	"255 255 255 198"	
 	}
 
 

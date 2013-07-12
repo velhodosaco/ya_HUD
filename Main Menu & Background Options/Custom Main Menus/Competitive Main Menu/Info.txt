@@ -9,5 +9,3 @@ alias Home "connect <insert server IP>;password <insert password>"
 ///////////////////////////////////////////////////////////////////
 to your autoexec.cfg
 
-
-Please note that this main menu is WIP.

@@ -9,8 +9,8 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Damage"
 		"delta_lifetime"		"3.0"
-		"delta_item_font"		"Medium21Shadow"	//change "Medium21" to "Medium21Outline" "Outline" to get an outline	
-		"delta_item_font_big"	"Medium21Shadow"	//"Heavy22" or "Heavy22Outline" are also an option
+		"delta_item_font"		"DataLabelBig"
+		"delta_item_font_big"	"DataLabelBig"
 	}
 
 	
@@ -18,33 +18,34 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-204"				//c-206
-		"ypos"			"395"				//r151
+		"xpos"			"c-182"			
+		"ypos"			"33378"	
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"29"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"80"
+		"tall"			"17"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"fgcolor"		"Damage"
-		"font"			"Medium23"		//change "Medium23" to "Medium23Outline" "Outline" to get an outline	
+		"font"			"DataLabelBig"
 	}
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	 	"CExLabel"
 		"fieldname"	 		"DamageAccountValueShadow"
-		"xpos"	 			"c-203"
-		"ypos"	 			"396"
-		"wide"	 			"100"
-		"tall"	 			"29"
-		"visible"			"0"
-		"enabled"			"0"
+		"xpos"			    "c-182"			
+		"ypos"			    "33378"	
+		"zpos"			    "2"
+		"wide"			    "80"
+		"tall"			    "18"
+		"visible"		    "1"
+		"enabled"		    "1"
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"
-		"textAlignment"	 	"west"
+		"textAlignment"	 	"east"
 		"fgcolor"	 		"HudShadow"
-		"font"	 			"Medium23"			
+		"font"	 			"DataLabelBig"			
 	}
 }

@@ -52,6 +52,8 @@ A: Their position is broken on valve's end. The same thing applies for the statu
 
 Some useful CONSOLE COMMANDS:
 
+"tf_hud_show_servertimelimit 1" shows the server time, displays the full timer interface
+
 "cl_spec_carrieditems 0" to get rid of the inspect panel while spectating
 
 "hud_combattext 1" to show damage on hit

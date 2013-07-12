@@ -90,7 +90,7 @@
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"20"
-		"fillcolor"		"Menu"
+		"fillcolor"		"MenuS"
 		"visible"		"1"
 		"enabled"		"1"
 	}

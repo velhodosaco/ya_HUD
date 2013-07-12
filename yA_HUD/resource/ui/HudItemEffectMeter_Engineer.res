@@ -8,9 +8,9 @@
 		"xpos"			"0"	
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"HudBG"
 	}
 	
 	"ItemEffectMeterBG"

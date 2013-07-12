@@ -715,7 +715,7 @@
 		"ypos"			"0"		//r120
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"2000"
+		"tall"			"480"
 	}
 	
 	HudDemomanCharge
@@ -729,7 +729,7 @@
 		"wide"			"118"
 		"tall"			"50"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"HudBG"
 	}	
 
 	HudBowCharge
@@ -741,9 +741,9 @@
 		"ypos"			"r133"
 		"zpos"			"2"
 		"wide"			"118"
-		"tall"			"10"
+		"tall"			"40"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"HudBG"
 	}
 
 	HudFlameRocketCharge
@@ -753,11 +753,11 @@
 		"enabled"		"1"
 		"xpos"			"r80"	
 		"ypos"			"r21"	
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"8"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"HudBG"
 	}
 
 	HudBossHealth
@@ -771,7 +771,7 @@
 		"wide"			"137"
 		"tall"			"50"
 		"MeterFG"		"Red"
-		"MeterBG"		"Gray"
+		"MeterBG"		"HudBG"
 	}
 
 	HudWeaponSelection

@@ -8,7 +8,7 @@
 		"ypos"			"4"
 		"zpos"			"3"
 		"wide"			"118"
-		"tall"			"11"
+		"tall"			"12"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"

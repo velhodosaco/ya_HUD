@@ -8,7 +8,7 @@
 		"xpos"			"c-59"
 		"ypos"			"r133"
 		"wide"			"118"
-		"tall"			"10"
+		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"HudBG"
 	}
@@ -29,7 +29,7 @@
 		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"118"
-		"tall"			"11"
+		"tall"			"12"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"			"#TF_Ball"

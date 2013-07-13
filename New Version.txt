@@ -14,25 +14,31 @@ The old version of the HUD should be usable for a while and you will be able to 
 About some specific design choices:
 
 Alignment of the HP/Ammo and their boxes.
+
     This creates a stronger visual effect for being "low", since there will be a bigger empty space in the red background.
     
 Medic HUD
+
     The charge count panel on the right is smaller, the % sign disappears when have the uber ready to create space for the "100".
     The meter subtext changes from "UBER" to "UBER AVAILABLE" when you have the uber ready.
     I put a box over the vaccinator HUD in order to be able to use custom shadows for the %-label.
     
 Top left corner
+
     The quake-like timer location allows for the font size to be bigger. This makes reading it easy and makes it work better for lower resolutions. 
     The top-left corner became a location for general game info with this re-design, including the CTF info, Arena player count, KOTH timers & MvM info. The small amount of space gained in the center can be used to see bombers and general action now. This change will probably take some time to get used to.
     Timer supports "tf_hud_show_servertimelimit 1" now.
     
 Building Panel re-design.
+
     You can see more now, yay!
     
 ChargeMeters
+
     Gives you more vision in the center. You can even disable the MeterText easily to be able to see even more.
     
 Killfeed
+
     Deathnotices have no background by default now, which again makes it easier to see what's going on behind the text. The font is slightly larger to help make it easier to read. Colors are re-adjusted as well. You can enable a background for the killfeed in the clientscheme.
     
 Info for various game modes
@@ -82,23 +88,24 @@ Changes in look and feel
     no backgrounds, made warning tray smaller
  
 Other fixes / changes
-    Added resistance & new buff icons to player status
-    Added ItemMeter for heavy in MvM
-    Added enemy info to MvM scoreboard
-    Tweaked chat
-    Tweaked MvM currency/powerup and stopwatch mode to fit the top-left info style
-    Demoman stick counter is now invisible when there are no stickies out
-    Added "krit" indicator to MvM wave panel
-    Moved HP pickup notifcation and last damage done.
-    Added +/- metal notification for the metal counter
-    Ported FragVid HUD
-    Added support for the searchbox in the backpack
+ - Added resistance & new buff icons to player status
+ - Added ItemMeter for heavy in MvM
+ - Added enemy info to MvM scoreboard
+ - Tweaked chat
+ - Tweaked MvM currency/powerup and stopwatch mode to fit the top-left info style
+ - Demoman stick counter is now invisible when there are no stickies out
+ - Added "krit" indicator to MvM wave panel
+ - Moved HP pickup notifcation and last damage done.
+ - Added +/- metal notification for the metal counter
+ - Ported FragVid HUD
+ - Added support for the searchbox in the backpack
     
-    Minor tweaks & various bug-fixes
+ - Minor tweaks & various bug-fixes
  
 ////////////////////////////////////////////////////////////// 
  
 Recommended settings (put into console or autoexec)
+
   tf_hud_show_servertimelimit 1
   cl_disablehtmlmotd 1
   cl_spec_carrieditems 0
@@ -108,16 +115,9 @@ Recommended settings (put into console or autoexec)
 //////////////////////////////////////////////////////////////
  
 Known Issues:
+
  - New MvM enemy info on scoreboard is off-center
  - Alternative TargetID locations are broken
-
-//////////////////////////////////////////////////////////////
- 
-To-Do:
- - Alternative menus for spy/engy
- - Alternative scoreboards
- - MvM testing
- - SpecHUD features
  
 ////////////////////////////////////////////////////////////// 
  

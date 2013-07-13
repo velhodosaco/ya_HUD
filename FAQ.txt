@@ -47,6 +47,9 @@ A: Yes, but it's on valve's end. You will experience this with pretty much every
 	
 Q: The vaccinator HUD is not showing certain icons! Can you add those icons?
 A: Their position is broken on valve's end. The same thing applies for the status effects, which is why they are missing from the center version with HP cross.
+
+Q: My unique items are gray-ish white. Is this a bug?
+A: No, I changed some item colors a while ago (strange & unique colors)
 	
 ----------------------------------------------------------------
 

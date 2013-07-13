@@ -778,7 +778,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"12"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm

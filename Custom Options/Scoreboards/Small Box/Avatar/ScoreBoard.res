@@ -226,7 +226,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"WhiteS"
+		"fillcolor"		"MenuS"
 		if_mvm
 		{
 			"visible" "0"
@@ -245,7 +245,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"WhiteS"
+		"fillcolor"		"MenuS"
 		if_mvm
 		{
 			"visible" "0"
@@ -267,7 +267,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"//153 204 255 255
+		"fgcolor"		"MenuText"
 		if_mvm
 		{
 			"visible" "0"
@@ -290,7 +290,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"MenuText"
 		if_mvm
 		{
 			"visible" "0"
@@ -313,7 +313,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"//255 64 64 255
+		"fgcolor"		"MenuText"
 		if_mvm
 		{
 			"visible" "0"
@@ -336,7 +336,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"Black"
+		"fgcolor"		"MenuText"
 		if_mvm
 		{
 			"visible" "0"
@@ -729,7 +729,7 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"12"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 
 			if_mvm

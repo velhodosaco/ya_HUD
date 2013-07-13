@@ -1,6 +1,4 @@
-//HUD Project - Garm3n, whayay & Ell
-//
-
+//yahud colors and fonts
 Scheme
 {	
 	//////////////////////// COLORS ///////////////////////////

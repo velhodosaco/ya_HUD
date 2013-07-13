@@ -1,5 +1,4 @@
-//HUD Project - Garm3n, whayay & Ell
-//
+//yahud colors and fonts
 
 Scheme
 {	
@@ -33,9 +32,9 @@ Scheme
         
         // Set the last value to "255" to enable or "0" to disable a specific feature
         
-        "Small%"                "217 217 217 0"   //Shows Uber % under crosshair
-        "ScoreboardStats"       "217 217 217 0"   //Shows stats on the scoreboard
-        "MeterText"             "217 217 217 255" //Item charge meter labels
+        "Small%"                "242 242 242 0"   //Shows Uber % under crosshair
+        "ScoreboardStats"       "242 242 242 0"   //Shows stats on the scoreboard
+        "MeterText"             "242 242 242 255" //Item charge meter labels
         
         
 		////BASIC COLORS////

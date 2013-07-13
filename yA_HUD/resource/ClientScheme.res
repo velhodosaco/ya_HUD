@@ -787,7 +787,7 @@ Scheme
 			"1"
 			{
 				"name"		"Paula"
-				"tall"		"28"
+				"tall"		"24"
 				"weight"	"0"
 				"antialias"	"1"
 			}

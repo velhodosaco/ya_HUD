@@ -5,7 +5,7 @@ FAQ
 Q:	How do you enable the spectator HUD?
 A:	Tick "Use adv. spectator HUD" in the advanced options menu.
 
-Q:	How do I get the default 16vs16 Scoreboard?
+Q:	How do I get a specific scoreboard size?
 A:	Scoreboards toggle with hud_minmode. 
 	If you want the game to launch with the 16vs16 scoreboard make sure that your game launches without minimnal HUD enabled.
 
@@ -45,7 +45,7 @@ Q: My health stays red even though I have full health! Is this a bug?
 A: Yes, but it's on valve's end. You will experience this with pretty much every hud.
 	You can use the command "hud_reloadscheme" to get rid of it.
 	
-Q: The vaccinator HUD is not showing the icons! Can you add those icons?
+Q: The vaccinator HUD is not showing certain icons! Can you add those icons?
 A: Their position is broken on valve's end. The same thing applies for the status effects, which is why they are missing from the center version with HP cross.
 	
 ----------------------------------------------------------------
@@ -75,10 +75,10 @@ Some useful LINKS:
 
 
 SteamGroup: http://steamcommunity.com/groups/yahud
-
 TF.TV thread: http://teamfortress.tv/forum/thread/8336-yahud
+
 Doodle's HUD Tutorial: http://doodlesstuff.com/?tutorial=tf2hud
-Rays's YT tutorials: http://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz
+Rays's YT Tutorials: http://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz
 
 Fog's crosshair thread: http://teamfortress.tv/forum/thread/1261-fogs-custom-hud-crosshairs-version-2-0-released
 Garm3nHUD page: http://www.sdx-gaming.eu/?page_id=4097

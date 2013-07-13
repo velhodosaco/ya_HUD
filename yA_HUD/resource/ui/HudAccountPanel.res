@@ -2,15 +2,15 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"400"
-		"delta_item_start_y"	"375"
-		"delta_item_end_y"		"365"
+		"delta_item_x"			"76"
+		"delta_item_start_y"	"28"
+		"delta_item_end_y"		"28"
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
-		"zpos"			"-1"
-		"delta_lifetime"		"0"
-		"delta_item_font"		"Garm3n11"
-		"textAlignment"	"center"
+		"zpos"			        "-1"
+		"delta_lifetime"		"0.8"
+		"delta_item_font"		"NoveLight10"
+		"textAlignment"	"east"
 	}
 	
 	"AccountBG"

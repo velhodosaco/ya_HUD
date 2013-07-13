@@ -47,13 +47,13 @@ Scheme
 		
 		"Health"            	"242 242 242 255"   //Normal health color
 			
-	//    "MenuS"             "220 220 220 245" 
-    //    "MenuText"          "27 27 27 255"    
-    //    "MenuTextArmed"     "124 124 124 255"  
+	    "MenuS"             "220 220 220 245" 
+        "MenuText"          "27 27 27 255"    
+        "MenuTextArmed"     "124 124 124 255"  
     
-      "MenuS"             "0 0 0 214"          //Inversed, dark menus
-      "MenuText"          "217 217 217 255"   
-      "MenuTextArmed"     "124 124 124 255"
+    //  "MenuS"             "27 27 27 255"         //Inversed, dark menus
+    //  "MenuText"          "217 217 217 255"   
+    //  "MenuTextArmed"     "124 124 124 255"
         
         "Positive"              "4 217 100 255"     //Buffed HP for TargetID and SpecHUD
 		"Negative"              "224 28 28 255"     //Low HP

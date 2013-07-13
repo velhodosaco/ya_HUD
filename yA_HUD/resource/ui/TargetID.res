@@ -76,7 +76,7 @@
     {
         "ControlName"         "CExImageButton"
         "fieldName"           "TargetBG"
-        "xpos"                "48"
+        "xpos"                "0"
         "ypos"                "2"
         "zpos"                "-1"
         "wide"	          	  "640"

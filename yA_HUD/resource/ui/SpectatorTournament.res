@@ -42,7 +42,7 @@
 				"tall"        "15"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"Menu"
+				"fillcolor"		"MenuS"
 				"visible"			"1"
 				"enabled"			"1"
 			}

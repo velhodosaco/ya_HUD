@@ -1,5 +1,4 @@
 //yahud colors and fonts
-
 Scheme
 {	
 	//////////////////////// COLORS ///////////////////////////
@@ -50,7 +49,7 @@ Scheme
     //    "MenuText"          "27 27 27 255"    
     //    "MenuTextArmed"     "124 124 124 255"  
     
-      "MenuS"             "27 27 27 255"          //Inversed, dark menus
+      "MenuS"             "27 27 27 255"         //Inversed, dark menus
       "MenuText"          "217 217 217 255"   
       "MenuTextArmed"     "124 124 124 255"
         
@@ -995,6 +994,18 @@ Scheme
 			}
 		}
 		
+        "LightNumbers20"
+		{
+			"1"
+			{
+				"name"			"LightNumbers"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"
+			}
+		}
+        
         "DataLabelBig"              //AmmoReserve, Uber% & Counters
 		{
 			"1"
@@ -6791,22 +6802,27 @@ Scheme
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
-		"18" 
+        "18" 
+		{
+			"font" "resource/fonts/LightNumbers.ttf"
+			"name" "LightNumbers"
+		}
+		"19" 
 		{
 			"font" "resource/fonts/MediumNumbers.ttf"
 			"name" "MediumNumbers"
 		}
-		"19" 
+		"20" 
 		{
 			"font" "resource/fonts/BoldNumbers.ttf"
 			"name" "BoldNumbers"    
 		}
-        "20" 
+        "21" 
 		{
 			"font" "resource/fonts/NovecentoBook.ttf"
 			"name" "NovecentoBook"  
 		}
-        "21" 
+        "22" 
 		{
 			"font" "resource/fonts/NovecentoMedium.ttf"
 			"name" "NovecentoMedium"  

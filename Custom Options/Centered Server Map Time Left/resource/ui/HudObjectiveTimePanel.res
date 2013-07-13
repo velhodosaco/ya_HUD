@@ -13,7 +13,7 @@
         "enabled"                "1"
         "labelText"                "%servertimeleft%"
         "textAlignment"                "center"
-        "font"                        "MediumNumbers20"
+        "font"                        "LightNumbers20"
         "fgcolor"		"TimeLabel"
     }
     "ServerTimeLimitLabelBG"

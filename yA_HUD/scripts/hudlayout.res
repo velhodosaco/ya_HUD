@@ -674,8 +674,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"0"		//c-95
-		"ypos"			"0"		//"r164"	
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"f0"		
 		"tall"			"600"		//100
 	}
@@ -696,13 +696,13 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"				"0"  //"c-44" to center
+		"xpos"	    "0"
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
 		
 		"blue_active_xpos"			"0"
-		"red_active_xpos"			"0"    //45
+		"red_active_xpos"			"0"
        
 	}	
 
@@ -711,8 +711,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"		//c-59
-		"ypos"			"0"		//r120
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -724,7 +724,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-59"
-		"ypos"			"r123"	//r133
+		"ypos"			"r123"
 		"zpos"			"2"
 		"wide"			"118"
 		"tall"			"50"
@@ -865,8 +865,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"272"			//270
-		"wide"	 	"f0"			//60
+		"ypos"		"272"
+		"wide"	 	"f0"
 		"tall"	 	"39"
 		"priority"	"40"
 	}
@@ -878,7 +878,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-120"
 		"ypos"		"324"
-		"wide"	 	"f0"			//60
+		"wide"	 	"f0"
 		"tall"	 	"480" 
 		"priority"	"40"
 	}
@@ -889,8 +889,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"302"			//294
-		"wide"	 	"f0"			//60
+		"ypos"		"302"
+		"wide"	 	"f0"
 		"tall"	 	"39"
 		"priority"	"35"
 	}
@@ -955,8 +955,8 @@
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
 		"ypos"	"440"
-		"wide"	"120"
-		"tall"  "40"
+		"wide"	"f0"
+		"tall"  "480"
 		"visible" "1"
 		"enabled" "1"
 		
@@ -1699,8 +1699,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudAchievementTracker"
 		"xpos"			"5"
-		"NormalY"		"10"
-		"EngineerY"		"170"
+		"NormalY"		"54"
+		"EngineerY"		"54"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"280"

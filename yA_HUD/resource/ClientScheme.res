@@ -531,6 +531,19 @@ Scheme
 			}
 		}
         
+        "fogCrosshairSmooth"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" 	"1"
+				"weight"	"0"
+				"outline"	"0"
+			}
+		}
+        
 		"BarCrosshair"
 		{
 			"1"

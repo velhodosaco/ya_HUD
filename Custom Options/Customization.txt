@@ -1,28 +1,4 @@
-Custom Options yA_HUD 
-
-I'm re-doing the way that the customization in ya_hud works, 
-most can be changed by the CLIENTSCHEME file in the resource folder now.
-
-The other options can be found in the side-folders. They contain info files.
-
-/////////////////////////////////////////////////////////////////////////////////
-
-Enabling a small PERCENTAGE label under the crosshair
-
-	1. Open the CLIENTSCHEME and search for "Small%" 
-    2. Change the color entry to "242 242 242 255"
-
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want to want to use an alternative SCOREBOARD
-
-	1. Navigate to the /Custom Options/Scoreboards in your downloaded folder
-	2. Pick a scoreboard and copy it
-	3. Paste it into your /resource/ui folder
-
-/////////////////////////////////////////////////////////////////////////////////
-
-Delete SourceScheme.res in your resource folder to get back the default server browser etc
+Information about specific options can be found in the sub-folders containing the override files.
 
 /////////////////////////////////////////////////////////////////////////////////
 
@@ -38,16 +14,6 @@ You can enable a background for the KILLFEED in the CLIENTSCHEME
 
 /////////////////////////////////////////////////////////////////////////////////
 
-You can enable backgrounds for the TargetIDs (when you look at someone) 
-and for various other numbers in the CLIENTSCHEME also.
-
-/////////////////////////////////////////////////////////////////////////////////
-
-If you want to use different CHAT POSITIONS use the override files in /Custom Options/Chat (downloaded folder)
-	You can delete the original "BaseChat.res" file altogether for the default location.
-	
-/////////////////////////////////////////////////////////////////////////////////	
-	
 To change the location of the ENGINEER HUD
 
 Go to hudlayout.res in your scripts folder. Search for "BuildingStatus_Engineer" and change its "ypos" entry.
@@ -73,14 +39,14 @@ Activate the crosshair by going to your scripts folder and then hudlayout.
 
 Change visible from 0 to 1.
 
-	If the crosshair isnít centralized do the following:
+	If the crosshair isn‚Äôt centralized do the following:
 
 	1. Go to your scripts folder and then hudlayout.
 	2. Change the xpos and ypos values. (xpos is for horizontal and ypos is for vertical).
-	3. Start TF2 and see if itís centralized.
+	3. Start TF2 and see if it‚Äôs centralized.
 	4. If not, Alt+TAB and try another value. 
 	Go back into the game and type hud_reloadscheme in console.
-	5. Do this until youíre happy.
+	5. Do this until you‚Äôre happy.
 
 	If you want to change the crosshair size go to your resource folder and then CLIENTSCHEME. 
 	Change the tall value to whatever you like.
@@ -91,7 +57,7 @@ Change visible from 0 to 1.
 	You can find information there.
 	Example: "fgcolor"  "255 0 0 255" would make the crosshair red.
 
-	(If the crosshairs isnít centralized then you sometimes have to change ìwideî and ìtallî too, not just ìxposî and ìyposî)
+	(If the crosshairs isn‚Äôt centralized then you sometimes have to change ‚Äúwide‚Äù and ‚Äútall‚Äù too, not just ‚Äúxpos‚Äù and ‚Äúypos‚Äù)
 	
 	(Some CrossHairs are combinations, you need to activate more than one)
 

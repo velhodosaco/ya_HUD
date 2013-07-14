@@ -1,0 +1,1 @@
+Replace your original clientscheme in /tf/custom/yourfoldername/resource/ for dark colors menus.

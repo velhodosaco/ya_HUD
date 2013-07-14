@@ -51,6 +51,27 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
+    "NewNumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"NoveMedium10"
+		"fgcolor"		"MenuS"
+		 "xpos"			"c100"
+		"ypos"			"c20"
+		"zpos"			"2"
+		"wide"			"40"
+		"tall"			"19"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"2"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
+	}
+    
 	"numSniperBG"
 	{
 		"ControlName"		"CExLabel"

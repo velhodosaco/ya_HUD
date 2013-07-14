@@ -1274,7 +1274,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1311,7 +1311,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1348,7 +1348,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1385,7 +1385,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1422,7 +1422,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1459,7 +1459,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1496,7 +1496,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1533,7 +1533,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}
 
@@ -1570,7 +1570,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"NoveMedium12"
+		"font"			"MediumNumbers12"
 		"fgcolor"		"MenuS"
 	}								
 	

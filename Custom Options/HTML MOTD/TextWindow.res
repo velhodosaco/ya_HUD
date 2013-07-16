@@ -36,7 +36,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LabelsBG"
 		"xpos"			"0"
-		"ypos"			"r23"
+		"ypos"			"r24"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"

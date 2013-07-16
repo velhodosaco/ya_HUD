@@ -1,6 +1,5 @@
 "Resource/UI/TargetID.res"
 {
-	
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -52,7 +51,23 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
-	
+	"TargetBGHealth"
+    {
+        "ControlName"         "CExImageButton"
+        "fieldName"           "TargetBGHealth"
+        "xpos"                "0"
+        "ypos"                "0"
+        "zpos"                "1"
+        "wide"	          	  "49"
+        "tall"		          "24"
+        "autoResize"	      "0"
+        "pinCorner"	          "0"
+        "visible"		      "1"
+        "enabled"		      "1"
+        "defaultBgColor_Override"		"28 28 28 255"
+        "PaintBackgroundType""0"
+        "textinsety" "99"
+	}
 	"TargetBG"
     {
         "ControlName"         "CExImageButton"
@@ -66,7 +81,7 @@
         "pinCorner"	          "0"
         "visible"		      "1"
         "enabled"		      "1"
-        "defaultBgColor_Override"		"TargetBG"
+        "defaultBgColor_Override"		"MenuS"
         "PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -81,7 +96,7 @@
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"14"
-		"fgcolor"		"TargetText"
+		"fgcolor"		"MenuText"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -117,18 +132,18 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Medium10"
+		"font"			"NoveMedium10"
 		"xpos"			"51"
 		"ypos"			"8"		
 		"zpos"			"4"
 		"wide"			"250"
-		"tall"			"16"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"fgcolor"		"TargetText"
+		"fgcolor"		"MenuText"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"

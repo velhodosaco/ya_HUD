@@ -30,7 +30,7 @@
 		"pinCorner"	"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"Gray"
+		"defaultBgColor_Override"		"Blank"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}
@@ -98,7 +98,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"-2"
-		"ypos"			"-5"
+		"ypos"			"-3"
 		"zpos"			"5"
 		"wide"			"54"
 		"tall"			"26"

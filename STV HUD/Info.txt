@@ -1,0 +1,3 @@
+These are override files for the main HUD.
+
+This HUD is meant for spectating competitive matches.

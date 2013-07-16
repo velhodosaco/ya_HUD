@@ -29,17 +29,20 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"205"		    Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		        Linear 0.2 0.4
 
-    Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	    FgColor		"Positive"	        Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"Positive"	        Accel 0.0 0.0  
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Positive"          Accel 0.0 0.0
+    Animate	PlayerStatusHealthValue 	    FgColor		"Buff"	        Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	    FgColor		"Buff"	        Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"Buff"	        Accel 0.0 0.0  
+	Animate	PlayerStatusHealthValueTour  	FgColor		"Buff"          Accel 0.0 0.0
     
-    Animate	HealthBG 	    BgColor		"HudBGBuff"	    Accel 0.0 0.0
+    Animate	HealthBG 	    BgColor		"HudBGBuff"	        Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-	Animate	TargetHPBG 	    BgColor		"HudBGTargetID"	    Accel 0.0 0.0
+	Animate	TargetHPBG 	    BgColor		"HudBGBuffSpec"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	SpecBG 	        BgColor		"HudBGBuffSpec"	    Accel 0.0 0.0
+    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
 	RunEvent HudHealthBonusPulseLoop	0.6
 }
@@ -70,8 +73,11 @@ event HudHealthBonusPulseStop
     
     Animate	HealthBG 	     BgColor		"HudBGStatus"	       Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
-	Animate	TargetHPBG 	     BgColor		"HudBGTargetID"	       Accel 0.0 0.0
+	Animate	TargetHPBG 	     BgColor		"TargetHPBG"	       Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"28 28 28 255"	       Accel 0.0 0.0
+    Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
+    
 }
 
 //===========================================
@@ -83,17 +89,19 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		         Linear 0.125 0.075
 
     Animate	PlayerStatusHealthValue 	    FgColor		"Health"	        Accel 0.0 0.0
-	Animate	PlayerStatusHealthValueCam 	    FgColor		"Negative"	        Accel 0.0 0.0
-    Animate	PlayerStatusHealthValueSpec 	FgColor		"Negative"	        Accel 0.0 0.0  
-	Animate	PlayerStatusHealthValueTour  	FgColor		"Negative"          Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueCam 	    FgColor		"Low"	        Accel 0.0 0.0
+    Animate	PlayerStatusHealthValueSpec 	FgColor		"Low"	        Accel 0.0 0.0  
+	Animate	PlayerStatusHealthValueTour  	FgColor		"Low"          Accel 0.0 0.0
     
     Animate	HealthBG 	    BgColor		"HudBGLow"	    Accel 0.0 0.0
     Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
-    
-	Animate	TargetHPBG 	     BgColor	"HudBGTargetID"	Accel 0.0 0.0
+	Animate	TargetHPBG 	    BgColor	    "HudBGLowSpec"	    Accel 0.0 0.0
     Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
 	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	SpecBG 	        BgColor		"HudBGLowSpec"	    Accel 0.0 0.0
+    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
 	RunEvent HudHealthDyingPulseLoop	0.6
 }
@@ -125,8 +133,11 @@ event HudHealthDyingPulseStop
     
     Animate	HealthBG 	     BgColor		"HudBGStatus"	        Accel 0.0 0.0
     Animate	HealthBG 	     Alpha		    "255"		            Accel 0.0 0.0
-	Animate	TargetHPBG 	     BgColor		"HudBGTargetID"	        Accel 0.0 0.0
+	Animate	TargetHPBG 	     BgColor		"TargetHPBG"	        Accel 0.0 0.0
     Animate	TargetHPBG 	     Alpha		    "255"		            Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"28 28 28 255"	       Accel 0.0 0.0
+    Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
+    
 }
 
 //===========================================

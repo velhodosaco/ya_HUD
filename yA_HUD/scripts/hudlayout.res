@@ -865,9 +865,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"272"
+		"ypos"		"284"
 		"wide"	 	"f0"
-		"tall"	 	"39"
+		"tall"	 	"21"
 		"priority"	"40"
 	}
 	
@@ -879,7 +879,7 @@
 		"xpos"		"c-120"
 		"ypos"		"324"
 		"wide"	 	"f0"
-		"tall"	 	"480" 
+		"tall"	 	"24" 
 		"priority"	"40"
 	}
 	
@@ -889,9 +889,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"302"
+		"ypos"		"310"
 		"wide"	 	"f0"
-		"tall"	 	"39"
+		"tall"	 	"21"
 		"priority"	"35"
 	}
 	
@@ -1251,7 +1251,12 @@
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+        
+        "avatar_xpos"   "-12"
+        "avatar_ypos"   "-1"
+        "avatar_wide"   "17"
+        "avatar_tall"   "17"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
@@ -1260,12 +1265,13 @@
 		"dead_tall"			"16"
 		
 		"show_voice_icon"	"1"
-		"icon_ypos"			"0"
-		"icon_xpos"			"15"
-		"icon_tall"			"16"
-		"icon_wide"			"16"
+		"icon_ypos"			"2"
+		"icon_xpos"			"17"
+		"icon_tall"			"12"
+		"icon_wide"			"12"
 		
 		"text_xpos"			"33"
+        
 	}
 
 	HudHintDisplay

@@ -17,8 +17,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"c-308"				//c202
-		"ypos"			"r133"				//r138
+		"xpos"			"31"				//c202
+		"ypos"			"r72"				//r138
 		"zpos"			"2"
 		"wide"			"34"
 		"tall"			"34"

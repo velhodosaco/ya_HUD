@@ -20,14 +20,16 @@ Scheme
 		//Setting the numbers to "0 255 0 255" would create a solid green color for example
 		/////////////////////////////////////////////////////////////////////////////////////
 		
-		
         ////OPTIONS////
         
-        // Set these to         "0 0 0 154" to enable these backgrounds
+        
+        
+        // Set these to "0 0 0 154" or "27 27 27 255" to enable these backgrounds
         
 		"HudBGStatus"           "0 0 0 0"          //Dark BG for HP, Ammo & Uber%
-        "HudBGTargetID"         "0 0 0 0"          //When looking at somebody
+        
         "HudBGDeathNotice"      "0 0 0 0"          //Dark BG for killfeed
+        
         
         // Set the last value to "255" to enable or "0" to disable a specific feature
         
@@ -35,6 +37,14 @@ Scheme
         "ScoreboardStats"       "242 242 242 0"   //Shows stats on the scoreboard
         "MeterText"             "242 242 242 255" //Item charge meter labels
         
+        
+        ////TARGET ID////
+        
+        "TargetBG"         "0 0 0 214"                //When looking at somebody
+        "TargetText"       "242 242 242 255"        //Text Color
+        
+        "TargetHPBG"       "28 28 28 255"             //Dark BG
+
         
 		////BASIC COLORS////
 		
@@ -53,6 +63,10 @@ Scheme
       "MenuText"          "217 217 217 255"   
       "MenuTextArmed"     "124 124 124 255"
         
+        "MenuGray"              "154 147 147 255"
+        
+        
+        
         "Positive"              "4 217 100 255"     //Buffed HP for TargetID and SpecHUD
 		"Negative"              "224 28 28 255"     //Low HP
         
@@ -61,11 +75,15 @@ Scheme
         "HudBGBuff"             "21 207 100 154"   //Buffed BG
         "HudBGLow"              "200 47 47 154"    //Low BG
         
+        "HudBGBuffSpec"             "14 172 104 255"   //Buffed BG
+        "HudBGLowSpec"              "200 47 47 255"    //Low BG
+        
+        "Buff"           "242 242 242 255"  //Buffed or low color, default white
+        "Low"            "242 242 242 255"
+        
 		////EXTRA CUSTOM COLORS////
 		
-		"NameLabel"             "242 242 242 255"	     //TargetID name label color
-		"TimeLabel"             "242 242 242 255"	     //Respawn and Map time		
-		"DataLabel"             "242 242 242 255"        //Text color for uber/building/disguise status
+		"TimeLabel"             "242 242 242 255"	     //Respawn and Map time	
 		
 		"ButtonBG"              "107 107 107 255"        //Standard button color
 		"ButtonArmed"		    "54 54 54 255"		     //Armed color
@@ -103,8 +121,11 @@ Scheme
 		"MOTDBG"                "0 0 0 200"        //"0 0 0 200" & "224 244 244 255"
         "MOTDText"              "217 217 217 255"  //to enabled the MOTD  for the html MOTD version
 		
+        //unused or test
         
         "HudBGBuilding"         "0 0 0 0"          //Building Panel BG
+        
+        "Flavor"        "220 36 31 255"
         
 		// Base Colors TF2
 

@@ -94,7 +94,7 @@ Scheme
 		"HudBG"                "0 0 0 154"              //General BG Color
         "HudShadow"             "0 0 0 214"             //Shadows for various stuff
         
-         "Menu"              "255 255 255 198"
+        "Menu"              "255 255 255 198"
         
 		"GrayBG"               "74 74 74 255"           //Game menu colors
 		"GrayBGDark"           "57 57 57 255"				

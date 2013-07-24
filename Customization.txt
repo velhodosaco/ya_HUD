@@ -1,0 +1,15 @@
+
+CUSTOMIZATION
+
+/////////////////////////////////////////////////
+
+You can use the clientscheme.res file in yA_HUD/resource/ to enabled certain optional HUD elements, including scoreboard STATS & a small CHARGE percentage under the crosshair. You can also customize COLORS there and enable BLACK backgrounds for various HUD elements.
+I recommend notepad++ for opening .res files.
+
+There are various drop-in files in the /Custom Options/ folder. The sub-folders contain small info files.
+
+You can change the look of the in-game menus with the /Game Menus/ folder. These menus are more likely to break with future TF2 updates, which is why they are separate from the normal HUD files.
+
+Crosshairs can be enabled in /scripts/hudlayout.res. Change the ypos/xpos values to fix their position if they are not centered. You can refresh your HUD with the console command "hud_reloadscheme" in order to check its position.
+
+You can find more specific info in the second readme file in the /Custom Options/ folder.

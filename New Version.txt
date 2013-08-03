@@ -16,6 +16,7 @@ About some specific design choices:
 Alignment of the HP/Ammo and their boxes.
 
     This creates a stronger visual effect for being "low", since there will be a bigger empty space in the red background.
+    A black background is still available, you can enable it in the clientscheme.
     
 Medic HUD
 

@@ -24,7 +24,7 @@ Scheme
         
         
         
-        // Set these to "0 0 0 154" or "27 27 27 255" to enable these backgrounds
+        // Set these to "0 0 0 214" or "27 27 27 255" to enable these backgrounds
         
 		"HudBGStatus"           "0 0 0 0"          //Dark BG for HP, Ammo & Uber%
         
@@ -91,7 +91,7 @@ Scheme
 		
 		
 		////BASE COLORS////
-		"HudBG"                "0 0 0 154"              //General BG Color
+		"HudBG"                "0 0 0 214"              //General BG Color
         "HudShadow"             "0 0 0 214"             //Shadows for various stuff
         
         "Menu"              "255 255 255 198"

@@ -23,8 +23,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountImage"
 		"xpos"			"5"
-		"ypos"			"0"
-		"ypos_minmode"		"0"
+		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -34,7 +33,7 @@
         
         if_verbose
 		{
-			"xpos"		"40"
+			"xpos"		"5"
 		}
 	}
 	
@@ -58,7 +57,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountCritImageBG"
 		"xpos"			"4"
-		"ypos"			"-2"
+		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"16"
 		"tall"			"16"
@@ -66,10 +65,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType" "2"
         
-		"bgcolor" "Negative"
-		"bgcolor_override"	"Negative"
-		"fgcolor_override"	"Negative"
-		"PaintBackgroundType" "2"
+        "image" "replay/thumbnails/bg_red"
 	}
 	"EnemyCount"
 	{

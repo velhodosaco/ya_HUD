@@ -1,0 +1,11 @@
+New version:
+http://imgur.com/a/xylsT
+https://github.com/whayay/yahud
+
+-
+
+I will still try to maintain this hud. Let me know if something makes this HUD completely unusable for normal play. The best place for that would probably be the tf.tv thread.
+
+http://teamfortress.tv/forum/thread/8336/
+
+This means that this version is not in active development, but shouldn't end up crashing your game randomly at least for a while (except for Mac OS, no idea why it crashes there).
